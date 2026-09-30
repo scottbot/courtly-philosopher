@@ -1,9 +1,9 @@
 /* =========================================================================
    play.js — the Play page: setup, the board or the unrolled path, and the
-   turn-by-turn reading of every house a player lands on.
+   turn-by-turn reading of every square a player lands on.
 
    Flow: setup → new FC.engine.Game → on "Throw", game.play() returns steps →
-   the steps are shown one by one; every adorned house reached (by throw, by
+   the steps are shown one by one; every adorned square reached (by throw, by
    Labour, or by being sent there) opens a card that must be clicked through.
    ========================================================================= */
 (function () {
@@ -33,7 +33,7 @@
     <section class="setup">
       <p class="kicker sc" style="color:var(--rubric);letter-spacing:.08em;margin:0">A game for two or more, on one screen</p>
       <h1 style="margin-top:.2em">Enter through the Gate of Opinion</h1>
-      <p class="measure">Each player is a suitor at the court of Philip II. You move by the dice from the Gate of Opinion toward the Palm of Victory at the centre, through sixty-three houses that stand, says Barros in the Madrid edition of 1587, for <i lang="es">“los años de la vida que se gastan en una pretensión y los que también la gastan a ella”</i> — the years of life spent in a suit, and that the suit spends in turn. Every house you land on is read aloud to you, as the book was read beside the sheet.</p>
+      <p class="measure">Each player is a petitioner at the court of Philip II. You move by the dice from the Gate of Opinion toward the Palm of Victory at the centre, through sixty-three squares that stand, says Barros in the Madrid edition of 1587, for <i lang="es">“los años de la vida que se gastan en una pretensión y los que también la gastan a ella”</i> — the years of life spent in a petition, and that the petition spends in turn. Every square you land on is read aloud to you, as the book was read beside the sheet.</p>
       ${saved && !saved.over ? `<p class="notice">A game is in progress (round ${saved.round}). <button class="btn small primary" id="resume">Resume it</button> <button class="btn small" id="discard">Start afresh</button></p>` : ''}
       <fieldset><legend>The players</legend>
         <p class="small muted">Barros's worked example has three players — Pedro with a ring, Diego with a <i lang="es">real de a dos</i>, Rodrigo with a <i lang="es">doblón</i> — and asks only that every marker be different. The one listed first plays first (<i lang="es">“jugó Pedro de mano”</i>).</p>
@@ -44,7 +44,7 @@
         <p class="small muted">Three editions appeared within a year. You always play on the only board that survives, Cartaro's of 1588; the choice changes the rules, the verses and the texts where the editions differ. <a href="about.html#about-editions">About the editions</a>.</p>
         <div class="version-cards">${['C', 'M', 'G'].map(k => `
           <label><input type="radio" name="ed" value="${k}" ${edition === k ? 'checked' : ''}> <span class="vt">${FC.EDITIONS[k].short}</span>
-          <div class="vd">${{ C: 'The book printed with the surviving board: Italian and Spanish verses, Italian rule labels on the sheet.', M: 'The expanded Madrid edition, with Barros’s full rules and worked example. Its own board is lost.', G: 'The first edition: Poverty stands on house 59, and five of the eight other Labour verses differ. Its board is lost.' }[k]}</div></label>`).join('')}
+          <div class="vd">${{ C: 'The book printed with the surviving board: Italian and Spanish verses, Italian rule labels on the sheet.', M: 'The expanded Madrid edition, with Barros’s full rules and worked example. Its own board is lost.', G: 'The first edition: Poverty stands on square 59, and five of the eight other Labour verses differ. Its board is lost.' }[k]}</div></label>`).join('')}
         </div>
       </fieldset>
       <details class="sect"><summary>Rules where the sources are silent</summary>
@@ -80,7 +80,7 @@
     drawRows();
     $('#add').addEventListener('click', () => {
       const used = players.map(p => p.token), free = FC.tokens.list.find(t => !used.includes(t.id));
-      players.push({ name: ['Juan', 'Isabel', 'Catalina', 'Luis', 'Ana'][players.length - 3] || 'Suitor', token: free.id });
+      players.push({ name: ['Juan', 'Isabel', 'Catalina', 'Luis', 'Ana'][players.length - 3] || 'Petitioner', token: free.id });
       drawRows();
     });
     $('#o-dice').value = String(opts.dice || 2); $('#o-back').value = opts.backPay || 'all';
@@ -173,7 +173,7 @@
       viewer.edition = ed();
       if (ed() === 'G') { viewer.mark([59], 'variant'); viewer.labels([{ n: 59, text: 'Poverty (1587)' }, { n: 60, text: 'plain (1587)' }]); }
       viewer.names(FC.prefs.get('names', false), ed());
-      col.append(html(`<p class="credit">Board: Mario Cartaro, Naples 1588. © The Trustees of the British Museum. Click any house to read it.</p>`));
+      col.append(html(`<p class="credit">Board: Mario Cartaro, Naples 1588. © The Trustees of the British Museum. Click any square to read it.</p>`));
     } else {
       col.append(renderPath());
     }
@@ -184,11 +184,11 @@
   function renderPath() {
     const ul = document.createElement('ol');
     ul.className = 'path'; ul.id = 'path';
-    let h = `<li class="gate-li adorned" data-n="0"><img src="img/feat/entrance_gate.jpg" alt="The entrance gate" loading="lazy"><div><div class="pt">The Gate: before house 1</div><div class="pv">Where every suitor waits to enter, under the swan that sings “Know thyself”.</div><div class="ptoks"></div></div></li>`;
+    let h = `<li class="gate-li adorned" data-n="0"><img src="img/feat/entrance_gate.jpg" alt="The entrance gate" loading="lazy"><div><div class="pt">The Gate: before square 1</div><div class="pv">Where every petitioner waits to enter, under the swan that sings “Know thyself”.</div><div class="ptoks"></div></div></li>`;
     for (let n = 1; n <= 63; n++) {
       const ad = FC.sq.adorned(n, ed()), v = FC.sq.verse(n, ed());
-      h += `<li class="${ad ? 'adorned' : ''}" data-n="${n}"><img src="${FC.sq.tile(n)}" alt="House ${n}" loading="lazy" width="84" height="112">
-        <div><div class="pn">${n}</div><div class="pt">${ad ? esc(FC.sq.name(n, ed())) : '<span class="muted">a plain house</span>'}</div>
+      h += `<li class="${ad ? 'adorned' : ''}" data-n="${n}"><img src="${FC.sq.tile(n)}" alt="Square ${n}" loading="lazy" width="84" height="112">
+        <div><div class="pn">${n}</div><div class="pt">${ad ? esc(FC.sq.name(n, ed())) : '<span class="muted">a plain square</span>'}</div>
         ${v ? `<div class="pv">${esc(v.en)}</div>` : ''}<div class="ptoks"></div></div></li>`;
     }
     ul.innerHTML = h;
@@ -208,14 +208,14 @@
     } else {
       h += `<p class="small muted">Naples, Cacchij, 1588, pp. 60–63: “EL YVEGO SE juega en esta forma”.</p>`;
       h += FC.text.C.filter(s => s.kind === 'rules' || s.id === 'C-066a').map(seg).join('');
-      if (ed() === 'G') h += `<p class="notice">The first edition (Madrid 1587) has the same short rules, headed “Esto se juega en esta forma”, with Poverty on house 59, and ends “Deo gratias” without saying how the game is won (Lucero Sánchez 2016, 189–90; Lucero 2019a, 204).</p>`;
+      if (ed() === 'G') h += `<p class="notice">The first edition (Madrid 1587) has the same short rules, headed “Esto se juega en esta forma”, with Poverty on square 59, and ends “Deo gratias” without saying how the game is won (Lucero Sánchez 2016, 189–90; Lucero 2019a, 204).</p>`;
     }
     h += `<p><a href="about.html#about-rules">What this edition decides where Barros is silent →</a></p>`;
     FC.drawer.open(h, 'Rules');
   }
 
   function openAnnotation(key) {
-    const title = typeof key === 'number' ? `House ${key}` : '';
+    const title = typeof key === 'number' ? `Square ${key}` : '';
     FC.drawer.open(FC.annotate(key, ed()), title);
     const link = FC.drawer.body.querySelector('[data-show-on-board]');
     if (link) link.addEventListener('click', e => { e.preventDefault(); FC.drawer.close(); if (view !== 'board') setView('board'); setTimeout(() => viewer && viewer.focusSquare(key), 60); });
@@ -237,18 +237,18 @@
     $('#plist').innerHTML = players.map((p, i) => `<li class="${i === game.turn && !game.over ? 'current' : ''}">
       <span style="border:2px solid ${p.color};border-radius:50%;display:inline-flex">${FC.tokens.svg(p.token)}</span>
       <span>${esc(p.name)}${p.skip && p.pos === 32 ? ' <span class="chip">in the Well</span>' : ''}</span>
-      <span class="pos">${p.pos ? `house ${p.pos}` : 'at the gate'}<br><span class="small">${p.pos && FC.sq.adorned(p.pos, ed()) ? esc(FC.sq.name(p.pos, ed())) : ''}</span></span>
+      <span class="pos">${p.pos ? `square ${p.pos}` : 'at the gate'}<br><span class="small">${p.pos && FC.sq.adorned(p.pos, ed()) ? esc(FC.sq.name(p.pos, ed())) : ''}</span></span>
       <span class="purse" title="stakes in purse">${p.purse} ◉</span></li>`).join('');
     $('#log').innerHTML = game.log.slice(-80).map(l => `<li>${l}</li>`).join('');
   }
 
   function turnPanel(inner) {
     const p = game.current;
-    const htmlStr = `<div class="who"><span style="border:2px solid ${p.color};border-radius:50%;display:inline-flex">${FC.tokens.svg(p.token)}</span><div><div class="nm">${esc(p.name)}</div><div class="small muted">${p.pos ? `on house ${p.pos}${FC.sq.adorned(p.pos, ed()) ? ', ' + esc(FC.sq.name(p.pos, ed())) : ''}` : 'at the gate'} · ${p.purse} stakes</div></div>
+    const htmlStr = `<div class="who"><span style="border:2px solid ${p.color};border-radius:50%;display:inline-flex">${FC.tokens.svg(p.token)}</span><div><div class="nm">${esc(p.name)}</div><div class="small muted">${p.pos ? `on square ${p.pos}${FC.sq.adorned(p.pos, ed()) ? ', ' + esc(FC.sq.name(p.pos, ed())) : ''}` : 'at the gate'} · ${p.purse} stakes</div></div>
       <div class="pot" style="margin-left:auto" title="the pot (la polla)"><span>pot</span><b>${game.pot}</b></div></div>${inner}`;
     $('#turn').innerHTML = htmlStr;
     const mb = $('#mbar');
-    mb.innerHTML = `<div class="row"><span style="border:2px solid ${p.color};border-radius:50%;display:inline-flex">${FC.tokens.svg(p.token)}</span><div class="grow"><div class="nm">${esc(p.name)}</div><div class="small muted">${p.pos ? `house ${p.pos}` : 'at the gate'} · ${p.purse} stakes · pot ${game.pot}</div></div>
+    mb.innerHTML = `<div class="row"><span style="border:2px solid ${p.color};border-radius:50%;display:inline-flex">${FC.tokens.svg(p.token)}</span><div class="grow"><div class="nm">${esc(p.name)}</div><div class="small muted">${p.pos ? `square ${p.pos}` : 'at the gate'} · ${p.purse} stakes · pot ${game.pot}</div></div>
       <div class="seg-toggle" role="group"><button data-view="board" aria-pressed="${view === 'board'}">Board</button><button data-view="path" aria-pressed="${view === 'path'}">Path</button></div></div><div class="mb-inner">${inner}</div>`;
     $$('#mbar [data-view]').forEach(b => b.addEventListener('click', () => { setView(b.dataset.view); drawAll(game.snapshot()); }));
   }
@@ -304,7 +304,7 @@
           await animateMove(s);
           break;
         case 'rebound':
-          pending.push(`Past the Palm by ${plural(s.bounce, 'house', 'houses')}: count back to house ${s.square} (“buelue atras los que sobran”).`);
+          pending.push(`Past the Palm by ${plural(s.bounce, 'square', 'squares')}: count back to square ${s.square} (“buelue atras los que sobran”).`);
           while (queue[0] && queue[0].type === 'pay') { const q = queue.shift(); pending.push(effectText(q)); game.log.push(effectText(q)); drawAll(q.state); }
           break;
         case 'arrive': {
@@ -312,7 +312,7 @@
           effects.pre = pending; pending = [];
           const plainByThrow = !FC.sq.adorned(s.square, ed()) && s.kind === 'plain' && !effects.pre.length && !effects.list.length;
           drawAll(s.state);
-          if (plainByThrow) { game.log.push(`${esc(p.name)} comes to house ${s.square}.`); break; }
+          if (plainByThrow) { game.log.push(`${esc(p.name)} comes to square ${s.square}.`); break; }
           await card(arriveCard(s, effects));
           applyEffects(effects);
           break;
@@ -345,16 +345,16 @@
   }
 
   /**
-   * Gather the effect steps that belong to the house just reached (payments, being sent
-   * on, displacing another player…), so that they are shown on that house's card.
-   * A Labour house's effect is the move that follows it: that move is taken out of the
+   * Gather the effect steps that belong to the square just reached (payments, being sent
+   * on, displacing another player…), so that they are shown on that square's card.
+   * A Labour square's effect is the move that follows it: that move is taken out of the
    * queue here, described on the card, and put back by applyEffects() so that the token
    * is animated after the player has read the card.
    */
   function collectEffects() {
     const list = [];
     while (queue.length && ['pay', 'transfer', 'bump', 'skipset', 'loop'].includes(queue[0].type)) list.push(queue.shift());
-    // Labour: the following move is part of this house's effect
+    // Labour: the following move is part of this square's effect
     if (queue[0] && queue[0].type === 'move' && queue[0].via === 'labour') list.push(Object.assign({ labour: true }, queue.shift()));
     return { pre: [], list };
   }
@@ -363,11 +363,11 @@
     const who = (id, cap) => id === 'pot' ? (cap ? 'The pot' : 'the pot') : esc(pl(id).name);
     switch (e.type) {
       case 'pay': return `${who(e.from, true)} pays ${plural(e.amount, 'stake', 'stakes')} to ${who(e.to)} — ${WHY[e.why] || ''}.`;
-      case 'transfer': return e.to === 0 ? `Back to the Gate, to begin the game again.` : `Go to house ${e.to}, ${esc(FC.sq.name(e.to, ed()))}.`;
-      case 'bump': return `${who(e.victim)} was on this house and must take the one ${esc(pl(e.player).name)} left: ${e.to ? `house ${e.to}` : 'back to the gate, with no house'}${e.forward ? ' (which, as it happens, is further on)' : ''} — “porque assi es el vso de la competencia”.`;
+      case 'transfer': return e.to === 0 ? `Back to the Gate, to begin the game again.` : `Go to square ${e.to}, ${esc(FC.sq.name(e.to, ed()))}.`;
+      case 'bump': return `${who(e.victim)} was on this square and must take the one ${esc(pl(e.player).name)} left: ${e.to ? `square ${e.to}` : 'back to the gate, with no square'}${e.forward ? ' (which, as it happens, is further on)' : ''} — “porque assi es el vso de la competencia”.`;
       case 'skipset': return `Miss the next round, waiting to be pulled out.`;
       case 'loop': return `The Labour moves would go round in a circle; you stop here.`;
-      case 'move': return e.bounce ? `Labour: go on ${e.by} more houses — past the Palm by ${e.bounce}, so count back to ${e.to}.` : `Labour: go on ${e.by} more houses, to house ${e.to}.`;
+      case 'move': return e.bounce ? `Labour: go on ${e.by} more squares — past the Palm by ${e.bounce}, so count back to ${e.to}.` : `Labour: go on ${e.by} more squares, to square ${e.to}.`;
     }
     return '';
   }
@@ -403,28 +403,28 @@
       : effectText(e)).filter(Boolean));
     if (s.kind === 'fortune') effs.push('Throw again at once.');
     if (s.kind === 'goal') effs.push('The exact throw: the Palm is won.');
-    if (s.via === 'transfer' && !effs.length) effs.push(n === 26 ? 'You are here by the Pass of Hope.' : `Sent here from another house: its own rule does not act again.`);
+    if (s.via === 'transfer' && !effs.length) effs.push(n === 26 ? 'You are here by the Pass of Hope.' : `Sent here from another square: its own rule does not act again.`);
     if (!effs.length && s.kind === 'plain') effs.push('Nothing befalls you here.');
     const headline = s.via === 'transfer' ? `${esc(p.name)} is sent to` : s.via === 'labour' ? `${esc(p.name)} labours on to` : `${esc(p.name)} lands on`;
     const why = a && a.id !== 'plain' ? a.why : '';
     return `<article class="card event-card" aria-live="polite">
-      <div class="ev-img"><img src="${FC.sq.tile(n)}" alt="House ${n}"><div>
-        <div class="small muted">${headline}</div><div class="ev-num">${n}</div><div class="ev-title">${FC.sq.adorned(n, ed()) ? esc(FC.sq.name(n, ed())) : 'A plain house'}</div>
+      <div class="ev-img"><img src="${FC.sq.tile(n)}" alt="Square ${n}"><div>
+        <div class="small muted">${headline}</div><div class="ev-num">${n}</div><div class="ev-title">${FC.sq.adorned(n, ed()) ? esc(FC.sq.name(n, ed())) : 'A plain square'}</div>
         ${v ? `<div class="ev-verse">${esc(v.en).replace(' / ', '<br>')}</div><div class="ev-verse-es" lang="es">${esc(v.es_board || v.es_book).replace(' / ', ' / ')}</div>` : ''}
       </div></div>
       <div class="ev-body">
         ${effs.length ? `<ul class="effects">${effs.map(t => `<li>${t}</li>`).join('')}</ul>` : ''}
         ${why ? `<details class="why"><summary class="sc small">Why? What Barros meant</summary>${why}</details>` : ''}
-        <div class="actions"><button class="btn primary" data-continue>Continue</button><button class="btn" data-read="${n}">Read about this house</button></div>
+        <div class="actions"><button class="btn primary" data-continue>Continue</button><button class="btn" data-read="${n}">Read about this square</button></div>
       </div></article>`;
   }
 
   function wellSkipCard(p) {
-    return `<article class="card event-card"><div class="ev-img"><img src="${FC.sq.tile(32)}" alt="House 32"><div>
+    return `<article class="card event-card"><div class="ev-img"><img src="${FC.sq.tile(32)}" alt="Square 32"><div>
       <div class="small muted">${esc(p.name)} is still in</div><div class="ev-num">32</div><div class="ev-title">The Well of Oblivion</div>
       <div class="ev-verse">${esc(FC.board.verses.h32.en).replace(' / ', '<br>')}</div></div></div>
-      <div class="ev-body"><ul class="effects"><li>A round without playing, until the ropes of liberality pull the suitor out.</li></ul>
-      <div class="actions"><button class="btn primary" data-continue>Continue</button><button class="btn" data-read="32">Read about this house</button></div></div></article>`;
+      <div class="ev-body"><ul class="effects"><li>A round without playing, until the ropes of liberality pull the petitioner out.</li></ul>
+      <div class="actions"><button class="btn primary" data-continue>Continue</button><button class="btn" data-read="32">Read about this square</button></div></div></article>`;
   }
 
   /** Show a card (side panel on desktop, bottom bar on phones) and wait for Continue. */
@@ -452,7 +452,7 @@
     });
   }
 
-  /** Hop the token house by house (and back, if it overshoots the Palm). */
+  /** Hop the token square by square (and back, if it overshoots the Palm). */
   function animateMove(s) {
     return new Promise(resolve => {
       const path = [];

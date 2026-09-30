@@ -5,7 +5,7 @@
 (function () {
   const { $, esc } = FC.util;
   const TITLES = {
-    'about-barros': 'Alonso de Barros', 'about-court': 'The court of Philip II and its suitors',
+    'about-barros': 'Alonso de Barros', 'about-court': 'The court of Philip II and its petitioners',
     'about-goose': 'The Game of the Goose', 'about-editions': 'The three editions',
     'about-board': 'The board of 1588', 'about-rules': 'How the game is played',
     'about-reception': 'Readers, then and now',
@@ -31,7 +31,7 @@
     h += `</section><hr><section class="about-sec" id="credits"><h2>Credits and rights</h2>
       <p><b>Who made this edition.</b> Claude, an AI model made by Anthropic, at the request of Scott B. Weingart, who set the brief, supplied the research library and the licensed British Museum photograph, and answered questions along the way. Claude read the sources, transcribed the 1588 book and the board from the page images, made the translations, wrote the annotations and essays, and wrote the code. Every quotation in the notes was checked by program against the text of its source. The transcriptions, translations and interpretations have not been reviewed by a specialist in early modern Spanish or Italian. This is a draft, and should not be trusted or cited as scholarship until it has been reviewed.</p>
       <p><b>Training.</b> None of the source material gathered for this project — the research library, the page images of the 1588 book and the British Museum photograph — was used by Anthropic to train its models. The model that made this edition had finished training before the work began and read the sources only while making it, and the account in which the work was done does not allow Anthropic to use its conversations or files for training. Whether publicly available copies of some of the works cited here were among the material the model was originally trained on is not something this edition can say.</p>
-      <p><b>The board.</b> Mario Cartaro, <i>Filosofia cortesana de Alonso de Barros</i>, Naples 1588, etching and engraving, 531 × 404 mm. British Museum, 1869,0410.2463.+. Photograph © The Trustees of the British Museum, reproduced by this project under licence. The crops of individual houses and figures are details of that photograph.</p>
+      <p><b>The board.</b> Mario Cartaro, <i>Filosofia cortesana de Alonso de Barros</i>, Naples 1588, etching and engraving, 531 × 404 mm. British Museum, 1869,0410.2463.+. Photograph © The Trustees of the British Museum, reproduced by this project under licence. The crops of individual squares and figures are details of that photograph.</p>
       <p><b>The book.</b> Alonso de Barros, <i>Filosofia cortesana moralizada</i>, Naples: Iosep Cacchij, 1588. Vienna, Österreichische Nationalbibliothek, 35 V 49, from the Google Books digitization (id 1FFfAAAAcAAJ). The page images are shown for study.</p>
       <p><b>Earlier work.</b> Earlier transcriptions and translations — Ciompi and Seville’s transcription on <a href="http://www.giochidelloca.it/scheda.php?id=1103" target="_blank" rel="noopener">giochidelloca.it</a> and the translation of the board on the <i>La Bella Donna</i> blog — were consulted and are cited where they are discussed, but not reused. The scholarship on which the notes rest is listed above; every claim is cited to it.</p>
       <p><b>Fonts.</b> EB Garamond (Georg Duffner and Octavio Pardo) and the IM Fell types (Igino Marini), from Google Fonts, under the SIL Open Font License.</p>

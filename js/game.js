@@ -2,10 +2,10 @@
    game.js — the rules of Barros's game, as pure logic (no DOM).
 
    The engine resolves one throw at a time and returns a list of *steps*: each
-   step is one thing that happened (a throw, a move, arriving on a house, a
+   step is one thing that happened (a throw, a move, arriving on a square, a
    payment, a bump…) with a snapshot of the game after it. The page (play.js)
-   shows the steps one by one, so a player sent from house to house reads each
-   house in turn, as Barros's players did with the book open beside the sheet.
+   shows the steps one by one, so a player sent from square to square reads each
+   square in turn, as Barros's players did with the book open beside the sheet.
 
    Sources for every rule (see about.html#about-rules for the full discussion):
      C = Naples 1588, "EL YVEGO SE juega en esta forma" (pdf 66–69) + Cartaro's labels
@@ -50,7 +50,7 @@
     get poverty() { return this.opt.edition === 'G' ? 59 : 60; }   // G: 59 (Lucero 2016, 2019)
     get current() { return this.players[this.turn]; }
 
-    /** What kind of house n is under the current edition. */
+    /** What kind of square n is under the current edition. */
     kind(n) {
       if (n === GOAL) return 'goal';
       if (LABOUR.includes(n)) return 'labour';
@@ -125,7 +125,7 @@
     }
 
     /**
-     * Count `by` houses forward from `from`. Past 63 the excess is counted back
+     * Count `by` squares forward from `from`. Past 63 the excess is counted back
      * ("buelue atras los que sobran, pagando vn tanto", C pdf 68–69; all editions).
      */
     moveBy(p, from, by, steps, ctx, depth = 0) {
@@ -140,7 +140,7 @@
       this.arrive(p, to, steps, Object.assign({}, ctx, { bounced: !!bounce }), depth);
     }
 
-    /** Apply the house the player has come to by throw, by Labour or by rebound. */
+    /** Apply the square the player has come to by throw, by Labour or by rebound. */
     arrive(p, n, steps, ctx, depth) {
       const k = this.kind(n);
       if (k === 'goal') return this.win(p, steps);
@@ -198,7 +198,7 @@
           return;
         }
         case 'poverty': {
-          // to the Dice at 53 "y danle limosna" (C, G); M: "un tanto cada uno", and he pays nothing to go back
+          // to the Dice at 53 "y danle limosna" (C, G); M: "un tanto cada uno", and that player pays nothing to go back
           this.players.filter(q => q !== p).forEach(q => this.pay(q, p, 1, steps, 'alms'));
           p.pos = DICE53;
           steps.push(this.step('transfer', { from: n, to: DICE53 }));
@@ -211,17 +211,17 @@
     }
 
     /**
-     * One player to a house: "si dos dan en vna casa, se queda el segundo, y el primero
+     * One player to a square: "si dos dan en vna casa, se queda el segundo, y el primero
      * toma la que el otro dexo" (C pdf 66). M: at the start the first is left "sin casa";
      * in M's example the displaced player pays one stake "porque volvió atrás".
      */
     settle(p, n, steps, ctx) {
       const q = this.occupant(n, p);
       if (!q) return;
-      const to = ctx.prev;                         // the house the mover left before this throw
+      const to = ctx.prev;                         // the square the mover left before this throw
       const back = to < n;
       q.pos = to;
-      if (n === WELL) q.skip = 0;                  // DECISION: the newcomer takes his place in the Well
+      if (n === WELL) q.skip = 0;                  // DECISION: the newcomer takes the other player's place in the Well
       steps.push(this.step('bump', { victim: q.id, from: n, to, forward: !back }));
       if (back && this.opt.backPay === 'all') this.pay(q, 'pot', 1, steps, 'bumped');
     }

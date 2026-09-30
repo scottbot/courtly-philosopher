@@ -7,9 +7,9 @@ const P = [{ name: 'Pedro', token: 'ring' }, { name: 'Diego', token: 'real' }, {
 
 const g = new Game(P, { edition: 'M' });
 const pos = () => g.players.map(p => p.pos);
-g.play([3, 3]);            // Pedro throws 6 → house 6
-g.play([2, 2]);            // Diego throws 4 → Labour at 4 → house 8
-g.play([2, 3]);            // Rodrigo throws 5 → house 5
+g.play([3, 3]);            // Pedro throws 6 → square 6
+g.play([2, 2]);            // Diego throws 4 → Labour at 4 → square 8
+g.play([2, 3]);            // Rodrigo throws 5 → square 5
 assert.deepStrictEqual(pos(), [6, 8, 5]);
 const pedroBefore = g.players[0].purse;
 g.play([4, 5]);            // Pedro throws 9 → 15, Pass of Hope → 26, paying one stake at each
@@ -17,7 +17,7 @@ assert.deepStrictEqual(pos(), [26, 8, 5]);
 assert.strictEqual(pedroBefore - g.players[0].purse, 2);
 g.play([2, 3]);            // Diego throws 5 → 13
 const rodBefore = g.players[2].purse, pedBefore2 = g.players[0].purse;
-g.play([4, 6]);            // Rodrigo throws 10 → 15 → 26: takes Pedro's house; Pedro back to 5, pays one
+g.play([4, 6]);            // Rodrigo throws 10 → 15 → 26: takes Pedro's square; Pedro back to 5, pays one
 assert.deepStrictEqual(pos(), [5, 13, 26]);
 assert.strictEqual(rodBefore - g.players[2].purse, 2);
 assert.strictEqual(pedBefore2 - g.players[0].purse, 1);
@@ -25,7 +25,7 @@ console.log('worked example: ok');
 
 // Particular cases (DECISIONS documented on about.html#about-rules)
 const two = P.slice(0, 2);
-{ // Well: a newcomer displaces the first suitor, who is out of the Well and plays next round
+{ // Well: a newcomer displaces the first petitioner, who is out of the Well and plays next round
   const g = new Game(two, { edition: 'C' }); g.players[0].pos = 29; g.players[1].pos = 27;
   g.play([1, 2]); assert.strictEqual(g.players[0].skip, 1);
   g.play([2, 3]); assert.deepStrictEqual(g.players.map(p => p.pos), [27, 32]);
@@ -41,7 +41,7 @@ const two = P.slice(0, 2);
   const before = g.players[0].purse; g.play([3, 3]);
   assert.strictEqual(g.players[0].pos, 0); assert.strictEqual(g.players[0].purse, before);
 }
-{ // Labour chain ending on a send-back house: 34 + 7 → 41 → 48 → 55 → 20
+{ // Labour chain ending on a send-back square: 34 + 7 → 41 → 48 → 55 → 20
   const g = new Game(two, { edition: 'C' }); g.players[0].pos = 34; g.play([3, 4]); assert.strictEqual(g.players[0].pos, 20);
 }
 { // 57 + 12: counts back to 57 and stops on the oxen, paying one stake only
@@ -65,7 +65,7 @@ for (const edition of ['C', 'M', 'G']) {
     // money is conserved
     const sum = game.players.reduce((a, p) => a + p.purse, 0) + game.pot;
     assert.strictEqual(sum, n * 20);
-    // no two players on one house
+    // no two players on one square
     const occ = game.players.filter(p => p.pos > 0).map(p => p.pos);
     assert.strictEqual(new Set(occ).size, occ.length);
     turns += t; maxTurns = Math.max(maxTurns, t);

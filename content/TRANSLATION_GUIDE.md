@@ -16,32 +16,36 @@
 - Square brackets in the Spanish (editorial expansions) are silently used; [sic] misprints
   are translated as the evident sense, with a note if the sense is doubtful. `[?]`
   readings: translate the likely sense and add a note.
+- Outside the translation itself (notes, annotations, essays, interface), never assume the
+  gender of the reader, the player or any generic person: reword, or use singular "they"
+  or "you"; never "he or she". Named people, Barros's worked-example players and figures
+  drawn as men keep their pronouns.
 
 ## Fixed terms
 | Spanish | English | note |
 |---|---|---|
-| pretender (v.) | to sue (for office/favour); "seeking advancement" | |
-| pretensión | suit; the pursuit of office | |
-| pretensor / pretendiente | suitor; office-seeker | first occurrence: "the suitor (the office-seeker)" |
-| negociar / negocio / negociante | to press one's business; business/affair; the one pressing his business | |
+| pretender (v.) | to petition (for office/favour); "seeking advancement" | not "to sue": to a modern reader that means a lawsuit |
+| pretensión | petition (one person's request); petitioning, the pursuit of favour (the business at large) | not "suit", which modern readers take as clothes, a lawsuit or cards |
+| pretensor / pretendiente | petitioner | first occurrence: "petitioners (office-seekers)"; not "suitor", which reads as courtship. Autoridades (1737) gives *Petitor. Candidatus. Procus.*: the Spanish has the courtship sense too, noted once in the About essay |
+| negociar / negocio / negociante | to press one's case; one person's case, affairs in general; the one pressing his case | not "business", which reads as commerce |
 | valedor | patron | |
 | privado | the Favourite | (royal favourite / minister with the king's ear) |
 | merced | favour, grant | |
-| casa (of the board) | house | Barros's word; keep "house"; the UI calls them squares |
-| letra (the verse on a house) | its verse / its legend | "and so its verse says" |
+| casa (of the board) | house, in the translation of Barros's text only | everywhere else (interface, essays, annotations, notes) say "square"; "house" stays for a building or household, and in the names House of Fortune and House of Poverty |
+| letra (the verse on a house) | its verse; for other lettering, inscription or motto | not "legend", which reads as myth or map key |
 | tanto | a stake (one counter of the agreed value) | |
 | polla | the pot | |
 | mano | a round (of play) | |
 | suerte | a throw (of the dice); luck, lot | pun — note it |
 | dados | the Dice (house) | |
-| azar | a losing throw; mischance | |
+| azar | a losing throw; bad luck | |
 | trabajo | Labour (the house); work, toil, hardship | |
-| desengaño | disillusion, undeceiving | |
+| desengaño | disillusion, disillusionment; "to open one's eyes" | not "undeceive", which is archaic |
 | opinión | Opinion (reputation, self-regard) | |
 | ventura / fortuna | good fortune, luck / Fortune | |
 | Filosofía cortesana | *The Courtly Philosophy* (title kept in Spanish in running text) | |
 
-## House names
+## Square names
 1 Puerta de la Opinión = the Gate of Opinion · Trabajo = Labour · 7 Pródigo = the Prodigal ·
 10 Adulación = Flattery · 15 Paso de la Esperanza = the Pass of Hope · 20 Diligencia = Diligence ·
 26 Privado = the Favourite · 28 / 53 Dados, Suerte = the Dice · 32 Pozo del Olvido = the Well of
@@ -74,8 +78,8 @@ Each has a verse rendering (shown to players) and a literal rendering (shown ben
 | h26 | No pidas la mano ajena / Si la tuya no va llena. | Don't seek another's hand, my friend, / unless your own comes full to lend. | Do not ask for another's hand if yours does not go full. |
 | h32 | El ingrato echa en oluido / Quanto bien ha recebido. | The ingrate lets oblivion hold / every good he got, untold. | The ingrate casts into oblivion all the good he has received. |
 | h36 | El que sirue al que diran, / Tome el pago que le dan. | Who serves "What Will They Say?" / must take whatever they pay. | He who serves "what will they say" must take the pay they give him. |
-| h28 | Si no ay dicha en negociar, / La suerte se buelue azar. | If suing brings no luck your way, / the lucky throw turns losing play. | If there is no luck in negotiating, the throw turns into a losing one. |
-| h39 | Dando gracias por agrauios; / Negocian los hombres sabios. | The wise, when wronged, give thanks instead: / that's how their business gets ahead. | Giving thanks for injuries, wise men do their business. |
+| h28 | Si no ay dicha en negociar, / La suerte se buelue azar. | If petitions bring no luck your way, / the lucky throw turns losing play. | If there is no luck in pressing one's case, the throw turns into a losing one. |
+| h39 | Dando gracias por agrauios; / Negocian los hombres sabios. | The wise, when wronged, give thanks instead, / and so their cases go ahead. | Giving thanks for injuries, wise men press their cases. |
 | h7 | El prodigo tiene amigos. / Quanto come con testigos. | The prodigal has friends in plenty / while his table isn't empty. | The prodigal has friends as long as he eats with witnesses. |
 | h43 | Quien limita su esperança / Sufra el golpe de mudança. | Who narrows all his hope to one / must bear the blow when change has come. | Whoever limits his hope, let him suffer the blow of change. |
 | h10 | Muestra fina, y falso panno; / Vende adulacion, y enganno. | Flattery and Fraud will sell / fine samples, and false cloth as well. | Flattery and deceit sell a fine sample and false cloth. |

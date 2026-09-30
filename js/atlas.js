@@ -1,7 +1,7 @@
 /* =========================================================================
-   atlas.js — "The Houses": every square and every figure around the track,
+   atlas.js — "The Squares": every square and every figure around the track,
    on the board and as a grid; each opens its full annotation.
-   Deep links: atlas.html#39 (a house) or atlas.html#corner-clock (a figure).
+   Deep links: atlas.html#39 (a square) or atlas.html#corner-clock (a figure).
    ========================================================================= */
 (function () {
   const { $, $$, esc } = FC.util;
@@ -17,7 +17,7 @@
     const n = /^\d+$/.test(String(key)) ? +key : null;
     const k = n || key;
     if (!n && !FC.annotations[k]) return;
-    FC.drawer.open(FC.annotate(k, ed), n ? `House ${n}` : '', () => history.replaceState(null, '', location.pathname));
+    FC.drawer.open(FC.annotate(k, ed), n ? `Square ${n}` : '', () => history.replaceState(null, '', location.pathname));
     history.replaceState(null, '', '#' + k);
     const link = FC.drawer.body.querySelector('[data-show-on-board]');
     if (link) link.addEventListener('click', e => { e.preventDefault(); FC.drawer.close(); viewer.el.scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(() => { viewer.focusSquare(n); viewer.mark([n], 'focus'); }, 350); });
@@ -29,7 +29,7 @@
       const ad = FC.sq.adorned(n, ed);
       if (show === 'adorned' && !ad) continue;
       const v = FC.sq.verse(n, ed);
-      h += `<a href="#${n}" data-open="${n}" class="${ad ? '' : 'plain'}"><img loading="lazy" src="${FC.sq.tile(n)}" alt="House ${n}"><div class="cap"><b>${n}</b>${ad ? esc(FC.sq.name(n, ed)) : 'plain'}${v ? `<div class="small muted" style="font-style:italic">${esc(v.en.split(' / ')[0])}…</div>` : ''}</div></a>`;
+      h += `<a href="#${n}" data-open="${n}" class="${ad ? '' : 'plain'}"><img loading="lazy" src="${FC.sq.tile(n)}" alt="Square ${n}"><div class="cap"><b>${n}</b>${ad ? esc(FC.sq.name(n, ed)) : 'plain'}${v ? `<div class="small muted" style="font-style:italic">${esc(v.en.split(' / ')[0])}…</div>` : ''}</div></a>`;
     }
     $('#grid').innerHTML = h;
     $('#feats').innerHTML = FEATURES.map(([id, img]) => `<a href="#${id}" data-open="${id}"><img loading="lazy" src="${img}" alt=""><div class="cap">${esc(FC.annotations[id].title_en)}</div></a>`).join('');

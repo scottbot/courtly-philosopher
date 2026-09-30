@@ -1,10 +1,10 @@
 # Filosofía cortesana — a playable edition
 
 A scholarly, playable web edition of Alonso de Barros's *Filosofía cortesana* (Madrid 1587),
-the earliest known themed Game of the Goose: sixty-three houses tracing an office-seeker's career
+the earliest known themed Game of the Goose: sixty-three squares tracing a petitioner's career
 at the court of Philip II. Players play on the only board known to survive, Mario Cartaro's
 engraving of Naples 1588 (British Museum 1869,0410.2463.+), with Barros's rules in any of the
-three early editions, and read every house they land on: its picture, its Spanish and Italian
+three early editions, and read every square they land on: its picture, its Spanish and Italian
 verses with English translations, Barros's own explanation, and notes on its history.
 
 Plain HTML, CSS and JavaScript. No framework, no build step at runtime, no external requests.
@@ -15,7 +15,7 @@ Plain HTML, CSS and JavaScript. No framework, no build step at runtime, no exter
 |---|---|
 | `index.html` | the introduction: a scrolling story that moves over the board |
 | `play.html` | the game, for two to six players on one screen (board view on desktop, the "path" on phones) |
-| `atlas.html` | every house and every figure around the track, with full annotations (`atlas.html#39`) |
+| `atlas.html` | every square and every figure around the track, with full annotations (`atlas.html#39`) |
 | `text.html` | the 1588 book: Spanish transcription and English translation, page images, Madrid variants (`text.html#pdf38`) |
 | `about.html` | essays (author, court, goose game, editions, board, rules, reception), how the edition was made, bibliography |
 
@@ -47,7 +47,7 @@ tests/engine.test.js rules tests: Barros's own worked example (Madrid 1587) + 15
 
 Everything a reader sees comes from `content/`:
 
-- `A_…md`, `B_…md`, `C_39…md`, `D_…md` — annotations, one `=== id: sq39 … ===` block per house or figure;
+- `A_…md`, `B_…md`, `C_39…md`, `D_…md` — annotations, one `=== id: sq39 … ===` block per square or figure;
 - `E_story_about.md` — introduction scenes (section A), About essays (B), bibliography (C), editorial note (D);
 - `bib_extra.md` — further web sources cited in the annotations;
 - `C_part1.md`, `C_part2.md` — the Naples 1588 text, Spanish and English, segment by segment;

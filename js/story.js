@@ -17,7 +17,7 @@
     'goose-arrives':    { title: 'A game from Florence', square: 15 },
     'moral-map':        { title: 'A map of a career', rect: px(56, 100, 2650, 3502), mark: FC.sq.LABOUR, markCls: 'focus' },
     'sheet-and-book':   { title: 'A sheet and a little book', book: ['p007', 'p009'], caption: 'Title page and royal licence of the Naples edition, 1588 (Vienna, ÖNB 35 V 49)' },
-    'reading-a-square': { title: 'How to read a house', square: 26 },
+    'reading-a-square': { title: 'How to read a square', square: 26 },
     'three-editions':   { title: 'Three editions in a year', book: ['p015', 'p066'], caption: 'Cervantes’s sonnet, and the first page of the rules, in the Naples edition of 1588' },
     'naples-cartaro':   { title: 'Naples, 1588', rect: px(1760, 3330, 2620, 3470) },
     'the-pot':          { title: 'The pot and the palm', rect: px(1080, 1730, 1760, 2690) },

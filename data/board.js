@@ -251,7 +251,7 @@ FC.board = {
    "rot": -30,
    "it_gloss": "The prodigal has friends at his side / while he eats in company.",
    "rule_en": "",
-   "it_note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to his spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as).",
+   "it_note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to the prodigal's spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as).",
    "notes": "Numeral '7' at the top of the bay by the pelican's head. Text box on the outer side of the bay, between the pedestals, x 1905-2105, y 3105-3300, baselines rising to the right (rot about -28 to -37). 'accompãgato' as engraved: the tilde stands over the a/g of 'pagato', i.e. an abbreviation for 'accompagnato' (so the blog's 'accompag(n)ato'); Collar's 'accompag(n)to' drops a letter. Engraved word division 'hagli amiciallato'. The La Bella Donna blog's 'a swan and wolves' is wrong: pelican and cats."
   },
   {
@@ -1007,7 +1007,7 @@ FC.board = {
    "rot": 100,
    "it_gloss": "For him to whom Fortune is miserly, / the throw turns into *zara*.",
    "rule_en": "",
-   "it_note": "Spanish: \"If there is no luck in suing (*negociar*), the throw turns to *azar*.\" Italian replaces the courtly business with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla).",
+   "it_note": "Spanish: \"If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*.\" Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla).",
    "notes": "Numeral '28' at (497,1110). Text box on the outer side, x 115-305, y 975-1165, reading downward (rot about 100). 'zara' with the looped z. 'acar' as engraved: no cedilla is visible under the c in either photograph (Collar and the blog print 'açar'). There is no 'se' before 'buelue' (Collar's '(se)' is his own addition). Engraved 'Sinoay'."
   },
   {
@@ -1295,7 +1295,7 @@ FC.board = {
    "rot": 28,
    "it_gloss": "Who serves \"what they will say\", / let him take the wage they give him.",
    "rule_en": "To the Throw, no. 28. Pay.",
-   "it_note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice house at 28.",
+   "it_note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice square at 28.",
    "notes": "Rule label in a box above the square along the ring's inner edge (x 760-960, y 2560-2700), reading down-right (rot ~30). Heading and verses are in a box outside the square's outer edge, below the pedestal, x 540-800, y 2820-2990 (rot ~28). 'sireue' as engraved (so Collar 'sireue (sic)'; the blog's 'siru(v)e' normalises). 'n' with superscript 'o' ('n.º')."
   },
   {
@@ -1401,9 +1401,9 @@ FC.board = {
     ]
    ],
    "rot": -6,
-   "it_gloss": "They render thanks for injuries / when the wise do business.",
+   "it_gloss": "They render thanks for injuries / when the wise press their cases.",
    "rule_en": "To the Prodigal, no. 7. Pay.",
-   "it_note": "Spanish: \"By giving thanks for injuries, wise men do their business\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only.",
+   "it_note": "Spanish: \"By giving thanks for injuries, wise men press their cases\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only.",
    "notes": "Rule label in a box along the ring's inner edge above the square, x 1260-1480, y 2645-2700 (rot ~-5), directly under the verses of 63. Heading and verses in a box below the square's outer edge, x 1280-1560, y 2930-3080 (rot ~-6). 'Dondo' as engraved (sic for 'Dando'): Collar 'Dondo (sic)' agrees; Zollinger/giochidelloca 'Donda' is wrong. 'gras' carries an abbreviation stroke over the final s (both photographs); expanded gra[cia]s. The Seville notes' plate reading 'Dando gras' is wrong: 'Dondo' is clear in both photographs. 'honbres' with n. 'aggrauij', 'sauij' with final long ij."
   },
   {
@@ -2859,7 +2859,7 @@ FC.board = {
    "it_gloss": "The prodigal has friends at his side / while he eats in company.",
    "rule_it": "",
    "rule_en": "",
-   "note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to his spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as)."
+   "note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to the prodigal's spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as)."
   },
   "sq10": {
    "heading_it": "Adulatione",
@@ -2931,7 +2931,7 @@ FC.board = {
    "it_gloss": "For him to whom Fortune is miserly, / the throw turns into *zara*.",
    "rule_it": "",
    "rule_en": "",
-   "note": "Spanish: \"If there is no luck in suing (*negociar*), the throw turns to *azar*.\" Italian replaces the courtly business with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla)."
+   "note": "Spanish: \"If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*.\" Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla)."
   },
   "sq30": {
    "heading_it": "trauaglio",
@@ -2967,16 +2967,16 @@ FC.board = {
    "it_gloss": "Who serves \"what they will say\", / let him take the wage they give him.",
    "rule_it": "Alla sorte ·n·° 28 ·Paga",
    "rule_en": "To the Throw, no. 28. Pay.",
-   "note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice house at 28."
+   "note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice square at 28."
   },
   "sq39": {
    "heading_it": "Falsa amicitia",
    "heading_en": "False friendship",
    "it": "Rendon gratie per aggrauij / quando negotian gli sauij",
-   "it_gloss": "They render thanks for injuries / when the wise do business.",
+   "it_gloss": "They render thanks for injuries / when the wise press their cases.",
    "rule_it": "Al prodigo ·n·° ·7·Paga",
    "rule_en": "To the Prodigal, no. 7. Pay.",
-   "note": "Spanish: \"By giving thanks for injuries, wise men do their business\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only."
+   "note": "Spanish: \"By giving thanks for injuries, wise men press their cases\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only."
   },
   "sq41": {
    "heading_it": "trauaglio",
@@ -3082,9 +3082,9 @@ FC.board = {
   },
   "centre_cartouche": {
    "it": "Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire",
-   "it_gloss": "Sea of suffering / whoever sues must suffer, / as whoever is born [must suffer] dying.",
+   "it_gloss": "Sea of suffering / whoever petitions must suffer, / as whoever is born [must suffer] dying.",
    "rule_en": "",
-   "note": "Same sense; Italian pretendere lacks the courtly \"sue for office\" sense."
+   "note": "Same sense; Italian pretendere lacks the courtly \"petition for office\" sense."
   },
   "palm_man_verses": {
    "it": "Mai salirà gran costa / che mira quanto costa",
@@ -3245,13 +3245,13 @@ FC.board = {
   },
   "h28": {
    "es": "Si no ay dicha en negociar, / La suerte se buelue azar.",
-   "en": "If suing brings no luck your way, / the lucky throw turns losing play.",
-   "lit": "If there is no luck in negotiating, the throw turns into a losing one."
+   "en": "If petitions bring no luck your way, / the lucky throw turns losing play.",
+   "lit": "If there is no luck in pressing one's case, the throw turns into a losing one."
   },
   "h39": {
    "es": "Dando gracias por agrauios; / Negocian los hombres sabios.",
-   "en": "The wise, when wronged, give thanks instead: / that's how their business gets ahead.",
-   "lit": "Giving thanks for injuries, wise men do their business."
+   "en": "The wise, when wronged, give thanks instead, / and so their cases go ahead.",
+   "lit": "Giving thanks for injuries, wise men press their cases."
   },
   "h7": {
    "es": "El prodigo tiene amigos. / Quanto come con testigos.",

@@ -51,7 +51,7 @@ FC.sq = (function () {
     7: 'h7', 10: 'h10', 15: 'h15', 20: 'h20', 26: 'h26', 28: 'h28', 32: 'h32', 36: 'h36', 39: 'h39',
     43: 'h43', 46: 'h46', 51: 'h51', 53: 'h53', 55: 'h55', 60: 'h60', 63: 'h63' };
   // The princeps (G) printed eight Labour couplets of its own, in this order (Lucero 2016,
-  // collation tables). Its board is lost: we lay them on Cartaro's Labour houses in order.
+  // collation tables). Its board is lost: we lay them on Cartaro's Labour squares in order.
   const G_LABOUR = { 12: 'g1', 17: 'g2', 23: 'g3', 30: 't5', 34: 't7', 41: 'g6', 48: 't4', 57: 't3' };
 
   function povertySquare(ed) { return ed === 'G' ? 59 : 60; }
@@ -67,7 +67,7 @@ FC.sq = (function () {
   }
   function name(n, ed) {
     const a = FC.annotations[annId(n, ed)];
-    if (!a || a.id === 'plain') return `House ${n}`;
+    if (!a || a.id === 'plain') return `Square ${n}`;
     return a.title_en.replace(/\s*\(.*\)$/, '');
   }
   /** The verse on square n in edition ed: {en, lit, es_book, es_board, it_board, gloss_it} */
@@ -288,7 +288,7 @@ FC.Viewer = class {
     this.svg.querySelectorAll('.hot.' + cls).forEach(p => p.classList.remove(cls));
     [].concat(ns || []).forEach(n => { const p = this.svg.querySelector(`.hot[data-n="${n}"]`); if (p) p.classList.add(cls); });
   }
-  /** English names written over the adorned houses (a reading aid; off by default). */
+  /** English names written over the adorned squares (a reading aid; off by default). */
   names(on, ed = 'C') {
     const g = this.svg.querySelector('.names');
     g.hidden = !on;
@@ -360,8 +360,8 @@ FC.annotate = function (key, ed = 'C', opts = {}) {
   if (img) h += `<figure class="sq-figure"><img loading="lazy" src="${img}" alt="${esc(title)}: detail of the board"><figcaption>Detail of Cartaro’s board (Naples 1588). © The Trustees of the British Museum.${n ? ` <a href="#" data-show-on-board="${n}">Show on the whole board</a>` : ''}</figcaption></figure>`;
 
   // edition note for the princeps' Poverty
-  if (ed === 'G' && n === 59) h += `<p class="notice">In the first edition (Madrid, widow of Alonso Gómez, 1587) Poverty stands on house <b>59</b>, not 60; the board printed with that edition is lost. We show Cartaro’s picture of house 60 here.</p>`;
-  if (ed === 'G' && n === 60) h += `<p class="notice">In the first edition Poverty stands on 59, so under that edition’s rules this house is plain. On the surviving board (and in the later editions) it is Poverty.</p>`;
+  if (ed === 'G' && n === 59) h += `<p class="notice">In the first edition (Madrid, widow of Alonso Gómez, 1587) Poverty stands on square <b>59</b>, not 60; the board printed with that edition is lost. We show Cartaro’s picture of square 60 here.</p>`;
+  if (ed === 'G' && n === 60) h += `<p class="notice">In the first edition Poverty stands on 59, so under that edition’s rules this square is plain. On the surviving board (and in the later editions) it is Poverty.</p>`;
 
   // verse
   const v = n ? FC.sq.verse(n, ed) : null;
@@ -402,7 +402,7 @@ FC.annotate = function (key, ed = 'C', opts = {}) {
   h += sect('What scholars say', a.readings, false);
   if (n && FC.sq.LABOUR.includes(n) && FC.annotations.labour) {
     const L = FC.annotations.labour;
-    h += sect('About all nine Labour houses', L.why + L.context + L.variants + L.readings, false);
+    h += sect('About all nine Labour squares', L.why + L.context + L.variants + L.readings, false);
   }
   if (n && d && d.desc && aid === 'plain') h += `<p class="small muted">On the board: ${esc(d.desc)}</p>`;
   return h;

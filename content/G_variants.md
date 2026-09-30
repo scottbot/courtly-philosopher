@@ -60,8 +60,8 @@ WHERE: Opening: blame laid on Fortune
 G: ponen toda la culpa a la Fortuna, que tuvo su inconsideración. Para los que no la tienen, se pinta aquí un discurso de pretensores. [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 M: Y si por ello se pierden, ponen toda la culpa a la Fortuna llamándola injusta, que tuvo su inconsideración temeraria. Para cuyo desengaño se pinta aquí un discurso de pretensores con los medios más usados [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 C: y si por ello se pierden ponen toda la culpa a la fortuna, llamandola iniusta (pdf 23–24)
-EN: …they lay all the blame on Fortune that their own thoughtlessness bore. For those who do not have it, a course of suitors is painted here.
-NOTE: M (followed by C) adds "llamándola injusta" ("calling her unjust"), "temeraria" ("reckless") and "con los medios más usados" ("with the means most used"), and changes G's "Para los que no la tienen" ("For those who do not have it") into "Para cuyo desengaño" ("For their undeceiving"). In G, "la" most naturally refers back to "inconsideración": the picture is for those who are not thoughtless. Lucero's table leaves it open whether G then lists the houses (Liberalidad, Adulación… in M and C). The phrase "con los medios más usados" is marked as M's addition, so at least that is absent.
+EN: …they lay all the blame on Fortune that their own thoughtlessness bore. For those who do not have it, a course of petitioners is painted here.
+NOTE: M (followed by C) adds "llamándola injusta" ("calling her unjust"), "temeraria" ("reckless") and "con los medios más usados" ("with the means most used"), and changes G's "Para los que no la tienen" ("For those who do not have it") into "Para cuyo desengaño" ("To open their eyes"). In G, "la" most naturally refers back to "inconsideración": the picture is for those who are not thoughtless. Lucero's table leaves it open whether G then lists the squares (Liberalidad, Adulación… in M and C). The phrase "con los medios más usados" is marked as M's addition, so at least that is absent.
 :::
 
 ::: gvar id=G-07 squares=none
@@ -101,12 +101,12 @@ NOTE: G's misprint "buyes" and old spelling "fructas", corrected in M. Lucero's 
 :::
 
 ::: gvar id=G-11 squares=labour
-WHERE: Labour: the tired ox and man
+WHERE: Labour: the tired ox and worker
 G: no parece que siente el cansancio de lo que trabaja [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
 M: que no parece que siente el cansancio de sus trabajos [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
 C: que no parezce, que siente el cansacio de sus trabajos (pdf 29)
 EN: [the man] does not seem to feel the weariness of what he labours at
-NOTE: Stylistic. M's "sus trabajos" ("his labours") keeps the house's key word, and with it the pun on work / hardship.
+NOTE: Stylistic. M's "sus trabajos" ("his labours") keeps the square's key word, and with it the pun on work / hardship.
 :::
 
 ::: gvar id=G-12 squares=labour
@@ -124,7 +124,7 @@ G: En el número de las casas no se guarda orden [@sanchezEdicionesAntiguasFilos
 M: En el número de las casas del Trabajo no se guarda orden [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: En el numero de las casas del Trabajo, no se guarda orden (pdf 31)
 EN: In the number of the houses no order is kept.
-NOTE: M adds "del Trabajo" ("of Labour"). Lucero counts it among the additions that clarify the sense [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]. Read literally, G's sentence applies to all the houses, though the context is Labour. Against this, Lucero's thesis says the princeps board had "la distribución más o menos uniforme por el recorrido de las casas del Trabajo" [@sanchezFILOSOFIACORTESANAALONSO, 20]. That is his inference about the lost board: no G text we have gives the Labour house numbers, and G itself says that no order is kept.
+NOTE: M adds "del Trabajo" ("of Labour"). Lucero counts it among the additions that clarify the sense [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]. Read literally, G's sentence applies to all the squares, though the context is Labour. Against this, Lucero's thesis says the princeps board had "la distribución más o menos uniforme por el recorrido de las casas del Trabajo" [@sanchezFILOSOFIACORTESANAALONSO, 20]. That is his inference about the lost board: no G text we have gives the Labour square numbers, and G itself says that no order is kept.
 :::
 
 ::: gvar id=G-14 squares=labour
@@ -133,7 +133,7 @@ G: animan a que el trabajo no se tema, y enseñan a que se busqne [tipo vuelto] 
 M: animan al pretensor para que no le tema, y le enseñan a que le busque [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]
 C: animan al pretensor para que no le tema, y le enseñ (pdf 31)
 EN: [they] encourage [one] not to fear labour, and teach [one] to seek it
-NOTE: "busqne": turned type in G (Lucero's note). M names the suitor as the one encouraged.
+NOTE: "busqne": turned type in G (Lucero's note). M names the petitioner as the one encouraged.
 :::
 
 ::: gvar id=G-15 squares=12,17,23,30,34,41,48,57
@@ -150,7 +150,7 @@ EN: G order, with the fixed translations:
   G6 = g6: Who makes a virtue of his need / by working finds his rest indeed. (lit. By working, he finds peace who makes a virtue of necessity.)
   G7 = t4: Fortune at last will yield the day / if labour will not go away.
   G8 = t3: No trouble's great, if work can be / enough to set us from it free.
-NOTE: Lucero sets G and M side by side, italicizing the couplets that differ and numbering the shared ones by their G position [@sanchezEdicionesAntiguasFilosofia2016oct16, 187 n. 56]. G-only: G1, G2, G3, G6. M-only (and C, in the same order as M): t1 "Frutos del trabajo justo", t2 "Del ocio nace pobreza", t6 "Trabajo es no le tener", t8 "El trabajo gana palma". Shared: G4 = M5, G5 = M7, G7 = M4, G8 = M3. M order: t1, t2, t3, t4, t5, t6, t7, t8, i.e. the order of C (pdf 32) and of the Naples board, whose Labour houses 12, 17, 23, 30, 34, 41, 48, 57 carry t1 to t8 in turn (house 4 carries t0, "Nunca se siente el trabajo"). Lucero: the dropped couplets tie labour to love through the yoke metaphor; the added ones stress the fruits of work; he reaches no conclusion on the reordering [@sanchezEdicionesAntiguasFilosofia2016oct16, 187]. The Labour couplets are "los únicos lemas que sufren alteraciones", so a board carrying G's couplets must have differed [@luceroTableroJuego15882019, 203 n. 15]. Lucero's "[hay]" in G3 is his correction of "oy". For the game: on a G board the eight later Labour houses would carry this set, but which couplet stood on which house, and at what numbers, is not known. G's wording of the first Labour couplet (t0) is not quoted anywhere we have.
+NOTE: Lucero sets G and M side by side, italicizing the couplets that differ and numbering the shared ones by their G position [@sanchezEdicionesAntiguasFilosofia2016oct16, 187 n. 56]. G-only: G1, G2, G3, G6. M-only (and C, in the same order as M): t1 "Frutos del trabajo justo", t2 "Del ocio nace pobreza", t6 "Trabajo es no le tener", t8 "El trabajo gana palma". Shared: G4 = M5, G5 = M7, G7 = M4, G8 = M3. M order: t1, t2, t3, t4, t5, t6, t7, t8, i.e. the order of C (pdf 32) and of the Naples board, whose Labour squares 12, 17, 23, 30, 34, 41, 48, 57 carry t1 to t8 in turn (square 4 carries t0, "Nunca se siente el trabajo"). Lucero: the dropped couplets tie labour to love through the yoke metaphor; the added ones stress the fruits of work; he reaches no conclusion on the reordering [@sanchezEdicionesAntiguasFilosofia2016oct16, 187]. The Labour couplets are "los únicos lemas que sufren alteraciones", so a board carrying G's couplets must have differed [@luceroTableroJuego15882019, 203 n. 15]. Lucero's "[hay]" in G3 is his correction of "oy". For the game: on a G board the eight later Labour squares would carry this set, but which couplet stood on which square, and at what numbers, is not known. G's wording of the first Labour couplet (t0) is not quoted anywhere we have.
 :::
 
 ::: gvar id=G-16 squares=15
@@ -159,7 +159,7 @@ G: le responden con gran encarescimiento [@sanchezEdicionesAntiguasFilosofia2016
 M: ellos le responden con tan gran encarecimiento [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: ellos le responden con tan gran encarecimiento de palabras (pdf 33)
 EN: they answer him with great heaping-up [of words]
-NOTE: M adds "ellos" and "tan" ("such great"). Also at the Pass of Hope, G misprints "portadgo" for "portazgo" ("toll") [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]. So G, like M and C, has the suitor pay the toll at Hope: the moral ground of the one-stake payment at 15.
+NOTE: M adds "ellos" and "tan" ("such great"). Also at the Pass of Hope, G misprints "portadgo" for "portazgo" ("toll") [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]. So G, like M and C, has the petitioner pay the toll at Hope: the moral ground of the one-stake payment at 15.
 :::
 
 ::: gvar id=G-17 squares=26
@@ -190,11 +190,11 @@ NOTE: The only change Lucero cites where M shortens G [@sanchezEdicionesAntiguas
 :::
 
 ::: gvar id=G-20 squares=28
-WHERE: The Dice (28): the unlucky man
+WHERE: The Dice (28): the unlucky petitioner
 G: le sería lo mejor el breve desengaño. [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 M: le sería la mejor suerte un breve desengaño [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 C: le seria la mejor suerte vn breue desengaño (pdf 38)
-EN: the best thing for him would be the brief undeceiving.
+EN: the best thing for him would be to have his eyes opened quickly.
 NOTE: M's "la mejor suerte" ("the best throw / the best luck") brings in the dice pun that G lacks.
 :::
 
@@ -221,7 +221,7 @@ WHERE: The Prodigal (7), reached from 39
 G: Para cuyo remedio se manda al negociante que vuelva a ser Pródigo con los que tuvo antes por más sospechosos. Lo cual va significado [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 M: Para cuyo remedio se manda al negociante que vuelva a ser Pródigo con los que tuvo antes por más sospechosos, que al principio todos lo son hasta que se topan otros peores. Lo cual va significado topan otros peores [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 C: PAra cuyo remedio, se m[an]da al negociante que buelua a ser prodigo, con los que tuuo antes por mas sospecho- (pdf 39)
-EN: As a remedy for this, the one pressing his business is ordered to be prodigal again with those he formerly held most suspect. Which is signified…
+EN: As a remedy for this, the one pressing his case is ordered to be prodigal again with those he formerly held most suspect. Which is signified…
 NOTE: The rule (39 → 7) is the same. M adds "que al principio todos lo son hasta que se topan otros peores" ("for at first all are suspect, until one meets worse"). Lucero's printed M cell repeats "topan otros peores" at its end, a dittography in the article, reproduced here as printed.
 :::
 
@@ -231,7 +231,7 @@ G: 43 [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
 M: cuarenta y tres casas [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
 C: puesta a quarenta y tres casas (pdf 41)
 EN: 43
-NOTE: G gives the house number as a numeral where M and C spell it out. The number is the same.
+NOTE: G gives the square number as a numeral where M and C spell it out. The number is the same.
 :::
 
 ::: gvar id=G-25 squares=43,10
@@ -258,7 +258,7 @@ G: de donde vuelve a comenzar el juego de nuevo, buscando otro favor [@sanchezEd
 M: de donde vuelve con lágrimas a comenzar el juego de nuevo, buscando otro favor [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: de donde buelue co[n] lagrimas a començar el juego de nueuo buscando otro fauor (pdf 44)
 EN: from where he goes back to begin the game anew, seeking another favour
-NOTE: M adds "con lágrimas" ("in tears"). G misprints the house name "Muerte del velador" ("Death of the watchman / candlestick-maker") for "valedor" (patron) [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]. Same rule: back to the start.
+NOTE: M adds "con lágrimas" ("in tears"). G misprints the square name "Muerte del velador" ("Death of the watchman / candlestick-maker") for "valedor" (patron) [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]. Same rule: back to the start.
 :::
 
 ::: gvar id=G-28 squares=51
@@ -267,7 +267,7 @@ G: no hay fortuna, sino permisión de Dios, universal y gobernador de todas nues
 M: no hay fortuna, sino una dispusición de la voluntad de Dios, universal gobernador de todas nuestras acciones, para que con este conocimiento toleremos [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 C: no ay fortuna sino vna dispusicion de la uoluntad de Dios, vniuersal gouernador de todas nuestras acciones (pdf 45)
 EN: there is no fortune, but God's permission, universal and governor of all our actions, so that with this knowledge we may endure
-NOTE: G: Fortune is God's *permission*; M/C: "a disposition of the will of God". G's word matches the house's verse, which ends "de fortuna y permision" (h51, "All things are at the disposition / of Fortune and of God's permission"). M's wording borrows the verse's other key word, "dispusición". Lucero reads the change as a rewording of Fortune-as-Providence [@sanchezEdicionesAntiguasFilosofia2016oct16, 185].
+NOTE: G: Fortune is God's *permission*; M/C: "a disposition of the will of God". G's word matches the square's verse, which ends "de fortuna y permision" (h51, "All things are at the disposition / of Fortune and of God's permission"). M's wording borrows the verse's other key word, "dispusición". Lucero reads the change as a rewording of Fortune-as-Providence [@sanchezEdicionesAntiguasFilosofia2016oct16, 185].
 :::
 
 ::: gvar id=G-29 squares=51
@@ -294,24 +294,24 @@ G: También se considera que es muy de dichosos el descuidarse, dejando de hacer
 M: También se debe notar que, aunque tiene mano la Fortuna en la eleción de las diligencias, no se han de fiar todas della ni es causa bastante para que el pretensor se descuide en hacer lo que pudiere, que son medios ordenados para este fin sin poderle nosotros juzgar. Y la tibieza confiada para el dejarlo todo es escudo de holgazanes, y más de los que son tales que, no haciendo ellos diligencia en sus negocios, … piensan que otros las harán. Por esto, y porque es muy de dichosos el descuidarse se pinta a cincuenta y cinco casas la del Pensé Que, figurado por un asno echado, por la semejanza que con él tiene el que dice «¿quién pensara?», y no lo previene. De los cuales es cierto lo que su letra dice [@sanchezEdicionesAntiguasFilosofia2016oct16, 185–86]
 C: Tambien se deue notar, que aunque tiene mano la (pdf 47–49)
 EN: It is also considered that carelessness is very much the way of the lucky, who leave off making efforts in their affairs, thinking that others will make them. And so at fifty-five houses is placed that of "I Thought…", figured by a donkey lying down, for the likeness to it of the man who says "Who would have thought?"; of whom what its verse says is true:
-NOTE: M rewrites the opening: Fortune has a hand in the choice of efforts, but one must not leave everything to her, and "confident lukewarmness" is the shield of idlers. M also adds "y no lo previene" ("and does not provide against it"). Same house number, same image (the lying donkey), same verse cue. G's "se pone" ("is placed") becomes M's "se pinta" ("is painted"), another M reference to the picture. The rule (55 → 20) is in G's rules only by implication; see G-43.
+NOTE: M rewrites the opening: Fortune has a hand in the choice of efforts, but one must not leave everything to her, and "confident lukewarmness" is the shield of idlers. M also adds "y no lo previene" ("and does not provide against it"). Same square number, same image (the lying donkey), same verse cue. G's "se pone" ("is placed") becomes M's "se pinta" ("is painted"), another M reference to the picture. The rule (55 → 20) is in G's rules only by implication; see G-43.
 :::
 
 ::: gvar id=G-32 squares=59,60
-WHERE: Poverty: the house number
+WHERE: Poverty: the square number
 G: Y de la Pobreza, que está a cincuenta y nueve, [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]
 M: Y de la Pobreza, que está a sesenta, [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]
 C: y de la Pobreza, que esta a sese[n]ta (pdf 68)
 EN: And from Poverty, which is at fifty-nine,
-NOTE: G puts Poverty at 59, and does so twice: in the moral text (fol. 16v) and in the rules (fol. 22r) [@luceroTableroJuego15882019, 204]. Lucero quotes only the second; G's wording of the first is not quoted in the sources we have. M, C and the Naples board have 60, and C here follows M, not G [@sanchezEdicionesAntiguasFilosofia2016oct16, 180 n. 43]. Lucero argues this cannot be accidental and posits a lost G board with Poverty on 59 [@luceroTableroJuego15882019, 204]. For the game: on a G board, 59 would be Poverty. Whether 60 was then plain, and whether other houses moved, is not known. The destination (53) is the same in all three.
+NOTE: G puts Poverty at 59, and does so twice: in the moral text (fol. 16v) and in the rules (fol. 22r) [@luceroTableroJuego15882019, 204]. Lucero quotes only the second; G's wording of the first is not quoted in the sources we have. M, C and the Naples board have 60, and C here follows M, not G [@sanchezEdicionesAntiguasFilosofia2016oct16, 180 n. 43]. Lucero argues this cannot be accidental and posits a lost G board with Poverty on 59 [@luceroTableroJuego15882019, 204]. For the game: on a G board, 59 would be Poverty. Whether 60 was then plain, and whether other squares moved, is not known. The destination (53) is the same in all three.
 :::
 
 ::: gvar id=G-33 squares=59,60
-WHERE: Poverty (59/60): the patron and the poor suitor
+WHERE: Poverty (59/60): the patron and the poor petitioner
 G: conocer de su pretensor ha venido a pobre [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 M: conocer de su pretensor que ha venido a pobre [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: conocer de su pret[en]sor que ha venido a pobre (pdf 51)
-EN: [the effect on the patron of] learning of his suitor [that] he has become poor
+EN: [the effect on the patron of] learning of his petitioner [that] he has become poor
 NOTE: Lucero also lists G "efeto" against M "especial en el efeto" [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]: G lacks "especially". No difference in sense.
 :::
 
@@ -321,7 +321,7 @@ G: Dados cincuenta y tres, pero como para el pobre ninguna suerte es buena [@san
 M: Dados cincuenta y tres, donde está una suerte de once, que suele ser buena y agradable para el que juega, pero como para el pobre ninguna lo es [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: y va a los dados cincuenta, y tres: donde esta vna suerte de onze que suele ser buena y agradable para el que juega, pero como para el pobre ninguna lo es (pdf 52)
 EN: …the Dice at fifty-three; but since for the poor man no throw is good…
-NOTE: G does not say that house 53 shows "a throw of eleven". That description is M's (and C's); the Naples board shows three dice reading 4, 4, 3. So G gives no hint of what the dice on 53 showed, or how many there were. Lucero counts M's phrase among the additions that make the remaining course from the Dice concrete [@sanchezEdicionesAntiguasFilosofia2016oct16, 184].
+NOTE: G does not say that square 53 shows "a throw of eleven". That description is M's (and C's); the Naples board shows three dice reading 4, 4, 3. So G gives no hint of what the dice on 53 showed, or how many there were. Lucero counts M's phrase among the additions that make the remaining course from the Dice concrete [@sanchezEdicionesAntiguasFilosofia2016oct16, 184].
 :::
 
 ::: gvar id=G-35 squares=53
@@ -374,7 +374,7 @@ WHERE: Epilogue: the corner figures
 G: Para significación de todo lo cual … Que todo junto quiere decir: «Que en las pretensiones humanas, con solicitud y firmeza, no se ha de perder ocasión ni tiempo porque...» [@sanchezEdicionesAntiguasFilosofia2016oct16, 184, 186]
 M: Para epílogo y sinificación … Que todo junto quiere decir: «Que porque en el discurso de una pretensión no hay cosa segura hasta el fin della, le es necesario al que pretende asista en lo comenzado con gran solicitud y firmeza, sin temer trabajo ni costa ni perder ocasión ni tiempo, porque [@sanchezEdicionesAntiguasFilosofia2016oct16, 184, 186]
 C: PAra epilogo y sinificacion de todo lo qual, se han de considerar las tres figuras (pdf 57–58)
-EN: As a signification of all this … Which all together means: "That in human suits, with care and firmness, neither opportunity nor time must be lost, because…"
+EN: As a signification of all this … Which all together means: "That in human petitions, with care and firmness, neither opportunity nor time must be lost, because…"
 NOTE: G's moral of the three corner figures (dolphin and anchor, Occasion, the hand and clock) is shorter. It lacks "there is nothing secure until the end", "persist in what has been begun" and "without fearing labour or cost". Lucero's quotation breaks off at "porque…". Whether G describes the three figures in the same words is not shown. For the corners on the board, see board_italian.md.
 :::
 
@@ -388,12 +388,12 @@ NOTE: C's heading ("The game is played in this manner") is close to G's, not to 
 :::
 
 ::: gvar id=G-42 squares=labour
-WHERE: Rules: moving, and two on one house
+WHERE: Rules: moving, and two on one square
 G: El que lanza el dado se señala a tantas casas como puntos echó y, si dos dan en una casa, se queda el segundo, y el primero toma la que el otro dejó; [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]
 M: Las pesadumbres del pretender son muchas y, aunque para su reparo fuera necesario mayor remedio, el que se ofrece ha sido hacerlo juego [...] [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]
 C: EL Que lança el dado, se señala a tantas casas, como puntos echo, y si dos dan en vna casa, se queda el segundo, y el primero toma la que el otro dexo: (pdf 66)
 EN: Whoever throws the die marks himself as many houses on as the points he threw; and if two land on one house, the second stays and the first takes the one the other left;
-NOTE: Word for word the opening of C's rules (C-066b). "el dado": one die, in G and C. G says nothing about stakes, the number of players, two dice or arenillas, or markers. Nor does it say what happens when the clash occurs at the start of the game (all M only; see M_additions.md M-43v-a to M-46r-b). Lucero quotes G's rules only up to this semicolon and then from Poverty onward. The rules between (Labour, Hope → Favourite, Well, What Will They Say?, False Friendship, Change of Ministers, Death of the Patron, Fortune, "I Thought…") are not quoted from G. Lucero says M and G "converge again" on the principal houses after M's example [@sanchezEdicionesAntiguasFilosofia2016oct16, 189 n. 58], and that G and C coincide in the concrete rules [@luceroTableroJuego15882019, 203 n. 13]. So G probably had rules much like C-066b there, but their wording is not known.
+NOTE: Word for word the opening of C's rules (C-066b). "el dado": one die, in G and C. G says nothing about stakes, the number of players, two dice or arenillas, or markers. Nor does it say what happens when the clash occurs at the start of the game (all M only; see M_additions.md M-43v-a to M-46r-b). Lucero quotes G's rules only up to this semicolon and then from Poverty onward. The rules between (Labour, Hope → Favourite, Well, What Will They Say?, False Friendship, Change of Ministers, Death of the Patron, Fortune, "I Thought…") are not quoted from G. Lucero says M and G "converge again" on the principal squares after M's example [@sanchezEdicionesAntiguasFilosofia2016oct16, 189 n. 58], and that G and C coincide in the concrete rules [@luceroTableroJuego15882019, 203 n. 13]. So G probably had rules much like C-066b there, but their wording is not known.
 :::
 
 ::: gvar id=G-43 squares=59,53,63
@@ -429,8 +429,8 @@ NOTE: The BNP catalogue as Lucero quotes it reads "(En Madrid: en casa de la biu
 ## What the G readings change for the game
 
 1. **Poverty is on 59, not 60.** G says so twice, in the moral text and in the rules [@luceroTableroJuego15882019, 204; @sanchezEdicionesAntiguasFilosofia2016oct16, 189]. M, C and the Naples board have 60. From Poverty the player goes back to the Dice at 53 in every version.
-2. **Different Labour couplets, in a different order.** G has four couplets found nowhere else (g1, g2, g3, g6) and lacks four that M, C and the board have (t1, t2, t6, t8). Its order of the eight is g1, g2, g3, t5, t7, g6, t4, t3 [@sanchezEdicionesAntiguasFilosofia2016oct16, 187–88]. A G board would have carried these verses on its eight later Labour houses; which verse stood on which house is not known.
-3. **Laconic rules.** G has "Esto se juega en esta forma", one die ("el dado"), the rule for two on one house, and at the end the rules for Poverty and overshooting the palm [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]. G does not state stakes, the number of players, markers, two dice or arenillas, the clash at the start of the game, how the game is won, that the palm is on 63, the size of the alms, or the Poverty exemption. Those are M's additions, and C shares G's silence on all of them.
+2. **Different Labour couplets, in a different order.** G has four couplets found nowhere else (g1, g2, g3, g6) and lacks four that M, C and the board have (t1, t2, t6, t8). Its order of the eight is g1, g2, g3, t5, t7, g6, t4, t3 [@sanchezEdicionesAntiguasFilosofia2016oct16, 187–88]. A G board would have carried these verses on its eight later Labour squares; which verse stood on which square is not known.
+3. **Laconic rules.** G has "Esto se juega en esta forma", one die ("el dado"), the rule for two on one square, and at the end the rules for Poverty and overshooting the palm [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]. G does not state stakes, the number of players, markers, two dice or arenillas, the clash at the start of the game, how the game is won, that the palm is on 63, the size of the alms, or the Poverty exemption. Those are M's additions, and C shares G's silence on all of them.
 4. **"Deo gratias"** closes G's rules (M and C "Laus Deo"). The rules' last lines are set in the shape of a goblet [@sanchezEdicionesAntiguasFilosofia2016oct16, 189].
 5. **Smaller shifts that touch the pictures.** G's swan has only a trumpet, with no death's head (G-09). The central sea has painted ships but no angler (G-38). The man at the palm is only "as if exerting himself" (G-37). The Dice at 53 is not described as a throw of eleven (G-34). There is no Fortune woodcut or description (G-30). These are Lucero's grounds for thinking that the lost G board differed from the surviving Naples board, and was perhaps less elaborate [@luceroTableroJuego15882019, 205–6].
 6. **Possibly a different verse at the Dice (28):** "la mejor suerte es azar" (G-21). Unconfirmed; see the note there.
@@ -438,11 +438,11 @@ NOTE: The BNP catalogue as Lucero quotes it reads "(En Madrid: en casa de la biu
 
 ## What is NOT known about G
 
-- The full text. We have only Lucero's excerpts. Most of G's moral text for each house, most of its rules, its privilege, its approval and its dedication have not been quoted to us. Unquoted passages must not be assumed to match M or C.
+- The full text. We have only Lucero's excerpts. Most of G's moral text for each square, most of its rules, its privilege, its approval and its dedication have not been quoted to us. Unquoted passages must not be assumed to match M or C.
 - G's original spelling and punctuation, except on the title page. The excerpts are modernized by Lucero.
 - The rules between "si dos dan en una casa" and "Y de la Pobreza". Lucero implies they run parallel to M and C [@sanchezEdicionesAntiguasFilosofia2016oct16, 189 n. 58; @luceroTableroJuego15882019, 203 n. 13], but gives no text.
 - G's wording of the first Poverty passage (fol. 16v), of which we know only the number 59 [@luceroTableroJuego15882019, 204].
 - The first Labour couplet ("Nunca se siente el trabajo…", t0), and every non-Labour verse, in G's wording. Lucero states that only the Labour couplets change [@luceroTableroJuego15882019, 203 n. 15], but the fragment "la mejor suerte es azar" (G-21) may be an exception.
-- **The G board.** No copy survives. Its existence, and its differences (Poverty on 59; G's Labour couplets; perhaps a more even spread of the Labour houses; perhaps a different technique and lower quality), are Lucero's inferences from the text and from the price of the Madrigal book [@luceroTableroJuego15882019, 204–6; @sanchezFILOSOFIACORTESANAALONSO, 20, 43–44]. The house numbers of G's Labour squares, its images, its labels, and whether it bore the rule labels that M quotes ("Al privado … 26") are all unknown.
+- **The G board.** No copy survives. Its existence, and its differences (Poverty on 59; G's Labour couplets; perhaps a more even spread of the Labour squares; perhaps a different technique and lower quality), are Lucero's inferences from the text and from the price of the Madrigal book [@luceroTableroJuego15882019, 204–6; @sanchezFILOSOFIACORTESANAALONSO, 20, 43–44]. The square numbers of G's Labour squares, its images, its labels, and whether it bore the rule labels that M quotes ("Al privado … 26") are all unknown.
 - Whether G was meant to be played with one die or two. G's text says "el dado"; M says two dice or six arenillas but also "el dado".
 - The location of several readings in Lucero's tables ("está pintado" G-39, "Y ansí" G-18, "la mejor suerte es azar" G-21).

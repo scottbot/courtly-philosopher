@@ -36,7 +36,7 @@
       h += `${anchors}<div class="seg ${esc(s.kind)}" id="${esc(s.id)}">`;
       if (s.kind === 'description') h += `<div class="en desc small muted">${s.en}</div>`;
       else h += `<div class="es" lang="es">${body(s.es, s.kind)}</div><div class="en">${s.kind === 'verse' ? body(s.en, 'verse') + (s.lit ? `<div class="small muted" style="font-family:var(--f-body)">Literally: ${esc(s.lit)}</div>` : '') : s.en}</div>`;
-      h += `<div class="loc">${loc(s)}${s.squares.filter(x => /^\d+$/.test(x)).map(x => `<a href="atlas.html#${x}">house ${x}</a>`).join('')}</div>`;
+      h += `<div class="loc">${loc(s)}${s.squares.filter(x => /^\d+$/.test(x)).map(x => `<a href="atlas.html#${x}">square ${x}</a>`).join('')}</div>`;
       if (s.note) h += `<div class="full tnote">${s.note}</div>`;
       h += `</div>`;
       (after[s.id] || []).forEach(m => {

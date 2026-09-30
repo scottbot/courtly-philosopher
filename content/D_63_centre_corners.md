@@ -19,27 +19,27 @@ see: |
   right, and the sea around the gate, have their own notes (see "The man outside" and "The
   Sea of Suffering").
 why: |
-  The palm is the prize of the whole suit: the office or favour the courtier has been
+  The palm is the prize of the whole petition: the office or favour the courtier has been
   chasing. Barros says it is the palm with which the ancients crowned those who showed
   endurance in adversity and good fortune in the outcome. The words on it, "Neither too much
   nor too little", are both a rule and a moral: you must reach the palm with exactly the
-  points needed, just as a suitor should make neither more nor fewer efforts than his
-  business requires. They also teach temperance, keeping to the mean: not growing proud when
+  points needed, just as a petitioner should make neither more nor fewer efforts than their
+  case requires. They also teach temperance, keeping to the mean: not growing proud when
   you win, not losing heart when you lose [@barrosFilosofiaCortesanaMoralizada1588, pdf 53–54].
   Because nothing obtained is secure, least of all high office, the verse below warns that
   fortune at its fullest is like the moon, which does not stay full
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 54–55].
   In play, only an exact throw wins. If the dice give more points than are needed, the
-  counter goes back by the surplus, and the player pays one stake each time he has to go back
+  counter goes back by the surplus, and the player pays one stake each time they have to go back
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 68–69]. The number 63 itself comes from the
   Game of the Goose, which Barros adapted (see Context).
 context: |
   The exact finish, with the surplus counted back, is the rule of the Game of the Goose, the
   63-square race game that had reached Philip II's court by 1585; Barros kept it along with
   the number of squares, so that his board stayed recognisable [@luceroFilosofiaCortesanaJuego2020, 122–25; @sevilleImportanceTextPrinted2026, 66; @infantesPinturaQueSe2010, 134–35].
-  Lucero ties the number 63 to the ages of man and to the climacteric years, the seventh-year
-  thresholds of life that were thought dangerous. He cites Pedro Mexía's *Silva de varia
-  lección*, where the most feared of all was the sixty-third: {q|luceroFilosofiaCortesanaJuego2020|pdf9|125|el más temido de todos era el año sesenta y tres}
+  Lucero ties the number 63 to the ages of human life and to the climacteric years, the
+  seventh-year thresholds of life that were thought dangerous. He cites Pedro Mexía's *Silva
+  de varia lección*, where the most feared of all was the sixty-third: {q|luceroFilosofiaCortesanaJuego2020|pdf9|125|el más temido de todos era el año sesenta y tres}
   ("the most feared of all was the sixty-third year"), and notes that such warnings reached
   Philip II himself [@luceroFilosofiaCortesanaJuego2020, 125]. Seville reads the Goose game's
   63 in the same way, as the Grand Climacteric, the critical year of a life, and
@@ -72,19 +72,19 @@ variants: |
     edition of Pedro Madrigal (M) has "Vitoria" [@sanchezEdicionesAntiguasFilosofia2016oct16, 187];
     the 1588 book (C) has "la casa de la vitoria" [@barrosFilosofiaCortesanaMoralizada1588, pdf 53];
     the board, "VITORIA" [board].
-  - Winning rule. Only M says that whoever lands exactly on house 63, where the palm is,
+  - Winning rule. Only M says that whoever lands exactly on square 63, where the palm is,
     takes everything in the pot, both the opening stakes and all later payments
     [@debarrosFilosofiaCortesana1587; @sanchezEdicionesAntiguasFilosofia2016oct16, 189–90].
     G ends with the overshoot rule and "Deo gratias" [@luceroTableroJuego15882019, 204]; C
     also ends with the overshoot rule, never states how the game is won, and never numbers
     the palm's square [@barrosFilosofiaCortesanaMoralizada1588, pdf 68–69]. M also exempts a
-    player who lands on Poverty from paying when he goes back [@debarrosFilosofiaCortesana1587; @GameGooseLargest].
+    player who lands on Poverty from paying when they go back [@debarrosFilosofiaCortesana1587; @GameGooseLargest].
   - Neither book mentions the numerals 6 and 3 that the board shows (our observation).
 readings: |
   Collar de Cáceres reads the exact-throw motto as Barros's lesson of temperance
   [@decaceresTableroItalianoFilosofia2009, 97], and Seville likewise: make neither more nor
   less effort than needed and keep to the middle ground [@sevilleImportanceTextPrinted2026, 73].
-  Martínez Millán connects the motto with the exact span of years a life allows for a suit
+  Martínez Millán connects the motto with the exact span of years a life allows for a petition
   and, above all, with Stoic impassibility before Fortune [@millanFilosofiaCortesanaAlonso1996, 481].
   Lucero holds that Barros emptied the Goose board's numbering of its numerological meaning,
   probably through ignorance, but kept the total of 63 [@luceroFilosofiaCortesanaJuego2020, 125–26].
@@ -120,12 +120,12 @@ why: |
   Barros describes a man "outside" (por defuera) holding on to the branches of the palm and
   straining to raise himself above the lowness of his lot. The palm bends and does not
   break, and by nature it lifts whoever leans on it, so the pair figure the contest between
-  the brave man and adverse fortune. He seems to have caught a fish in the sea of his labour,
+  the brave person and adverse fortune. He seems to have caught a fish in the sea of his labour,
   but he leaves a shoe behind: nothing is gained for nothing, and there is no true victory
   without risk, labour and cost. The cost will seem greater than the return, and so, that
   the cost should not deter him, his verse follows
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 55–56].
-  The verse turns on a pun: *cuesta* is "a slope" and also "it costs". A man who stops to
+  The verse turns on a pun: *cuesta* is "a slope" and also "it costs". Whoever stops to
   count what the climb costs will never get up the hill.
 context: |
   The image adapts the emblem-book palm. In Alciato's *Obdurandum adversus urgentia* a boy
@@ -176,7 +176,7 @@ see: |
   the board would each see part of it the right way up (our observation). What it contains:
   - A strapwork cartouche in two panels, Italian left and Spanish right: "Mare di
     soffrimento / chi pretende hà dà soffrire / come chi nasce il morire" and "Mar de
-    suffrimiento / quien pretende ha de sus: srir / como el que nace morir" ("Who sues for
+    suffrimiento / quien pretende ha de sus: srir / como el que nace morir" ("Who petitions for
     favour must endure, / as birth makes dying just as sure").
   - A galley under sail, drawn on its side: a dark hull with a bank of oars and rowers' heads,
     a lateen yard with two bellying sails, a small grapnel or anchor at the bow.
@@ -203,15 +203,15 @@ see: |
 why: |
   Barros puts in the middle of the board a sea called Suffering, "sufrimiento" in its old
   sense of patient endurance, because of the endurance needed by anyone who plunges into this
-  abyss of suits. He must always go in anxiety, running through different fortunes, with
+  abyss of petitions. They must always go in anxiety, running through different fortunes, with
   more patience than a rod fisherman, whose submission is as forced as the verse says
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 56–57]. In sea language *correr fortuna* is
   to ride out a storm, so "different fortunes" are also different storms (our observation).
-  The couplet compares the suitor's suffering to death: both come with the condition, to
-  sue and to be born.
+  The couplet compares the petitioner's suffering to death: both come with the condition, to
+  petition and to be born.
 context: |
-  The sea of suits was already a figure in the book's preliminaries: Cervantes's sonnet,
-  printed in M and C but not in G [@sanchezEdicionesAntiguasFilosofia2016oct16, 179–81], promises that whoever sails the mad gulf of the sea of suits will find
+  The sea of petitions was already a figure in the book's preliminaries: Cervantes's sonnet,
+  printed in M and C but not in G [@sanchezEdicionesAntiguasFilosofia2016oct16, 179–81], promises that whoever sails the mad gulf of the sea of petitions will find
   the thread of the courtly labyrinth [@barrosFilosofiaCortesanaMoralizada1588, pdf 15].
   Bidwell-Steiner takes the board's centre as that sea made visible
   [@bidwell-steinerFilosofiaCortesanaAlfonso2024, 197]. Barros opens his book with the same
@@ -276,7 +276,7 @@ see: |
 why: |
   Barros closes his book with the three figures in the outer corners. The dolphin with an
   anchor means speed and firmness. Read together with the woman (Occasion) and the clock,
-  they say that in a suit nothing is safe until its end, so the suitor must persist with
+  they say that in a petition nothing is safe until its end, so the petitioner must persist with
   great care and firmness, fearing neither labour nor cost, and losing neither occasion nor
   time, because what is lost of these is never recovered. Time for making efforts is given
   up to the last hour and no more, and the efforts made will, after death, bear witness to
@@ -344,7 +344,7 @@ why: |
   bald behind, with a forelock blown by the wind [@decaceresTableroItalianoFilosofia2009, 93]:
   a chance can be caught by the forelock as it comes towards you, and not at all once it has
   passed. Her words speak for her. In Barros's lesson
-  of the three corners, the suitor must lose neither occasion nor time, because neither can
+  of the three corners, the petitioner must lose neither occasion nor time, because neither can
   be recovered [@barrosFilosofiaCortesanaMoralizada1588, pdf 58–59].
 context: |
   Occasion, the Greek Kairos, merged with Fortune in medieval and Renaissance images, as
@@ -406,7 +406,7 @@ why: |
   lesson of the corners ends here: time for making efforts is granted up to the last hour and
   no more, and those efforts will, after death, bear witness to the life
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 59]. For the player: keep going to the end,
-  because nothing in a suit is settled before it.
+  because nothing in a petition is settled before it.
 context: |
   Martínez Millán reads the clock as the vanity and fleetingness of life, with parallels in
   the enigmas of Cristóbal Pérez de Herrera, a member of Barros's circle
@@ -453,15 +453,15 @@ why: |
   Barros describes the swan in his account of the entrance, not with the three corner
   figures: to show that the difficulties of the end often come from the choice made at the
   beginning, a swan stands over the door with one foot raised on a death's head, the end of
-  all things, and a trumpet, crying out that each should know himself and look to the end of
-  what he seeks, so that he does not complain of his fortune afterwards
+  all things, and a trumpet, crying out that each should know themselves and look to the end of
+  what they seek, so that they do not complain of their fortune afterwards
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 26–27]. Barros counts only three figures in
   the outer corners [@barrosFilosofiaCortesanaMoralizada1588, pdf 57]; the board makes the swan
   the fourth (our observation).
 context: |
   Collar de Cáceres finds three ideas joined here: the swan's song, sung before its death,
   as in Horapollo's *Hieroglyphica* and Plato's *Phaedo*; the summons to the game of
-  ambition; and the call to measure one's suit against one's merits. The motto is the one
+  ambition; and the call to measure one's petition against one's merits. The motto is the one
   inscribed on the temple of Apollo at Delphi [@decaceresTableroItalianoFilosofia2009, 93, 103].
   In Alciato the swan is the poets' bird, not a sign of death
   [@web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a184].
@@ -484,7 +484,7 @@ readings: |
   Lucero sees in the swan a transformation of the original goose: {q|luceroFilosofiaCortesanaJuego2021juin20|pdf9|140|La sonora trompeta del cisne sobre la calavera que timbra el arco de entrada, trasunto peculiar de la oca primitiva}
   ("the ringing trumpet of the swan on the skull that crowns the entrance arch, a peculiar
   copy of the original goose"), which makes the warnings impossible to miss: before entering,
-  one must choose one's state wisely, and not every man is made for the court
+  one must choose one's state wisely, and not everyone is made for the court
   [@luceroFilosofiaCortesanaJuego2021juin20, 139–40]. Wood reads the portal as a *memento
   mori* opening a virtual pilgrimage toward salvation [@woodChancingItPrint2019, 463, 466].
   Wilson, from the 1587 text, reads the trumpet as fame and the skull as death: good credit,
@@ -517,13 +517,13 @@ see: |
 why: |
   The title is the name under which the king licensed the picture: the royal privilege
   printed in the books speaks of a picture entitled Filosofia Cortesana on a large sheet,
-  which Barros had moralised in a separate text [@barrosFilosofiaCortesanaMoralizada1588, pdf 9].
+  which Barros had given a moral explanation in a separate text [@barrosFilosofiaCortesanaMoralizada1588, pdf 9].
   The book's title adds "moralizada"; the board does not (our observation). "Criado del Rey"
   was Barros's standing style on every title page. He was a minor royal servant, an
   *aposentador*, one of the officers who found lodgings for the court
   [@decaceresTableroItalianoFilosofia2009, 82; @sevilleImportanceTextPrinted2026, 70].
   A privilege was a monopoly. Philip II's, dated Madrid, 9 February 1587, gave Barros for
-  ten years the sole right to print and sell the picture and its moralisation in the king's
+  ten years the sole right to print and sell the picture and its moral explanation in the king's
   kingdoms and lordships; unlicensed copies, with the plates and tools used, were to be
   forfeit and a fine of 50,000 maravedís paid for each offence
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 9–12]. The sheet carries a second grant, from
@@ -617,7 +617,7 @@ title_en: A Plain Square
 title_es: casa (no name)
 board_it: (none)
 kind: plain
-rule_short: Stay here. If someone lands on you, you take the square he has just left and pay one stake for going back.
+rule_short: Stay here. If someone lands on you, you take the square they have just left and pay one stake for going back.
 see: |
   A bay between two balusters holding nothing but its engraved number and a strip of
   hillocky ground with grass and a single small plant, flowering or leafy, different from bay
@@ -629,11 +629,11 @@ see: |
   foot of the Victory gate [board].
 why: |
   In the Madrid edition of Pedro Madrigal, Barros explains that the sheet is painted with 63
-  houses, which are the years of life spent in a suit, and also the years the suit uses up
+  squares, which are the years of life spent in a petition, and also the years the petition uses up
   (M, fol. 42r) [@debarrosFilosofiaCortesana1587; @millanFilosofiaCortesanaAlonso1996, 470].
   A plain square is one of those years in which nothing marked happens, but which still pass.
   In play they are where most throws end, and where rivals meet. Two counters may not share a
-  house: the newcomer stays and the one already there takes the square the newcomer left,
+  square: the newcomer stays and the one already there takes the square the newcomer left,
   since that, Barros says, is the way of competition
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 27–28, 66]. Near the end they decide the exact
   count. With two dice (Madrigal's rules also allow six arenillas, dice marked on one face)
@@ -641,16 +641,16 @@ why: |
   (our observation).
 context: |
   Lucero puts the squares' meaning this way: {q|luceroFilosofiaCortesanaJuego2020|pdf9|125|Las casas del recorrido son para Barros «los años de la vida que se gastan en una pretensión y los que también la gastan a ella», hasta el climaterio}
-  ("For Barros the houses of the course are 'the years of life spent in a suit, and those
-  the suit also spends', up to the climacteric") [@luceroFilosofiaCortesanaJuego2020, 125].
+  ("For Barros the squares of the course are 'the years of life spent in a petition, and those
+  the petition also spends', up to the climacteric") [@luceroFilosofiaCortesanaJuego2020, 125].
   He adds that Barros kept the Goose game's division into marked and unmarked squares
   [@luceroFilosofiaCortesanaJuego2020, 125]. The reading of the Goose game's own 63 squares as
   63 years of life goes back, in Wood's account, to Mascheroni and Tinti, and Seville reads
   them as a spiritual journey through a life [@woodChancingItPrint2019, 466; @sevilleImportanceTextPrinted2026, 64].
   Collar de Cáceres notes that the strip of land runs continuously from start to end, joining
   the labour squares [@decaceresTableroItalianoFilosofia2009, 91].
-  M's worked example plays on plain squares: Pedro throws 6 and puts his ring on house 6;
-  when Rodrigo later takes Pedro's house, Pedro goes back to house 5, where Rodrigo had been,
+  M's worked example plays on plain squares: Pedro throws 6 and puts his ring on square 6;
+  when Rodrigo later takes Pedro's square, Pedro goes back to square 5, where Rodrigo had been,
   and pays a stake because he went back [@GameGooseLargest; @sanchezEdicionesAntiguasFilosofia2016oct16, 190].
 variants: |
   - The set of plain squares was not fixed. In G, Poverty stands at 59, so G's board (lost)
@@ -659,7 +659,7 @@ variants: |
     Lucero also infers that G's labour squares may have been spread more evenly along the
     track [@sanchezFILOSOFIACORTESANAALONSO, 20].
   - Sharing a square. C gives the swap rule twice [@barrosFilosofiaCortesanaMoralizada1588, pdf 28, 66];
-    M adds that at the start of the game the displaced player is left without a house, and
+    M adds that at the start of the game the displaced player is left without a square, and
     its example charges a stake for going back [@GameGooseLargest].
   - The "years of life" passage belongs to M's "Declaración del juego", which the 1588 book
     lacks [@sanchezEdicionesAntiguasFilosofia2016oct16, 189–90; @barrosFilosofiaCortesanaMoralizada1588, pdf 66];
@@ -669,7 +669,7 @@ readings: |
   Bidwell-Steiner takes the 63 squares as the length of a court career, {q|bidwell-steinerFilosofiaCortesanaAlfonso2024|pdf11|205|una carrera cortesana que, según el autor, demora 63 años}
   ("a court career which, according to the author, lasts 63 years")
   [@bidwell-steinerFilosofiaCortesanaAlfonso2024, 205]. Martínez Millán relates the exact
-  finish to the exact number of years a life allows for a suit
+  finish to the exact number of years a life allows for a petition
   [@millanFilosofiaCortesanaAlonso1996, 481]. Wood writes that the game represents {q|woodChancingItPrint2019|pdf14|463|an austere year of a courtier’s life}
   [@woodChancingItPrint2019, 463]; Barros's text speaks of the years of a life, not of one
   year (our observation). Lucero adds the climacteric to Barros's "years of

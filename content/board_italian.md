@@ -12,7 +12,7 @@
 | 4 | heading | trauaglio | Labour (lit. "travail, toil") | — |
 | 4 | verse | Il trauaglio all'hor ti sente / quand'il premio è poco ò ni[en]te | Labour is felt by you [lit. "feels you"] only then, / when the reward is little or nothing. | Spanish: "Labour is never felt except when the reward is low." Italian turns "never … except when" into "only then … when" and adds "or nothing". "ti sente" (lit. "feels you") is odd; evidently "you feel it". Heading: Italian *travaglio* means toil, trouble, affliction; it lacks the everyday "work" of Spanish *trabajo*, so the work/hardship pun is only half kept. (Spanish on the board: "Nunca se siente el trabajo / sino qua[n]do el premio es bajo") |
 | 7 | heading | Il prodigo | The Prodigal | — |
-| 7 | verse | Il prodigo ha gli amici allato / mentre mangia accompag[n]ato | The prodigal has friends at his side / while he eats in company. | Spanish "cuando come con testigos" ("when he eats with witnesses"): Italian "accompagnato" ("in company") loses the barb that the friends are only witnesses to his spending. The board's Spanish has "quando" (when) where the book has "Quanto" (as long as). (Spanish on the board: "El prodigo tiene amigos / qua[n]do come co[n] testigos") |
+| 7 | verse | Il prodigo ha gli amici allato / mentre mangia accompag[n]ato | The prodigal has friends at his side / while he eats in company. | Spanish "cuando come con testigos" ("when he eats with witnesses"): Italian "accompagnato" ("in company") loses the barb that the friends are only witnesses to the prodigal's spending. The board's Spanish has "quando" (when) where the book has "Quanto" (as long as). (Spanish on the board: "El prodigo tiene amigos / qua[n]do come co[n] testigos") |
 | 10 | heading | Adulatione | Flattery | — |
 | 10 | verse | L'adulatione e inganno / uendon la mostra bona è tristo pa[n]no | Flattery and deceit / sell the good sample and the sorry cloth. | Same trade image (the fine sample shown, the bad cloth delivered). Spanish "fina / falso" ("fine / false") becomes "bona / tristo" ("good / wretched"). The board's Spanish reverses the book's line order ("Vende adulacion y enganno / muestra fina…"); the Italian follows the board's order. (Spanish on the board: "Vende adulacion y e[n]ganno / muestra fina y falso paño") |
 | 12 | heading | trauaglio | Labour | — |
@@ -30,7 +30,7 @@
 | 26 | verse | Non cercar mano aliena / se la tua non serà piena | Do not seek another's hand / if yours will not be full. | Same sense; "cercar" ("seek") for "pidas" ("ask"); future "serà" ("will be") for "va" ("goes"). (Spanish on the board: "No pidas la mano agena / si la tuya no va llena") |
 | 26 | rule label | Paga. | Pay. | The same word in both languages. Barros: one stake here, one at 15. |
 | 28 | heading | Sorte | The Throw (*sorte*: lot, chance, a throw) | — |
-| 28 | verse | A'cui fortuna è auara / la sorte diuien zara | For him to whom Fortune is miserly, / the throw turns into *zara*. | Spanish: "If there is no luck in suing (*negociar*), the throw turns to *azar*." Italian replaces the courtly business with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish "acar" (no cedilla). (Spanish on the board: "Si no ay dicha en negociar / la suerte buelue acar") |
+| 28 | verse | A'cui fortuna è auara / la sorte diuien zara | For him to whom Fortune is miserly, / the throw turns into *zara*. | Spanish: "If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*." Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish "acar" (no cedilla). (Spanish on the board: "Si no ay dicha en negociar / la suerte buelue acar") |
 | 30 | heading | trauaglio | Labour | — |
 | 30 | verse | S'arrende al fin fortuna / s'il trauaglio l'inportuna | Fortune surrenders in the end / if labour importunes her. | Same. (Spanish on the board: "Al fin se rinde fortuna / si el trabajo la importuna") |
 
@@ -45,9 +45,9 @@
 | 34 | verse | Il frutto della spene / con il trauaglio uiene | The fruit of hope / comes with labour. | Same; "spene" is the poetic word for hope; "viene" ("comes") for "se alcanza" ("is reached"). (Spanish on the board: "El fruto dela esperança / por el trabajo se alcança") |
 | 36 | heading | Che diranno | What will they say | — |
 | 36 | verse | Chi seru' à quel che diranno / pigli il soldo che li danno | Who serves "what they will say", / let him take the wage they give him. | Same sense; "soldo" (a wage, a soldier's pay, a coin) for "pago" ("payment"). Board Spanish "sireue" (sic). (Spanish on the board: "El que sireue al que diran / tome el pago q[ue] le dan") |
-| 36 | rule label | Alla sorte ·n·° 28 ·Paga | To the Throw, no. 28. Pay. | Italian only. "la sorte" here = the Dice house at 28. |
+| 36 | rule label | Alla sorte ·n·° 28 ·Paga | To the Throw, no. 28. Pay. | Italian only. "la sorte" here = the Dice square at 28. |
 | 39 | heading | Falsa amicitia | False friendship | — |
-| 39 | verse | Rendon gratie per aggrauij / quando negotian gli sauij | They render thanks for injuries / when the wise do business. | Spanish: "By giving thanks for injuries, wise men do their business": the thanks are the means. Italian makes them the occasion ("quando", "when"). Board Spanish "Dondo" (sic for "Dando"). (Spanish on the board: "Dondo gra[cia]s por agrauios / negocian los honbres sabios") |
+| 39 | verse | Rendon gratie per aggrauij / quando negotian gli sauij | They render thanks for injuries / when the wise press their cases. | Spanish: "By giving thanks for injuries, wise men press their cases": the thanks are the means. Italian makes them the occasion ("quando", "when"). Board Spanish "Dondo" (sic for "Dando"). (Spanish on the board: "Dondo gra[cia]s por agrauios / negocian los honbres sabios") |
 | 39 | rule label | Al prodigo ·n·° ·7·Paga | To the Prodigal, no. 7. Pay. | Italian only. |
 | 41 | heading | trauaglio | Labour | — |
 | 41 | verse | Trauaglio e il non hauere / da poter mangiare e bere | Hardship is not having [the means] / to be able to eat and drink. | Spanish: "It is hardship not to have it [work], for one who must eat by it", a pun on *trabajo* (work / hardship). Italian loses both the pun and the work: hardship is simply lacking food and drink. (Spanish on the board: "Trabajo es no le tener / el q[ue] del a de comer") |
@@ -80,7 +80,7 @@
 
 | Element | Italian as engraved | Literal English | How the Italian differs from the Spanish |
 |---|---|---|---|
-| Central cartouche (the sea) | Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire | Sea of suffering / whoever sues must suffer, / as whoever is born [must suffer] dying. | Same (verse "sea"). Italian *pretendere* = to claim, aspire; it does not carry the technical courtly sense of Spanish *pretender*, "to sue for office". *soffrimento* = suffering; Spanish *sufrimiento* also means endurance. Spanish on the board: "Mar de suffrimiento / quien pretende ha de sus: srir / como el que nace morir" ("sussrir", sic). |
+| Central cartouche (the sea) | Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire | Sea of suffering / whoever petitions must suffer, / as whoever is born [must suffer] dying. | Same (verse "sea"). Italian *pretendere* = to claim, aspire; it does not carry the technical courtly sense of Spanish *pretender*, "to petition for office". *soffrimento* = suffering; Spanish *sufrimiento* also means endurance. Spanish on the board: "Mar de suffrimiento / quien pretende ha de sus: srir / como el que nace morir" ("sussrir", sic). |
 | Numerals in the aedicule | 6 3 | 63 | — |
 | Cartouche below the palm | VITORIA | Victory | Spanish only (the Spanish spelling; no Italian form given). |
 | Verses of the man at the palm | Mai salirà gran costa / che mira quanto costa | He will never climb a great slope / who looks at how much it costs. | Same, and the pun survives: Italian *costa* = hillside, and *costa* = it costs, as Spanish *cuesta* / *cuesta* (verse h63b). Spanish on the board: "Nunca subira gran cuesta / quien mira · lo q[ue] cuesta" ("mira", not the book's "mirare"). |
@@ -90,7 +90,7 @@
 
 | Element | Text as engraved | Language | Literal English | Note |
 |---|---|---|---|---|
-| Entrance gate | Guarda l'fine | Italian | Look to the end. (lit. "Watch the end") | Italian only; no Spanish on the board (fixed c-gate). Barros's Spanish has the trumpet warn each man to "mire al fin de lo que pretende" ("look to the end of what he seeks"). |
+| Entrance gate | Guarda l'fine | Italian | Look to the end. (lit. "Watch the end") | Italian only; no Spanish on the board (fixed c-gate). Barros's Spanish has the trumpet warn each person to "mire al fin de lo que pretende" ("look to the end of what he seeks"). |
 | Corner, bottom left (swan with trumpet on a skull) | Noscete ipsum | Latin | Know thyself. | Latin only ("Nosce te ipsum", engraved as one word; fixed c-swan). Barros's Declaración (M only) gives it in Spanish, "Conócete a ti mismo". |
 | Corner, top left (dolphin and anchor) | Dateprisa aespacio | Spanish | Make haste slowly. (lit. "Hurry yourself at leisure") | Spanish only; engraved "a espacio", not "despacio" (fixed c-dolphin). Barros: speed and firmness. |
 | Corner, top right (Occasion reclining) | No me pierdas | Spanish | Don't lose me. | Spanish only (fixed c-occasion). |
@@ -130,7 +130,7 @@
   "it_gloss": "The prodigal has friends at his side / while he eats in company.",
   "rule_it": "",
   "rule_en": "",
-  "note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to his spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as)."
+  "note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to the prodigal's spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as)."
  },
  "sq10": {
   "heading_it": "Adulatione",
@@ -202,7 +202,7 @@
   "it_gloss": "For him to whom Fortune is miserly, / the throw turns into *zara*.",
   "rule_it": "",
   "rule_en": "",
-  "note": "Spanish: \"If there is no luck in suing (*negociar*), the throw turns to *azar*.\" Italian replaces the courtly business with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla)."
+  "note": "Spanish: \"If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*.\" Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla)."
  },
  "sq30": {
   "heading_it": "trauaglio",
@@ -238,16 +238,16 @@
   "it_gloss": "Who serves \"what they will say\", / let him take the wage they give him.",
   "rule_it": "Alla sorte ·n·° 28 ·Paga",
   "rule_en": "To the Throw, no. 28. Pay.",
-  "note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice house at 28."
+  "note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice square at 28."
  },
  "sq39": {
   "heading_it": "Falsa amicitia",
   "heading_en": "False friendship",
   "it": "Rendon gratie per aggrauij / quando negotian gli sauij",
-  "it_gloss": "They render thanks for injuries / when the wise do business.",
+  "it_gloss": "They render thanks for injuries / when the wise press their cases.",
   "rule_it": "Al prodigo ·n·° ·7·Paga",
   "rule_en": "To the Prodigal, no. 7. Pay.",
-  "note": "Spanish: \"By giving thanks for injuries, wise men do their business\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only."
+  "note": "Spanish: \"By giving thanks for injuries, wise men press their cases\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only."
  },
  "sq41": {
   "heading_it": "trauaglio",
@@ -353,9 +353,9 @@
  },
  "centre_cartouche": {
   "it": "Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire",
-  "it_gloss": "Sea of suffering / whoever sues must suffer, / as whoever is born [must suffer] dying.",
+  "it_gloss": "Sea of suffering / whoever petitions must suffer, / as whoever is born [must suffer] dying.",
   "rule_en": "",
-  "note": "Same sense; Italian pretendere lacks the courtly \"sue for office\" sense."
+  "note": "Same sense; Italian pretendere lacks the courtly \"petition for office\" sense."
  },
  "palm_man_verses": {
   "it": "Mai salirà gran costa / che mira quanto costa",
