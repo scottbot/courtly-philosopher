@@ -1,0 +1,1250 @@
+[
+ {
+  "n": 32,
+  "heading": "Pozzo del oblio",
+  "it": "Pone in oblio l'ingrato / tutto il ben che li fu dato",
+  "es": "Pone el ingrato en oluido / quanto bien hae recibido",
+  "rule": "Per le fune ·1· et ·2· fermesi / Para sogas ·1· y ·2· estese",
+  "image_desc": "A round brick well-head (drawn in perspective) with a winch frame and crank handle on its right; a man inside the shaft, visible from the waist up, grips the rope with both hands to haul himself out.",
+  "blank": false,
+  "center": [
+   295,
+   2027
+  ],
+  "quad": [
+   [
+    100,
+    1905
+   ],
+   [
+    482,
+    1905
+   ],
+   [
+    492,
+    2150
+   ],
+   [
+    105,
+    2150
+   ]
+  ],
+  "rot": 90,
+  "img_bbox": [
+   245,
+   1935,
+   478,
+   2128
+  ],
+  "notes": "Heading, Italian and Spanish verses are engraved along the outer (left) side of the square, reading top-to-bottom (rot 90). The rule label is a separate two-line box in the gutter just inside the ring's inner edge, x 500-575, y 1880-2150, same orientation. The '2' is cut like a 'z' in both rule lines. 'hae recibido' (not 'recebido', as the La Bella Donna blog prints it): the image shows r-e-c-i-b-i-d-o; Collar also reads 'recibido'. 'sogas' is clear (the blog's 'sogar' is wrong). Number '32' engraved at (470,2010) beside the winch."
+ },
+ {
+  "n": 33,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: a strip of ground with grass and a small leafy flowering plant (the continuous landscape strip that runs through the plain squares).",
+  "blank": true,
+  "center": [
+   340,
+   2262
+  ],
+  "quad": [
+   [
+    108,
+    2150
+   ],
+   [
+    495,
+    2150
+   ],
+   [
+    565,
+    2300
+   ],
+   [
+    185,
+    2410
+   ]
+  ],
+  "rot": 80,
+  "img_bbox": [
+   260,
+   2180,
+   420,
+   2340
+  ],
+  "notes": "Number '33' at (515,2215). The text visible just to the right (x 560-700, y 2190-2380, 'Casa d'la pouerta ... del fauor') belongs to square 60 in the next ring inward, not to 33."
+ },
+ {
+  "n": 34,
+  "heading": "trauaglio",
+  "it": "Il frutto della spene / con il trauaglio uiene",
+  "es": "El fruto dela esperança / por el trabajo se alcança",
+  "rule": null,
+  "image_desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right; above, by the number, a cluster of fruit hangs on a cord (the 'frutas enhiladas' of the labour squares).",
+  "blank": false,
+  "center": [
+   430,
+   2445
+  ],
+  "quad": [
+   [
+    195,
+    2405
+   ],
+   [
+    560,
+    2300
+   ],
+   [
+    622,
+    2450
+   ],
+   [
+    385,
+    2605
+   ]
+  ],
+  "rot": 68,
+  "img_bbox": [
+   321,
+   2394,
+   529,
+   2559
+  ],
+  "notes": "Text box (heading in a small cartouche, then 2+2 lines) sits against the outer edge of the square, x 215-350, y 2400-2625, reading steeply downward (rot ~68). 'spene' as engraved (n, not m): agrees with Collar ('spene'); the La Bella Donna blog/giochidelloca 'speme' normalises. 'trabajo' cut with a long j. Fruit cluster bbox [475,2358,586,2476]."
+ },
+ {
+  "n": 35,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with a single small flower; the wing and body of the corner swan ('Nosce te ipsum' device) overlap the outer part of the square.",
+  "blank": true,
+  "center": [
+   565,
+   2620
+  ],
+  "quad": [
+   [
+    385,
+    2605
+   ],
+   [
+    622,
+    2450
+   ],
+   [
+    730,
+    2585
+   ],
+   [
+    510,
+    2830
+   ]
+  ],
+  "rot": 40,
+  "img_bbox": [
+   520,
+   2620,
+   600,
+   2720
+  ],
+  "notes": "Number '35' at (680,2530). The swan with trumpet standing on a skull on the entrance arch is a corner device (other agent), not part of square 35."
+ },
+ {
+  "n": 36,
+  "heading": "Che diranno",
+  "it": "Chi seru' à quel che diranno / pigli il soldo che li danno",
+  "es": "El que sireue al que diran / tome el pago q[ue] le dan",
+  "rule": "Alla sorte ·n·° 28 ·Paga",
+  "image_desc": "A man in a cap and cloak sits on the ground, his cheek resting on his hand in a melancholy pose, beside a large lopped tree stump with one cut-off branch.",
+  "blank": false,
+  "center": [
+   720,
+   2730
+  ],
+  "quad": [
+   [
+    510,
+    2830
+   ],
+   [
+    730,
+    2585
+   ],
+   [
+    917,
+    2653
+   ],
+   [
+    843,
+    2887
+   ]
+  ],
+  "rot": 28,
+  "img_bbox": [
+   640,
+   2610,
+   882,
+   2872
+  ],
+  "notes": "Rule label in a box above the square along the ring's inner edge (x 760-960, y 2560-2700), reading down-right (rot ~30). Heading and verses are in a box outside the square's outer edge, below the pedestal, x 540-800, y 2820-2990 (rot ~28). 'sireue' as engraved (so Collar 'sireue (sic)'; the blog's 'siru(v)e' normalises). 'n' with superscript 'o' ('n.º')."
+ },
+ {
+  "n": 37,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a small leafy sprig.",
+  "blank": true,
+  "center": [
+   985,
+   2800
+  ],
+  "quad": [
+   [
+    843,
+    2887
+   ],
+   [
+    917,
+    2653
+   ],
+   [
+    1085,
+    2697
+   ],
+   [
+    1085,
+    2948
+   ]
+  ],
+  "rot": 0,
+  "img_bbox": [
+   900,
+   2810,
+   1010,
+   2900
+  ],
+  "notes": "Number '37' at (960,2700)."
+ },
+ {
+  "n": 38,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a single flowering plant.",
+  "blank": true,
+  "center": [
+   1185,
+   2825
+  ],
+  "quad": [
+   [
+    1085,
+    2948
+   ],
+   [
+    1085,
+    2697
+   ],
+   [
+    1285,
+    2702
+   ],
+   [
+    1285,
+    2952
+   ]
+  ],
+  "rot": 0,
+  "img_bbox": [
+   1150,
+   2820,
+   1230,
+   2920
+  ],
+  "notes": "Number '38' at (1180,2725)."
+ },
+ {
+  "n": 39,
+  "heading": "Falsa amicitia",
+  "it": "Rendon gratie per aggrauij / quando negotian gli sauij",
+  "es": "Dondo gra[cia]s por agrauios / negocian los honbres sabios",
+  "rule": "Al prodigo ·n·° ·7·Paga",
+  "image_desc": "A fox lying on its back feigning death, legs in the air, tail curled; five birds about it: two alight on its raised paws, three fly above.",
+  "blank": false,
+  "center": [
+   1395,
+   2815
+  ],
+  "quad": [
+   [
+    1285,
+    2952
+   ],
+   [
+    1285,
+    2702
+   ],
+   [
+    1484,
+    2680
+   ],
+   [
+    1541,
+    2902
+   ]
+  ],
+  "rot": -6,
+  "img_bbox": [
+   1292,
+   2692,
+   1504,
+   2928
+  ],
+  "notes": "Rule label in a box along the ring's inner edge above the square, x 1260-1480, y 2645-2700 (rot ~-5), directly under the verses of 63. Heading and verses in a box below the square's outer edge, x 1280-1560, y 2930-3080 (rot ~-6). 'Dondo' as engraved (sic for 'Dando'): Collar 'Dondo (sic)' agrees; Zollinger/giochidelloca 'Donda' is wrong. 'gras' carries an abbreviation stroke over the final s (both photographs); expanded gra[cia]s. The Seville notes' plate reading 'Dando gras' is wrong: 'Dondo' is clear in both photographs. 'honbres' with n. 'aggrauij', 'sauij' with final long ij."
+ },
+ {
+  "n": 40,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a flowering plant with three blooms. The cord from which square 41's fruit cluster hangs is tied to the top of the 40/41 baluster.",
+  "blank": true,
+  "center": [
+   1600,
+   2760
+  ],
+  "quad": [
+   [
+    1541,
+    2902
+   ],
+   [
+    1484,
+    2680
+   ],
+   [
+    1619,
+    2602
+   ],
+   [
+    1763,
+    2802
+   ]
+  ],
+  "rot": 0,
+  "img_bbox": [
+   1620,
+   2770,
+   1700,
+   2830
+  ],
+  "notes": "Number '40' at (1560,2655)."
+ },
+ {
+  "n": 41,
+  "heading": "trauaglio",
+  "it": "Trauaglio e il non hauere / da poter mangiare e bere",
+  "es": "Trabajo es no le tener / el q[ue] del a de comer",
+  "rule": null,
+  "image_desc": "A yoke of two oxen walking upward toward the upper right (toward square 42); by the number, a cluster of fruit hangs on a cord.",
+  "blank": false,
+  "center": [
+   1760,
+   2640
+  ],
+  "quad": [
+   [
+    1763,
+    2802
+   ],
+   [
+    1619,
+    2602
+   ],
+   [
+    1710,
+    2480
+   ],
+   [
+    1925,
+    2630
+   ]
+  ],
+  "rot": -38,
+  "img_bbox": [
+   1740,
+   2590,
+   1882,
+   2778
+  ],
+  "notes": "Heading and verses in a box outside the square's outer edge, x 1780-2110, y 2640-2920, reading up-right (rot ~-38). 'no le tener' as engraved (Collar 'no le tener' agrees; the La Bella Donna blog 'no lo tener' is wrong). 'q' with an abbreviation mark = q[ue]. Fruit cluster bbox [1675,2535,1770,2635]."
+ },
+ {
+  "n": 42,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a curling leafy plant along the outer edge.",
+  "blank": true,
+  "center": [
+   1860,
+   2470
+  ],
+  "quad": [
+   [
+    1925,
+    2630
+   ],
+   [
+    1710,
+    2480
+   ],
+   [
+    1780,
+    2335
+   ],
+   [
+    2020,
+    2400
+   ]
+  ],
+  "rot": -60,
+  "img_bbox": [
+   1880,
+   2400,
+   2000,
+   2600
+  ],
+  "notes": "Number '42' at (1755,2410)."
+ },
+ {
+  "n": 43,
+  "heading": "Mutanza d'ministri",
+  "it": "Chi limita sua speranza / soffra il colpo de mutanza",
+  "es": "Quin limita su esperança / sufra el golpe de mudança",
+  "rule": "Alla adulatione·n·° 10 ·Paga",
+  "image_desc": "Two men in long gowns stand facing each other; one passes a long staff (rod of office) to the other, who takes hold of it.",
+  "blank": false,
+  "center": [
+   1925,
+   2255
+  ],
+  "quad": [
+   [
+    2020,
+    2400
+   ],
+   [
+    1780,
+    2335
+   ],
+   [
+    1830,
+    2135
+   ],
+   [
+    2070,
+    2145
+   ]
+  ],
+  "rot": -90,
+  "img_bbox": [
+   1830,
+   2160,
+   2060,
+   2375
+  ],
+  "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1735-1800, y 2160-2340. Heading and verses in a box outside the outer edge, x 1990-2110, y 2160-2440. Engraved 'Chi' (Zollinger 'Che' wrong), 'sua' (the blog's 'su' wrong), 'de mutanza' (Collar prints 'di mutanza': the plate has 'de'), 'Quin' (sic; Zollinger 'Quin [lire Quien]' agrees; Collar normalises to 'Quien'). The z of 'Mutanza'/'speranza' is cut in the angular '2'-like form. The Seville notes' plate reading 'Chi mira in sua speranza / Quien mira su esperança' is wrong: the plate has 'limita' in both lines."
+ },
+ {
+  "n": 44,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a flowering plant.",
+  "blank": true,
+  "center": [
+   1960,
+   2025
+  ],
+  "quad": [
+   [
+    2070,
+    2145
+   ],
+   [
+    1830,
+    2135
+   ],
+   [
+    1840,
+    1912
+   ],
+   [
+    2090,
+    1915
+   ]
+  ],
+  "rot": -90,
+  "img_bbox": [
+   1960,
+   1950,
+   2070,
+   2110
+  ],
+  "notes": "Number '44' at (1860,2030)."
+ },
+ {
+  "n": 45,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a small flowering plant.",
+  "blank": true,
+  "center": [
+   1965,
+   1805
+  ],
+  "quad": [
+   [
+    2090,
+    1915
+   ],
+   [
+    1840,
+    1912
+   ],
+   [
+    1838,
+    1695
+   ],
+   [
+    2090,
+    1695
+   ]
+  ],
+  "rot": -90,
+  "img_bbox": [
+   1990,
+   1720,
+   2090,
+   1880
+  ],
+  "notes": "Number '45' at (1870,1800)."
+ },
+ {
+  "n": 46,
+  "heading": "Morte de lo ualitore",
+  "it": "L'huom ch'in huomo si confida / resta cieco senza guida",
+  "es": "El hombre que en ho[m]bres fia / queda qual ciego sin guia",
+  "rule": "In camincia de nuouo ·Paga·",
+  "image_desc": "A man in a broad-brimmed hat, head bowed, gropes forward with hands outstretched (the blind man); beside him on the ground lies an empty funeral bier with a cross on its pall and two carrying poles.",
+  "blank": false,
+  "center": [
+   1960,
+   1582
+  ],
+  "quad": [
+   [
+    2090,
+    1695
+   ],
+   [
+    1838,
+    1695
+   ],
+   [
+    1825,
+    1470
+   ],
+   [
+    2085,
+    1470
+   ]
+  ],
+  "rot": -90,
+  "img_bbox": [
+   1865,
+   1490,
+   2080,
+   1680
+  ],
+  "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1795-1850, y 1480-1700. Heading and verses outside the outer edge, x 2070-2200, y 1450-1720. RULE: the plate reads 'In camincia' (a, not o), confirmed in both photographs; Collar ('Incomincia di nuouo'), Zollinger and the blog ('Incomincia de nueue/nuouo') all normalise. 'de' (not 'di', Collar). Italian 'cieco' (the blog's 'cieca' is wrong). 'hobres' without a visible tilde; expanded ho[m]bres. 'sin guia' run together as 'singuia'. The Seville notes' 'L'huomo in huomo' is wrong: the plate has 'L'huom ch'in huomo'."
+ },
+ {
+  "n": 47,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a tall leafy plant along the outer edge.",
+  "blank": true,
+  "center": [
+   1940,
+   1360
+  ],
+  "quad": [
+   [
+    2085,
+    1470
+   ],
+   [
+    1825,
+    1470
+   ],
+   [
+    1800,
+    1262
+   ],
+   [
+    2040,
+    1232
+   ]
+  ],
+  "rot": -90,
+  "img_bbox": [
+   1960,
+   1260,
+   2040,
+   1460
+  ],
+  "notes": "Number '47' at (1880,1400). The long label to the right (x 2110-2200, 'Al priuato n.º 26 Paga') belongs to square 15 in the outer ring."
+ },
+ {
+  "n": 48,
+  "heading": "trauaglio",
+  "it": "Ben che mobil sia fortuna / al trauaglio è oportuna",
+  "es": "Aunque fortuna es mudable / al trabajo es fauorable",
+  "rule": null,
+  "image_desc": "A yoke of two oxen, heads toward the upper left (toward square 49); by the number, a cluster of fruit hangs on a cord from the 48/49 baluster.",
+  "blank": false,
+  "center": [
+   1880,
+   1140
+  ],
+  "quad": [
+   [
+    2040,
+    1232
+   ],
+   [
+    1800,
+    1262
+   ],
+   [
+    1722,
+    1100
+   ],
+   [
+    1960,
+    982
+   ]
+  ],
+  "rot": -100,
+  "img_bbox": [
+   1861,
+   1033,
+   2011,
+   1206
+  ],
+  "notes": "Heading and verses in a box outside the outer edge, x 1985-2130, y 1000-1260, reading bottom-to-top with a slight lean (rot ~-100). Fruit cluster bbox [1783,1111,1856,1222]."
+ },
+ {
+  "n": 49,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and leafy plants along the outer edge.",
+  "blank": true,
+  "center": [
+   1790,
+   975
+  ],
+  "quad": [
+   [
+    1960,
+    985
+   ],
+   [
+    1725,
+    1100
+   ],
+   [
+    1640,
+    1000
+   ],
+   [
+    1800,
+    808
+   ]
+  ],
+  "rot": -125,
+  "img_bbox": [
+   1780,
+   860,
+   1900,
+   1000
+  ],
+  "notes": "Number '49' at (1700,1080), engraved upside-down relative to the reader at the bottom of the sheet."
+ },
+ {
+  "n": 50,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a small flowering plant.",
+  "blank": true,
+  "center": [
+   1640,
+   850
+  ],
+  "quad": [
+   [
+    1800,
+    808
+   ],
+   [
+    1640,
+    1000
+   ],
+   [
+    1512,
+    925
+   ],
+   [
+    1582,
+    688
+   ]
+  ],
+  "rot": -160,
+  "img_bbox": [
+   1620,
+   760,
+   1700,
+   860
+  ],
+  "notes": "Number '50' at (1590,955), upside-down."
+ },
+ {
+  "n": 51,
+  "heading": "Casa della fortuna",
+  "it": "Tutto :sta à dispositione / di fortuna et permissione",
+  "es": "Todo :esta a dispusicion / de fortuna y permision",
+  "rule": "Giuoca ·2· uolte ·",
+  "image_desc": "Fortune: a nude young woman with wings, standing on a sphere, holding with both hands a long banderole inscribed 'cambio et / muto il consiglio'; beside her a spoked wheel on a post, from which a man falls head-first.",
+  "blank": false,
+  "center": [
+   1440,
+   790
+  ],
+  "quad": [
+   [
+    1582,
+    688
+   ],
+   [
+    1512,
+    925
+   ],
+   [
+    1330,
+    905
+   ],
+   [
+    1330,
+    648
+   ]
+  ],
+  "rot": 178,
+  "img_bbox": [
+   1335,
+   650,
+   1575,
+   905
+  ],
+  "notes": "All text upside-down for a reader at the bottom of the sheet (rot ~178). Heading and verses above the square, outside its outer edge, x 1370-1590, y 545-665. Rule label below the square along the ring's inner edge, x 1330-1500, y 905-950 ('2' cut like 'z'). Banderole text (in the image): 'cambio et / muto il consiglio' ('muto': Collar's 'Cambio e moto' misreads; Zollinger's 'Cambio et muto il consiglio' agrees). Both verse first lines carry a colon-like mark before 'sta'/'esta' ('Tutto :sta', 'Todo :esta'), probably marking elision (Collar prints \"Tutto 'sta\"). 'dispusicion' as engraved."
+ },
+ {
+  "n": 52,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip (inverted, along the outer edge at the top) with grass and hanging leafy plants.",
+  "blank": true,
+  "center": [
+   1230,
+   790
+  ],
+  "quad": [
+   [
+    1330,
+    648
+   ],
+   [
+    1330,
+    905
+   ],
+   [
+    1160,
+    925
+   ],
+   [
+    1085,
+    690
+   ]
+  ],
+  "rot": 180,
+  "img_bbox": [
+   1120,
+   660,
+   1320,
+   760
+  ],
+  "notes": "Number '52' at (1250,890), upside-down."
+ },
+ {
+  "n": 53,
+  "heading": "Sorte",
+  "it": "Ogni sorte in mal fin cade / oue alberga pouertade",
+  "es": "Qual quier suerte es de tristeza / en la casa do ay pobreza",
+  "rule": null,
+  "image_desc": "Three dice lying on a dice-tray (a board with a raised rim and turned corner posts), drawn in perspective. The pip faces shown are 4, 4 and 3: a throw of 11, matching Barros's 'suerte de once'.",
+  "blank": false,
+  "center": [
+   1030,
+   840
+  ],
+  "quad": [
+   [
+    1085,
+    690
+   ],
+   [
+    1160,
+    925
+   ],
+   [
+    1040,
+    990
+   ],
+   [
+    880,
+    775
+   ]
+  ],
+  "rot": 162,
+  "img_bbox": [
+   925,
+   715,
+   1140,
+   915
+  ],
+  "notes": "Heading and verses above/outside the square's outer edge, x 840-1070, y 560-735, upside-down with a tilt (rot ~162). 'pouertade' (u; Collar's 'pobertade' is wrong); 'Qual quier' in two words; the z of 'tristeza'/'pobreza' is cut as a long z. Number '53' at (1095,940)."
+ },
+ {
+  "n": 54,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a leafy plant along the outer edge.",
+  "blank": true,
+  "center": [
+   900,
+   915
+  ],
+  "quad": [
+   [
+    880,
+    775
+   ],
+   [
+    1040,
+    990
+   ],
+   [
+    960,
+    1105
+   ],
+   [
+    735,
+    975
+   ]
+  ],
+  "rot": 140,
+  "img_bbox": [
+   790,
+   850,
+   880,
+   960
+  ],
+  "notes": "Number '54' at (980,1040)."
+ },
+ {
+  "n": 55,
+  "heading": "Pensar che",
+  "it": "Dal pensai che, la uentura / fugge et quella che tien poco li dura",
+  "es": "Del pense que huye uentura / y la que tiene no dura",
+  "rule": "Alla diligentia n·° 20 ·Paga",
+  "image_desc": "An ass lying couched on the ground, its head toward the lower right, ears up.",
+  "blank": false,
+  "center": [
+   775,
+   1130
+  ],
+  "quad": [
+   [
+    735,
+    975
+   ],
+   [
+    960,
+    1105
+   ],
+   [
+    848,
+    1325
+   ],
+   [
+    608,
+    1225
+   ]
+  ],
+  "rot": 100,
+  "img_bbox": [
+   680,
+   1000,
+   850,
+   1215
+  ],
+  "notes": "Heading and verses in the gutter outside the outer edge, x 540-700, y 930-1260, reading top-to-bottom with a lean (rot ~100). Rule label along the ring's inner edge, x 855-960, y 1090-1335 (rot ~68). Italian first line 'Dal pensai che,' with a comma (Collar 'Dal pensai che,' agrees; Zollinger/giochidelloca 'Dal pensar che' normalise to the heading). 'tien poco' (Collar 'tien' agrees; Zollinger 'tiene' wrong). The Italian second line is long and runs to the edge of the box."
+ },
+ {
+  "n": 56,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a tall leafy plant along the outer edge.",
+  "blank": true,
+  "center": [
+   730,
+   1370
+  ],
+  "quad": [
+   [
+    608,
+    1225
+   ],
+   [
+    848,
+    1325
+   ],
+   [
+    855,
+    1490
+   ],
+   [
+    605,
+    1485
+   ]
+  ],
+  "rot": 90,
+  "img_bbox": [
+   610,
+   1270,
+   720,
+   1400
+  ],
+  "notes": "Number '56' at (830,1380)."
+ },
+ {
+  "n": 57,
+  "heading": "trauaglio",
+  "it": "Il trauaglio apparta palma / et fa relucer l'alma",
+  "es": "El trabajo gana palma / y quita el orin del alma",
+  "rule": null,
+  "image_desc": "A yoke of two oxen, heads toward the bottom (toward square 58); beside them a cluster of fruit hangs on a cord.",
+  "blank": false,
+  "center": [
+   730,
+   1600
+  ],
+  "quad": [
+   [
+    605,
+    1485
+   ],
+   [
+    855,
+    1490
+   ],
+   [
+    855,
+    1725
+   ],
+   [
+    605,
+    1705
+   ]
+  ],
+  "rot": 88,
+  "img_bbox": [
+   608,
+   1460,
+   752,
+   1662
+  ],
+  "notes": "Heading and verses in the gutter outside the outer edge, x 510-610, y 1440-1730, reading top-to-bottom (rot ~88). 'apparta' as engraved (Collar 'apparta' agrees; the La Bella Donna blog/giochidelloca 'apporta' normalise). Spanish engraved with odd spacing 'elorind elalma' (= el orin del alma). Fruit cluster bbox [750,1510,842,1625]."
+ },
+ {
+  "n": 58,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a tall leafy plant along the outer edge.",
+  "blank": true,
+  "center": [
+   730,
+   1810
+  ],
+  "quad": [
+   [
+    605,
+    1705
+   ],
+   [
+    855,
+    1725
+   ],
+   [
+    855,
+    1910
+   ],
+   [
+    608,
+    1910
+   ]
+  ],
+  "rot": 90,
+  "img_bbox": [
+   608,
+   1720,
+   720,
+   1800
+  ],
+  "notes": "Number '58' at (820,1720)."
+ },
+ {
+  "n": 59,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a leafy flowering plant along the outer edge.",
+  "blank": true,
+  "center": [
+   740,
+   2020
+  ],
+  "quad": [
+   [
+    608,
+    1910
+   ],
+   [
+    855,
+    1910
+   ],
+   [
+    868,
+    2102
+   ],
+   [
+    625,
+    2150
+   ]
+  ],
+  "rot": 90,
+  "img_bbox": [
+   612,
+   1985,
+   720,
+   2060
+  ],
+  "notes": "Number '59' at (830,2010)."
+ },
+ {
+  "n": 60,
+  "heading": "Casa d'la pouerta",
+  "it": "Pouertà secca l'humore / alla radice del fauore",
+  "es": "Pobreza seca el humor / dela raiz del fauor",
+  "rule": "Limosina et alla sorte·53",
+  "image_desc": "Three dead, leafless trees with bare, twisted branches, growing from the ground strip at the outer edge toward the centre of the board.",
+  "blank": false,
+  "center": [
+   780,
+   2235
+  ],
+  "quad": [
+   [
+    625,
+    2150
+   ],
+   [
+    868,
+    2102
+   ],
+   [
+    915,
+    2235
+   ],
+   [
+    735,
+    2395
+   ]
+  ],
+  "rot": 62,
+  "img_bbox": [
+   650,
+   2105,
+   905,
+   2345
+  ],
+  "notes": "Heading and verses in the gutter outside the outer edge, x 555-710, y 2180-2400, reading down-right steeply (rot ~62). Rule label along the ring's inner edge, x 880-975, y 2060-2280 (rot ~65). 'Limosina' as engraved (so the reading 'Limosina et alla sorte 53' of Collar and giochidelloca is right; Zollinger's 'Limosina alla sorte' drops 'et'). 'radice' (Zollinger 'radicce' is wrong). Spanish 'dela raiz' (the Seville notes' 'a la raiz' is wrong); rule has no 'n.º' before 53 (the Seville notes' 'n.º 53' is wrong); heading 'Casa d'la pouerta' without accent (Collar 'Casa del pouertà', Seville notes 'Casa di la pouertà' are wrong). The z of 'Pobreza'/'raiz' is cut in the angular form."
+ },
+ {
+  "n": 61,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a curling leafy plant.",
+  "blank": true,
+  "center": [
+   890,
+   2395
+  ],
+  "quad": [
+   [
+    735,
+    2395
+   ],
+   [
+    915,
+    2235
+   ],
+   [
+    1035,
+    2305
+   ],
+   [
+    925,
+    2535
+   ]
+  ],
+  "rot": 35,
+  "img_bbox": [
+   790,
+   2355,
+   880,
+   2445
+  ],
+  "notes": "Number '61' at (955,2280)."
+ },
+ {
+  "n": 62,
+  "heading": null,
+  "it": null,
+  "es": null,
+  "rule": null,
+  "image_desc": "No emblem: ground strip with grass and a small plant; the square ends against the scroll (volute) at the foot of the Vitoria aedicule.",
+  "blank": true,
+  "center": [
+   1045,
+   2440
+  ],
+  "quad": [
+   [
+    925,
+    2535
+   ],
+   [
+    1035,
+    2305
+   ],
+   [
+    1145,
+    2322
+   ],
+   [
+    1160,
+    2585
+   ]
+  ],
+  "rot": 10,
+  "img_bbox": [
+   1020,
+   2465,
+   1080,
+   2530
+  ],
+  "notes": "Number '62' at (1080,2355). Last square of the track before 63."
+ },
+ {
+  "n": 63,
+  "heading": "VITORIA",
+  "it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
+  "es": "Quando tengas mas fortuna / mira que es como la luna",
+  "rule": "Ne il poco ne lassai · / Ni lo mucho ni la poco",
+  "image_desc": "A classical aedicule (gate) with a triangular pediment topped by finials, two pairs of columns, and large acanthus scrolls (volutes) at either side; a tall palm tree grows up through its centre, the scaly trunk visible in the opening and the crown of fronds, with clusters of dates, spreading above the pediment. The numerals '6' and '3' are engraved in the opening on either side of the trunk; beneath them a two-line panel with the motto; below, a cartouche 'VITORIA'. The verses are engraved under the aedicule, above square 39's rule label.",
+  "blank": false,
+  "center": [
+   1330,
+   2380
+  ],
+  "quad": [
+   [
+    1150,
+    2585
+   ],
+   [
+    1150,
+    2090
+   ],
+   [
+    1520,
+    2090
+   ],
+   [
+    1520,
+    2585
+   ]
+  ],
+  "rot": 0,
+  "img_bbox": [
+   1110,
+   1755,
+   1570,
+   2585
+  ],
+  "notes": "Quad = the aedicule's rectangle (pediment to column bases); img_bbox includes the palm crown. Motto panel bbox [1235,2335,1455,2420]: 'Ne il poco ne lassai ·' / 'Ni lo mucho ni la poco' (engraved 'Nilomucho·nila poco'); read 'ne l'assai' (nor the much), so 'lassai' is not an error; 'la poco' is as engraved (Collar's view that the odd forms are the engraver's is right for 'la'). The Lucero notes' tentative 'lassar' is wrong: the last letter is a minim without the shoulder of this hand's r. A fine diagonal stroke crosses the 'n' of 'ne' (a scratch or stray line, not a tilde). Verses bbox [1225,2572,1465,2668] (rot ~-4): Italian line 2 engraved 'pensa che mobil epiu' che la luna' = 'mobil è più'. The 'rule' field here holds the exact-throw motto (Barros: no more and no fewer points than needed). The verses 'Mai salirà gran costa ...' belong to the man at the palm (see centre.json)."
+ }
+]

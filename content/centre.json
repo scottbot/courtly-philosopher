@@ -1,0 +1,294 @@
+[
+ {
+  "id": "field",
+  "label": "Central field: the sea of suffering",
+  "bbox": [
+   945,
+   995,
+   1835,
+   2595
+  ],
+  "rot": null,
+  "desc": "Oval field inside the innermost ring, filled with a rough sea drawn in wavy lines, with rocky shores at left and right, ships, fishermen, fish and sea monsters; the palm tree and Vitoria aedicule rise from its lower end. Figures are drawn facing different edges of the sheet (some upright for a reader at the bottom, others turned 90° or 180°), so the field can be read from all sides."
+ },
+ {
+  "id": "cartouche",
+  "label": "Bilingual cartouche",
+  "bbox": [
+   1130,
+   1470,
+   1615,
+   1660
+  ],
+  "rot": 0,
+  "text_it": "Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire",
+  "text_es": "Mar de suffrimiento / quien pretende ha de sus: srir / como el que nace morir",
+  "desc": "Rectangular strapwork cartouche with scrolled ends, divided into two panels: Italian left, Spanish right.",
+  "notes": "'hà dà' both with grave accents. Spanish line 2: 'ha de ſus:' with 'srir' engraved below the line end as a turn-over, i.e. 'sussrir' (sic, long s for f: read 'suffrir'); Zollinger's 'sussrir [lire suffrir]' agrees. 'suffrimiento' (the La Bella Donna blog agrees). Italian 'pretende' (Collar prints 'pretente')."
+ },
+ {
+  "id": "galley",
+  "label": "Galley under sail",
+  "bbox": [
+   1120,
+   1235,
+   1520,
+   1470
+  ],
+  "rot": 90,
+  "desc": "A galley drawn on its side (keel to the left, mast pointing right, i.e. upright for a reader at the right edge of the sheet): dark hatched hull with a bank of oars and a row of rowers' heads, a lateen yard and two bellying sails, a masthead top; a small grapnel or anchor at the bow."
+ },
+ {
+  "id": "foundering_ship",
+  "label": "Ship foundering in a whirlpool",
+  "bbox": [
+   1350,
+   1080,
+   1565,
+   1275
+  ],
+  "rot": 180,
+  "desc": "A round-hulled sailing ship drawn inverted, its hull and bent masts turning in concentric whirlpool lines; a rudder or small hanging object at lower right."
+ },
+ {
+  "id": "net_fisher",
+  "label": "Man with landing net",
+  "bbox": [
+   1065,
+   995,
+   1330,
+   1305
+  ],
+  "rot": 180,
+  "desc": "A man drawn head-down relative to the bottom of the sheet (upright for a reader at the top), feet against the rim of the field, reaching down into the sea with a long-handled landing net whose hoop lies at lower left."
+ },
+ {
+  "id": "netted_fish",
+  "label": "Large fish or fish-trap",
+  "bbox": [
+   1055,
+   1120,
+   1115,
+   1265
+  ],
+  "rot": null,
+  "desc": "A long tapering shape covered in a lattice pattern with a small fin or tail at its lower end, beside the landing net: a large fish with lattice scales, or a conical net/trap; the engraving does not settle which.",
+  "notes": "Uncertain identification."
+ },
+ {
+  "id": "angler",
+  "label": "Angler on the left shore",
+  "bbox": [
+   945,
+   1320,
+   1100,
+   1750
+  ],
+  "rot": null,
+  "desc": "On the rocky left shore a man in a cap reclines against the rocks holding a long rod; its line runs out across the water to a float at about (1135,1378) beside the galley (Barros's 'pescador de caña')."
+ },
+ {
+  "id": "second_ship",
+  "label": "Second sailing ship",
+  "bbox": [
+   1060,
+   1650,
+   1205,
+   1865
+  ],
+  "rot": -90,
+  "desc": "A sailing ship drawn on its side (mast pointing left, upright for a reader at the left edge), planked hull at right, one large sail."
+ },
+ {
+  "id": "fish_heads",
+  "label": "Fish rising from the water",
+  "bbox": [
+   1205,
+   1650,
+   1330,
+   1765
+  ],
+  "rot": null,
+  "desc": "Three fish heads breaking the surface, mouths open."
+ },
+ {
+  "id": "sea_monster",
+  "label": "Sea monster (whale) head",
+  "bbox": [
+   1350,
+   1655,
+   1485,
+   1765
+  ],
+  "rot": null,
+  "desc": "The head of a sea monster or whale with a large round eye, open toothed jaws and a curled snout, rising from the waves."
+ },
+ {
+  "id": "serpent_coils",
+  "label": "Sea-serpent coils",
+  "bbox": [
+   1515,
+   1675,
+   1690,
+   1840
+  ],
+  "rot": null,
+  "desc": "A curved, finned coil and a separate curved tubular form rising from the water: parts of a sea serpent or monster.",
+  "notes": "Uncertain identification."
+ },
+ {
+  "id": "rowing_boat",
+  "label": "Rowing boat with two men",
+  "bbox": [
+   955,
+   1850,
+   1115,
+   1975
+  ],
+  "rot": null,
+  "desc": "A small boat with two men in hats: one pulls at two oars, the other sits in the stern."
+ },
+ {
+  "id": "small_boat_right",
+  "label": "Small boat at the right edge",
+  "bbox": [
+   1690,
+   1900,
+   1755,
+   2010
+  ],
+  "rot": null,
+  "desc": "A small boat or skiff at the right rim, with a small figure and an oar or pole laid across it.",
+  "notes": "Small and indistinct."
+ },
+ {
+  "id": "right_shore",
+  "label": "Right shore",
+  "bbox": [
+   1605,
+   1285,
+   1765,
+   1770
+  ],
+  "rot": null,
+  "desc": "A rocky shore along the right side of the field with bushes and small flowering plants."
+ },
+ {
+  "id": "left_shore",
+  "label": "Lower left shore",
+  "bbox": [
+   950,
+   1960,
+   1160,
+   2260
+  ],
+  "rot": null,
+  "desc": "Hatched rocks and a grassy bank at the lower left of the field, beside the palm."
+ },
+ {
+  "id": "palm",
+  "label": "Palm tree",
+  "bbox": [
+   1125,
+   1755,
+   1570,
+   2340
+  ],
+  "rot": 0,
+  "desc": "A tall palm with a scaly trunk growing up through the aedicule, and a large crown of arching fronds hung with clusters of dates."
+ },
+ {
+  "id": "aedicule",
+  "label": "Aedicule / gate of Victory (square 63)",
+  "bbox": [
+   1110,
+   2090,
+   1565,
+   2585
+  ],
+  "rot": 0,
+  "desc": "Classical gate with pediment and finials, paired columns, entablature and flanking acanthus scrolls; in the opening the palm trunk, the numerals 6 and 3, the motto panel, and below the 'VITORIA' cartouche."
+ },
+ {
+  "id": "num63",
+  "label": "Numerals 6 3",
+  "bbox": [
+   1240,
+   2275,
+   1412,
+   2322
+  ],
+  "rot": 0,
+  "text": "6 3",
+  "desc": "'6' at about (1255,2300) left of the trunk, '3' at about (1395,2295) right of it."
+ },
+ {
+  "id": "motto63",
+  "label": "Motto panel",
+  "bbox": [
+   1235,
+   2335,
+   1455,
+   2420
+  ],
+  "rot": 0,
+  "text_it": "Ne il poco ne lassai ·",
+  "text_es": "Ni lo mucho ni la poco",
+  "desc": "Two-line panel ruled above, between and below the lines."
+ },
+ {
+  "id": "vitoria",
+  "label": "VITORIA cartouche",
+  "bbox": [
+   1250,
+   2485,
+   1445,
+   2545
+  ],
+  "rot": 0,
+  "text": "VITORIA",
+  "desc": "Roman capitals in a strapwork cartouche between the column bases."
+ },
+ {
+  "id": "verses63",
+  "label": "Verses under the aedicule",
+  "bbox": [
+   1225,
+   2572,
+   1465,
+   2668
+  ],
+  "rot": -4,
+  "text_it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
+  "text_es": "Quando tengas mas fortuna / mira que es como la luna",
+  "desc": "Two couplets, Italian above Spanish, separated by a rule; engraved in the band between the field's rim and square 39's rule label.",
+  "notes": "Italian line 2 engraved 'pensa che mobil epiu' che la luna'."
+ },
+ {
+  "id": "palm_man",
+  "label": "Man at the palm, with fish and lost shoe",
+  "bbox": [
+   1480,
+   1985,
+   1685,
+   2295
+  ],
+  "rot": 0,
+  "desc": "A man seen from behind, standing on the right shore beside the aedicule, reaches up with his right hand to grasp a palm frond and holds a large fish by the head in his left; one foot is shod, the other appears bare, and a lost shoe lies on the ground at his feet (bbox [1610,2292,1665,2322])."
+ },
+ {
+  "id": "palm_man_verses",
+  "label": "Verses of the man at the palm",
+  "bbox": [
+   1555,
+   2395,
+   1735,
+   2580
+  ],
+  "rot": -58,
+  "text_it": "Mai salirà gran costa / che mira quanto costa",
+  "text_es": "Nunca subira gran cuesta / quien mira · lo q[ue] cuesta",
+  "desc": "Two couplets in the band at the lower right of the field's rim, reading steeply up to the right.",
+  "notes": "Both photographs show 'quien mira' then a gap containing a dot, then 'lo q̃cuesta': the plate has no 'mirare'. Zollinger/giochidelloca ('Quien mirare lo q[ue] cuesta') and Collar ('quien mirare lo q questa') both read 'mirare'; I read 'mira', with a dot or blemish in the gap, and Collar's 'questa' is not on the plate ('cuesta')."
+ }
+]

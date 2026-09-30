@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Houses — Filosofía cortesana</title>
+<meta name="description" content="Every house of Cartaro’s 1588 board, with its verses in Spanish, Italian and English, Barros’s explanation and historical notes.">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23f3ecdc' stroke='%238e2c1c' stroke-width='4'/%3E%3Cpath d='M32 12c-9 8-9 18 0 26 9-8 9-18 0-26zM32 38v16' stroke='%232a2119' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+</head>
+<body class="page-atlas">
+<a class="visually-hidden" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html">Filosofía <span>cortesana</span></a>
+  <nav class="nav" aria-label="Site">
+    <a href="index.html">Introduction</a>
+    <a href="play.html">Play</a>
+    <a href="atlas.html" aria-current="page">The Houses</a>
+    <a href="text.html">The Book</a>
+    <a href="about.html">About</a>
+  </nav>
+  <button class="theme-btn" type="button" aria-label="Switch between light and dark"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
+</div></header>
+<main id="main" class="wrap">
+<div class="page-head"><h1>The Houses</h1>
+<p>Every house of the only surviving board, with its picture, its verses in Spanish and Italian with an English rendering, the rule it imposes, what Barros says about it, and what historians have found. Choose an edition to see where the texts differ.</p>
+<div class="filters"><span class="sc muted">Edition</span><div class="seg-toggle" role="group" id="edsel"><button data-ed="C">Naples 1588</button><button data-ed="M">Madrid 1587 (Madrigal)</button><button data-ed="G">Madrid 1587 (princeps)</button></div>
+<span class="sc muted" style="margin-left:1rem">Show</span><div class="seg-toggle" role="group" id="showsel"><button data-show="all">all 63</button><button data-show="adorned" aria-pressed="true">houses with pictures</button></div>
+<label class="small" style="margin-left:1rem"><input type="checkbox" id="namesel"> English names on the board</label></div></div>
+<div class="viewer-wrap" style="height:min(78vh,900px);margin:1rem 0"><div id="viewer" style="height:100%"></div></div>
+<p class="credit">Click any house on the board, or choose one below. <a href="img/board/board-full.jpg" target="_blank">Open the full-resolution photograph</a> (2594 × 3402 px). Board © The Trustees of the British Museum.</p>
+<h2>The houses</h2><div class="atlas-grid" id="grid"></div>
+<h2>Around the track</h2><div class="atlas-grid" id="feats"></div>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <p><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). Board: Mario Cartaro, Naples 1588, British Museum 1869,0410.2463.+, © The Trustees of the British Museum, reproduced under licence. Book: Naples 1588 edition, Österreichische Nationalbibliothek, 35 V 49, from the Google Books scan. Transcriptions, translations, annotations and code by Claude (Anthropic), made for Scott B. Weingart; text under CC BY 4.0, code under the MIT License. <b>An AI-produced draft, not reviewed by a specialist.</b> See <a href="about.html#note">how this edition was made</a> and the <a href="about.html#biblio">bibliography</a>.</p>
+  <p><button class="btn small" type="button" data-toggle-cites>Hide references in the text</button></p>
+</div></footer>
+<script src="data/board.js"></script>
+<script src="data/annotations.js"></script>
+<script src="data/text.js"></script>
+<script src="data/biblio.js"></script>
+<script src="js/common.js"></script>
+<script src="js/atlas.js"></script>
+</body>
+</html>

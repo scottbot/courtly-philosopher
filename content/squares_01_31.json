@@ -1,0 +1,1304 @@
+[
+ {
+  "n": 1,
+  "heading": "",
+  "it": "Guarda ai piedi la raggione / e alla ruota l'openione",
+  "es": "A los pies mira razon / y a la rueda la opinion",
+  "rule": "",
+  "image_desc": "A peacock standing on a strip of ground, facing left, its tail raised and fanned in a full wheel of eyed feathers behind it; a small crest on its head.",
+  "blank": false,
+  "center": [
+   570,
+   3250
+  ],
+  "quad": [
+   [
+    450,
+    3445
+   ],
+   [
+    450,
+    3055
+   ],
+   [
+    690,
+    3055
+   ],
+   [
+    690,
+    3445
+   ]
+  ],
+  "rot": 0,
+  "rot_track": 0,
+  "img_bbox": [
+   462,
+   3068,
+   662,
+   3300
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "No numeral '1' is visible (the peacock's fanned tail fills the upper part of the bay). Text box below the peacock, between the pedestals, x 470-685, y 3320-3440, upright (rot 0). Initial 'e' of line 2 and final 'e' of 'raggione', 'l'openione' are cut like 'c'. The z of 'razon' is the looped ʒ form. Engraved word division: 'Alospies miraraʒon / yalaruedalaopinion'. Board has 'y a la rueda' (so Collar and Zollinger); the La Bella Donna blog's 'y la rueda' drops the 'a'."
+ },
+ {
+  "n": 2,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: the numeral '2' (cut like 'Z') under the top rail, and a single small flowering plant on the ground strip.",
+  "blank": true,
+  "center": [
+   810,
+   3250
+  ],
+  "quad": [
+   [
+    690,
+    3445
+   ],
+   [
+    690,
+    3055
+   ],
+   [
+    930,
+    3055
+   ],
+   [
+    930,
+    3445
+   ]
+  ],
+  "rot": 0,
+  "rot_track": 0,
+  "img_bbox": [
+   690,
+   3063,
+   930,
+   3301
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (835,3100)."
+ },
+ {
+  "n": 3,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '3' and a single flowering sprig on the ground strip.",
+  "blank": true,
+  "center": [
+   1050,
+   3250
+  ],
+  "quad": [
+   [
+    930,
+    3445
+   ],
+   [
+    930,
+    3055
+   ],
+   [
+    1170,
+    3055
+   ],
+   [
+    1170,
+    3445
+   ]
+  ],
+  "rot": 0,
+  "rot_track": 0,
+  "img_bbox": [
+   930,
+   3063,
+   1170,
+   3301
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (1045,3110)."
+ },
+ {
+  "n": 4,
+  "heading": "trauaglio",
+  "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò ni[en]te",
+  "es": "Nunca se siente el trabajo / sino qua[n]do el premio es bajo",
+  "rule": "",
+  "image_desc": "A yoke of two oxen walking to the right on the ground strip, the far ox largely hidden behind the near one; above them a festoon (a cluster of fruit and leaves) hangs on a cord slung between the two balusters.",
+  "blank": false,
+  "center": [
+   1292,
+   3249
+  ],
+  "quad": [
+   [
+    1170,
+    3445
+   ],
+   [
+    1170,
+    3055
+   ],
+   [
+    1415,
+    3052
+   ],
+   [
+    1415,
+    3445
+   ]
+  ],
+  "rot": 0,
+  "rot_track": 0,
+  "img_bbox": [
+   1195,
+   3070,
+   1405,
+   3305
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '4' at (1270,3100) just above the festoon. Text box below the oxen, x 1190-1415, y 3310-3440, rot 0. 'niẽte' has a tilde over the e; 'quãdo' a tilde over the a. Grave accents on 'è' and 'ò' are clear. 'trabajo'/'bajo' are cut with a long j that looks like a long s. Engraved word division 'Nuncaseſiente eltrabajo'. Agrees with Collar's 'o nie(n)te' / 'qua(n)do'."
+ },
+ {
+  "n": 5,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '5' and a single flowering plant on the ground strip.",
+  "blank": true,
+  "center": [
+   1518,
+   3239
+  ],
+  "quad": [
+   [
+    1415,
+    3445
+   ],
+   [
+    1415,
+    3052
+   ],
+   [
+    1589,
+    3025
+   ],
+   [
+    1652,
+    3433
+   ]
+  ],
+  "rot": -4,
+  "rot_track": -4,
+  "img_bbox": [
+   1415,
+   3033,
+   1629,
+   3300
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (1492,3060)."
+ },
+ {
+  "n": 6,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '6' and tufts of grass on the ground strip.",
+  "blank": true,
+  "center": [
+   1735,
+   3178
+  ],
+  "quad": [
+   [
+    1652,
+    3433
+   ],
+   [
+    1589,
+    3025
+   ],
+   [
+    1761,
+    2961
+   ],
+   [
+    1939,
+    3295
+   ]
+  ],
+  "rot": -18,
+  "rot_track": -18,
+  "img_bbox": [
+   1590,
+   2968,
+   1873,
+   3282
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (1678,2985). The pelican's left wing from square 7 reaches over the dividing baluster."
+ },
+ {
+  "n": 7,
+  "heading": "Il prodigo",
+  "it": "Il prodigo ha gli amici allato / mentre mangia accompag[n]ato",
+  "es": "El prodigo tiene amigos / qua[n]do come co[n] testigos",
+  "rule": "",
+  "image_desc": "A pelican with wings raised, bending its neck to pierce its own breast, drops of blood falling; below it three cat-like animals rear up on their hind legs against its body, one licking at the wound, in place of the pelican's young.",
+  "blank": false,
+  "center": [
+   1938,
+   3058
+  ],
+  "quad": [
+   [
+    1939,
+    3295
+   ],
+   [
+    1761,
+    2961
+   ],
+   [
+    1900,
+    2875
+   ],
+   [
+    2150,
+    3100
+   ]
+  ],
+  "rot": -30,
+  "rot_track": -37,
+  "img_bbox": [
+   1790,
+   2875,
+   2080,
+   3125
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '7' at the top of the bay by the pelican's head. Text box on the outer side of the bay, between the pedestals, x 1905-2105, y 3105-3300, baselines rising to the right (rot about -28 to -37). 'accompãgato' as engraved: the tilde stands over the a/g of 'pagato', i.e. an abbreviation for 'accompagnato' (so the blog's 'accompag(n)ato'); Collar's 'accompag(n)to' drops a letter. Engraved word division 'hagli amiciallato'. The La Bella Donna blog's 'a swan and wolves' is wrong: pelican and cats."
+ },
+ {
+  "n": 8,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '8' and a small flowering plant on the ground strip.",
+  "blank": true,
+  "center": [
+   2105,
+   2906
+  ],
+  "quad": [
+   [
+    2150,
+    3100
+   ],
+   [
+    1900,
+    2875
+   ],
+   [
+    2015,
+    2703
+   ],
+   [
+    2356,
+    2944
+   ]
+  ],
+  "rot": -52,
+  "rot_track": -52,
+  "img_bbox": [
+   1905,
+   2708,
+   2230,
+   3017
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (1985,2805). The pelican's wing from square 7 overlaps the dividing baluster."
+ },
+ {
+  "n": 9,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '9' and a small flower on the ground strip.",
+  "blank": true,
+  "center": [
+   2232,
+   2720
+  ],
+  "quad": [
+   [
+    2356,
+    2944
+   ],
+   [
+    2015,
+    2703
+   ],
+   [
+    2103,
+    2544
+   ],
+   [
+    2456,
+    2691
+   ]
+  ],
+  "rot": -61,
+  "rot_track": -61,
+  "img_bbox": [
+   2022,
+   2547,
+   2325,
+   2855
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (2078,2645)."
+ },
+ {
+  "n": 10,
+  "heading": "Adulatione",
+  "it": "L'adulatione e inganno / uendon la mostra bona è tristo pa[n]no",
+  "es": "Vende adulacion y e[n]ganno / muestra fina y falso paño",
+  "rule": "",
+  "image_desc": "A siren (a woman to the waist, with a scaly fish tail curling up out of waves) holds up a hand-mirror on a handle in her right hand; on her left hand perches a chameleon (a small crested lizard) with a curled tail.",
+  "blank": false,
+  "center": [
+   2312,
+   2498
+  ],
+  "quad": [
+   [
+    2456,
+    2691
+   ],
+   [
+    2103,
+    2544
+   ],
+   [
+    2144,
+    2344
+   ],
+   [
+    2544,
+    2415
+   ]
+  ],
+  "rot": -78,
+  "rot_track": -74,
+  "img_bbox": [
+   2105,
+   2395,
+   2375,
+   2645
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '10' at (2144,2444) above the siren's head. Text box on the outer side of the bay, x 2345-2505, y 2440-2695, reading upward (rot about -78). 'pã' is squeezed at the end of line 2 with 'no' engraved beneath it ('pã/no' = pa[n]no). 'è' written as e + grave mark. 'yẽganno' has the tilde over the e. Collar's text agrees; he does not note the wrapped 'no'."
+ },
+ {
+  "n": 11,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '11' and grass on the ground strip.",
+  "blank": true,
+  "center": [
+   2372,
+   2266
+  ],
+  "quad": [
+   [
+    2544,
+    2415
+   ],
+   [
+    2144,
+    2344
+   ],
+   [
+    2207,
+    2150
+   ],
+   [
+    2593,
+    2157
+   ]
+  ],
+  "rot": -84,
+  "rot_track": -84,
+  "img_bbox": [
+   2152,
+   2150,
+   2450,
+   2389
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (2200,2263). The Spanish text 'Quien limita su esperança / sufra el golpe de mudança' just inside this square's inner edge belongs to square 43 (next ring inward)."
+ },
+ {
+  "n": 12,
+  "heading": "trauaglio",
+  "it": "Frutti del trauaglio giusto / sono honor utile, e gusto",
+  "es": "Frutos del trabajo justo / son honrra prouecho y gusto",
+  "rule": "",
+  "image_desc": "A yoke of two oxen, the near one standing broadside with its head turned, the second beside it; above, a festoon of fruit and leaves hung on a cord between the balusters.",
+  "blank": false,
+  "center": [
+   2400,
+   2038
+  ],
+  "quad": [
+   [
+    2593,
+    2157
+   ],
+   [
+    2207,
+    2150
+   ],
+   [
+    2207,
+    1923
+   ],
+   [
+    2593,
+    1923
+   ]
+  ],
+  "rot": -90,
+  "rot_track": -89,
+  "img_bbox": [
+   2220,
+   1985,
+   2465,
+   2150
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '12' at (2233,2030). Text box on the outer side, x 2450-2593, y 1975-2160, reading upward (rot -90). Board reads 'Frutos del trabajo' (Collar prints 'Frutos de trabajo'); 'honrra prouecho' (the blog's 'honra, proveco' normalises and misreads). 'trabajo justo' both with long j."
+ },
+ {
+  "n": 13,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '13' and two small plants on the ground strip.",
+  "blank": true,
+  "center": [
+   2400,
+   1810
+  ],
+  "quad": [
+   [
+    2593,
+    1923
+   ],
+   [
+    2207,
+    1923
+   ],
+   [
+    2207,
+    1697
+   ],
+   [
+    2593,
+    1697
+   ]
+  ],
+  "rot": -90,
+  "rot_track": -90,
+  "img_bbox": [
+   2215,
+   1697,
+   2450,
+   1923
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (2233,1817)."
+ },
+ {
+  "n": 14,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '14' and a single flower on the ground strip.",
+  "blank": true,
+  "center": [
+   2400,
+   1574
+  ],
+  "quad": [
+   [
+    2593,
+    1697
+   ],
+   [
+    2207,
+    1697
+   ],
+   [
+    2207,
+    1450
+   ],
+   [
+    2593,
+    1450
+   ]
+  ],
+  "rot": -90,
+  "rot_track": -90,
+  "img_bbox": [
+   2215,
+   1450,
+   2450,
+   1697
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (2227,1597)."
+ },
+ {
+  "n": 15,
+  "heading": "Passo della speranza",
+  "it": "Nulla spera[n]za per buona s'intende / che dalla uolonta d'altrui dipe[n]de",
+  "es": "Ninguna esperança es buena / que esta en uoluntad agena",
+  "rule": "Al priuato ·n[umer]º· 26. Paga",
+  "image_desc": "A bearded man in a short tunic stands on a brick bridge with two round arches, water pouring out through the arches beneath him; he holds up his right hand, from which a string of coins falls, and holds a purse or bag in his left hand.",
+  "blank": false,
+  "center": [
+   2387,
+   1338
+  ],
+  "quad": [
+   [
+    2593,
+    1450
+   ],
+   [
+    2207,
+    1450
+   ],
+   [
+    2167,
+    1227
+   ],
+   [
+    2580,
+    1227
+   ]
+  ],
+  "rot": -90,
+  "rot_track": -90,
+  "img_bbox": [
+   2205,
+   1235,
+   2450,
+   1445
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '15' engraved either side of the man's head (at 2207,1377). Text box on the outer side, x 2455-2593, y 1225-1455, reading upward (rot -90); the last syllable 'de' of 's'inten|de' is engraved above the end of the line. Rule label in its own box in the white gutter just inside the ring's inner edge, x 2110-2185, y 1245-1455, reading upward (rot -90); 'n' has a superscript o. Board reads 'per buona' (Collar prints 'por buona'; the La Bella Donna blog omits the word). Engraved 'queesta' as one word."
+ },
+ {
+  "n": 16,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '16' and a small flowering plant on the ground strip.",
+  "blank": true,
+  "center": [
+   2355,
+   1120
+  ],
+  "quad": [
+   [
+    2580,
+    1227
+   ],
+   [
+    2167,
+    1227
+   ],
+   [
+    2127,
+    1047
+   ],
+   [
+    2547,
+    978
+   ]
+  ],
+  "rot": -95,
+  "rot_track": -95,
+  "img_bbox": [
+   2135,
+   1004,
+   2427,
+   1227
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (2165,1140)."
+ },
+ {
+  "n": 17,
+  "heading": "trauaglio",
+  "it": "Vien dal'otio pouertade / dal trauaglio facoltade",
+  "es": "Del ocio nace pobreza / y del trabajo riqueza",
+  "rule": "",
+  "image_desc": "A yoke of two oxen: the near ox standing, turned toward the viewer, with a cord from its yoke looped back over its body; the second ox lies or stands half-hidden behind it (a third horn and a flank are visible); above, a festoon of fruit on a cord between the balusters.",
+  "blank": false,
+  "center": [
+   2278,
+   900
+  ],
+  "quad": [
+   [
+    2547,
+    978
+   ],
+   [
+    2127,
+    1047
+   ],
+   [
+    2040,
+    880
+   ],
+   [
+    2400,
+    693
+   ]
+  ],
+  "rot": -110,
+  "rot_track": -108,
+  "img_bbox": [
+   2100,
+   800,
+   2360,
+   985
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '17' at (2107,947). Text box on the outer side, x 2370-2560, y 790-1020, baselines steeply rising (rot about -108 to -112); the reclining corner woman ('No me pierdas') overlaps its outer edge. Engraved 'Vien dal' otio' (apostrophe after 'dal'), 'Delocio'; z of 'pobreza', 'riqueza' in the looped form. Collar 'Vien dal'otio' agrees."
+ },
+ {
+  "n": 18,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '18' and a small flowering plant on the ground strip.",
+  "blank": true,
+  "center": [
+   2149,
+   698
+  ],
+  "quad": [
+   [
+    2400,
+    693
+   ],
+   [
+    2040,
+    880
+   ],
+   [
+    1940,
+    747
+   ],
+   [
+    2215,
+    470
+   ]
+  ],
+  "rot": -126,
+  "rot_track": -126,
+  "img_bbox": [
+   1946,
+   572,
+   2267,
+   876
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (2007,800)."
+ },
+ {
+  "n": 19,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '19' and a small flower on the ground strip.",
+  "blank": true,
+  "center": [
+   1994,
+   536
+  ],
+  "quad": [
+   [
+    2215,
+    470
+   ],
+   [
+    1940,
+    747
+   ],
+   [
+    1810,
+    630
+   ],
+   [
+    2010,
+    295
+   ]
+  ],
+  "rot": -142,
+  "rot_track": -142,
+  "img_bbox": [
+   1814,
+   419,
+   2113,
+   741
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (1887,693)."
+ },
+ {
+  "n": 20,
+  "heading": "Diligentia",
+  "it": "Quanto il mondo si trauaglia / cosa uana e come paglia",
+  "es": "Quanto trabaja y procura / el mundo todo es basura",
+  "rule": "",
+  "image_desc": "A large beetle (a scarab or dung beetle), seen from above, pushing a big round ball that stands behind it like a disc; it stands on the ground strip between the balusters.",
+  "blank": false,
+  "center": [
+   1799,
+   425
+  ],
+  "quad": [
+   [
+    2010,
+    295
+   ],
+   [
+    1810,
+    630
+   ],
+   [
+    1631,
+    575
+   ],
+   [
+    1744,
+    200
+   ]
+  ],
+  "rot": -158,
+  "rot_track": -156,
+  "img_bbox": [
+   1690,
+   380,
+   1830,
+   560
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '20' at (1737,600). Text box on the outer side, x 1690-1950, y 200-430, upside down and tilted (rot about -156 to -160). The final 'ia' of 'trauaglia' is engraved above the end of the line. Board reads 'Quanto il mondo' (the blog prints 'Quando'; Collar prints 'Quanto el mondo'). No accent visible on 'e come'. Engraved 'trabaja y' run together as 'trabajay'."
+ },
+ {
+  "n": 21,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '21' and a flowering plant (lily-like) on the ground strip.",
+  "blank": true,
+  "center": [
+   1575,
+   366
+  ],
+  "quad": [
+   [
+    1744,
+    200
+   ],
+   [
+    1631,
+    575
+   ],
+   [
+    1462,
+    531
+   ],
+   [
+    1462,
+    156
+   ]
+  ],
+  "rot": -171,
+  "rot_track": -171,
+  "img_bbox": [
+   1462,
+   295,
+   1702,
+   568
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (1550,531). The ball of the beetle in square 20 overlaps the dividing baluster."
+ },
+ {
+  "n": 22,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '22' (cut 'ZZ') and a small leafy plant on the ground strip.",
+  "blank": true,
+  "center": [
+   1350,
+   344
+  ],
+  "quad": [
+   [
+    1462,
+    156
+   ],
+   [
+    1462,
+    531
+   ],
+   [
+    1237,
+    531
+   ],
+   [
+    1237,
+    156
+   ]
+  ],
+  "rot": 180,
+  "rot_track": 180,
+  "img_bbox": [
+   1237,
+   295,
+   1462,
+   524
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (1350,506)."
+ },
+ {
+  "n": 23,
+  "heading": "tauaglio [sic]",
+  "it": "Non si chiama quel trauaglio / do[n]de uscirne posso et uaalio",
+  "es": "No es grande trabajo aq[ue]l / que basta a sacarnos del",
+  "rule": "",
+  "image_desc": "A yoke of two oxen side by side, heads together, a cord from the yoke looped over the near ox's back; above them a festoon of fruit on a cord between the balusters.",
+  "blank": false,
+  "center": [
+   1125,
+   378
+  ],
+  "quad": [
+   [
+    1237,
+    156
+   ],
+   [
+    1237,
+    531
+   ],
+   [
+    1050,
+    610
+   ],
+   [
+    977,
+    215
+   ]
+  ],
+  "rot": 178,
+  "rot_track": 175,
+  "img_bbox": [
+   1040,
+   300,
+   1200,
+   505
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '23' at (1156,525), beside the festoon. Text box on the outer side, x 1000-1200, y 160-340, upside down (rot 175-180). The heading is engraved 'tauaglio' without the r, checked in both photographs; Collar and the blog print the regular 'trauaglio'. 'uaalio' as engraved (for 'uaglio'), as Collar prints. 'dõde'; 'aq̃l' with a tilde over q."
+ },
+ {
+  "n": 24,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '24' and a small plant on the ground strip.",
+  "blank": true,
+  "center": [
+   903,
+   438
+  ],
+  "quad": [
+   [
+    977,
+    215
+   ],
+   [
+    1050,
+    610
+   ],
+   [
+    883,
+    617
+   ],
+   [
+    703,
+    310
+   ]
+  ],
+  "rot": 160,
+  "rot_track": 160,
+  "img_bbox": [
+   770,
+   361,
+   1049,
+   611
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (950,570)."
+ },
+ {
+  "n": 25,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '25' and a small flowering plant on the ground strip.",
+  "blank": true,
+  "center": [
+   712,
+   527
+  ],
+  "quad": [
+   [
+    703,
+    310
+   ],
+   [
+    883,
+    617
+   ],
+   [
+    763,
+    723
+   ],
+   [
+    497,
+    457
+   ]
+  ],
+  "rot": 142,
+  "rot_track": 142,
+  "img_bbox": [
+   595,
+   424,
+   879,
+   718
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (823,643). The walking man of square 26 overlaps the dividing baluster."
+ },
+ {
+  "n": 26,
+  "heading": "Il priuato",
+  "it": "Non cercar mano aliena / se la tua non serà piena",
+  "es": "No pidas la mano agena / si la tuya no va llena",
+  "rule": "Paga.",
+  "image_desc": "Two men in cloaks. On the left a man in a cap walks forward holding up in both hands a round dish or bowl (its contents not distinguishable) and offers it to a bearded man on the right, who stands in a doorway and reaches for it.",
+  "blank": false,
+  "center": [
+   555,
+   686
+  ],
+  "quad": [
+   [
+    497,
+    457
+   ],
+   [
+    763,
+    723
+   ],
+   [
+    663,
+    883
+   ],
+   [
+    297,
+    683
+   ]
+  ],
+  "rot": 128,
+  "rot_track": 126,
+  "img_bbox": [
+   470,
+   560,
+   730,
+   850
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '26' at (730,777), by the doorway. Text box on the outer side, x 340-540, y 480-720 (rot about 126-130). The 'Paga.' label is in a small box in the white gutter just inside the ring's inner edge, x 700-765, y 760-840 (rot about 126). 'priuato' has u cut like n. Board reads 'No pidas' (the blog's 'No(n) pidas' is not supported). The blog's 'passing a bag' does not match the image: a dish or bowl."
+ },
+ {
+  "n": 27,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '27' and a small flowering plant on the ground strip.",
+  "blank": true,
+  "center": [
+   426,
+   879
+  ],
+  "quad": [
+   [
+    297,
+    683
+   ],
+   [
+    663,
+    883
+   ],
+   [
+    570,
+    1030
+   ],
+   [
+    175,
+    920
+   ]
+  ],
+  "rot": 112,
+  "rot_track": 112,
+  "img_bbox": [
+   321,
+   757,
+   656,
+   1028
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (590,937). The man in the doorway from square 26 overlaps the dividing baluster."
+ },
+ {
+  "n": 28,
+  "heading": "Sorte",
+  "it": "A'cui fortuna è auara / la sorte diuien zara",
+  "es": "Si no ay dicha en negociar / la suerte buelue acar",
+  "rule": "",
+  "image_desc": "Three dice lying on a small table covered with a stippled cloth that has a scalloped fringe; the upper faces show one, two and three pips.",
+  "blank": false,
+  "center": [
+   341,
+   1094
+  ],
+  "quad": [
+   [
+    175,
+    920
+   ],
+   [
+    570,
+    1030
+   ],
+   [
+    502,
+    1232
+   ],
+   [
+    118,
+    1195
+   ]
+  ],
+  "rot": 100,
+  "rot_track": 101,
+  "img_bbox": [
+   295,
+   1025,
+   465,
+   1180
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high; cedilla of acar checked in both photos",
+  "notes": "Numeral '28' at (497,1110). Text box on the outer side, x 115-305, y 975-1165, reading downward (rot about 100). 'zara' with the looped z. 'acar' as engraved: no cedilla is visible under the c in either photograph (Collar and the blog print 'açar'). There is no 'se' before 'buelue' (Collar's '(se)' is his own addition). Engraved 'Sinoay'."
+ },
+ {
+  "n": 29,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '29', a flowering plant and a pair of stones on the ground strip.",
+  "blank": true,
+  "center": [
+   306,
+   1328
+  ],
+  "quad": [
+   [
+    118,
+    1195
+   ],
+   [
+    502,
+    1232
+   ],
+   [
+    495,
+    1443
+   ],
+   [
+    110,
+    1443
+   ]
+  ],
+  "rot": 93,
+  "rot_track": 93,
+  "img_bbox": [
+   252,
+   1209,
+   494,
+   1443
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (483,1350)."
+ },
+ {
+  "n": 30,
+  "heading": "trauaglio",
+  "it": "S'arrende al fin fortuna / s'il trauaglio l'inportuna",
+  "es": "Al fin se rinde fortuna / si el trabajo la importuna",
+  "rule": "",
+  "image_desc": "A yoke of two oxen pulling a plough: a cord runs from the yoke back to the plough beam at the left; above them a festoon of fruit on a cord between the balusters.",
+  "blank": false,
+  "center": [
+   300,
+   1556
+  ],
+  "quad": [
+   [
+    110,
+    1443
+   ],
+   [
+    495,
+    1443
+   ],
+   [
+    490,
+    1670
+   ],
+   [
+    105,
+    1670
+   ]
+  ],
+  "rot": 90,
+  "rot_track": 90,
+  "img_bbox": [
+   250,
+   1490,
+   470,
+   1650
+  ],
+  "img_bbox_kind": "illustration",
+  "confidence": "high",
+  "notes": "Numeral '30' at (470,1550). Text box on the outer side, x 150-300, y 1480-1720, reading downward (rot 90). Italian 'l'inportuna' with n, Spanish 'la importuna' with m. Engraved 'Alfin serinde'. Agrees with Collar."
+ },
+ {
+  "n": 31,
+  "heading": "",
+  "it": "",
+  "es": "",
+  "rule": "",
+  "image_desc": "No emblem: numeral '31' and a leafy sprig on the ground strip.",
+  "blank": true,
+  "center": [
+   300,
+   1786
+  ],
+  "quad": [
+   [
+    105,
+    1670
+   ],
+   [
+    490,
+    1670
+   ],
+   [
+    495,
+    1903
+   ],
+   [
+    110,
+    1903
+   ]
+  ],
+  "rot": 90,
+  "rot_track": 90,
+  "img_bbox": [
+   247,
+   1670,
+   487,
+   1903
+  ],
+  "img_bbox_kind": "plain-bay picture zone (inner 63% of the bay)",
+  "confidence": "high",
+  "notes": "Numeral at (457,1803). The rule label beside it in the gutter ('Per le fune ·1· et ·2· fermesi / Para sogas ...') belongs to square 32."
+ }
+]
