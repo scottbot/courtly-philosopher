@@ -1,0 +1,122 @@
+/* =========================================================================
+   play.css — the Play page's own styles, loaded after style.css.
+   Overrides of style.css section 8 are marked "override".
+   ========================================================================= */
+
+/* ---------- phones: the side panel moves under the board (override) ---------- */
+@media (max-width: 899px) {
+  .play-layout .side { display: flex; overflow: visible; padding: 1rem 0 2rem; }
+  .play-layout #turn, .play-layout #cardslot { display: none; }      /* the bottom bar shows these */
+  .page-play .site-footer { padding-bottom: 14rem; }
+}
+.path li { scroll-margin-top: calc(var(--header-h) + .5rem); }
+.side { scroll-margin-top: calc(var(--header-h) + .5rem); }
+
+/* the bottom sheet keeps at least a third of the screen for the board (override) */
+.mobile-bar .event-card { max-height: 48dvh; overflow-y: auto; }
+.mobile-bar .victory { max-height: 72dvh; overflow-y: auto; }
+.mobile-bar.has-card .mb-standings { display: none; }
+.mobile-bar .victory { margin-bottom: .5rem; box-shadow: none; }
+/* short screens and 400% zoom: a card takes the whole screen and scrolls as one */
+@media (max-height: 560px) {
+  .mobile-bar.has-card { top: 0; overflow-y: auto; z-index: 70; }
+  .mobile-bar.has-card .event-card, .mobile-bar.has-card .victory { max-height: none; overflow: visible; }
+  .mobile-bar.has-card .event-card .actions { position: static; }
+}
+.mb-standings { display: flex; flex-wrap: wrap; gap: 0 .6rem; align-items: baseline; color: var(--ink-2); margin: .15rem 0 .1rem; }
+.mb-standings .mb-st { flex: 1 1 auto; min-width: 0; }
+.mb-standings .mb-more { white-space: nowrap; }
+
+/* ---------- markers and players ---------- */
+.tokwrap { display: inline-flex; border: 2px solid transparent; border-radius: 50%; background: #faf5ea; flex: none; }
+.swatch { width: 1.1rem; height: 1.1rem; border-radius: 50%; display: inline-block; }
+.players li.current { background: var(--paper-2); box-shadow: inset 4px 0 0 var(--rubric); }   /* override */
+.players li > .pname { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.players li .pos { flex: none; max-width: 9rem; }
+.players li .purse { position: relative; }
+.players .delta { display: inline-block; margin-left: .3rem; font-size: .85rem; animation: rise .3s ease; }
+.players .delta.down { color: var(--rubric); }
+.players .delta.up { color: var(--gold); }
+.collection { margin: .5rem 0 0; }
+.options > label { display: block; margin: .2rem 0; }
+
+/* ---------- turn panel ---------- */
+.pot-note { margin: .25rem 0 0; }
+.turn-panel .who > div:nth-child(2) { min-width: 0; }
+.pot b.bump { animation: potbump .45s ease; }
+@keyframes potbump { 0% { transform: scale(1); } 40% { transform: scale(1.35); } 100% { transform: scale(1); } }
+.dice-total { font-size: 1.4rem; margin-left: .3rem; }
+.last-move { margin: .6rem 0 0; }
+.needs { margin: .5rem 0 0; color: var(--ink-2); font-style: italic; }
+.mobile-bar .last-move, .mobile-bar .needs { margin: .2rem 0 0; }
+
+/* ---------- cards ---------- */
+.event-card h2.ev-title { margin: 0; }
+.event-card .ev-table { font-style: italic; margin: 0 0 .5rem; }
+.event-card .ev-again { margin-top: .3rem; }
+.event-card .ev-again > summary { display: list-item; min-height: 28px; padding: .3rem 0; line-height: 1.3; cursor: pointer; color: var(--muted); }
+.event-card .credit { margin: .2rem 0 .6rem; }
+.event-card.opening .howto { margin: .4rem 0 .5rem; }
+.event-card.opening .ev-again { margin: 0 0 .4rem; }
+@media (max-width: 899px) {
+  .mobile-bar .event-card.opening { max-height: 78dvh; }
+  .mobile-bar .event-card.opening .ev-img .ev-verse { display: none; }   /* shown inside "The gate, in Barros’s words" */
+}
+
+/* "How the game goes" */
+.howto { margin: 0 0 1.1rem; }
+.howto .howto-h { margin: 0 0 .3rem; font-size: 1.1rem; color: var(--rubric); }
+.howto-list { list-style: none; margin: 0 0 .4rem; padding: 0; }
+.howto-list li { padding: .15rem 0 .15rem 1.4rem; position: relative; }
+.howto-list li::before { content: "☞"; position: absolute; left: 0; color: var(--rubric); }
+
+/* ---------- path view: a real button over each square (A11Y-11) ---------- */
+.path li .path-open { position: absolute; inset: 0; width: 100%; background: none; border: 0; border-radius: inherit; cursor: pointer; padding: 0; }
+.path li .path-open:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.path li.dest { box-shadow: none; outline: 2px dashed var(--gold); outline-offset: -2px; }    /* override */
+
+/* ---------- setup ---------- */
+.opt-row > label:first-child { min-width: 12rem; font-family: var(--f-sc); color: var(--ink-2); }
+.player-row input[type=text], .opt-row select, .opt-row input[type=number] { border-color: var(--muted); }   /* override: 3:1 boundary */
+
+/* ---------- the end ---------- */
+.victory-img { max-height: 150px; margin: 0 auto; }
+@media (max-width: 899px) { .victory-img { max-height: 120px; } }
+.careers { text-align: left; margin: 1rem 0; }
+.careers h3 { margin: .2rem 0 .3rem; color: var(--rubric); }
+.career-list { list-style: none; margin: .4rem 0 .8rem; padding: 0; }
+.career-list > li { padding: .4rem 0; border-bottom: 1px solid var(--line); }
+.career-h { display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
+.career-h .tok-ic { width: 1.5rem; height: 1.5rem; }
+.chips { display: flex; flex-wrap: wrap; gap: .25rem; margin-top: .3rem; align-items: center; }
+.sqchip { display: block; width: 40px; border: 2px solid var(--line-2); border-radius: 3px; overflow: hidden; background: var(--paper-3); }
+.sqchip img { width: 40px; height: 53px; object-fit: cover; }
+.sqchip.lost { border-color: #8e2c1c; box-shadow: 0 0 0 1px #8e2c1c; }
+.gate-chip { font-size: .75rem; }
+.careers blockquote { margin: .6rem 0; }
+.careers blockquote footer { margin-top: .3rem; font-size: .9em; color: var(--muted); }
+
+/* ---------- large text, for reading across a table (PLAY-19) ---------- */
+body.table-text .side, body.table-text .mobile-bar { font-size: 1.3em; }
+body.table-text .mobile-bar .event-card .ev-img { grid-template-columns: 5rem 1fr; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pot b.bump, .players .delta { animation: none; }
+}
+
+/* ---------- phones: the result of the move comes first on a card (RB-02) ---------- */
+.event-card .es-dup { display: none; }
+@media (max-width: 899px) {
+  .mobile-bar .event-card .ev-img { grid-template-columns: 4.5rem 1fr; }
+  .mobile-bar .event-card .ev-img .ev-verse-es { display: none; }
+  .mobile-bar .event-card .es-dup { display: block; margin: 0 0 .5rem; }
+  .mobile-bar .event-card .ev-body { display: flex; flex-direction: column; }
+  .mobile-bar .event-card .ev-body > .effects { order: 1; margin-top: 0; }
+  .mobile-bar .event-card .ev-body > .ev-table { order: 2; }
+  .mobile-bar .event-card .ev-body > .es-dup { order: 3; }
+  .mobile-bar .event-card .ev-body > .ev-extra { order: 4; }
+  .mobile-bar .event-card .ev-body > .credit { order: 5; font-size: .75rem; }
+  .mobile-bar .event-card .ev-body > .actions { order: 6; }
+}
+/* the marker choice is a radio group (one tab stop per player) */
+.tok-pick button[aria-checked="true"] { border-color: var(--rubric); background: var(--paper-2); }

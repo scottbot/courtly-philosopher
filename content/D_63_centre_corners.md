@@ -3,7 +3,8 @@ title_en: Victory, the Palm
 title_es: casa de la vitoria
 board_it: VITORIA (cartouche; the heading is the same in both languages)
 kind: marked
-rule_short: Reach 63 by exact count to win the pot. Overshoot counts back and costs one stake.
+rule_short: Reach 63 by exact count to win the pot. Overshoot counts back and costs one stake, unless you land on Poverty (60; 59 in the first edition).
+table: Neither too much nor too little: the exact throw is temperance, and the moon of the verse warns that no prize at court stays full [@barrosFilosofiaCortesanaMoralizada1588, pdf 53–55].
 see: |
   In the lower middle of the central sea stands a small classical gate (an aedicule): a
   triangular pediment with finials, two pairs of columns, and a large curling acanthus scroll
@@ -15,11 +16,10 @@ see: |
   VITORIA. Under the gate, in the band above the rule label of square 39, are two couplets,
   Italian above Spanish: "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna"
   and "Quando tengas mas fortuna / mira que es como la luna" ("When fortune's fullest, bear
-  in mind: / the moon is of the selfsame kind") [board]. The man clinging to the palm on the
-  right, and the sea around the gate, have their own notes (see "The man outside" and "The
+  in mind: / the moon is of the selfsame kind") [board]. The man reaching up to the palm on the right, and the sea around the gate, have their own notes (see "The man outside" and "The
   Sea of Suffering").
 why: |
-  The palm is the prize of the whole petition: the office or favour the courtier has been
+  The palm is the prize of the whole petition: the office or favor the courtier has been
   chasing. Barros says it is the palm with which the ancients crowned those who showed
   endurance in adversity and good fortune in the outcome. The words on it, "Neither too much
   nor too little", are both a rule and a moral: you must reach the palm with exactly the
@@ -32,11 +32,11 @@ why: |
   In play, only an exact throw wins. If the dice give more points than are needed, the
   counter goes back by the surplus, and the player pays one stake each time they have to go back
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 68–69]. The number 63 itself comes from the
-  Game of the Goose, which Barros adapted (see Context).
+  Game of the Goose, which Barros adapted (see Historical context, below).
 context: |
   The exact finish, with the surplus counted back, is the rule of the Game of the Goose, the
   63-square race game that had reached Philip II's court by 1585; Barros kept it along with
-  the number of squares, so that his board stayed recognisable [@luceroFilosofiaCortesanaJuego2020, 122–25; @sevilleImportanceTextPrinted2026, 66; @infantesPinturaQueSe2010, 134–35].
+  the number of squares, so that his board stayed recognizable [@luceroFilosofiaCortesanaJuego2020, 122–25; @sevilleImportanceTextPrinted2026, 66; @infantesPinturaQueSe2010, 134–35].
   Lucero ties the number 63 to the ages of human life and to the climacteric years, the
   seventh-year thresholds of life that were thought dangerous. He cites Pedro Mexía's *Silva
   de varia lección*, where the most feared of all was the sixty-third: {q|luceroFilosofiaCortesanaJuego2020|pdf9|125|el más temido de todos era el año sesenta y tres}
@@ -55,7 +55,7 @@ context: |
   [@bidwell-steinerFilosofiaCortesanaAlfonso2024, 204–5]. In the woodcut of Fortune in the
   Madrid edition of Pedro Madrigal, the palm reappears in Fortune's right hand beside an ox
   yoke, the victor's sign and the vanquished's [@luceroFilosofiaCortesanaJuego2021juin20, 147; @wilsonCervantesItemEmmanuel1968, 369];
-  on the board the last labour square, 57, promises that labour wins the palm [board].
+  on the board the last Labor square, 57, promises that labor wins the palm [board].
 variants: |
   - Motto. The 1588 book says the words "Ni lo mucho, ni lo poco" are on the palm's trunk
     [@barrosFilosofiaCortesanaMoralizada1588, pdf 53]; on the board they stand on a separate
@@ -73,12 +73,10 @@ variants: |
     the 1588 book (C) has "la casa de la vitoria" [@barrosFilosofiaCortesanaMoralizada1588, pdf 53];
     the board, "VITORIA" [board].
   - Winning rule. Only M says that whoever lands exactly on square 63, where the palm is,
-    takes everything in the pot, both the opening stakes and all later payments
-    [@debarrosFilosofiaCortesana1587; @sanchezEdicionesAntiguasFilosofia2016oct16, 189–90].
+    takes everything in the pot, both the opening stakes and all later payments [@debarrosFilosofiaCortesana1587, pdf 12; @sanchezEdicionesAntiguasFilosofia2016oct16, 189–90].
     G ends with the overshoot rule and "Deo gratias" [@luceroTableroJuego15882019, 204]; C
     also ends with the overshoot rule, never states how the game is won, and never numbers
-    the palm's square [@barrosFilosofiaCortesanaMoralizada1588, pdf 68–69]. M also exempts a
-    player who lands on Poverty from paying when they go back [@debarrosFilosofiaCortesana1587; @GameGooseLargest].
+    the palm's square [@barrosFilosofiaCortesanaMoralizada1588, pdf 68–69]. In its overshoot rule M also exempts a player who lands on Poverty from paying [@debarrosFilosofiaCortesana1587, pdf 12].
   - Neither book mentions the numerals 6 and 3 that the board shows (our observation).
 readings: |
   Collar de Cáceres reads the exact-throw motto as Barros's lesson of temperance
@@ -95,7 +93,7 @@ readings: |
   learned are their own reward [@luceroFilosofiaCortesanaJuego2021juin20, 146].
   Bidwell-Steiner reads the palm as won only when confidence is wholly gone and one keeps
   going by endurance alone [@bidwell-steinerFilosofiaCortesanaAlfonso2024, 204]. Wood reads
-  the centre as a choice of ends, the sea of suffering for a sinful life or the palm for the
+  the center as a choice of ends, the sea of suffering for a sinful life or the palm for the
   moral and successful player [@woodChancingItPrint2019, 463]; Barros's text does not present
   the sea as a losing end (our observation).
 barros_pdf: 53-55, 68-69
@@ -108,10 +106,9 @@ title_es: el hombre por defuera
 board_it: (no heading; Italian verse "Mai salirà gran costa / che mira quanto costa")
 kind: centre
 rule_short: Not a square. A picture beside Victory; it has no effect in play.
+table: He has caught his fish but left a shoe behind: nothing is won for nothing, and whoever counts the cost will never climb the hill [@barrosFilosofiaCortesanaMoralizada1588, pdf 55–56].
 see: |
-  On the shore to the right of the Victory gate a man, seen from behind, reaches up with his
-  right hand to grasp a frond of the palm. In his left hand he holds a large fish by the
-  head. One foot is shod; the other appears bare, and a shoe lies on the ground by his feet.
+  On the shore to the right of the Victory gate a man, seen from behind with his head turned over his shoulder, reaches up with one hand toward the fronds of the palm; in the other he holds a large fish by the head. One foot is shod; the other appears bare, and a shoe lies on the ground by his feet.
   In the band at the lower right of the sea's rim, reading steeply upward, are two couplets,
   Italian above Spanish: "Mai salirà gran costa / che mira quanto costa" and "Nunca subira
   gran cuesta / quien mira · lo q[ue] cuesta" ("No one will climb a great ascent / who
@@ -120,9 +117,9 @@ why: |
   Barros describes a man "outside" (por defuera) holding on to the branches of the palm and
   straining to raise himself above the lowness of his lot. The palm bends and does not
   break, and by nature it lifts whoever leans on it, so the pair figure the contest between
-  the brave person and adverse fortune. He seems to have caught a fish in the sea of his labour,
+  the brave person and adverse fortune. He seems to have caught a fish in the sea of his labor,
   but he leaves a shoe behind: nothing is gained for nothing, and there is no true victory
-  without risk, labour and cost. The cost will seem greater than the return, and so, that
+  without risk, labor and cost. The cost will seem greater than the return, and so, that
   the cost should not deter him, his verse follows
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 55–56].
   The verse turns on a pun: *cuesta* is "a slope" and also "it costs". Whoever stops to
@@ -132,24 +129,22 @@ context: |
   hangs from palm fronds to reach the sweet fruit, which Alciato reads in a spiritual sense;
   in Ripa a boy clinging to the palm, the tree of Virtue, and so lifted from the ground,
   means Perseverance [@decaceresTableroItalianoFilosofia2009, 99, 104; @web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a036].
-  Martínez Millán calls Barros's version a classical emblem with alterations of his own, the
-  fish and the lost shoe among them [@millanFilosofiaCortesanaAlonso1996, 481].
+  Martínez Millán calls Barros's version a classical emblem with alterations of his own, and quotes the passage on the fish and the lost shoe in full [@millanFilosofiaCortesanaAlonso1996, 481].
   The fish and the shoe are the price of the catch; Wilson's summary of the 1587 text puts it
   plainly: the man has caught his fish in the sea of troubles, and his fishing has cost him
   his shoe [@wilsonCervantesItemEmmanuel1968, 368]. The man stands at the edge of the sea
-  where the angler of the centre also waits with his rod (see "The Sea of Suffering").
+  where the angler of the center also waits with his rod (see "The Sea of Suffering").
 variants: |
   - Book and board verse. Both the 1588 book and the Madrid texts give the second line as
     "Quien mirare lo que cuesta" [@barrosFilosofiaCortesanaMoralizada1588, pdf 56; @millanFilosofiaCortesanaAlonso1996, 481].
     On the board both photographs show "quien mira", a gap with a dot, then "lo q[ue]
     cuesta"; there is no "mirare" on the plate [board]. Zollinger and the giochidelloca
-    catalogue ("mirare") and Collar de Cáceres ("mirare lo q questa") print the book's form
+    catalog ("mirare") and Collar de Cáceres ("mirare lo q questa") print the book's form
     [@GameGooseLargest; @decaceresTableroItalianoFilosofia2009, 99]; "questa" is not on the
     plate [board].
   - The Italian couplet keeps the pun, since Italian *costa* is both "slope" and "it costs"
     (our observation).
-  - G describes only "a man as if exerting himself"; M and C say he is holding the palm's
-    branches, outside, straining to rise [@sanchezEdicionesAntiguasFilosofia2016oct16, 187; @barrosFilosofiaCortesanaMoralizada1588, pdf 55].
+  - G describes only {q|sanchezEdicionesAntiguasFilosofia2016oct16|pdf19|187|un hombre *como haciendo fuerza*} (a man as if exerting himself) [@sanchezEdicionesAntiguasFilosofia2016oct16, 187]; M and C say he is holding the palm's branches, outside, straining to rise [@barrosFilosofiaCortesanaMoralizada1588, pdf 55].
   - The book has him hanging from the branches; the board shows him standing on the shore
     and reaching up to one frond (our observation).
 readings: |
@@ -157,7 +152,7 @@ readings: |
   ("he has lost a shoe in the attempt"); the court always takes its toll, either the loss of
   freedom in a patron's service or poverty [@luceroFilosofiaCortesanaJuego2021juin20, 137].
   Seville repeats Barros's moral: nothing is achieved for free
-  [@sevilleImportanceTextPrinted2026, 73]. The giochidelloca catalogue and the La Bella Donna
+  [@sevilleImportanceTextPrinted2026, 73]. The giochidelloca catalog and the La Bella Donna
   blog describe him as a fisherman [@GameGooseLargest; @TranslationFilosofiaCortesana].
 barros_pdf: 55-56
 sources: barrosFilosofiaCortesanaMoralizada1588, decaceresTableroItalianoFilosofia2009, millanFilosofiaCortesanaAlonso1996, wilsonCervantesItemEmmanuel1968, luceroFilosofiaCortesanaJuego2021juin20, sanchezEdicionesAntiguasFilosofia2016oct16, sevilleImportanceTextPrinted2026, GameGooseLargest, TranslationFilosofiaCortesana, woodChancingItPrint2019
@@ -168,7 +163,8 @@ title_en: The Sea of Suffering
 title_es: Mar de Sufrimiento (the book: "vn mar, que se llama de Sufrimiento")
 board_it: Mare di soffrimento
 kind: centre
-rule_short: Not a square: the sea at the centre of the board; no effect in play.
+rule_short: Not a square: the sea at the center of the board; no effect in play.
+table: The sea at the center is Suffering: whoever plunges into the abyss of petitions needs more patience than an angler with a rod [@barrosFilosofiaCortesanaMoralizada1588, pdf 56–57].
 see: |
   Inside the innermost ring lies an oval of rough sea drawn in wavy lines, with rocky shores
   at left and right. Its figures face different edges of the sheet, some upright for a
@@ -176,8 +172,7 @@ see: |
   the board would each see part of it the right way up (our observation). What it contains:
   - A strapwork cartouche in two panels, Italian left and Spanish right: "Mare di
     soffrimento / chi pretende hà dà soffrire / come chi nasce il morire" and "Mar de
-    suffrimiento / quien pretende ha de sus: srir / como el que nace morir" ("Who petitions for
-    favour must endure, / as birth makes dying just as sure").
+    suffrimiento / quien pretende ha de sus: srir / como el que nace morir" ("Who seeks advancement must endure, / as death for all the born is sure").
   - A galley under sail, drawn on its side: a dark hull with a bank of oars and rowers' heads,
     a lateen yard with two bellying sails, a small grapnel or anchor at the bow.
   - A round-hulled sailing ship upside down, its hull and bent masts turning in the circles of
@@ -213,13 +208,13 @@ context: |
   The sea of petitions was already a figure in the book's preliminaries: Cervantes's sonnet,
   printed in M and C but not in G [@sanchezEdicionesAntiguasFilosofia2016oct16, 179–81], promises that whoever sails the mad gulf of the sea of petitions will find
   the thread of the courtly labyrinth [@barrosFilosofiaCortesanaMoralizada1588, pdf 15].
-  Bidwell-Steiner takes the board's centre as that sea made visible
+  Bidwell-Steiner takes the board's center as that sea made visible
   [@bidwell-steinerFilosofiaCortesanaAlfonso2024, 197]. Barros opens his book with the same
   metaphor, warning against putting out to the high sea in so small a ship
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 23], and Collar de Cáceres notes that he
   used the stormy sea of life again in his praise of *Guzmán de Alfarache* (1599)
   [@decaceresTableroItalianoFilosofia2009, 99, 104].
-  Collar describes the centre as a rough sea with ships and a whale, and on its shore
+  Collar describes the center as a rough sea with ships and a whale, and on its shore
   fishermen with rod or net [@decaceresTableroItalianoFilosofia2009, 99]. Rodríguez Mansilla
   sees {q|rodriguezmansillaGRABADOPICARAJUSTINA2019|pdf6|188|la figura de un delfín (aunque tiene aspecto de pez) del que asoman cabeza y cola}
   ("a dolphin, though it looks like a fish, with head and tail showing") and suggests, as
@@ -227,10 +222,8 @@ context: |
   says nothing of it [@rodriguezmansillaGRABADOPICARAJUSTINA2019, 188].
   Wood connects the sea monsters with maps: {q|woodChancingItPrint2019|pdf17|466|the Courtly Philosophy Game reflects some elements of maps, particularly its sea monsters},
   fitting for an engraver who was also a working cartographer [@woodChancingItPrint2019, 466].
-  A central sea is unusual: after Infantes, Rodríguez Mansilla notes that the Italian goose
-  boards of the period share the spiral but not the sea
-  [@rodriguezmansillaGRABADOPICARAJUSTINA2019, 190]. Gatti's *Game of the Monkey*, printed in
-  Rome in the same year, puts dancing monkeys and a bagpiper where this board has its sea
+  A central sea is unusual: Rodríguez Mansilla notes that the contemporary Italian goose boards reproduced by Infantes share the spiral but not the sea
+  [@rodriguezmansillaGRABADOPICARAJUSTINA2019, 190]. Gatti's *Game of the Monkey*, published in the same year, puts dancing monkeys and a bagpiper where this board has its sea
   [@woodChancingItPrint2019, 475].
 variants: |
   - Ships or fisherman. G explains the endurance by the ships painted there ("como los
@@ -238,10 +231,11 @@ variants: |
     [@luceroTableroJuego15882019, 205; @sanchezEdicionesAntiguasFilosofia2016oct16, 185–86; @barrosFilosofiaCortesanaMoralizada1588, pdf 57].
     Lucero reads M's change as written with a new engraving in view
     [@luceroTableroJuego15882019, 205].
-  - Name. M calls it "un mar que se llama Sufrimiento"; C adds "de"
-    [@debarrosFilosofiaCortesana1587; @barrosFilosofiaCortesanaMoralizada1588, pdf 56].
-  - Verse. The 1588 book prints "Quien pretende ha le sufrir; / Co.no quien nace morir",
-    with damaged type for "de" and "Como" [@barrosFilosofiaCortesanaMoralizada1588, pdf 57].
+  - Name. M calls it "un mar que se llama Sufrimiento"; C adds "de" [@debarrosFilosofiaCortesana1587, pdf 9; @barrosFilosofiaCortesanaMoralizada1588, pdf 56].
+  - Verse. The 1588 book, as printed, reads "Quien pretende ha le sufrir; / Co.no quien nace
+    morir", with damaged type for "de" and "Como" [@barrosFilosofiaCortesanaMoralizada1588,
+    pdf 57]; the edition's transcription of the book (C-057a) gives the evident letters, "ha
+    de sufrir; / Como", and records the damage in its note.
     The board has "como el que nace" (not "como quien"), "suffrimiento", and "ha de sus:"
     with "srir" cut under the line end, that is "sussrir" for "suffrir", as Zollinger and
     Collar also read [board; @GameGooseLargest; @decaceresTableroItalianoFilosofia2009, 99].
@@ -267,6 +261,7 @@ title_es: vn Delfin con vna ancora
 board_it: (none; the motto is in Spanish only: "Dateprisa aespacio")
 kind: corner
 rule_short: Not a square. A corner emblem outside the track; no effect in play.
+table: The dolphin is speed and the anchor firmness: make haste slowly, for in a petition nothing is safe until its end [@barrosFilosofiaCortesanaMoralizada1588, pdf 57–59].
 see: |
   In the top left corner, outside the track, a scaly dolphin with a curled snout and open
   mouth twists its body downward round the shank of an anchor, whose curved arms project
@@ -277,7 +272,7 @@ why: |
   Barros closes his book with the three figures in the outer corners. The dolphin with an
   anchor means speed and firmness. Read together with the woman (Occasion) and the clock,
   they say that in a petition nothing is safe until its end, so the petitioner must persist with
-  great care and firmness, fearing neither labour nor cost, and losing neither occasion nor
+  great care and firmness, fearing neither labor nor cost, and losing neither occasion nor
   time, because what is lost of these is never recovered. Time for making efforts is given
   up to the last hour and no more, and the efforts made will, after death, bear witness to
   the life; this holds for everything pursued, from earth to heaven
@@ -285,8 +280,7 @@ why: |
   The dolphin gives the speed and the anchor the firmness; the motto joins them: hurry, but
   steadily.
 context: |
-  The motto is the Spanish form of the Latin *festina lente*, and the dolphin wound round an
-  anchor is its best-known image [@luceroIdeaTrabajoFilosofia2019, 826–27]. Collar de
+  The motto is the Spanish form of the Latin *festina lente*, a much-glossed adage that Erasmus treats in the *Adagia* [@luceroIdeaTrabajoFilosofia2019, 826–27]. Collar de
   Cáceres traces it to the *Hypnerotomachia Poliphili* (1499), where a marble relief of a
   circle and an anchor with a dolphin is read "semper festina tarde"; to the printer's
   device of Aldus Manutius; to Roman coins of Titus and Domitian; and to the reliefs of the
@@ -305,7 +299,7 @@ variants: |
   - The motto is on the board only; the book gives the figure and its meaning, not the words
     [@barrosFilosofiaCortesanaMoralizada1588, pdf 57].
   - Reading. The plate has "Dateprisa aespacio", with a clear "a" before "espacio" and no
-    "d" [board]. Zollinger and the giochidelloca catalogue read "Date prisa a espacio"
+    "d" [board]. Zollinger and the giochidelloca catalog read "Date prisa a espacio"
     [@GameGooseLargest]; Lucero and Collar de Cáceres print "Date prisa despacio"
     [@luceroTableroJuego15882019, 203; @decaceresTableroItalianoFilosofia2009, 92]; the La
     Bella Donna blog prints "Date prisa e espacio" [@TranslationFilosofiaCortesana].
@@ -313,7 +307,7 @@ variants: |
 readings: |
   Collar de Cáceres reads the dolphin as constancy, one of three notions, {q|decaceresTableroItalianoFilosofia2009|pdf12|92|constancia, ocasión y medida del tiempo}
   ("constancy, occasion and the measure of time"), that guide the courtier's effort to rise
-  [@decaceresTableroItalianoFilosofia2009, 92, 99]. Lucero links the corner to the labour
+  [@decaceresTableroItalianoFilosofia2009, 92, 99]. Lucero links the corner to the labor
   squares: {q|luceroFilosofiaCortesanaJuego2021juin20|pdf15|146|el ancla y el delfín, que ocupan la esquina superior izquierda, sugieren paciencia en esa constancia}
   ("the anchor and dolphin in the top left corner suggest patience in that constancy"),
   diagonally opposite the clock [@luceroFilosofiaCortesanaJuego2021juin20, 146; @luceroIdeaTrabajoFilosofia2019, 826–27].
@@ -332,6 +326,7 @@ title_es: la ocasion (the book: "vna muger con vn manojo de cabellos en la frent
 board_it: (none; the motto is in Spanish only: "No me pierdas")
 kind: corner
 rule_short: Not a square. A corner emblem outside the track; no effect in play.
+table: Occasion, with her single lock of hair, says "Don't lose me": neither occasion nor time, once lost, is ever recovered [@barrosFilosofiaCortesanaMoralizada1588, pdf 58–59].
 see: |
   In the top right corner a woman half-reclines along the outer rim of the track, leaning on
   the balustrade by squares 17 and 18. Her hair is drawn up into a single lock that rises
@@ -342,7 +337,7 @@ why: |
   Barros names her: a woman with a bunch of hair on her forehead and a bald head, meaning
   Occasion [@barrosFilosofiaCortesanaMoralizada1588, pdf 58]. In the old image Occasion is
   bald behind, with a forelock blown by the wind [@decaceresTableroItalianoFilosofia2009, 93]:
-  a chance can be caught by the forelock as it comes towards you, and not at all once it has
+  a chance can be caught by the forelock as it comes toward you, and not at all once it has
   passed. Her words speak for her. In Barros's lesson
   of the three corners, the petitioner must lose neither occasion nor time, because neither can
   be recovered [@barrosFilosofiaCortesanaMoralizada1588, pdf 58–59].
@@ -355,11 +350,9 @@ context: |
   [@decaceresTableroItalianoFilosofia2009, 93, 95, 103; @web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a122].
   Martínez Millán adds Ripa and Daza Pinciano's Spanish Alciato [@millanFilosofiaCortesanaAlonso1996, 473].
   Seizing the forelock was a stock courtly image. Biagioli quotes a later poem by Jacopo
-  Soldani on the office-seekers who went to Rome at the election of Urban VIII (1623) to {q|biagioliGalileoCourtierPractice1993|pdf49|34|seize the waving forelock/ of she who […] flees, and then wait for her again in vain}
-  [@biagioliGalileoCourtierPractice1993, 34–35].
+  Soldani on the office-seekers who went to Rome at the election of Urban VIII (1623) to {q|biagioliGalileoCourtierPractice1993|pdf49|34|seize the waving forelock} of the one who flees, only to wait in vain for her return [@biagioliGalileoCourtierPractice1993, 34–35].
   Barros's own Fortune in the Madrid edition of Pedro Madrigal also had a forelock: M
-  explains why she wears hair only on her forehead, a paragraph the 1588 book omits
-  [@debarrosFilosofiaCortesana1587; @barrosFilosofiaCortesanaMoralizada1588, pdf 63].
+  explains why she wears hair only on her forehead, a paragraph the 1588 book omits [@debarrosFilosofiaCortesana1587, pdf 10; @barrosFilosofiaCortesanaMoralizada1588, pdf 63].
 variants: |
   - The motto is on the board only; the book gives the figure and its meaning
     [@barrosFilosofiaCortesanaMoralizada1588, pdf 58].
@@ -375,14 +368,11 @@ readings: |
   waist and clothed only below (our observation). Lucero finds her posture, reclining and
   almost lying on the outer edge of the track, peculiar or anomalous
   [@luceroTableroJuego15882019, 201]; he notes that she is marked only by her forelock and
-  that Fortune and Occasion exchange attributes in the work
-  [@luceroFilosofiaCortesanaJuego2021juin20, 147], and he finds the likeness to the lying ass
+  that Fortune and Occasion exchange attributes in the work [@luceroFilosofiaCortesanaJuego2021juin20, 146–47], and he finds the likeness to the lying ass
   of square 55 ("I Thought…") striking, while noting that Barros's text does not call for
   that posture [@lucerosanchezAsnoPenseQue2019, 172]. Martínez Millán treats Occasion and
   Fortune as sharing the same attributes, and quotes Barros's whole Fortune ekphrasis at this
-  point [@millanFilosofiaCortesanaAlonso1996, 473–74]. The giochidelloca catalogue and the La
-  Bella Donna blog describe "a female figure with hair half-shaved"
-  [@GameGooseLargest; @TranslationFilosofiaCortesana]; the plate shows the hair gathered up,
+  point [@millanFilosofiaCortesanaAlonso1996, 473–74]. The giochidelloca catalog, in the machine-translated copy we have, describes "a female figure with half-shaved hair" [@GameGooseLargest], and the La Bella Donna blog "a female figure with hair half-shaved" [@TranslationFilosofiaCortesana]; the plate shows the hair gathered up,
   not visibly shaved (our observation).
 barros_pdf: 57-59
 sources: barrosFilosofiaCortesanaMoralizada1588, debarrosFilosofiaCortesana1587, decaceresTableroItalianoFilosofia2009, millanFilosofiaCortesanaAlonso1996, biagioliGalileoCourtierPractice1993, luceroTableroJuego15882019, luceroFilosofiaCortesanaJuego2021juin20, lucerosanchezAsnoPenseQue2019, GameGooseLargest, TranslationFilosofiaCortesana
@@ -394,6 +384,7 @@ title_es: vna mano señalando las horas de vn Relox
 board_it: (none; the motto is in Spanish only: "Haesta la postrera")
 kind: corner
 rule_short: Not a square. A corner emblem outside the track; no effect in play.
+table: The hand points to the last hour: the time for making your efforts lasts until then, and no longer [@barrosFilosofiaCortesanaMoralizada1588, pdf 58–59].
 see: |
   In the bottom right corner hangs a weight-driven wall clock: a dial with Roman numerals and
   a single hand, a domed bell-cage topped by a pointed finial, and three weights hanging on
@@ -425,10 +416,9 @@ variants: |
   - The sources we cite record no difference between G, M and C in the corner passage.
 readings: |
   Collar de Cáceres reads the plate as "Ha esta la postrera" and calls it somewhat cryptic
-  [@decaceresTableroItalianoFilosofia2009, 93]; Lucero and Zollinger normalise it to "Hasta la
-  postrera" [@luceroTableroJuego15882019, 203; @GameGooseLargest]; our transcription keeps the
+  [@decaceresTableroItalianoFilosofia2009, 93]; Lucero normalizes it to "Hasta la postrera" [@luceroTableroJuego15882019, 203]; Zollinger prints "Haesta" and adds "lire Hasta", and the giochidelloca catalog keeps "Haesta" [@GameGooseLargest]; our transcription keeps the
   engraved form without deciding between "Hasta" with an intrusive *e* and "Ha esta" [board].
-  Lucero links the clock to the labour squares: labour lasts "until the last", to the final
+  Lucero links the clock to the Labor squares: labor lasts "until the last", to the final
   breath, and the clock stands diagonally opposite the dolphin and anchor
   [@luceroFilosofiaCortesanaJuego2021juin20, 146]. Martínez Millán places the danger not in the
   hours spent courting patrons but in ambition kept waiting on false promises while life runs
@@ -443,9 +433,9 @@ title_es: vn Cisne con vn pie leuantado sobre una muerte
 board_it: (none; the motto is in Latin: "Noscete ipsum")
 kind: corner
 rule_short: Not a square. The emblem over the entrance gate; no effect in play.
+table: Over the gate the swan on the skull cries out that each should know themselves and look to the end of what they seek [@barrosFilosofiaCortesanaMoralizada1588, pdf 26–27].
 see: |
-  On the crown of the round entrance arch at the bottom left lies a human skull. A swan
-  stands on it with its wings raised and holds in its beak a long straight trumpet whose bell
+  On the crown of the round entrance arch at the bottom left lies a human skull. A swan stands on it with one foot and its wings raised; its other foot is lifted and grips a long straight trumpet, held in its beak, whose bell
   points down to the left. From the bell, in italic, the words "Noscete ipsum" (Latin, "Know
   thyself") run steeply down the margin [board]. For the arch itself and its Italian motto
   "Guarda l'fine", see the Gate of Opinion.
@@ -454,7 +444,7 @@ why: |
   figures: to show that the difficulties of the end often come from the choice made at the
   beginning, a swan stands over the door with one foot raised on a death's head, the end of
   all things, and a trumpet, crying out that each should know themselves and look to the end of
-  what they seek, so that they do not complain of their fortune afterwards
+  what they seek, so that they do not complain of their fortune afterward
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 26–27]. Barros counts only three figures in
   the outer corners [@barrosFilosofiaCortesanaMoralizada1588, pdf 57]; the board makes the swan
   the fourth (our observation).
@@ -468,15 +458,14 @@ context: |
   The swan also takes the goose's place. Collar notes that early goose boards open with a
   herald animal calling players to the game, {q|decaceresTableroItalianoFilosofia2009|pdf8|88|un animal-heraldo llamando al juego (oca, cisne, mona en su caso)}
   ("a herald animal calling to the game: goose, swan, or monkey as the case may be")
-  [@decaceresTableroItalianoFilosofia2009, 88]. Gatti's *Game of the Monkey* (Rome, 1588)
+  [@decaceresTableroItalianoFilosofia2009, 88]. Gatti's *Game of the Monkey* (1588)
   puts a trumpeting monkey in the same place [@woodChancingItPrint2019, 475].
   Self-knowledge was part of the courtly vocabulary of the time; Lucero cites
   Álvarez-Ossorio on courtly knowledge adopting *Nosce te ipsum*, and Martínez Millán notes
   that Hernando de Soto, Barros's friend, used the Socratic maxim in the prologue to his
   emblem book [@luceroFilosofiaCortesanaJuego2021juin20, 140; @millanFilosofiaCortesanaAlonso1996, 468].
 variants: |
-  - G has only "a swan with a trumpet"; M and C add the raised foot on a death's head
-    [@sanchezEdicionesAntiguasFilosofia2016oct16, 185; @barrosFilosofiaCortesanaMoralizada1588, pdf 27].
+  - G has only {q|sanchezEdicionesAntiguasFilosofia2016oct16|pdf17|185|un cisne con una trompa} (a swan with a trumpet); M and C add the raised foot on a death's head [@sanchezEdicionesAntiguasFilosofia2016oct16, 185; @barrosFilosofiaCortesanaMoralizada1588, pdf 27].
   - The Latin motto is on the board only; the books put the call in Spanish prose (our
     observation). The plate has "Noscete ipsum" as one word [board]; Lucero prints "Nosce te
     ipsum" [@luceroTableroJuego15882019, 203].
@@ -503,6 +492,7 @@ title_es: Filosofia cortesana de Alonso de Barros, criado del Rey n[uest]ro S[e�
 board_it: Con priuilegio di Sua Ecc[ellenz]a per X. anni nel Regno di Napoli
 kind: title
 rule_short: Not a square. The sheet's title, privileges and the engraver's signature.
+table: The title under which Philip II licensed the picture in 1587, with the viceroy's privilege for Naples and the signature of Mario Cartaro, who engraved this sheet in 1588 [@barrosFilosofiaCortesanaMoralizada1588, pdf 9; board].
 see: |
   Along the top margin, in spaced roman capitals with swash initials, runs the title:
   "FILOSOFIA CORTESANA" at the left and "DE ALONSO DE BARROS" at the right. At the bottom
@@ -525,15 +515,15 @@ why: |
   A privilege was a monopoly. Philip II's, dated Madrid, 9 February 1587, gave Barros for
   ten years the sole right to print and sell the picture and its moral explanation in the king's
   kingdoms and lordships; unlicensed copies, with the plates and tools used, were to be
-  forfeit and a fine of 50,000 maravedís paid for each offence
+  forfeit and a fine of 50,000 maravedís paid for each offense
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 9–12]. The sheet carries a second grant, from
   His Excellency, the viceroy, for ten years in the Kingdom of Naples
   [@GameGooseLargest; @luceroTableroJuego15882019, 202]; Naples was a separate kingdom with
   its own licensing (our observation). "Inc." is *incidit*, "engraved":
-  Cartaro signs as engraver; the book was printed by another man, Joseph Cacchij
+  Cartaro signs as engraver; the book was printed by another man, Iosep Cacchij
   [@decaceresTableroItalianoFilosofia2009, 86; @infantesPinturaQueSe2010, 130].
 context: |
-  Mario Cartaro (Viterbo, c. 1540 – Naples, 16 April 1620) was an engraver, print dealer and
+  Mario Cartaro (Viterbo, 1540/45 – Naples, 16 April 1620) was an engraver, print dealer and
   publisher. He was active in Rome from the late 1550s, worked with Antoine Lafréry on the
   *Speculum Romanae Magnificentiae*, and valued Lafréry's estate after his death in 1577
   [@sevilleImportanceTextPrinted2026, 70; @web:https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/].
@@ -555,41 +545,35 @@ context: |
   verses into the design [@sevilleImportanceTextPrinted2026, 66]. Seville calls it the unique
   example of the sheet, and Lucero knows no sheet for either Madrid edition
   [@sevilleImportanceTextPrinted2026, 70; @luceroTableroJuego15882019, 202].
-  The British Museum bought it in 1869 from Edward Daniell. Its earlier owners were Spanish:
-  José de Madrazo and José de Salamanca y Mayol, Marquis of Salamanca, whose collection was
-  sold at Sotheby's on 24–27 February 1869
+  The British Museum acquired it in 1869 at the Sotheby's sale of 24–27 February, through the dealer Edward Daniell, from the collection of José de Salamanca y Mayol, Marquis of Salamanca; José de Madrazo owned it earlier
   [@britishMuseumRecord2012; @web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-]. Early Italian goose
-  boards from the same purchase sit under neighbouring numbers, among them Gargano's 1598
+  boards from the same purchase sit under neighboring numbers, among them Gargano's 1598
   goose game, 1869,0410.2465.+ [@sevilleImportanceTextPrinted2026, 65; @web:https://www.britishmuseum.org/collection/object/P_1869-0410-2465-]. Scholars had long taken the board for
-  lost: {q|decaceresTableroItalianoFilosofia2009|pdf1|81|De éste, dado por perdido, se conserva […] un ejemplar en el British Museum}
+  lost: {q|decaceresTableroItalianoFilosofia2009|pdf1|81|De éste, dado por perdido, se conserva un ejemplar en el British Museum}
   ("thought lost, a copy survives in the British Museum") [@decaceresTableroItalianoFilosofia2009, 81–82].
   Zollinger reports that an Australian blogger put it online in 2008 without knowing what it
   was [@GameGooseLargest]. Collar de Cáceres published it in 2009 and Zollinger, independently,
   in January 2010 [@infantesPinturaQueSe2010, 130, 133; @luceroTableroJuego15882019, 202].
   It was shown in the British Museum's exhibition "Prints in Play" in 2017
   [@web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-]. Image credit for
-  every reproduction: © The Trustees of the British Museum, 1869,0410.2463.+ (image numbers
-  AN137041001 and 605314001) [@sevilleImportanceTextPrinted2026, 71; @web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-].
+  every reproduction: © The Trustees of the British Museum, 1869,0410.2463.+ (image numbers AN137041001 and 605314001) [@sevilleImportanceTextPrinted2026, 71; @britishMuseumRecord2012; @web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-].
 variants: |
   - Title. G's title page reads "Philosophia cortesana moralizada … CON PRIVILEGIO"; M's
     "Filosofia Cortesana, moralizada … Tassado en medio Real"; C's "Filosofia Cortesana
-    moralizada", with no date in the imprint [@sevilleImportanceTextPrinted2026, 70; @barrosFilosofiaCortesanaMoralizada1588, pdf 7].
+    moralizada", with no date in the imprint [@sevilleImportanceTextPrinted2026, 70, 72; @barrosFilosofiaCortesanaMoralizada1588, pdf 7].
     The board's title lacks "moralizada" [board].
   - Privileges. The 1588 book reprints the Castilian privilege of 1587 and ends "Con
     licencia y Priuilegio" [@barrosFilosofiaCortesanaMoralizada1588, pdf 9–12, 69]; only the
     board carries the Neapolitan privilege [board]. A third grant, for the Indies, was issued
-    at El Pardo on 17 November 1587; whether an Indies edition followed is unknown
+    at El Pardo on 17 November 1587; the sources we cite do not say whether an Indies edition followed
     [@decaceresTableroItalianoFilosofia2009, 84, 88, 101].
-  - Language. On the board only the Neapolitan privilege and the signature are in Italian and
-    Latin; the title stays in Spanish [@luceroTableroJuego15882019, 203; board].
+  - Language. Of the lettering in the title block, only the Neapolitan privilege (Italian) and the engraver's signature (Latin) are not Spanish; the title stays in Spanish [@luceroTableroJuego15882019, 203; board].
   - Readings. The plate reads "Cartarius", not "Cartarus" [board]; Collar de Cáceres renders
     the signature in Italian as "Mario Cartaro inc Naep. 1588"
     [@decaceresTableroItalianoFilosofia2009, 86]. The raised "or" gives "S[eñ]or" [board].
     The La Bella Donna blog translates "Criado del Rey" as "Created with permission"; it
     belongs to Barros's name ("servant of the King") [@TranslationFilosofiaCortesana; board].
-  - Holding. The giochidelloca catalogue gives the owner as "British Museum, donation Lady
-    Charlotte Schreiber" [@GameGooseLargest]; the museum's record gives purchase from Daniell
-    in 1869 [@web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-], and the
+  - Holding. The giochidelloca catalog, in the machine-translated copy we have, gives the owner as "British Museum. Donation Lady Charlotte Schreiber" [@GameGooseLargest]; the museum's record gives purchase through Daniell in 1869 [@web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-], and the
     Schreiber gift of goose boards came in 1893 [@decaceresTableroItalianoFilosofia2009, 86].
     Infantes and Lucero write "British Library" for the British Museum
     [@infantesPinturaQueSe2010, 130; @luceroTableroJuego15882019, 202].
@@ -617,7 +601,8 @@ title_en: A Plain Square
 title_es: casa (no name)
 board_it: (none)
 kind: plain
-rule_short: Stay here. If someone lands on you, you take the square they have just left and pay one stake for going back.
+rule_short: Stay here. If someone lands on you, you take the square they have just left, paying one stake if that square is behind you.
+table: A plain square is one of the years a petition uses up; if a rival lands on you, you take the square they have just left [@debarrosFilosofiaCortesana1587, pdf 11].
 see: |
   A bay between two balusters holding nothing but its engraved number and a strip of
   hillocky ground with grass and a single small plant, flowering or leafy, different from bay
@@ -630,37 +615,28 @@ see: |
 why: |
   In the Madrid edition of Pedro Madrigal, Barros explains that the sheet is painted with 63
   squares, which are the years of life spent in a petition, and also the years the petition uses up
-  (M, fol. 42r) [@debarrosFilosofiaCortesana1587; @millanFilosofiaCortesanaAlonso1996, 470].
+  (M, fol. 42r) [@debarrosFilosofiaCortesana1587, pdf 11; @millanFilosofiaCortesanaAlonso1996, 470].
   A plain square is one of those years in which nothing marked happens, but which still pass.
   In play they are where most throws end, and where rivals meet. Two counters may not share a
   square: the newcomer stays and the one already there takes the square the newcomer left,
-  since that, Barros says, is the way of competition
-  [@barrosFilosofiaCortesanaMoralizada1588, pdf 27–28, 66]. Near the end they decide the exact
-  count. With two dice (Madrigal's rules also allow six arenillas, dice marked on one face)
-  the smallest throw is 2, so a counter on 62 cannot land exactly on 63 and must count back
-  (our observation).
+  since that, Barros says, is the custom of rivalry
+  [@barrosFilosofiaCortesanaMoralizada1588, pdf 27–28, 66]. Near the end they decide the exact count. With two dice the smallest throw is 2, so a counter on 62 cannot land exactly on 63 and must count back; with Madrigal's alternative of six *arenillas*, dice marked on one face only, a throw of 1 is possible (our observation).
 context: |
   Lucero puts the squares' meaning this way: {q|luceroFilosofiaCortesanaJuego2020|pdf9|125|Las casas del recorrido son para Barros «los años de la vida que se gastan en una pretensión y los que también la gastan a ella», hasta el climaterio}
   ("For Barros the squares of the course are 'the years of life spent in a petition, and those
   the petition also spends', up to the climacteric") [@luceroFilosofiaCortesanaJuego2020, 125].
   He adds that Barros kept the Goose game's division into marked and unmarked squares
-  [@luceroFilosofiaCortesanaJuego2020, 125]. The reading of the Goose game's own 63 squares as
-  63 years of life goes back, in Wood's account, to Mascheroni and Tinti, and Seville reads
-  them as a spiritual journey through a life [@woodChancingItPrint2019, 466; @sevilleImportanceTextPrinted2026, 64].
-  Collar de Cáceres notes that the strip of land runs continuously from start to end, joining
-  the labour squares [@decaceresTableroItalianoFilosofia2009, 91].
-  M's worked example plays on plain squares: Pedro throws 6 and puts his ring on square 6;
-  when Rodrigo later takes Pedro's square, Pedro goes back to square 5, where Rodrigo had been,
-  and pays a stake because he went back [@GameGooseLargest; @sanchezEdicionesAntiguasFilosofia2016oct16, 190].
+  [@luceroFilosofiaCortesanaJuego2020, 125]. Wood cites Mascheroni and Tinti for the reading of the Goose game's own 63 squares as 63 years of life, and Seville reads them as a spiritual journey through a life [@woodChancingItPrint2019, 466; @sevilleImportanceTextPrinted2026, 64].
+  Collar de Cáceres notes that the strip of land runs continuously from start to end, joining the Labor squares [@decaceresTableroItalianoFilosofia2009, 91].
+  M's worked example shows the swap: Pedro throws 6 and puts his ring on square 6, later reaching the Favorite at 26 by way of the Pass of Hope; Rodrigo, coming the same way from square 5, finds Pedro's ring on 26 and takes the square, and Pedro goes back to 5, where Rodrigo had been, paying a stake because he went back [@debarrosFilosofiaCortesana1587, pdf 11–12; @sanchezEdicionesAntiguasFilosofia2016oct16, 190].
 variants: |
   - The set of plain squares was not fixed. In G, Poverty stands at 59, so G's board (lost)
     would have had a plain 60 and a marked 59; M, C and the board have Poverty at 60 and 59
     plain [@luceroTableroJuego15882019, 204; @sanchezEdicionesAntiguasFilosofia2016oct16, 180].
-    Lucero also infers that G's labour squares may have been spread more evenly along the
+    Lucero also infers that G's Labor squares may have been spread more evenly along the
     track [@sanchezFILOSOFIACORTESANAALONSO, 20].
   - Sharing a square. C gives the swap rule twice [@barrosFilosofiaCortesanaMoralizada1588, pdf 28, 66];
-    M adds that at the start of the game the displaced player is left without a square, and
-    its example charges a stake for going back [@GameGooseLargest].
+    M adds that at the start of the game the displaced player is left without a square, and its example charges a stake for going back [@debarrosFilosofiaCortesana1587, pdf 12].
   - The "years of life" passage belongs to M's "Declaración del juego", which the 1588 book
     lacks [@sanchezEdicionesAntiguasFilosofia2016oct16, 189–90; @barrosFilosofiaCortesanaMoralizada1588, pdf 66];
     Lucero places Barros's first mention of the separate sheet in M
@@ -675,7 +651,7 @@ readings: |
   year (our observation). Lucero adds the climacteric to Barros's "years of
   life", while noting that Barros himself goes no further than the years
   [@luceroFilosofiaCortesanaJuego2020, 125]. Méndez Filesi, writing without the board,
-  supposed the labour squares evenly spaced every six or seven squares [@GameGooseLargest].
+  supposed the Labor squares evenly spaced every six or seven squares [@GameGooseLargest].
 barros_pdf: 27-28, 66
 sources: debarrosFilosofiaCortesana1587, barrosFilosofiaCortesanaMoralizada1588, luceroFilosofiaCortesanaJuego2020, millanFilosofiaCortesanaAlonso1996, woodChancingItPrint2019, sevilleImportanceTextPrinted2026, decaceresTableroItalianoFilosofia2009, GameGooseLargest, sanchezEdicionesAntiguasFilosofia2016oct16, luceroTableroJuego15882019, sanchezFILOSOFIACORTESANAALONSO, bidwell-steinerFilosofiaCortesanaAlfonso2024
 ===

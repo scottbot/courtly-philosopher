@@ -9,30 +9,48 @@ Sources (not included in the repository; paths given on the command line):
   BOOK   Google Books scan of Barros, Filosofia cortesana moralizada (Naples 1588),
          Vienna, ÖNB 35 V 49 (Google Books id 1FFfAAAAcAAJ), a PDF of 72 pages.
 
-Outputs (under img/):
-  board/board-full.jpg, board-2000.jpg, board-1200.jpg   the sheet, cropped to the paper
+Outputs (under img/). Every JPEG has an AVIF and a WebP twin of the same size and name
+(…/x.jpg, …/x.avif, …/x.webp); pages offer them with <picture> or FC.img (js/common.js).
+  board/board-full.jpg, board-2000.jpg, board-1200.jpg, board-800.jpg
+                     the sheet, cropped to the paper (the viewer climbs this ladder)
   sq/tile-NN.jpg     each square "unrolled" upright (perspective warp of its quad)
   sq/detail-NN.jpg   each square with its lettering, rotated upright, for annotations
   feat/<id>.jpg      corner figures, mottoes, centre features, title, signature
+  feat/thumb-<id>.jpg  the same at 320 px wide, for the Atlas grid
   book/pNNN.jpg      the book's pages (PDF pages 7-69), for the facsimile view
 
 Geometry comes from content/squares_01_31.json, content/squares_32_63.json,
 content/margins_01_31.json and content/centre.json (pixel coordinates in the
-2778 x 3600 photograph). The crop offset below converts them to sheet coordinates.
+2778 x 3600 photograph); the crop of the sheet is in tools/geometry.py.
 
-Usage:  python3 tools/make_images.py BOARD.jpg BOOK.pdf
-Requires Pillow and PyMuPDF (pip install pillow pymupdf).
+Usage:  python3 tools/make_images.py BOARD.jpg BOOK.pdf [--keep-jpeg]
+  --keep-jpeg   do not rewrite JPEGs that already exist; write only missing files and
+                the AVIF/WebP twins (used to add formats without touching committed files)
+Requires Pillow 12.2.0 with AVIF support and PyMuPDF 1.28.2 (tools/requirements.txt);
+with these versions the output is byte for byte reproducible.
 """
 import json, math, os, sys
 from PIL import Image, ImageOps
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+sys.dont_write_bytecode = True        # no __pycache__ in the published tools/ folder
+sys.path.insert(0, HERE)
+from geometry import SHEET                  # the paper of the sheet within the photograph
 Image.MAX_IMAGE_PIXELS = None
-
-# The paper of the sheet within the photograph (the colour bar at the right is excluded).
-SHEET = (56, 100, 2650, 3502)          # left, top, right, bottom in photo pixels
 OX, OY = SHEET[0], SHEET[1]
+KEEP_JPEG = False
+
+
+def save(im, rel, quality):
+    """Write img/<rel>.jpg (unless kept) and its .avif and .webp twins."""
+    base = os.path.join(ROOT, 'img', rel)
+    if not (KEEP_JPEG and os.path.exists(base + '.jpg')):
+        im.save(base + '.jpg', quality=quality, optimize=True, **({'progressive': True} if rel.startswith('board/') else {}))
+    if im.mode not in ('RGB', 'L'):
+        im = im.convert('RGB')
+    im.save(base + '.avif', quality=55, speed=4)
+    im.save(base + '.webp', quality=80, method=6)
 
 
 def load_geometry():
@@ -77,23 +95,20 @@ def extend(quad, top=0.08, bottom=0.55, side=0.10):
 def main(board_path, book_path):
     photo = Image.open(board_path).convert('RGB')
     sheet = photo.crop(SHEET)
-    for name, width, q in (('full', None, 86), ('2000', 2000, 82), ('1200', 1200, 80)):
+    for name, width, q in (('full', None, 86), ('2000', 2000, 82), ('1200', 1200, 80), ('800', 800, 80)):
         im = sheet if width is None else sheet.resize(
             (width, round(sheet.height * width / sheet.width)), Image.LANCZOS)
-        im.save(os.path.join(ROOT, 'img/board', f'board-{name}.jpg'), quality=q,
-                optimize=True, progressive=True)
+        save(im, f'board/board-{name}', q)
 
     squares, feats = load_geometry()
     for s in squares:
         n = s['n']
-        warp(photo, s['quad'], 420).save(
-            os.path.join(ROOT, 'img/sq', f'tile-{n:02d}.jpg'), quality=80, optimize=True)
+        save(warp(photo, s['quad'], 420), f'sq/tile-{n:02d}', 80)
         outer = n <= 35          # outer ring (1-35): lettering lies inside the bay
         q = extend(s['quad'], 0.06, 0.12 if outer else 0.62, 0.06)
         if n == 63:
             q = extend(s['quad'], 0.05, 0.40, 0.08)
-        warp(photo, q, 900).save(
-            os.path.join(ROOT, 'img/sq', f'detail-{n:02d}.jpg'), quality=82, optimize=True)
+        save(warp(photo, q, 900), f'sq/detail-{n:02d}', 82)
 
     for f in feats:
         box = f.get('bbox')
@@ -105,19 +120,24 @@ def main(board_path, book_path):
         if rot:
             c = c.rotate(rot, expand=True, fillcolor=(214, 206, 188), resample=Image.BICUBIC)
         c.thumbnail((1000, 1000), Image.LANCZOS)
-        c.save(os.path.join(ROOT, 'img/feat', f"{f['id']}.jpg"), quality=82, optimize=True)
+        save(c, f"feat/{f['id']}", 82)
+        t = c.copy()
+        if t.width > 320:
+            t = t.resize((320, max(1, round(t.height * 320 / t.width))), Image.LANCZOS)
+        save(t, f"feat/thumb-{f['id']}", 80)
 
-    import pymupdf
+    import pymupdf                               # PyMuPDF >= 1.24.3 (the "pymupdf" name)
     doc = pymupdf.open(book_path)
     for i in range(6, 69):                       # PDF pages 7..69 (1-based)
         pix = doc[i].get_pixmap(dpi=150)
         im = Image.frombytes('RGB', (pix.width, pix.height), pix.samples)
-        ImageOps.grayscale(im).save(os.path.join(ROOT, 'img/book', f'p{i + 1:03d}.jpg'),
-                                    quality=72, optimize=True)
+        save(ImageOps.grayscale(im), f'book/p{i + 1:03d}', 72)
     print('images written')
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    KEEP_JPEG = '--keep-jpeg' in sys.argv
+    if len(args) != 2:
         sys.exit(__doc__)
-    main(sys.argv[1], sys.argv[2])
+    main(*args)

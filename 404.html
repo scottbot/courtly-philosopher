@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Filosofía cortesana</title>
+<meta name="robots" content="noindex">
+<!-- GitHub Pages serves this file at whatever address was missing, so relative paths would
+     break: it is self-contained, and finds the site's root from its own address. -->
+<style>
+:root { --paper: #f3ecdc; --ink: #2a2119; --muted: #6b5d45; --rubric: #8e2c1c; --card: #f8f3e7; --line: rgba(42,33,25,.18); color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper: #1c1712; --ink: #ece2cc; --muted: #a8977a; --rubric: #e0866c; --card: #221c15; --line: rgba(236,226,204,.16); color-scheme: dark; } }
+:root[data-theme="dark"] { --paper: #1c1712; --ink: #ece2cc; --muted: #a8977a; --rubric: #e0866c; --card: #221c15; --line: rgba(236,226,204,.16); color-scheme: dark; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: "EB Garamond", Garamond, Georgia, serif; font-size: 1.125rem; line-height: 1.55; }
+main { max-width: 36rem; margin: 0 auto; padding: 4rem 16px; }
+h1 { font-weight: 400; font-size: 2.2rem; margin: 0 0 1rem; }
+a { color: var(--rubric); }
+a:focus-visible { outline: 2px solid var(--rubric); outline-offset: 2px; }
+ul { padding-left: 1.2rem; }
+.small { font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 2rem; }
+</style>
+<script>try{var t=JSON.parse(localStorage.getItem('filosofia-cortesana:theme'));if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<main id="main">
+<h1>This page is not here</h1>
+<p>The address may be mistyped, or the page may have moved. The edition’s pages are:</p>
+<ul>
+  <li><a data-root href="index.html">Introduction</a></li>
+  <li><a data-root href="play.html">Play</a></li>
+  <li><a data-root href="atlas.html">The Squares</a></li>
+  <li><a data-root href="text.html">The Book</a></li>
+  <li><a data-root href="about.html">About</a></li>
+</ul>
+<p class="small"><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). <b>An AI-produced draft, not reviewed by a specialist.</b></p>
+</main>
+<script>
+/* On a GitHub project site the root is the first path segment (/repo/); elsewhere it is /. */
+(function () {
+  var seg = location.pathname.split('/')[1];
+  var root = /\.github\.io$/.test(location.hostname) && seg && !/\.html$/.test(seg) ? '/' + seg + '/' : '/';
+  document.querySelectorAll('a[data-root]').forEach(function (a) { a.href = root + a.getAttribute('href'); });
+})();
+</script>
+</body>
+</html>

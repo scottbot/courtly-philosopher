@@ -3,27 +3,35 @@ window.FC = window.FC || {};
 FC.biblio = [
  {
   "key": "barrosFilosofiaCortesanaMoralizada1588",
-  "ref": "Barros, Alonso de. 1588. *Filosofia cortesana moralizada*. Naples: Iosep Cacchij. Vienna, Österreichische Nationalbibliothek, 35 V 49. Digitized by Google Books, id 1FFfAAAAcAAJ, https://books.google.com/books?id=1FFfAAAAcAAJ. (Title page undated; colophon 1588.)",
+  "ref": "Barros, Alonso de. 1588. *Filosofia cortesana moralizada*{es}. Naples: Iosep Cacchij. Vienna, Österreichische Nationalbibliothek, 35 V 49. Digitized by Google Books, id 1FFfAAAAcAAJ, https://books.google.com/books?id=1FFfAAAAcAAJ. (Title page undated; colophon 1588.)",
   "label": "Barros 1588",
   "group": "Primary sources",
   "dup": null,
-  "html": "Barros, Alonso de. 1588. <em>Filosofia cortesana moralizada</em>. Naples: Iosep Cacchij. Vienna, Österreichische Nationalbibliothek, 35 V 49. Digitized by Google Books, id 1FFfAAAAcAAJ, https://books.google.com/books?id=1FFfAAAAcAAJ. (Title page undated; colophon 1588.)"
+  "html": "Barros, Alonso de. 1588. <em lang=\"es\">Filosofia cortesana moralizada</em>. Naples: Iosep Cacchij. Vienna, Österreichische Nationalbibliothek, 35 V 49. Digitized by Google Books, id 1FFfAAAAcAAJ, <a href=\"https://books.google.com/books?id=1FFfAAAAcAAJ\" target=\"_blank\" rel=\"noopener\">https://books.google.com/books?id=1FFfAAAAcAAJ</a>. (Title page undated; colophon 1588.)"
  },
  {
   "key": "debarrosFilosofiaCortesana1587",
-  "ref": "Barros, Alonso de. n.d. \"Filosofía cortesana moralizada.\" Modernized transcription, 12-page PDF (Zotero files/9038/filosofia.pdf). Headed \"En Nápoles por Iosep Cacchÿ. 1588\" but ending with Madrigal's colophon of 1587 and containing M's \"Declaración del juego\"; the text is M's (with some errors), not C's. Probably the Ciompi–Seville transcription from giochidelloca.it/storia/filosofia.pdf (our inference). items.json dates it 1587, gives \"Madrid\" as publisher and \"de Barros, Alonso\" as author.",
-  "label": "Barros 1587 (M, mod. transcr.)",
+  "ref": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, http://www.giochidelloca.it/storia/filosofia.pdf. The file names no transcriber; we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes [@sanchezEdicionesAntiguasFilosofia2016oct16, 173 n. 14]. It is headed “En Nápoles por Iosep Cacchÿ. 1588” but ends with Madrigal's colophon of 1587 and contains M's “Declaración del juego”; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it.",
+  "label": "Barros 1587, Madrigal ed.",
   "group": "Primary sources",
   "dup": null,
-  "html": "Barros, Alonso de. n.d. \"Filosofía cortesana moralizada.\" Modernized transcription, 12-page PDF (Zotero files/9038/filosofia.pdf). Headed \"En Nápoles por Iosep Cacchÿ. 1588\" but ending with Madrigal's colophon of 1587 and containing M's \"Declaración del juego\"; the text is M's (with some errors), not C's. Probably the Ciompi–Seville transcription from giochidelloca.it/storia/filosofia.pdf (our inference). items.json dates it 1587, gives \"Madrid\" as publisher and \"de Barros, Alonso\" as author."
+  "html": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, <a href=\"http://www.giochidelloca.it/storia/filosofia.pdf\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/storia/filosofia.pdf</a>. The file names no transcriber; we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-sanchezEdicionesAntiguasFilosofia2016oct16\" data-key=\"sanchezEdicionesAntiguasFilosofia2016oct16\" aria-expanded=\"false\">Lucero Sánchez 2016, 173 n. 14</a>)</span>. It is headed <span lang=\"es\">“En Nápoles por Iosep Cacchÿ. 1588”</span> but ends with Madrigal's colophon of 1587 and contains M's <span lang=\"es\">“Declaración del juego”</span>; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it."
  },
  {
   "key": "ref:board",
-  "ref": "Cartaro, Mario, engr. 1588. *Filosofia cortesana de Alonso de Barros*. Etching and engraving, 531 × 404 mm. Naples. London, British Museum, 1869,0410.2463.+. Cited as [board].",
+  "ref": "Cartaro, Mario, engr. 1588. *Filosofia cortesana de Alonso de Barros*{es}. Etching and engraving, 531 × 404 mm. Naples. London, British Museum, 1869,0410.2463.+. Cited as [board].",
   "label": "Cartaro 1588 (board)",
   "group": "Primary sources",
   "dup": null,
-  "html": "Cartaro, Mario, engr. 1588. <em>Filosofia cortesana de Alonso de Barros</em>. Etching and engraving, 531 × 404 mm. Naples. London, British Museum, 1869,0410.2463.+. Cited as <span class=\"cites\">(<a class=\"cite\" href=\"about.html#about-board\" data-key=\"ref:board\">board</a>)</span>."
+  "html": "Cartaro, Mario, engr. 1588. <em lang=\"es\">Filosofia cortesana de Alonso de Barros</em>. Etching and engraving, 531 × 404 mm. Naples. London, British Museum, 1869,0410.2463.+. Cited as <span class=\"cites\">(<a class=\"cite cite-board\" href=\"about.html#about-board\" data-key=\"ref:board\" aria-expanded=\"false\">board</a>)</span>."
+ },
+ {
+  "key": "ref:carrera1617",
+  "ref": "Carrera, Pietro. 1617. *Il gioco de gli scacchi … diviso in otto libri*{it}. Militello: Giovanni de' Rossi. Consulted only in a photograph of p. 25 posted to the Tarot History Forum [@TarotHistoryForum].",
+  "label": "Carrera 1617",
+  "group": "Primary sources",
+  "dup": null,
+  "html": "Carrera, Pietro. 1617. <em lang=\"it\">Il gioco de gli scacchi … diviso in otto libri</em>. Militello: Giovanni de' Rossi. Consulted only in a photograph of p. 25 posted to the Tarot History Forum <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-TarotHistoryForum\" data-key=\"TarotHistoryForum\" aria-expanded=\"false\">Tarot History Forum 2013</a>)</span>."
  },
  {
   "key": "biagioliGalileoCourtierPractice1993",
@@ -35,363 +43,347 @@ FC.biblio = [
  },
  {
   "key": "bidwell-steinerFilosofiaCortesanaAlfonso2024",
-  "ref": "Bidwell-Steiner, Marlen. 2024. \"La *Filosofía cortesana* de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.\" In *Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro*, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–217. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's \"Alfonso\" is the author's.)",
+  "ref": "Bidwell-Steiner, Marlen. 2024. “La *Filosofía cortesana*{es} de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.” In *Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro*, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–217. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's “Alfonso” is the author's.)",
   "label": "Bidwell-Steiner 2024",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Bidwell-Steiner, Marlen. 2024. \"La <em>Filosofía cortesana</em> de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.\" In <em>Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro</em>, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–217. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's \"Alfonso\" is the author's.)"
+  "html": "Bidwell-Steiner, Marlen. 2024. “La <em lang=\"es\">Filosofía cortesana</em> de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.” In <em lang=\"es\">Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro</em>, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–217. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's “Alfonso” is the author's.)"
  },
  {
   "key": "decaceresTableroItalianoFilosofia2009",
-  "ref": "Collar de Cáceres, Fernando. 2009. \"El tablero italiano de la *Filosofía cortesana* de Alonso de Barros (1588); la carrera de un hombre de corte.\" *Anuario del Departamento de Historia y Teoría del Arte* (Universidad Autónoma de Madrid) 21: 81–104. **Misattribution in items.json:** author filed as \"de Cáceres, Fernando Collar\" (family name \"de Cáceres\"), hence the citekey; the author is Fernando Collar de Cáceres. items.json's title ends in a stray apostrophe.",
+  "ref": "Collar de Cáceres, Fernando. 2009. “El tablero italiano de la *Filosofía cortesana*{es} de Alonso de Barros (1588); la carrera de un hombre de corte.” *Anuario del Departamento de Historia y Teoría del Arte* (Universidad Autónoma de Madrid) 21: 81–104.",
   "label": "Collar de Cáceres 2009",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Collar de Cáceres, Fernando. 2009. \"El tablero italiano de la <em>Filosofía cortesana</em> de Alonso de Barros (1588); la carrera de un hombre de corte.\" <em>Anuario del Departamento de Historia y Teoría del Arte</em> (Universidad Autónoma de Madrid) 21: 81–104. <strong>Misattribution in items.json:</strong> author filed as \"de Cáceres, Fernando Collar\" (family name \"de Cáceres\"), hence the citekey; the author is Fernando Collar de Cáceres. items.json's title ends in a stray apostrophe."
+  "html": "Collar de Cáceres, Fernando. 2009. “El tablero italiano de la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros (1588); la carrera de un hombre de corte.” <em lang=\"es\">Anuario del Departamento de Historia y Teoría del Arte</em> (Universidad Autónoma de Madrid) 21: 81–104."
  },
  {
   "key": "gitoTodaVidaEs2020",
-  "ref": "Díaz Gito, Manuel Antonio. 2020. \"Toda la vida es juego y los juegos, juegos son.\" Review of *Filosofía cortesana*, by Alonso de Barros, ed. Ernesto Lucero. *Confluencia* 36 (1): 183–185. **Misattribution in items.json:** filed as \"Gito, Manuel Antonio Díaz\".",
+  "ref": "Díaz Gito, Manuel Antonio. 2020. “Toda la vida es juego y los juegos, juegos son.” Review of *Filosofía cortesana*{es}, by Alonso de Barros, ed. Ernesto Lucero. *Confluencia* 36 (1): 183–185.",
   "label": "Díaz Gito 2020",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Díaz Gito, Manuel Antonio. 2020. \"Toda la vida es juego y los juegos, juegos son.\" Review of <em>Filosofía cortesana</em>, by Alonso de Barros, ed. Ernesto Lucero. <em>Confluencia</em> 36 (1): 183–185. <strong>Misattribution in items.json:</strong> filed as \"Gito, Manuel Antonio Díaz\"."
+  "html": "Díaz Gito, Manuel Antonio. 2020. <span lang=\"es\">“Toda la vida es juego y los juegos, juegos son.”</span> Review of <em lang=\"es\">Filosofía cortesana</em>, by Alonso de Barros, ed. Ernesto Lucero. <em>Confluencia</em> 36 (1): 183–185."
  },
  {
   "key": "cansecoLUCEROErnestoEd2021",
-  "ref": "Gómez Canseco, Luis. 2021. Review of *Filosofía cortesana*, by Alonso de Barros, ed. Ernesto Lucero. *Arte Nuevo* 8: 430–434. https://www.redalyc.org/journal/6724/672472574016/html/. **Misattribution in items.json:** filed as \"Canseco, Luis Gomez\"; container given as \"Reseñas\" and publisher misspelt \"Uiversité\". **Duplicate files:** the record carries two PDFs of the same review (files/21195 and files/21206).",
+  "ref": "Gómez Canseco, Luis. 2021. Review of *Filosofía cortesana*{es}, by Alonso de Barros, ed. Ernesto Lucero. *Arte Nuevo*{es} 8: 430–434. https://www.redalyc.org/journal/6724/672472574016/html/.",
   "label": "Gómez Canseco 2021",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Gómez Canseco, Luis. 2021. Review of <em>Filosofía cortesana</em>, by Alonso de Barros, ed. Ernesto Lucero. <em>Arte Nuevo</em> 8: 430–434. https://www.redalyc.org/journal/6724/672472574016/html/. <strong>Misattribution in items.json:</strong> filed as \"Canseco, Luis Gomez\"; container given as \"Reseñas\" and publisher misspelt \"Uiversité\". <strong>Duplicate files:</strong> the record carries two PDFs of the same review (files/21195 and files/21206)."
+  "html": "Gómez Canseco, Luis. 2021. Review of <em lang=\"es\">Filosofía cortesana</em>, by Alonso de Barros, ed. Ernesto Lucero. <em lang=\"es\">Arte Nuevo</em> 8: 430–434. <a href=\"https://www.redalyc.org/journal/6724/672472574016/html/\" target=\"_blank\" rel=\"noopener\">https://www.redalyc.org/journal/6724/672472574016/html/</a>."
  },
  {
   "key": "ramirezAlonsoBarrosFilosofia2020",
-  "ref": "González Ramírez, David. 2020. Review of *Filosofía cortesana*, by Alonso de Barros, ed. Ernesto Lucero Sánchez. *Etiópicas* 16. Dialnet 7655723, https://dialnet.unirioja.es/servlet/articulo?codigo=7655723. **Misattribution in items.json:** filed as \"Ramírez, David González\"; its page range \"157-157\" cannot be checked against the unpaginated PDF.",
+  "ref": "González Ramírez, David. 2020. Review of *Filosofía cortesana*{es}, by Alonso de Barros, ed. Ernesto Lucero Sánchez. *Etiópicas* 16. Dialnet 7655723, https://dialnet.unirioja.es/servlet/articulo?codigo=7655723. Cited by PDF page: the copy we have is unpaginated.",
   "label": "González Ramírez 2020",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "González Ramírez, David. 2020. Review of <em>Filosofía cortesana</em>, by Alonso de Barros, ed. Ernesto Lucero Sánchez. <em>Etiópicas</em> 16. Dialnet 7655723, https://dialnet.unirioja.es/servlet/articulo?codigo=7655723. <strong>Misattribution in items.json:</strong> filed as \"Ramírez, David González\"; its page range \"157-157\" cannot be checked against the unpaginated PDF."
+  "html": "González Ramírez, David. 2020. Review of <em lang=\"es\">Filosofía cortesana</em>, by Alonso de Barros, ed. Ernesto Lucero Sánchez. <em>Etiópicas</em> 16. Dialnet 7655723, <a href=\"https://dialnet.unirioja.es/servlet/articulo?codigo=7655723\" target=\"_blank\" rel=\"noopener\">https://dialnet.unirioja.es/servlet/articulo?codigo=7655723</a>. Cited by PDF page: the copy we have is unpaginated."
  },
  {
   "key": "infantesPinturaQueSe2010",
-  "ref": "Infantes, Víctor. 2010. \"«Una pintura que se contiene en un pliego grande». El tablero de la *Filosofía cortesana* de Alonso de Barros: una *Oca* emblemática entre España e Italia (1587 y 1588).\" *IMAGO. Revista de Emblemática y Cultura Visual* 2: 127–135. http://ojs.uv.es/index.php/IMAGO/article/view/1207.",
+  "ref": "Infantes, Víctor. 2010. “«Una pintura que se contiene en un pliego grande». El tablero de la *Filosofía cortesana*{es} de Alonso de Barros: una *Oca* emblemática entre España e Italia (1587 y 1588).” *IMAGO. Revista de Emblemática y Cultura Visual* 2: 127–135. http://ojs.uv.es/index.php/IMAGO/article/view/1207.",
   "label": "Infantes 2010",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Infantes, Víctor. 2010. \"«Una pintura que se contiene en un pliego grande». El tablero de la <em>Filosofía cortesana</em> de Alonso de Barros: una <em>Oca</em> emblemática entre España e Italia (1587 y 1588).\" <em>IMAGO. Revista de Emblemática y Cultura Visual</em> 2: 127–135. http://ojs.uv.es/index.php/IMAGO/article/view/1207."
+  "html": "Infantes, Víctor. 2010. “«Una pintura que se contiene en un pliego grande». El tablero de la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros: una <em>Oca</em> emblemática entre España e Italia (1587 y 1588).” <em lang=\"es\">IMAGO. Revista de Emblemática y Cultura Visual</em> 2: 127–135. <a href=\"http://ojs.uv.es/index.php/IMAGO/article/view/1207\" target=\"_blank\" rel=\"noopener\">http://ojs.uv.es/index.php/IMAGO/article/view/1207</a>."
  },
  {
   "key": "infantesPinturaQueSe2011",
-  "ref": "**Duplicate** of `infantesPinturaQueSe2010`: same article, byte-identical PDF (files/21204), URL on turia.uv.es; the \"2011\" in the citekey is a cataloguing artefact (the record's own date is 2010).",
+  "ref": "**Duplicate** of `infantesPinturaQueSe2010`: same article.",
   "label": "Infantes 2010",
   "group": "Scholarship and editions",
   "dup": "infantesPinturaQueSe2010",
-  "html": "<strong>Duplicate</strong> of <code>infantesPinturaQueSe2010</code>: same article, byte-identical PDF (files/21204), URL on turia.uv.es; the \"2011\" in the citekey is a cataloguing artefact (the record's own date is 2010)."
+  "html": "<strong>Duplicate</strong> of <code>infantesPinturaQueSe2010</code>: same article."
  },
  {
   "key": "luceroTableroJuego15882019",
-  "ref": "Lucero, Ernesto. 2019a. \"El tablero de juego de 1588 en las ediciones madrileñas de la *Filosofía cortesana* de Alonso de Barros.\" *Romance Notes* 59 (1): 197–206. https://doi.org/10.1353/rmc.2019.0017.",
+  "ref": "Lucero, Ernesto. 2019a. “El tablero de juego de 1588 en las ediciones madrileñas de la *Filosofía cortesana*{es} de Alonso de Barros.” *Romance Notes* 59 (1): 197–206. https://doi.org/10.1353/rmc.2019.0017.",
   "label": "Lucero 2019a",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero, Ernesto. 2019a. \"El tablero de juego de 1588 en las ediciones madrileñas de la <em>Filosofía cortesana</em> de Alonso de Barros.\" <em>Romance Notes</em> 59 (1): 197–206. https://doi.org/10.1353/rmc.2019.0017."
+  "html": "Lucero, Ernesto. 2019a. “El tablero de juego de 1588 en las ediciones madrileñas de la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros.” <em>Romance Notes</em> 59 (1): 197–206. <a href=\"https://doi.org/10.1353/rmc.2019.0017\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1353/rmc.2019.0017</a>."
  },
  {
   "key": "luceroDEDICATORIAFILOSOFIACORTESANA2019",
-  "ref": "Lucero, Ernesto. 2019b. \"La dedicatoria de la *Filosofía cortesana* de Alonso de Barros a Mateo Vázquez de Lecca.\" *Libros de la Corte* 11 (18): 33–53. https://doi.org/10.15366/ldc2019.11.18.002. (items.json's title misspells it \"Filosofia Coresana … Vazquez De Lecca\" and gives pages as \"33\"; Lucero's thesis cites the issue once as 19.)",
+  "ref": "Lucero, Ernesto. 2019b. “La dedicatoria de la *Filosofía cortesana*{es} de Alonso de Barros a Mateo Vázquez de Lecca.” *Libros de la Corte*{es} 11 (18): 33–53. https://doi.org/10.15366/ldc2019.11.18.002.",
   "label": "Lucero 2019b",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero, Ernesto. 2019b. \"La dedicatoria de la <em>Filosofía cortesana</em> de Alonso de Barros a Mateo Vázquez de Lecca.\" <em>Libros de la Corte</em> 11 (18): 33–53. https://doi.org/10.15366/ldc2019.11.18.002. (items.json's title misspells it \"Filosofia Coresana … Vazquez De Lecca\" and gives pages as \"33\"; Lucero's thesis cites the issue once as 19.)"
+  "html": "Lucero, Ernesto. 2019b. “La dedicatoria de la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros a Mateo Vázquez de Lecca.” <em lang=\"es\">Libros de la Corte</em> 11 (18): 33–53. <a href=\"https://doi.org/10.15366/ldc2019.11.18.002\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.15366/ldc2019.11.18.002</a>."
  },
  {
   "key": "luceroIdeaTrabajoFilosofia2019",
-  "ref": "Lucero, Ernesto. 2019c. \"La idea del trabajo en la *Filosofía cortesana* de Alonso de Barros.\" *Hipogrifo* 7 (2): 821–834. https://doi.org/10.13035/H.2019.07.02.56.",
+  "ref": "Lucero, Ernesto. 2019c. “La idea del trabajo en la *Filosofía cortesana*{es} de Alonso de Barros.” *Hipogrifo* 7 (2): 821–834. https://doi.org/10.13035/H.2019.07.02.56.",
   "label": "Lucero 2019c",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero, Ernesto. 2019c. \"La idea del trabajo en la <em>Filosofía cortesana</em> de Alonso de Barros.\" <em>Hipogrifo</em> 7 (2): 821–834. https://doi.org/10.13035/H.2019.07.02.56."
+  "html": "Lucero, Ernesto. 2019c. “La idea del trabajo en la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros.” <em>Hipogrifo</em> 7 (2): 821–834. <a href=\"https://doi.org/10.13035/H.2019.07.02.56\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.13035/H.2019.07.02.56</a>."
  },
  {
   "key": "luceroDedicatoriaProverbiosMorales2019",
-  "ref": "Lucero, Ernesto. 2019d. \"La dedicatoria de los *Proverbios morales* de Alonso de Barros a García de Loaysa Girón.\" *Creneida* 7: 101–120. https://journals.uco.es/creneida/article/view/12485.",
+  "ref": "Lucero, Ernesto. 2019d. “La dedicatoria de los *Proverbios morales*{es} de Alonso de Barros a García de Loaysa Girón.” *Creneida* 7: 101–120. https://journals.uco.es/creneida/article/view/12485.",
   "label": "Lucero 2019d",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero, Ernesto. 2019d. \"La dedicatoria de los <em>Proverbios morales</em> de Alonso de Barros a García de Loaysa Girón.\" <em>Creneida</em> 7: 101–120. https://journals.uco.es/creneida/article/view/12485."
+  "html": "Lucero, Ernesto. 2019d. “La dedicatoria de los <em lang=\"es\">Proverbios morales</em> de Alonso de Barros a García de Loaysa Girón.” <em>Creneida</em> 7: 101–120. <a href=\"https://journals.uco.es/creneida/article/view/12485\" target=\"_blank\" rel=\"noopener\">https://journals.uco.es/creneida/article/view/12485</a>."
  },
  {
   "key": "lucerosanchezAsnoPenseQue2019",
-  "ref": "Lucero Sánchez, Ernesto. 2019e. \"El asno del Pensé Que en la *Filosofía cortesana* de Alonso de Barros.\" *Studia Aurea* 13: 161–180. https://doi.org/10.5565/rev/studiaaurea.341. (items.json gives pages as \"161\".)",
-  "label": "Lucero Sánchez 2019e",
+  "ref": "Lucero Sánchez, Ernesto. 2019. “El asno del Pensé Que en la *Filosofía cortesana*{es} de Alonso de Barros.” *Studia Aurea*{la} 13: 161–180. https://doi.org/10.5565/rev/studiaaurea.341.",
+  "label": "Lucero Sánchez 2019",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero Sánchez, Ernesto. 2019e. \"El asno del Pensé Que en la <em>Filosofía cortesana</em> de Alonso de Barros.\" <em>Studia Aurea</em> 13: 161–180. https://doi.org/10.5565/rev/studiaaurea.341. (items.json gives pages as \"161\".)"
+  "html": "Lucero Sánchez, Ernesto. 2019. “El asno del Pensé Que en la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros.” <em lang=\"la\">Studia Aurea</em> 13: 161–180. <a href=\"https://doi.org/10.5565/rev/studiaaurea.341\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.5565/rev/studiaaurea.341</a>."
  },
  {
   "key": "sanchezAsnoPenseQue2019",
-  "ref": "**Duplicate** of `lucerosanchezAsnoPenseQue2019`: same article, byte-identical PDF (files/21181), URL https://studiaaurea.com/article/view/341.",
-  "label": "Lucero Sánchez 2019e",
+  "ref": "**Duplicate** of `lucerosanchezAsnoPenseQue2019`: same article.",
+  "label": "Lucero Sánchez 2019",
   "group": "Scholarship and editions",
   "dup": "lucerosanchezAsnoPenseQue2019",
-  "html": "<strong>Duplicate</strong> of <code>lucerosanchezAsnoPenseQue2019</code>: same article, byte-identical PDF (files/21181), URL https://studiaaurea.com/article/view/341."
+  "html": "<strong>Duplicate</strong> of <code>lucerosanchezAsnoPenseQue2019</code>: same article."
  },
  {
   "key": "luceroFilosofiaCortesanaJuego2020",
-  "ref": "Lucero, Ernesto. 2020. \"La *Filosofía cortesana* y el juego de la oca (I). Reglas generales.\" *Edad de Oro* 39: 117–130. https://doi.org/10.15366/edadoro2020.39.005.",
+  "ref": "Lucero, Ernesto. 2020. “La *Filosofía cortesana*{es} y el juego de la oca (I). Reglas generales.” *Edad de Oro*{es} 39: 117–130. https://doi.org/10.15366/edadoro2020.39.005.",
   "label": "Lucero 2020",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero, Ernesto. 2020. \"La <em>Filosofía cortesana</em> y el juego de la oca (I). Reglas generales.\" <em>Edad de Oro</em> 39: 117–130. https://doi.org/10.15366/edadoro2020.39.005."
+  "html": "Lucero, Ernesto. 2020. “La <em lang=\"es\">Filosofía cortesana</em> y el juego de la oca (I). Reglas generales.” <em lang=\"es\">Edad de Oro</em> 39: 117–130. <a href=\"https://doi.org/10.15366/edadoro2020.39.005\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.15366/edadoro2020.39.005</a>."
  },
  {
   "key": "luceroFilosofiaCortesanaJuego2021juin20",
-  "ref": "Lucero, Ernesto. 2021. \"La *Filosofía cortesana* y el juego de la oca (II). Casas marcadas.\" *Bulletin hispanique* 123 (1): 133–152. https://doi.org/10.4000/bulletinhispanique.12454. (items.json citekey \"luceroFilosofiaCortesanaJuego2021/juin/20\"; the article's running head gives \"Tome 122, n° 2, décembre 2020\".)",
+  "ref": "Lucero, Ernesto. 2021. “La *Filosofía cortesana*{es} y el juego de la oca (II). Casas marcadas.” *Bulletin hispanique*{fr} 123 (1): 133–152. https://doi.org/10.4000/bulletinhispanique.12454. (The article's running head gives “Tome 122, n° 2, décembre 2020”.)",
   "label": "Lucero 2021",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero, Ernesto. 2021. \"La <em>Filosofía cortesana</em> y el juego de la oca (II). Casas marcadas.\" <em>Bulletin hispanique</em> 123 (1): 133–152. https://doi.org/10.4000/bulletinhispanique.12454. (items.json citekey \"luceroFilosofiaCortesanaJuego2021/juin/20\"; the article's running head gives \"Tome 122, n° 2, décembre 2020\".)"
+  "html": "Lucero, Ernesto. 2021. “La <em lang=\"es\">Filosofía cortesana</em> y el juego de la oca (II). Casas marcadas.” <em lang=\"fr\">Bulletin hispanique</em> 123 (1): 133–152. <a href=\"https://doi.org/10.4000/bulletinhispanique.12454\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.4000/bulletinhispanique.12454</a>. (The article's running head gives “Tome 122, n° 2, décembre 2020”.)"
  },
  {
   "key": "sanchezEdicionesAntiguasFilosofia2016oct16",
-  "ref": "Lucero Sánchez, Ernesto. 2016. \"Las ediciones antiguas de la *Filosofía cortesana* de Alonso de Barros. Una historia del texto.\" *Criticón* 127: 169–195. https://doi.org/10.4000/criticon.3040. (items.json citekey \"sanchezEdicionesAntiguasFilosofia2016/oct/16\"; the citekey files the author under \"Sánchez\".)",
+  "ref": "Lucero Sánchez, Ernesto. 2016. “Las ediciones antiguas de la *Filosofía cortesana*{es} de Alonso de Barros. Una historia del texto.” *Criticón* 127: 169–195. https://doi.org/10.4000/criticon.3040.",
   "label": "Lucero Sánchez 2016",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero Sánchez, Ernesto. 2016. \"Las ediciones antiguas de la <em>Filosofía cortesana</em> de Alonso de Barros. Una historia del texto.\" <em>Criticón</em> 127: 169–195. https://doi.org/10.4000/criticon.3040. (items.json citekey \"sanchezEdicionesAntiguasFilosofia2016/oct/16\"; the citekey files the author under \"Sánchez\".)"
+  "html": "Lucero Sánchez, Ernesto. 2016. “Las ediciones antiguas de la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros. Una historia del texto.” <em>Criticón</em> 127: 169–195. <a href=\"https://doi.org/10.4000/criticon.3040\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.4000/criticon.3040</a>."
  },
  {
   "key": "sanchezFILOSOFIACORTESANAALONSO",
-  "ref": "Lucero Sánchez, Ernesto. 2020. \"La *Filosofía cortesana* de Alonso de Barros.\" PhD diss., Universidad de Jaén. Repository version, with the included publications replaced by summaries. (items.json title \"La Filosofia Cortesana de Alonso de Barros\"; publisher \"Universidad de Jaen\".)",
+  "ref": "Lucero Sánchez, Ernesto. 2020. “La *Filosofía cortesana*{es} de Alonso de Barros.” PhD diss., Universidad de Jaén. Repository version, with the included publications replaced by summaries.",
   "label": "Lucero Sánchez 2020",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero Sánchez, Ernesto. 2020. \"La <em>Filosofía cortesana</em> de Alonso de Barros.\" PhD diss., Universidad de Jaén. Repository version, with the included publications replaced by summaries. (items.json title \"La Filosofia Cortesana de Alonso de Barros\"; publisher \"Universidad de Jaen\".)"
+  "html": "Lucero Sánchez, Ernesto. 2020. “La <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros.” PhD diss., Universidad de Jaén. Repository version, with the included publications replaced by summaries."
  },
  {
   "key": "millanFilosofiaCortesanaAlonso1996",
-  "ref": "Martínez Millán, José. 1996. \"*Filosofía cortesana* de Alonso de Barros (1587).\" In *Política, religión e inquisición en la España moderna: homenaje a Joaquín Pérez Villanueva*, edited by Pablo Fernández Albaladejo, José Martínez Millán and Virgilio Pinto Crespo, 461–482. Madrid: Universidad Autónoma de Madrid. **Misattributions in items.json:** author filed as \"Millán, José Martínez\", editors as \"Albaladejo, Pablo Fernández\" and \"Crespo, Virgilio Pinto\"; publisher field holds a placeholder hash. Collar de Cáceres cites the pages as 461–488; the chapter ends at 482.",
+  "ref": "Martínez Millán, José. 1996. “*Filosofía cortesana*{es} de Alonso de Barros (1587).” In *Política, religión e inquisición en la España moderna: homenaje a Joaquín Pérez Villanueva*, edited by Pablo Fernández Albaladejo, José Martínez Millán and Virgilio Pinto Crespo, 461–482. Madrid: Universidad Autónoma de Madrid. Collar de Cáceres cites the pages as 461–488; the chapter ends at 482.",
   "label": "Martínez Millán 1996",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Martínez Millán, José. 1996. \"<em>Filosofía cortesana</em> de Alonso de Barros (1587).\" In <em>Política, religión e inquisición en la España moderna: homenaje a Joaquín Pérez Villanueva</em>, edited by Pablo Fernández Albaladejo, José Martínez Millán and Virgilio Pinto Crespo, 461–482. Madrid: Universidad Autónoma de Madrid. <strong>Misattributions in items.json:</strong> author filed as \"Millán, José Martínez\", editors as \"Albaladejo, Pablo Fernández\" and \"Crespo, Virgilio Pinto\"; publisher field holds a placeholder hash. Collar de Cáceres cites the pages as 461–488; the chapter ends at 482."
+  "html": "Martínez Millán, José. 1996. “<em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros (1587).” In <em lang=\"es\">Política, religión e inquisición en la España moderna: homenaje a Joaquín Pérez Villanueva</em>, edited by Pablo Fernández Albaladejo, José Martínez Millán and Virgilio Pinto Crespo, 461–482. Madrid: Universidad Autónoma de Madrid. Collar de Cáceres cites the pages as 461–488; the chapter ends at 482."
  },
  {
   "key": "rodriguezmansillaGRABADOPICARAJUSTINA2019",
-  "ref": "Rodríguez Mansilla, Fernando. 2019. \"El grabado de *La pícara Justina* como parodia de la *Filosofía cortesana moralizada*.\" *IMAGO. Revista de Emblemática y Cultura Visual* 11: 183–193.",
+  "ref": "Rodríguez Mansilla, Fernando. 2019. “El grabado de *La pícara Justina*{es} como parodia de la *Filosofía cortesana moralizada*{es}.” *IMAGO. Revista de Emblemática y Cultura Visual* 11: 183–193.",
   "label": "Rodríguez Mansilla 2019",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Rodríguez Mansilla, Fernando. 2019. \"El grabado de <em>La pícara Justina</em> como parodia de la <em>Filosofía cortesana moralizada</em>.\" <em>IMAGO. Revista de Emblemática y Cultura Visual</em> 11: 183–193."
+  "html": "Rodríguez Mansilla, Fernando. 2019. “El grabado de <em lang=\"es\">La pícara Justina</em> como parodia de la <em lang=\"es\">Filosofía cortesana moralizada</em>.” <em lang=\"es\">IMAGO. Revista de Emblemática y Cultura Visual</em> 11: 183–193."
  },
  {
   "key": "sevilleImportanceTextPrinted2026",
-  "ref": "Seville, Adrian. 2026. \"The Importance of Text in the Printed Board Games of Western Europe.\" *Bulletin du bibliophile* 2026 (1): 63–103. https://doi.org/10.3917/bubib.383.0063.",
+  "ref": "Seville, Adrian. 2026. “The Importance of Text in the Printed Board Games of Western Europe.” *Bulletin du bibliophile* 2026 (1): 63–103. https://doi.org/10.3917/bubib.383.0063.",
   "label": "Seville 2026",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Seville, Adrian. 2026. \"The Importance of Text in the Printed Board Games of Western Europe.\" <em>Bulletin du bibliophile</em> 2026 (1): 63–103. https://doi.org/10.3917/bubib.383.0063."
+  "html": "Seville, Adrian. 2026. “The Importance of Text in the Printed Board Games of Western Europe.” <em lang=\"fr\">Bulletin du bibliophile</em> 2026 (1): 63–103. <a href=\"https://doi.org/10.3917/bubib.383.0063\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.3917/bubib.383.0063</a>."
  },
  {
   "key": "wilsonCervantesItemEmmanuel1968",
-  "ref": "Wilson, Edward M. 1968. \"A Cervantes Item from Emmanuel College Library: Barros's 'Filosofía Cortesana', 1587.\" *Transactions of the Cambridge Bibliographical Society* 4 (5): 363–371. https://www.jstor.org/stable/41154470.",
+  "ref": "Wilson, Edward M. 1968. “A Cervantes Item from Emmanuel College Library: Barros's 'Filosofía Cortesana', 1587.” *Transactions of the Cambridge Bibliographical Society* 4 (5): 363–371. https://www.jstor.org/stable/41154470.",
   "label": "Wilson 1968",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Wilson, Edward M. 1968. \"A Cervantes Item from Emmanuel College Library: Barros's 'Filosofía Cortesana', 1587.\" <em>Transactions of the Cambridge Bibliographical Society</em> 4 (5): 363–371. https://www.jstor.org/stable/41154470."
+  "html": "Wilson, Edward M. 1968. “A Cervantes Item from Emmanuel College Library: Barros's 'Filosofía Cortesana', 1587.” <em>Transactions of the Cambridge Bibliographical Society</em> 4 (5): 363–371. <a href=\"https://www.jstor.org/stable/41154470\" target=\"_blank\" rel=\"noopener\">https://www.jstor.org/stable/41154470</a>."
  },
  {
   "key": "woodChancingItPrint2019",
-  "ref": "Wood, Kelli. 2019. \"Chancing It: Print, Play, and Gambling Games at the End of the Sixteenth Century.\" *Art History* 42 (3): 450–481. https://doi.org/10.1111/1467-8365.12452.",
+  "ref": "Wood, Kelli. 2019. “Chancing It: Print, Play, and Gambling Games at the End of the Sixteenth Century.” *Art History* 42 (3): 450–481. https://doi.org/10.1111/1467-8365.12452.",
   "label": "Wood 2019",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Wood, Kelli. 2019. \"Chancing It: Print, Play, and Gambling Games at the End of the Sixteenth Century.\" <em>Art History</em> 42 (3): 450–481. https://doi.org/10.1111/1467-8365.12452."
+  "html": "Wood, Kelli. 2019. “Chancing It: Print, Play, and Gambling Games at the End of the Sixteenth Century.” <em>Art History</em> 42 (3): 450–481. <a href=\"https://doi.org/10.1111/1467-8365.12452\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1111/1467-8365.12452</a>."
  },
  {
   "key": "FilosofiaCortesanaBarros",
-  "ref": "Ediciones Polifemo. 2020. \"Filosofía cortesana | Barros, Alonso de.\" Publisher's catalogue page for Lucero's edition. https://www.polifemo.com/libros/filosofia-cortesana/228066/. (items.json names Ernesto Lucero as author; the page is the publisher's, and Lucero is the book's editor.)",
-  "label": "Polifemo, catalogue page",
-  "group": "Web pages in items.json",
+  "ref": "Ediciones Polifemo. 2020. “Filosofía cortesana | Barros, Alonso de.” Publisher's catalog page for Lucero's edition. https://www.polifemo.com/libros/filosofia-cortesana/228066/. (The page is the publisher's; Lucero is the book's editor. The copy we have is an English version of the page.)",
+  "label": "Polifemo, catalog page",
+  "group": "Web pages",
   "dup": null,
-  "html": "Ediciones Polifemo. 2020. \"Filosofía cortesana | Barros, Alonso de.\" Publisher's catalogue page for Lucero's edition. https://www.polifemo.com/libros/filosofia-cortesana/228066/. (items.json names Ernesto Lucero as author; the page is the publisher's, and Lucero is the book's editor.)"
+  "html": "Ediciones Polifemo. 2020. “Filosofía cortesana | Barros, Alonso de.” Publisher's catalog page for Lucero's edition. <a href=\"https://www.polifemo.com/libros/filosofia-cortesana/228066/\" target=\"_blank\" rel=\"noopener\">https://www.polifemo.com/libros/filosofia-cortesana/228066/</a>. (The page is the publisher's; Lucero is the book's editor. The copy we have is an English version of the page.)"
  },
  {
   "key": "GameGooseLargest",
-  "ref": "Ciompi, Luigi, and Adrian Seville. n.d. \"Filosofia cortesana de Alonso de Barros.\" Catalogue no. 1103 in *Il Gioco dell'Oca / Goose and Path Games*. http://www.giochidelloca.it/scheda.php?id=1103. (The saved copy is a Google-Translate rendering into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's \"Un jeu retrouvé\", *Le Vieux Papier* 395, 2010. items.json gives the site title \"The Game of the Goose. The largest collection of goose games\" as the item's title.)",
+  "ref": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in *Il Gioco dell'Oca / Goose and Path Games*. http://www.giochidelloca.it/scheda.php?id=1103. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's “Un jeu retrouvé”, *Le Vieux Papier*{fr} 395, 2010.)",
   "label": "Ciompi & Seville, giochidelloca.it",
-  "group": "Web pages in items.json",
+  "group": "Web pages",
   "dup": null,
-  "html": "Ciompi, Luigi, and Adrian Seville. n.d. \"Filosofia cortesana de Alonso de Barros.\" Catalogue no. 1103 in <em>Il Gioco dell'Oca / Goose and Path Games</em>. http://www.giochidelloca.it/scheda.php?id=1103. (The saved copy is a Google-Translate rendering into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's \"Un jeu retrouvé\", <em>Le Vieux Papier</em> 395, 2010. items.json gives the site title \"The Game of the Goose. The largest collection of goose games\" as the item's title.)"
+  "html": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in <em lang=\"it\">Il Gioco dell'Oca / Goose and Path Games</em>. <a href=\"http://www.giochidelloca.it/scheda.php?id=1103\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/scheda.php?id=1103</a>. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's <span lang=\"fr\">“Un jeu retrouvé”</span>, <em lang=\"fr\">Le Vieux Papier</em> 395, 2010.)"
  },
  {
   "key": "FilosofiaCortesanaPath",
-  "ref": "Fleur-de-Gigi. 2013a. \"Filosofia Cortesana – A Path Game.\" *La Bella Donna* (blog), 29 July 2013. http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/.",
+  "ref": "Fleur-de-Gigi. 2013a. “Filosofia Cortesana – A Path Game.” *La Bella Donna* (blog), 29 July 2013. http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/.",
   "label": "Fleur-de-Gigi 2013a",
-  "group": "Web pages in items.json",
+  "group": "Web pages",
   "dup": null,
-  "html": "Fleur-de-Gigi. 2013a. \"Filosofia Cortesana – A Path Game.\" <em>La Bella Donna</em> (blog), 29 July 2013. http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/."
+  "html": "Fleur-de-Gigi. 2013a. “Filosofia Cortesana – A Path Game.” <em>La Bella Donna</em> (blog), 29 July 2013. <a href=\"http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/\" target=\"_blank\" rel=\"noopener\">http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/</a>."
  },
  {
   "key": "TranslationFilosofiaCortesana",
-  "ref": "Fleur-de-Gigi. 2013b. \"Translation of the Filosofia Cortesana Game Board.\" *La Bella Donna* (blog), 31 July 2013. http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/.",
+  "ref": "Fleur-de-Gigi. 2013b. “Translation of the Filosofia Cortesana Game Board.” *La Bella Donna* (blog), 31 July 2013. http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/.",
   "label": "Fleur-de-Gigi 2013b",
-  "group": "Web pages in items.json",
+  "group": "Web pages",
   "dup": null,
-  "html": "Fleur-de-Gigi. 2013b. \"Translation of the Filosofia Cortesana Game Board.\" <em>La Bella Donna</em> (blog), 31 July 2013. http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/."
+  "html": "Fleur-de-Gigi. 2013b. “Translation of the Filosofia Cortesana Game Board.” <em>La Bella Donna</em> (blog), 31 July 2013. <a href=\"http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/\" target=\"_blank\" rel=\"noopener\">http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/</a>."
  },
  {
   "key": "GiocoDellocaBella",
-  "ref": "Fleur-de-Gigi. 2014. \"Filosofia Cortesana.\" *La Bella Donna* (blog), 7 October 2014. https://fleurtyherald.wordpress.com/2014/10/07/filosofia-cortesana/. (items.json records the tag page https://fleurtyherald.wordpress.com/tag/gioco-delloca/, on which the post was captured.)",
+  "ref": "Fleur-de-Gigi. 2014. “Filosofia Cortesana.” *La Bella Donna* (blog), 7 October 2014. https://fleurtyherald.wordpress.com/2014/10/07/filosofia-cortesana/.",
   "label": "Fleur-de-Gigi 2014",
-  "group": "Web pages in items.json",
+  "group": "Web pages",
   "dup": null,
-  "html": "Fleur-de-Gigi. 2014. \"Filosofia Cortesana.\" <em>La Bella Donna</em> (blog), 7 October 2014. https://fleurtyherald.wordpress.com/2014/10/07/filosofia-cortesana/. (items.json records the tag page https://fleurtyherald.wordpress.com/tag/gioco-delloca/, on which the post was captured.)"
+  "html": "Fleur-de-Gigi. 2014. “Filosofia Cortesana.” <em>La Bella Donna</em> (blog), 7 October 2014. <a href=\"https://fleurtyherald.wordpress.com/2014/10/07/filosofia-cortesana/\" target=\"_blank\" rel=\"noopener\">https://fleurtyherald.wordpress.com/2014/10/07/filosofia-cortesana/</a>."
  },
  {
   "key": "TarotHistoryForum",
-  "ref": "Marco, Michael (mjhurst) and Lorredan. 2013. \"A 1588 board game: Filosofia Cortesana.\" Thread in *Tarot History Forum*, 2–20 January 2013. http://forum.tarothistory.com/viewtopic.php?f=12&t=913. (Forum handles, not full names.)",
+  "ref": "marco, mjhurst and Lorredan. 2013. “A 1588 board game: Filosofia Cortesana.” Thread in *Tarot History Forum*, 2–20 January 2013. http://forum.tarothistory.com/viewtopic.php?f=12&t=913. (Forum handles, not full names.)",
   "label": "Tarot History Forum 2013",
-  "group": "Web pages in items.json",
+  "group": "Web pages",
   "dup": null,
-  "html": "Marco, Michael (mjhurst) and Lorredan. 2013. \"A 1588 board game: Filosofia Cortesana.\" Thread in <em>Tarot History Forum</em>, 2–20 January 2013. http://forum.tarothistory.com/viewtopic.php?f=12&amp;t=913. (Forum handles, not full names.)"
+  "html": "marco, mjhurst and Lorredan. 2013. “A 1588 board game: Filosofia Cortesana.” Thread in <em>Tarot History Forum</em>, 2–20 January 2013. <a href=\"http://forum.tarothistory.com/viewtopic.php?f=12&amp;t=913\" target=\"_blank\" rel=\"noopener\">http://forum.tarothistory.com/viewtopic.php?f=12&amp;t=913</a>. (Forum handles, not full names.)"
  },
  {
   "key": "web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-",
-  "ref": "British Museum. n.d. \"Filosofia cortesana de Alonso de Barros.\" Collection record 1869,0410.2463.+, with curator's comment by Naomi Lebens. https://www.britishmuseum.org/collection/object/P_1869-0410-2463-.",
+  "ref": "British Museum. n.d. “Filosofia cortesana de Alonso de Barros.” Collection record 1869,0410.2463.+, with curator's comment by Naomi Lebens. https://www.britishmuseum.org/collection/object/P_1869-0410-2463-.",
   "label": "British Museum n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "British Museum. n.d. \"Filosofia cortesana de Alonso de Barros.\" Collection record 1869,0410.2463.+, with curator's comment by Naomi Lebens. https://www.britishmuseum.org/collection/object/P_1869-0410-2463-."
+  "html": "British Museum. n.d. “Filosofia cortesana de Alonso de Barros.” Collection record 1869,0410.2463.+, with curator's comment by Naomi Lebens. <a href=\"https://www.britishmuseum.org/collection/object/P_1869-0410-2463-\" target=\"_blank\" rel=\"noopener\">https://www.britishmuseum.org/collection/object/P_1869-0410-2463-</a>."
  },
  {
   "key": "web:https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/",
-  "ref": "Borroni, Fabia. 1977. \"Cartaro, Mario.\" In *Dizionario Biografico degli Italiani*, vol. 20. Rome: Istituto dell'Enciclopedia Italiana. https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/.",
+  "ref": "Borroni, Fabia. 1977. “Cartaro, Mario.” In *Dizionario Biografico degli Italiani*, vol. 20. Rome: Istituto dell'Enciclopedia Italiana. https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/.",
   "label": "Borroni 1977",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Borroni, Fabia. 1977. \"Cartaro, Mario.\" In <em>Dizionario Biografico degli Italiani</em>, vol. 20. Rome: Istituto dell'Enciclopedia Italiana. https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/."
+  "html": "Borroni, Fabia. 1977. “Cartaro, Mario.” In <em lang=\"it\">Dizionario Biografico degli Italiani</em>, vol. 20. Rome: Istituto dell'Enciclopedia Italiana. <a href=\"https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/\" target=\"_blank\" rel=\"noopener\">https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/</a>."
  },
  {
   "key": "web:https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf",
-  "ref": "Suárez Figaredo, Enrique, ed. 2019. \"Alonso de Barros, *Filosofía cortesana moralizada*.\" *Lemir* 23, Textos: 203–226. https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf. (Read only through a model-processed fetch; not in items.json.)",
+  "ref": "Suárez Figaredo, Enrique, ed. 2019. “Alonso de Barros, *Filosofía cortesana moralizada*{es}.” *Lemir* 23, Textos: 203–226. https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf. (Read only through a model-processed fetch.)",
   "label": "Suárez Figaredo 2019",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Suárez Figaredo, Enrique, ed. 2019. \"Alonso de Barros, <em>Filosofía cortesana moralizada</em>.\" <em>Lemir</em> 23, Textos: 203–226. https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf. (Read only through a model-processed fetch; not in items.json.)"
+  "html": "Suárez Figaredo, Enrique, ed. 2019. “Alonso de Barros, <em lang=\"es\">Filosofía cortesana moralizada</em>.” <em>Lemir</em> 23, Textos: 203–226. <a href=\"https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf\" target=\"_blank\" rel=\"noopener\">https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf</a>. (Read only through a model-processed fetch.)"
  },
  {
   "key": "web:https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08",
-  "ref": "Morán Turina, Miguel. n.d. \"Alcázar de Madrid, Real.\" *Enciclopedia del Museo del Prado* (online). https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08.",
+  "ref": "Morán Turina, Miguel. n.d. “Alcázar de Madrid, Real.” *Enciclopedia del Museo del Prado*{es} (online). https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08.",
   "label": "Morán Turina n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Morán Turina, Miguel. n.d. \"Alcázar de Madrid, Real.\" <em>Enciclopedia del Museo del Prado</em> (online). https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08."
+  "html": "Morán Turina, Miguel. n.d. “Alcázar de Madrid, Real.” <em lang=\"es\">Enciclopedia del Museo del Prado</em> (online). <a href=\"https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08\" target=\"_blank\" rel=\"noopener\">https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08</a>."
  },
  {
   "key": "web:https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html",
-  "ref": "Real Academia Española. 1737. \"Pretendiente.\" In *Diccionario de Autoridades*, vol. 5. Madrid. https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html.",
+  "ref": "Real Academia Española. 1737. “Pretendiente.” In *Diccionario de Autoridades*{es}, vol. 5. Madrid. https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html.",
   "label": "Real Academia Española 1737",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Real Academia Española. 1737. \"Pretendiente.\" In <em>Diccionario de Autoridades</em>, vol. 5. Madrid. https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html."
+  "html": "Real Academia Española. 1737. “Pretendiente.” In <em lang=\"es\">Diccionario de Autoridades</em>, vol. 5. Madrid. <a href=\"https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html\" target=\"_blank\" rel=\"noopener\">https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html</a>."
  },
  {
   "key": "web:https://dle.rae.es/arenilla",
-  "ref": "Real Academia Española. n.d. \"Arenilla.\" In *Diccionario de la lengua española*, 23rd ed., online. https://dle.rae.es/arenilla.",
+  "ref": "Real Academia Española. n.d. “Arenilla.” In *Diccionario de la lengua española*, 23rd ed., online. https://dle.rae.es/arenilla.",
   "label": "Real Academia Española n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Real Academia Española. n.d. \"Arenilla.\" In <em>Diccionario de la lengua española</em>, 23rd ed., online. https://dle.rae.es/arenilla."
- },
- {
-  "key": "web:https://cedis.novalaw.unl.pt/wp-content/uploads/2023/01/14509_LA-DISTRIBUCION-DE-LA-GRACIA-DURANTE-LA-ANEXION-DE-PORTUGAL-RODRIGO-VAZQUEZ-DE-ARCE-1578-1583.pdf",
-  "ref": "Ezquerra Revilla, Ignacio Javier. [1996]. \"La distribución de la gracia durante la anexión de Portugal: Rodrigo Vázquez de Arce (1578–1583).\" In *Política, religión e inquisición en la España moderna*, 267–284. PDF at the URL given. (Publication data not confirmed.)",
-  "label": "Ezquerra Revilla [1996]",
-  "group": "Other web sources cited",
-  "dup": null,
-  "html": "Ezquerra Revilla, Ignacio Javier. [1996]. \"La distribución de la gracia durante la anexión de Portugal: Rodrigo Vázquez de Arce (1578–1583).\" In <em>Política, religión e inquisición en la España moderna</em>, 267–284. PDF at the URL given. (Publication data not confirmed.)"
+  "html": "Real Academia Española. n.d. “Arenilla.” In <em lang=\"es\">Diccionario de la lengua española</em>, 23rd ed., online. <a href=\"https://dle.rae.es/arenilla\" target=\"_blank\" rel=\"noopener\">https://dle.rae.es/arenilla</a>."
  },
  {
   "key": "ref:dadson1987ed",
-  "ref": "Barros, Alonso de. 1987. *Filosofía cortesana moralizada*. Edited by Trevor J. Dadson. Madrid: Comunidad de Madrid. 2 or 3 vols. (per Lucero 2016, Infantes 2010, Collar de Cáceres 2009).",
+  "ref": "Barros, Alonso de. 1987. *Filosofía cortesana moralizada*{es}. Edited by Trevor J. Dadson. Madrid: Comunidad de Madrid. 2 or 3 vols. (per Lucero 2016, Infantes 2010, Collar de Cáceres 2009).",
   "label": "Dadson ed. 1987",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Barros, Alonso de. 1987. <em>Filosofía cortesana moralizada</em>. Edited by Trevor J. Dadson. Madrid: Comunidad de Madrid. 2 or 3 vols. (per Lucero 2016, Infantes 2010, Collar de Cáceres 2009)."
+  "html": "Barros, Alonso de. 1987. <em lang=\"es\">Filosofía cortesana moralizada</em>. Edited by Trevor J. Dadson. Madrid: Comunidad de Madrid. 2 or 3 vols. (per Lucero 2016, Infantes 2010, Collar de Cáceres 2009)."
  },
  {
   "key": "ref:dadson1987lib",
-  "ref": "Dadson, Trevor J. 1987. \"La biblioteca de Alonso de Barros, autor de los *Proverbios morales*.\" *Bulletin Hispanique* 89: 27–53. https://doi.org/10.3406/hispa.1987.4612.",
+  "ref": "Dadson, Trevor J. 1987. “La biblioteca de Alonso de Barros, autor de los *Proverbios morales*{es}.” *Bulletin Hispanique*{fr} 89: 27–53. https://doi.org/10.3406/hispa.1987.4612.",
   "label": "Dadson 1987",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Dadson, Trevor J. 1987. \"La biblioteca de Alonso de Barros, autor de los <em>Proverbios morales</em>.\" <em>Bulletin Hispanique</em> 89: 27–53. https://doi.org/10.3406/hispa.1987.4612."
+  "html": "Dadson, Trevor J. 1987. “La biblioteca de Alonso de Barros, autor de los <em lang=\"es\">Proverbios morales</em>.” <em lang=\"fr\">Bulletin Hispanique</em> 89: 27–53. <a href=\"https://doi.org/10.3406/hispa.1987.4612\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.3406/hispa.1987.4612</a>."
  },
  {
   "key": "ref:lucero2019ed",
-  "ref": "Barros, Alonso de. 2019. *Filosofía cortesana*. Edited by Ernesto Lucero. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020.)",
+  "ref": "Barros, Alonso de. 2019. *Filosofía cortesana*{es}. Edited by Ernesto Lucero. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020.)",
   "label": "Lucero ed. 2019",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Barros, Alonso de. 2019. <em>Filosofía cortesana</em>. Edited by Ernesto Lucero. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020.)"
+  "html": "Barros, Alonso de. 2019. <em lang=\"es\">Filosofía cortesana</em>. Edited by Ernesto Lucero. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020.)"
  },
  {
   "key": "ref:zollinger2010",
-  "ref": "Zollinger, Manfred. 2010. \"Un jeu retrouvé: la *Filosofía cortesana* d'Alonso de Barros.\" *Le Vieux Papier* 395: 2–6. (Reproduced within `GameGooseLargest`.)",
+  "ref": "Zollinger, Manfred. 2010. “Un jeu retrouvé: la *Filosofía cortesana*{es} d'Alonso de Barros.” *Le Vieux Papier*{fr} 395: 2–6. (Reproduced within `GameGooseLargest`.)",
   "label": "Zollinger 2010",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Zollinger, Manfred. 2010. \"Un jeu retrouvé: la <em>Filosofía cortesana</em> d'Alonso de Barros.\" <em>Le Vieux Papier</em> 395: 2–6. (Reproduced within <code>GameGooseLargest</code>.)"
+  "html": "Zollinger, Manfred. 2010. “Un jeu retrouvé: la <em lang=\"es\">Filosofía cortesana</em> d'Alonso de Barros.” <em lang=\"fr\">Le Vieux Papier</em> 395: 2–6. (Reproduced within <code>GameGooseLargest</code>.)"
  },
  {
   "key": "ref:infantes1996",
-  "ref": "Infantes, Víctor. 1996. \"La presencia de una ausencia. La Emblemática sin emblemas.\" (per Infantes 2010, 130 n. 12; publication data not in our notes.)",
+  "ref": "Infantes, Víctor. 1996. “La presencia de una ausencia. La Emblemática sin emblemas.” In *Literatura emblemática hispánica. Actas del I Simposio Internacional (La Coruña, 14–17 de septiembre, 1994)*, edited by Sagrario López Poza, 93–109. La Coruña: Universidade da Coruña. (per Infantes 2010, 130 n. 12.)",
   "label": "Infantes 1996",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Infantes, Víctor. 1996. \"La presencia de una ausencia. La Emblemática sin emblemas.\" (per Infantes 2010, 130 n. 12; publication data not in our notes.)"
+  "html": "Infantes, Víctor. 1996. <span lang=\"es\">“La presencia de una ausencia. La Emblemática sin emblemas.”</span> In <em lang=\"es\">Literatura emblemática hispánica. Actas del I Simposio Internacional (La Coruña, 14–17 de septiembre, 1994)</em>, edited by Sagrario López Poza, 93–109. La Coruña: Universidade da Coruña. (per Infantes 2010, 130 n. 12.)"
  },
  {
   "key": "ref:infantes2014",
-  "ref": "Infantes, Víctor. 2014. *Ludo ergo sum. La literatura gráfica del juego áureo*. Madrid: Turpin.",
+  "ref": "Infantes, Víctor. 2014. *Ludo ergo sum. La literatura gráfica del juego áureo*{es}. Madrid: Turpin.",
   "label": "Infantes 2014",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Infantes, Víctor. 2014. <em>Ludo ergo sum. La literatura gráfica del juego áureo</em>. Madrid: Turpin."
+  "html": "Infantes, Víctor. 2014. <em lang=\"es\">Ludo ergo sum. La literatura gráfica del juego áureo</em>. Madrid: Turpin."
  },
  {
   "key": "ref:blasco2014",
-  "ref": "Barros, Alonso de. 2014. *Filosofía cortesana moralizada*. Edited by Javier Blasco. Valladolid: Agilice Digital.",
+  "ref": "Barros, Alonso de. 2014. *Filosofía cortesana moralizada*{es}. Edited by Javier Blasco. Valladolid: Agilice Digital.",
   "label": "Blasco ed. 2014",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Barros, Alonso de. 2014. <em>Filosofía cortesana moralizada</em>. Edited by Javier Blasco. Valladolid: Agilice Digital."
+  "html": "Barros, Alonso de. 2014. <em lang=\"es\">Filosofía cortesana moralizada</em>. Edited by Javier Blasco. Valladolid: Agilice Digital."
  },
  {
   "key": "ref:bne2016",
-  "ref": "Barros, Alonso de. 2016. *Filosofía cortesana de Alonso de Barros*. Facsimile of the Naples board. Madrid: Biblioteca Nacional. (per Rodríguez Mansilla 2019; not seen.)",
+  "ref": "Barros, Alonso de. 2016. *Filosofía cortesana de Alonso de Barros*{es}. Facsimile of the Naples board. Madrid: Biblioteca Nacional. (per Rodríguez Mansilla 2019; not seen.)",
   "label": "BNE facsimile 2016",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Barros, Alonso de. 2016. <em>Filosofía cortesana de Alonso de Barros</em>. Facsimile of the Naples board. Madrid: Biblioteca Nacional. (per Rodríguez Mansilla 2019; not seen.)"
- },
- {
-  "key": "ref:carrera1617",
-  "ref": "Carrera, Pietro. 1617. *Il gioco de gli scacchi … diviso in otto libri*. Militello: Giovanni de' Rossi.",
-  "label": "Carrera 1617",
-  "group": "Works mentioned but not consulted directly (details from the sources named)",
-  "dup": null,
-  "html": "Carrera, Pietro. 1617. <em>Il gioco de gli scacchi … diviso in otto libri</em>. Militello: Giovanni de' Rossi."
+  "html": "Barros, Alonso de. 2016. <em lang=\"es\">Filosofía cortesana de Alonso de Barros</em>. Facsimile of the Naples board. Madrid: Biblioteca Nacional. (per Rodríguez Mansilla 2019; not seen.)"
  },
  {
   "key": "ref:careaga1612",
-  "ref": "Marqués de Careaga, Gutierre. 1612. *Desengaño de Fortuna*. Madrid.",
+  "ref": "Marqués de Careaga, Gutierre. 1612. *Desengaño de Fortuna*{es}. Madrid.",
   "label": "Careaga 1612",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Marqués de Careaga, Gutierre. 1612. <em>Desengaño de Fortuna</em>. Madrid."
+  "html": "Marqués de Careaga, Gutierre. 1612. <em lang=\"es\">Desengaño de Fortuna</em>. Madrid."
  },
  {
   "key": "ref:parker1979",
@@ -403,75 +395,75 @@ FC.biblio = [
  },
  {
   "key": "britishMuseumRecord2012",
-  "ref": "British Museum. 2012. \"Filosofia cortesana de Alonso de Barros.\" Collection database record, registration number 1869,0410.2463, as saved on 12 November 2012 (in the project's Zotero library, attached to the record for the 1587 book). Curator's comments with information from Rachel Schmidt (2010).",
+  "ref": "British Museum. 2012. “Filosofia cortesana de Alonso de Barros.” Collection database record, registration number recorded as “1869,0410.2463.*” (now 1869,0410.2463.+), as saved on 12 November 2012. Curator's comments with information from Rachel Schmidt (2010).",
   "label": "British Museum 2012",
-  "group": "Other web sources cited",
+  "group": "Web pages",
   "dup": null,
-  "html": "British Museum. 2012. \"Filosofia cortesana de Alonso de Barros.\" Collection database record, registration number 1869,0410.2463, as saved on 12 November 2012 (in the project's Zotero library, attached to the record for the 1587 book). Curator's comments with information from Rachel Schmidt (2010)."
+  "html": "British Museum. 2012. “Filosofia cortesana de Alonso de Barros.” Collection database record, registration number recorded as “1869,0410.2463.*” (now 1869,0410.2463.+), as saved on 12 November 2012. Curator's comments with information from Rachel Schmidt (2010)."
  },
  {
   "key": "web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a036",
-  "ref": "Alciato, Andrea. 1621. \"Obdurandum adversus urgentia\" (emblem 36). In *Emblemata*, Padua 1621, via *Alciato at Glasgow*, University of Glasgow. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a036.",
+  "ref": "Alciato, Andrea. 1621. “Obdurandum adversus urgentia” (emblem 36). In *Emblemata*. Padua: Petro Paulo Tozzi, 1621, via *Alciato at Glasgow*, University of Glasgow. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a036.",
   "label": "Alciato 1621",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Alciato, Andrea. 1621. \"Obdurandum adversus urgentia\" (emblem 36). In <em>Emblemata</em>, Padua 1621, via <em>Alciato at Glasgow</em>, University of Glasgow. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a036."
+  "html": "Alciato, Andrea. 1621. “Obdurandum adversus urgentia” (emblem 36). In <em>Emblemata</em>. Padua: Petro Paulo Tozzi, 1621, via <em>Alciato at Glasgow</em>, University of Glasgow. <a href=\"https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a036\" target=\"_blank\" rel=\"noopener\">https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a036</a>."
  },
  {
   "key": "web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a043",
-  "ref": "Alciato, Andrea. 1621. \"Spes proxima\" (emblem 43). In *Emblemata*, Padua 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a043.",
+  "ref": "Alciato, Andrea. 1621. “Spes proxima” (emblem 43). In *Emblemata*. Padua: Petro Paulo Tozzi, 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a043.",
   "label": "Alciato 1621",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Alciato, Andrea. 1621. \"Spes proxima\" (emblem 43). In <em>Emblemata</em>, Padua 1621, via <em>Alciato at Glasgow</em>. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a043."
+  "html": "Alciato, Andrea. 1621. “Spes proxima” (emblem 43). In <em>Emblemata</em>. Padua: Petro Paulo Tozzi, 1621, via <em>Alciato at Glasgow</em>. <a href=\"https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a043\" target=\"_blank\" rel=\"noopener\">https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a043</a>."
  },
  {
   "key": "web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a053",
-  "ref": "Alciato, Andrea. 1621. \"In adulatores\" (emblem 53). In *Emblemata*, Padua 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a053.",
+  "ref": "Alciato, Andrea. 1621. “In adulatores” (emblem 53). In *Emblemata*. Padua: Petro Paulo Tozzi, 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a053.",
   "label": "Alciato 1621",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Alciato, Andrea. 1621. \"In adulatores\" (emblem 53). In <em>Emblemata</em>, Padua 1621, via <em>Alciato at Glasgow</em>. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a053."
+  "html": "Alciato, Andrea. 1621. “In adulatores” (emblem 53). In <em>Emblemata</em>. Padua: Petro Paulo Tozzi, 1621, via <em>Alciato at Glasgow</em>. <a href=\"https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a053\" target=\"_blank\" rel=\"noopener\">https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a053</a>."
  },
  {
   "key": "web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a116",
-  "ref": "Alciato, Andrea. 1621. \"Sirenes\" (emblem 116). In *Emblemata*, Padua 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a116.",
+  "ref": "Alciato, Andrea. 1621. “Sirenes” (emblem 116). In *Emblemata*. Padua: Petro Paulo Tozzi, 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a116.",
   "label": "Alciato 1621",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Alciato, Andrea. 1621. \"Sirenes\" (emblem 116). In <em>Emblemata</em>, Padua 1621, via <em>Alciato at Glasgow</em>. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a116."
+  "html": "Alciato, Andrea. 1621. “Sirenes” (emblem 116). In <em>Emblemata</em>. Padua: Petro Paulo Tozzi, 1621, via <em>Alciato at Glasgow</em>. <a href=\"https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a116\" target=\"_blank\" rel=\"noopener\">https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a116</a>."
  },
  {
   "key": "web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a122",
-  "ref": "Alciato, Andrea. 1621. \"In occasionem\" (emblem 122). In *Emblemata*, Padua 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a122.",
+  "ref": "Alciato, Andrea. 1621. “In occasionem” (emblem 122). In *Emblemata*. Padua: Petro Paulo Tozzi, 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a122.",
   "label": "Alciato 1621",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Alciato, Andrea. 1621. \"In occasionem\" (emblem 122). In <em>Emblemata</em>, Padua 1621, via <em>Alciato at Glasgow</em>. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a122."
+  "html": "Alciato, Andrea. 1621. “In occasionem” (emblem 122). In <em>Emblemata</em>. Padua: Petro Paulo Tozzi, 1621, via <em>Alciato at Glasgow</em>. <a href=\"https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a122\" target=\"_blank\" rel=\"noopener\">https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a122</a>."
  },
  {
   "key": "web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a144",
-  "ref": "Alciato, Andrea. 1621. \"Princeps subditorum incolumitatem procurans\" (emblem 144, dolphin and anchor). In *Emblemata*, Padua 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a144.",
+  "ref": "Alciato, Andrea. 1621. “Princeps subditorum incolumitatem procurans” (emblem 144, dolphin and anchor). In *Emblemata*. Padua: Petro Paulo Tozzi, 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a144.",
   "label": "Alciato 1621",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Alciato, Andrea. 1621. \"Princeps subditorum incolumitatem procurans\" (emblem 144, dolphin and anchor). In <em>Emblemata</em>, Padua 1621, via <em>Alciato at Glasgow</em>. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a144."
+  "html": "Alciato, Andrea. 1621. <span lang=\"la\">“Princeps subditorum incolumitatem procurans”</span> (emblem 144, dolphin and anchor). In <em>Emblemata</em>. Padua: Petro Paulo Tozzi, 1621, via <em>Alciato at Glasgow</em>. <a href=\"https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a144\" target=\"_blank\" rel=\"noopener\">https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a144</a>."
  },
  {
   "key": "web:https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a184",
-  "ref": "Alciato, Andrea. 1621. \"Insignia poetarum\" (emblem 184). In *Emblemata*, Padua 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a184.",
+  "ref": "Alciato, Andrea. 1621. “Insignia poetarum” (emblem 184). In *Emblemata*. Padua: Petro Paulo Tozzi, 1621, via *Alciato at Glasgow*. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a184.",
   "label": "Alciato 1621",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Alciato, Andrea. 1621. \"Insignia poetarum\" (emblem 184). In <em>Emblemata</em>, Padua 1621, via <em>Alciato at Glasgow</em>. https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a184."
+  "html": "Alciato, Andrea. 1621. “Insignia poetarum” (emblem 184). In <em>Emblemata</em>. Padua: Petro Paulo Tozzi, 1621, via <em>Alciato at Glasgow</em>. <a href=\"https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a184\" target=\"_blank\" rel=\"noopener\">https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A21a184</a>."
  },
  {
   "key": "web:https://www.abdn.ac.uk/bestiary/ms24/f35r",
-  "ref": "Aberdeen Bestiary. c. 1200. Aberdeen University Library MS 24, fol. 35r, *De pellicano*. https://www.abdn.ac.uk/bestiary/ms24/f35r.",
+  "ref": "Aberdeen Bestiary. c. 1200. Aberdeen University Library MS 24, fol. 35r, *De pellicano*{la}. https://www.abdn.ac.uk/bestiary/ms24/f35r.",
   "label": "abdn.ac.uk",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Aberdeen Bestiary. c. 1200. Aberdeen University Library MS 24, fol. 35r, <em>De pellicano</em>. https://www.abdn.ac.uk/bestiary/ms24/f35r."
+  "html": "Aberdeen Bestiary. c. 1200. Aberdeen University Library MS 24, fol. 35r, <em lang=\"la\">De pellicano</em>. <a href=\"https://www.abdn.ac.uk/bestiary/ms24/f35r\" target=\"_blank\" rel=\"noopener\">https://www.abdn.ac.uk/bestiary/ms24/f35r</a>."
  },
  {
   "key": "web:https://www.metmuseum.org/art/collection/search/364091",
@@ -479,7 +471,7 @@ FC.biblio = [
   "label": "Metropolitan Museum of Art n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Metropolitan Museum of Art. n.d. Mario Cartaro after Michelangelo, <em>The Last Judgment</em>, 1569, engraving, acc. no. 17.50.19-149. https://www.metmuseum.org/art/collection/search/364091."
+  "html": "Metropolitan Museum of Art. n.d. Mario Cartaro after Michelangelo, <em>The Last Judgment</em>, 1569, engraving, acc. no. 17.50.19-149. <a href=\"https://www.metmuseum.org/art/collection/search/364091\" target=\"_blank\" rel=\"noopener\">https://www.metmuseum.org/art/collection/search/364091</a>."
  },
  {
   "key": "web:https://www.britishmuseum.org/collection/object/P_1869-0410-2465-",
@@ -487,38 +479,30 @@ FC.biblio = [
   "label": "British Museum n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "British Museum. n.d. <em>Il dilettevole gioco di loca</em> (Gargano, 1598). Collection record 1869,0410.2465.+. https://www.britishmuseum.org/collection/object/P_1869-0410-2465-."
+  "html": "British Museum. n.d. <em lang=\"it\">Il dilettevole gioco di loca</em> (Gargano, 1598). Collection record 1869,0410.2465.+. <a href=\"https://www.britishmuseum.org/collection/object/P_1869-0410-2465-\" target=\"_blank\" rel=\"noopener\">https://www.britishmuseum.org/collection/object/P_1869-0410-2465-</a>."
  },
  {
   "key": "web:https://dle.rae.es/portazgo",
-  "ref": "Real Academia Española. n.d. \"Portazgo.\" In *Diccionario de la lengua española*, 23rd ed., online. https://dle.rae.es/portazgo.",
+  "ref": "Real Academia Española. n.d. “Portazgo.” In *Diccionario de la lengua española*, 23rd ed., online. https://dle.rae.es/portazgo.",
   "label": "Real Academia Española n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Real Academia Española. n.d. \"Portazgo.\" In <em>Diccionario de la lengua española</em>, 23rd ed., online. https://dle.rae.es/portazgo."
+  "html": "Real Academia Española. n.d. “Portazgo.” In <em lang=\"es\">Diccionario de la lengua española</em>, 23rd ed., online. <a href=\"https://dle.rae.es/portazgo\" target=\"_blank\" rel=\"noopener\">https://dle.rae.es/portazgo</a>."
  },
  {
   "key": "web:https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html",
-  "ref": "Corominas, Joan. n.d. \"Azar.\" In *Diccionario crítico etimológico castellano e hispánico* (online reproduction). https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html.",
+  "ref": "Corominas, Joan. n.d. “Azar.” In *Diccionario crítico etimológico castellano e hispánico*{es} (online reproduction). https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html.",
   "label": "Corominas n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Corominas, Joan. n.d. \"Azar.\" In <em>Diccionario crítico etimológico castellano e hispánico</em> (online reproduction). https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html."
+  "html": "Corominas, Joan. n.d. “Azar.” In <em lang=\"es\">Diccionario crítico etimológico castellano e hispánico</em> (online reproduction). <a href=\"https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html\" target=\"_blank\" rel=\"noopener\">https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html</a>."
  },
  {
   "key": "web:https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/",
-  "ref": "Canettieri, Paolo. n.d. \"Alfonso X, *Libro de los juegos*.\" Blog post. https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/.",
+  "ref": "Canettieri, Paolo. n.d. “Alfonso X, *Libro de los juegos*.” Blog post. https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/.",
   "label": "Canettieri n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Canettieri, Paolo. n.d. \"Alfonso X, <em>Libro de los juegos</em>.\" Blog post. https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/."
- },
- {
-  "key": "web:https://en.wikipedia.org/wiki/Antonio_P%C3%A9rez_(statesman)",
-  "ref": "Wikipedia. n.d. \"Antonio Pérez (statesman).\" Cited for dates only; to be checked against a printed biography. https://en.wikipedia.org/wiki/Antonio_P%C3%A9rez_(statesman).",
-  "label": "Wikipedia n.d.",
-  "group": "Other web sources cited",
-  "dup": null,
-  "html": "Wikipedia. n.d. \"Antonio Pérez (statesman).\" Cited for dates only; to be checked against a printed biography. https://en.wikipedia.org/wiki/Antonio_P%C3%A9rez_(statesman)."
+  "html": "Canettieri, Paolo. n.d. “Alfonso X, <em lang=\"es\">Libro de los juegos</em>.” Blog post. <a href=\"https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/\" target=\"_blank\" rel=\"noopener\">https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/</a>."
  }
 ];

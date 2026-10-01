@@ -27,8 +27,10 @@
     backPay: 'all',      // 'all': every move back costs one stake (M's example); 'overshoot': only the rebound
     fortuneThrows: 1,    // DECISION: House of Fortune gives one extra throw (see about-rules)
     purse: 20,           // DECISION: no source gives a purse; balances may go negative
-    stake: 1,            // M: each player first puts "un tanto" in the pot
+    stake: 1,            // M: each player first puts "un tanto" in the pot; every payment is counted in stakes
   };
+  // The square of Poverty in each edition (G: 59, Lucero 2016, 2019; M and C: 60). Read by play.js too.
+  const POVERTY = { C: 60, M: 60, G: 59 };
 
   class Game {
     constructor(players, options = {}) {
@@ -47,7 +49,11 @@
       this.players.forEach(p => this.pay(p, 'pot', this.opt.stake, null));
     }
 
-    get poverty() { return this.opt.edition === 'G' ? 59 : 60; }   // G: 59 (Lucero 2016, 2019)
+    get poverty() {                       // the site's table (FC.EDITION_RULES, common.js) when loaded; ours in Node
+      const r = root.FC && root.FC.EDITION_RULES && root.FC.EDITION_RULES[this.opt.edition];
+      return r && r.poverty ? r.poverty : POVERTY[this.opt.edition] || 60;
+    }
+    get stake() { return this.opt.stake; }
     get current() { return this.players[this.turn]; }
 
     /** What kind of square n is under the current edition. */
@@ -56,6 +62,7 @@
       if (LABOUR.includes(n)) return 'labour';
       if (n === this.poverty) return 'poverty';
       if (n === HOPE) return 'hope';
+      if (n === FAVOURITE) return 'favourite';
       if (n === WELL) return 'well';
       if (n === DEATH) return 'death';
       if (n === FORTUNE) return 'fortune';
@@ -134,13 +141,15 @@
       p.pos = to;
       steps.push(this.step('move', { from, to, by, bounce, via: ctx.via }));
       if (bounce) {
-        steps.push(this.step('rebound', { square: to, bounce }));
-        this.pay(p, 'pot', 1, steps, 'rebound');           // one stake for going back
+        steps.push(this.step('rebound', { square: to, bounce, poor: to === this.poverty }));
+        // one stake for going back, except onto Poverty: M fol. 48r, "salvo, el que da en la casa
+        // de la pobreza, que no solo no paga, sino que todos le dan cada uno un tanto"
+        if (to !== this.poverty) this.pay(p, 'pot', this.stake, steps, 'rebound');
       }
       this.arrive(p, to, steps, Object.assign({}, ctx, { bounced: !!bounce }), depth);
     }
 
-    /** Apply the square the player has come to by throw, by Labour or by rebound. */
+    /** Apply the square the player has come to by throw, by Labor or by rebound. */
     arrive(p, n, steps, ctx, depth) {
       const k = this.kind(n);
       if (k === 'goal') return this.win(p, steps);
@@ -150,6 +159,8 @@
         case 'labour': {
           // "si da en los bueyes, passa otras tantas casas adelante, como puntos echo" (C pdf 66)
           // M: "esta regla se ha de guardar todas cuantas veces se diere en trabajo"
+          // DECISION: Labor reached by counting back also moves forward ("adelante"), so it may pass
+          // the palm again and pay a second stake (58 + 11 → 57 → 58).
           const ahead = n + ctx.total, next = ahead > GOAL ? 2 * GOAL - ahead : ahead;
           if (depth > 6 || next === n || (ctx.seen && ctx.seen.includes(n))) {   // DECISION: stop a loop (e.g. 57 + 12)
             steps.push(this.step('loop', { square: n }));
@@ -160,17 +171,24 @@
         }
         case 'hope': {
           // 15 → 26, "pagando vn tanto por cada vna" (C); M: "por cada una de las dos"
-          this.pay(p, 'pot', 1, steps, 'hope');
+          this.pay(p, 'pot', this.stake, steps, 'hope');
           p.pos = FAVOURITE;
           steps.push(this.step('transfer', { from: HOPE, to: FAVOURITE }));
           steps.push(this.step('arrive', { square: FAVOURITE, kind: 'favourite', via: 'transfer' }));
-          this.pay(p, 'pot', 1, steps, 'favourite');
+          this.pay(p, 'pot', this.stake, steps, 'favourite');
           return this.settle(p, FAVOURITE, steps, ctx);
+        }
+        case 'favourite': {
+          // DECISION: a direct landing on 26 (by a throw or by Labor) also pays one stake,
+          // following the board's label "Paga" and Collar de Cáceres 2009, 94; the books name a
+          // payment here only for the player sent on from the Pass of Hope.
+          this.pay(p, 'pot', this.stake, steps, 'favourite');
+          return this.settle(p, n, steps, ctx);
         }
         case 'well': {
           // pays one to each player and two to the pot "para sogas", misses a round (C pdf 67)
-          this.pay(p, 'others', 1, steps, 'well');
-          this.pay(p, 'pot', 2, steps, 'well-ropes');
+          this.pay(p, 'others', this.stake, steps, 'well');
+          this.pay(p, 'pot', 2 * this.stake, steps, 'well-ropes');
           p.skip = 1;
           this.extra = 0;                                   // DECISION: Fortune's extra throws end in the Well
           steps.push(this.step('skipset', { square: n }));
@@ -178,7 +196,7 @@
         }
         case 'back': {
           const dest = SEND_BACK[n];
-          if (this.opt.backPay === 'all') this.pay(p, 'pot', 1, steps, 'back');
+          if (this.opt.backPay === 'all') this.pay(p, 'pot', this.stake, steps, 'back');
           p.pos = dest;
           steps.push(this.step('transfer', { from: n, to: dest }));
           steps.push(this.step('arrive', { square: dest, kind: 'destination', via: 'transfer' }));
@@ -186,7 +204,7 @@
         }
         case 'death': {
           // "buelue a començar el juego de nueuo" (C pdf 68)
-          if (this.opt.backPay === 'all') this.pay(p, 'pot', 1, steps, 'back');
+          if (this.opt.backPay === 'all') this.pay(p, 'pot', this.stake, steps, 'back');
           p.pos = 0;
           steps.push(this.step('transfer', { from: n, to: 0 }));
           return;
@@ -199,7 +217,7 @@
         }
         case 'poverty': {
           // to the Dice at 53 "y danle limosna" (C, G); M: "un tanto cada uno", and that player pays nothing to go back
-          this.players.filter(q => q !== p).forEach(q => this.pay(q, p, 1, steps, 'alms'));
+          this.players.filter(q => q !== p).forEach(q => this.pay(q, p, this.stake, steps, 'alms'));
           p.pos = DICE53;
           steps.push(this.step('transfer', { from: n, to: DICE53 }));
           steps.push(this.step('arrive', { square: DICE53, kind: 'destination', via: 'transfer' }));
@@ -221,9 +239,11 @@
       const to = ctx.prev;                         // the square the mover left before this throw
       const back = to < n;
       q.pos = to;
-      if (n === WELL) q.skip = 0;                  // DECISION: the newcomer takes the other player's place in the Well
-      steps.push(this.step('bump', { victim: q.id, from: n, to, forward: !back }));
-      if (back && this.opt.backPay === 'all') this.pay(q, 'pot', 1, steps, 'bumped');
+      // DECISION: a player displaced from the Well keeps the lost round (q.skip is left as it is):
+      // Barros's Well is paid for with ropes, not left when another falls in, as in the goose game
+      // (Collar de Cáceres 2009, 95). The square a displaced player is moved to does not act.
+      steps.push(this.step('bump', { victim: q.id, from: n, to, forward: !back, skip: q.skip }));
+      if (back && this.opt.backPay === 'all') this.pay(q, 'pot', this.stake, steps, 'bumped');
     }
 
     win(p, steps) {
@@ -245,7 +265,7 @@
     return 1 + Math.floor(Math.random() * n);
   }
 
-  const api = { Game, DEFAULTS, LABOUR, SEND_BACK };
+  const api = { Game, DEFAULTS, LABOUR, SEND_BACK, POVERTY, GOAL };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;   // for tests in Node
   root.FC = root.FC || {};
   root.FC.engine = api;

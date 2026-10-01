@@ -5,7 +5,7 @@
   "it": "Guarda ai piedi la raggione / e alla ruota l'openione",
   "es": "A los pies mira razon / y a la rueda la opinion",
   "rule": "",
-  "image_desc": "A peacock standing on a strip of ground, facing left, its tail raised and fanned in a full wheel of eyed feathers behind it; a small crest on its head.",
+  "image_desc": "A peacock standing frontally on a strip of ground, its head turned to the right, its tail raised and fanned in a full wheel of eyed feathers behind it; a small crest on its head.",
   "blank": false,
   "center": [
    570,
@@ -128,7 +128,7 @@
  {
   "n": 4,
   "heading": "trauaglio",
-  "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò ni[en]te",
+  "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò nie[n]te",
   "es": "Nunca se siente el trabajo / sino qua[n]do el premio es bajo",
   "rule": "",
   "image_desc": "A yoke of two oxen walking to the right on the ground strip, the far ox largely hidden behind the near one; above them a festoon (a cluster of fruit and leaves) hangs on a cord slung between the two balusters.",
@@ -501,7 +501,7 @@
   ],
   "img_bbox_kind": "illustration",
   "confidence": "high",
-  "notes": "Numeral '12' at (2233,2030). Text box on the outer side, x 2450-2593, y 1975-2160, reading upward (rot -90). Board reads 'Frutos del trabajo' (Collar prints 'Frutos de trabajo'); 'honrra prouecho' (the blog's 'honra, proveco' normalises and misreads). 'trabajo justo' both with long j."
+  "notes": "Numeral '12' at (2233,2030). Text box on the outer side, x 2450-2593, y 1975-2160, reading upward (rot -90). Board reads 'Frutos del trabajo' (Collar prints 'Frutos de trabajo'); 'honrra prouecho' (the blog's 'honra, proveco' normalizes and misreads). 'trabajo justo' both with long j."
  },
  {
   "n": 13,
@@ -1051,11 +1051,11 @@
  },
  {
   "n": 26,
-  "heading": "Il priuato",
+  "heading": "Il pri[u?]ato",
   "it": "Non cercar mano aliena / se la tua non serà piena",
   "es": "No pidas la mano agena / si la tuya no va llena",
   "rule": "Paga.",
-  "image_desc": "Two men in cloaks. On the left a man in a cap walks forward holding up in both hands a round dish or bowl (its contents not distinguishable) and offers it to a bearded man on the right, who stands in a doorway and reaches for it.",
+  "image_desc": "Two men in cloaks. On the left a man in a brimmed hat walks forward holding up in both hands a round dish or bowl (its contents not distinguishable) and offers it to a bearded man in a cap on the right, who stands in a doorway and reaches for it.",
   "blank": false,
   "center": [
    555,
@@ -1089,7 +1089,7 @@
   ],
   "img_bbox_kind": "illustration",
   "confidence": "high",
-  "notes": "Numeral '26' at (730,777), by the doorway. Text box on the outer side, x 340-540, y 480-720 (rot about 126-130). The 'Paga.' label is in a small box in the white gutter just inside the ring's inner edge, x 700-765, y 760-840 (rot about 126). 'priuato' has u cut like n. Board reads 'No pidas' (the blog's 'No(n) pidas' is not supported). The blog's 'passing a bag' does not match the image: a dish or bowl."
+  "notes": "Numeral '26' at (730,777), by the doorway. Text box on the outer side, x 340-540, y 480-720 (rot about 126-130). The 'Paga.' label is in a small box in the white gutter just inside the ring's inner edge, x 700-765, y 760-840 (rot about 126). The heading reads 'priuato' or 'primato': the minims after 'pri' cannot be counted with certainty in this photograph (three would give 'priuato', four 'primato'); recorded as 'pri[u?]ato'. The rule label at 15 reads 'Al priuato'. Board reads 'No pidas' (the blog's 'No(n) pidas' is not supported). The blog's 'passing a bag' does not match the image: a dish or bowl."
  },
  {
   "n": 27,
@@ -1223,7 +1223,7 @@
   "it": "S'arrende al fin fortuna / s'il trauaglio l'inportuna",
   "es": "Al fin se rinde fortuna / si el trabajo la importuna",
   "rule": "",
-  "image_desc": "A yoke of two oxen pulling a plough: a cord runs from the yoke back to the plough beam at the left; above them a festoon of fruit on a cord between the balusters.",
+  "image_desc": "A yoke of two oxen pulling a plow: a cord runs from the yoke back to the plow beam at the left; above them a festoon of fruit on a cord between the balusters.",
   "blank": false,
   "center": [
    300,

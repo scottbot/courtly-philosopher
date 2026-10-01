@@ -5,43 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Squares — Filosofía cortesana</title>
 <meta name="description" content="Every square of Cartaro’s 1588 board, with its verses in Spanish, Italian and English, Barros’s explanation and historical notes.">
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/style.css">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="The Squares — Filosofía cortesana">
+<meta property="og:description" content="Every square of Cartaro’s 1588 board, with its verses in Spanish, Italian and English, Barros’s explanation and historical notes.">
+<meta property="og:image" content="img/board/board-1200.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f3ecdc">
+<link rel="stylesheet" href="css/fonts.css?v=72251f3b">
+<link rel="stylesheet" href="css/style.css?v=e3cf8f55">
+<script>try{var t=JSON.parse(localStorage.getItem('filosofia-cortesana:theme'));if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23f3ecdc' stroke='%238e2c1c' stroke-width='4'/%3E%3Cpath d='M32 12c-9 8-9 18 0 26 9-8 9-18 0-26zM32 38v16' stroke='%232a2119' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="img/icon-180.png">
 </head>
 <body class="page-atlas">
 <a class="visually-hidden" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
   <a class="brand" href="index.html">Filosofía <span>cortesana</span></a>
   <nav class="nav" aria-label="Site">
-    <a href="index.html">Introduction</a>
-    <a href="play.html">Play</a>
-    <a href="atlas.html" aria-current="page">The Squares</a>
-    <a href="text.html">The Book</a>
-    <a href="about.html">About</a>
+    <a href="index.html"><span class="nav-l">Introduction</span><span class="nav-s" aria-hidden="true">Intro</span></a>
+    <a href="play.html"><span class="nav-l">Play</span><span class="nav-s" aria-hidden="true">Play</span></a>
+    <a href="atlas.html" aria-current="page"><span class="nav-l">The Squares</span><span class="nav-s" aria-hidden="true">Squares</span></a>
+    <a href="text.html"><span class="nav-l">The Book</span><span class="nav-s" aria-hidden="true">Book</span></a>
+    <a href="about.html"><span class="nav-l">About</span><span class="nav-s" aria-hidden="true">About</span></a>
   </nav>
-  <button class="theme-btn" type="button" aria-label="Switch between light and dark"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
+  <button class="theme-btn" type="button" aria-label="Dark theme" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
 </div></header>
 <main id="main" class="wrap">
 <div class="page-head"><h1>The Squares</h1>
 <p>Every square of the only surviving board, with its picture, its verses in Spanish and Italian with an English rendering, the rule it imposes, what Barros says about it, and what historians have found. Choose an edition to see where the texts differ.</p>
-<div class="filters"><span class="sc muted">Edition</span><div class="seg-toggle" role="group" id="edsel"><button data-ed="C">Naples 1588</button><button data-ed="M">Madrid 1587 (Madrigal)</button><button data-ed="G">Madrid 1587 (princeps)</button></div>
-<span class="sc muted" style="margin-left:1rem">Show</span><div class="seg-toggle" role="group" id="showsel"><button data-show="all">all 63</button><button data-show="adorned" aria-pressed="true">squares with pictures</button></div>
-<label class="small" style="margin-left:1rem"><input type="checkbox" id="namesel"> English names on the board</label></div></div>
+<div class="filters"><span class="sc muted" id="edsel-l">Edition</span><div class="seg-toggle" role="group" id="edsel" aria-labelledby="edsel-l"><button type="button" data-ed="C">Naples 1588 (with this board)</button><button type="button" data-ed="M">Madrid 1587, 2nd ed.</button><button type="button" data-ed="G">Madrid 1587, 1st ed.</button></div>
+<span class="sc muted" style="margin-left:1rem" id="showsel-l">Show</span><div class="seg-toggle" role="group" id="showsel" aria-labelledby="showsel-l"><button type="button" data-show="all" aria-pressed="false">all 63</button><button type="button" data-show="adorned" aria-pressed="true">squares with pictures</button></div>
+<label class="small" style="margin-left:1rem"><input type="checkbox" id="namesel"> English names on the board</label></div>
+<p class="small muted">The three early editions differ in a few verses and rules; the board is always the Naples one.</p></div>
 <div class="viewer-wrap" style="height:min(78vh,900px);margin:1rem 0"><div id="viewer" style="height:100%"></div></div>
-<p class="credit">Click any square on the board, or choose one below. <a href="img/board/board-full.jpg" target="_blank">Open the full-resolution photograph</a> (2594 × 3402 px). Board © The Trustees of the British Museum.</p>
+<p class="credit">Click any square on the board, or choose one below. <a href="img/board/board-full.jpg" target="_blank" rel="noopener">Open the full-resolution photograph</a>. The board can also be moved with the arrow keys once selected, and its squares reached with Enter. Board © The Trustees of the British Museum.</p>
 <h2>The squares</h2><div class="atlas-grid" id="grid"></div>
 <h2>Around the track</h2><div class="atlas-grid" id="feats"></div>
 </main>
 <footer class="site-footer"><div class="wrap">
-  <p><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). Board: Mario Cartaro, Naples 1588, British Museum 1869,0410.2463.+, © The Trustees of the British Museum, reproduced under licence. Book: Naples 1588 edition, Österreichische Nationalbibliothek, 35 V 49, from the Google Books scan. Transcriptions, translations, annotations and code by Claude (Anthropic), made for Scott B. Weingart; text under CC BY 4.0, code under the MIT License. <b>An AI-produced draft, not reviewed by a specialist.</b> See <a href="about.html#note">how this edition was made</a> and the <a href="about.html#biblio">bibliography</a>.</p>
+  <p><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). Board: Mario Cartaro, Naples 1588, British Museum 1869,0410.2463.+, © The Trustees of the British Museum, reproduced under license. Book: Naples 1588 edition, Österreichische Nationalbibliothek, 35 V 49, from the Google Books scan. Transcriptions, translations, annotations and code by Claude (Anthropic), made for Scott B. Weingart and no rights claimed (CC0), except in material from other sources; this is not a guarantee that any of it is free of rights. <b>An AI-produced draft, not reviewed by a specialist.</b> See <a href="about.html#note">how this edition was made</a> and the <a href="about.html#biblio">bibliography</a>.</p>
   <p><button class="btn small" type="button" data-toggle-cites>Hide references in the text</button></p>
 </div></footer>
-<script src="data/board.js"></script>
-<script src="data/annotations.js"></script>
-<script src="data/text.js"></script>
-<script src="data/biblio.js"></script>
-<script src="js/common.js"></script>
-<script src="js/atlas.js"></script>
+<script src="data/board.js?v=cd172d81"></script>
+<script src="data/annotations.js?v=ba783a9d"></script>
+<script src="data/text.js?v=66d980b3"></script>
+<script src="data/biblio.js?v=62de86e6"></script>
+<script src="js/common.js?v=e8d833bf"></script>
+<script src="js/atlas.js?v=c2216e12"></script>
 </body>
 </html>

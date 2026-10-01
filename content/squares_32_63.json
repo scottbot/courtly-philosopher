@@ -2,7 +2,7 @@
  {
   "n": 32,
   "heading": "Pozzo del oblio",
-  "it": "Pone in oblio l'ingrato / tutto il ben che li fu dato",
+  "it": "Pone in oblio l'ingrato / tutto il ben che li fù dato",
   "es": "Pone el ingrato en oluido / quanto bien hae recibido",
   "rule": "Per le fune ·1· et ·2· fermesi / Para sogas ·1· y ·2· estese",
   "image_desc": "A round brick well-head (drawn in perspective) with a winch frame and crank handle on its right; a man inside the shaft, visible from the waist up, grips the rope with both hands to haul himself out.",
@@ -83,7 +83,7 @@
   "it": "Il frutto della spene / con il trauaglio uiene",
   "es": "El fruto dela esperança / por el trabajo se alcança",
   "rule": null,
-  "image_desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right; above, by the number, a cluster of fruit hangs on a cord (the 'frutas enhiladas' of the labour squares).",
+  "image_desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters (the 'frutas enhiladas' of the Labor squares).",
   "blank": false,
   "center": [
    430,
@@ -114,7 +114,7 @@
    529,
    2559
   ],
-  "notes": "Text box (heading in a small cartouche, then 2+2 lines) sits against the outer edge of the square, x 215-350, y 2400-2625, reading steeply downward (rot ~68). 'spene' as engraved (n, not m): agrees with Collar ('spene'); the La Bella Donna blog/giochidelloca 'speme' normalises. 'trabajo' cut with a long j. Fruit cluster bbox [475,2358,586,2476]."
+  "notes": "Text box (heading in a small cartouche, then 2+2 lines) sits against the outer edge of the square, x 215-350, y 2400-2625, reading steeply downward (rot ~68). 'spene' as engraved (n, not m): agrees with Collar ('spene'); the La Bella Donna blog/giochidelloca 'speme' normalizes. 'trabajo' cut with a long j. Fruit cluster bbox [475,2358,586,2476]."
  },
  {
   "n": 35,
@@ -192,7 +192,7 @@
    882,
    2872
   ],
-  "notes": "Rule label in a box above the square along the ring's inner edge (x 760-960, y 2560-2700), reading down-right (rot ~30). Heading and verses are in a box outside the square's outer edge, below the pedestal, x 540-800, y 2820-2990 (rot ~28). 'sireue' as engraved (so Collar 'sireue (sic)'; the blog's 'siru(v)e' normalises). 'n' with superscript 'o' ('n.º')."
+  "notes": "Rule label in a box above the square along the ring's inner edge (x 760-960, y 2560-2700), reading down-right (rot ~30). Heading and verses are in a box outside the square's outer edge, below the pedestal, x 540-800, y 2820-2990 (rot ~28). 'sireue' as engraved (so Collar 'sireue (sic)'; the blog's 'siru(v)e' normalizes). 'n' with superscript 'o' ('n.º')."
  },
  {
   "n": 37,
@@ -356,7 +356,7 @@
   "it": "Trauaglio e il non hauere / da poter mangiare e bere",
   "es": "Trabajo es no le tener / el q[ue] del a de comer",
   "rule": null,
-  "image_desc": "A yoke of two oxen walking upward toward the upper right (toward square 42); by the number, a cluster of fruit hangs on a cord.",
+  "image_desc": "A yoke of two oxen walking upward toward the upper right (toward square 42); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
   "blank": false,
   "center": [
    1760,
@@ -465,7 +465,7 @@
    2060,
    2375
   ],
-  "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1735-1800, y 2160-2340. Heading and verses in a box outside the outer edge, x 1990-2110, y 2160-2440. Engraved 'Chi' (Zollinger 'Che' wrong), 'sua' (the blog's 'su' wrong), 'de mutanza' (Collar prints 'di mutanza': the plate has 'de'), 'Quin' (sic; Zollinger 'Quin [lire Quien]' agrees; Collar normalises to 'Quien'). The z of 'Mutanza'/'speranza' is cut in the angular '2'-like form. The Seville notes' plate reading 'Chi mira in sua speranza / Quien mira su esperança' is wrong: the plate has 'limita' in both lines."
+  "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1735-1800, y 2160-2340. Heading and verses in a box outside the outer edge, x 1990-2110, y 2160-2440. Engraved 'Chi' (Zollinger 'Che' wrong), 'sua' (the blog's 'su' wrong), 'de mutanza' (Collar prints 'di mutanza': the plate has 'de'), 'Quin' (sic; Zollinger 'Quin [lire Quien]' agrees; Collar normalizes to 'Quien'). The z of 'Mutanza'/'speranza' is cut in the angular '2'-like form. The Seville notes' plate reading 'Chi mira in sua speranza / Quien mira su esperança' is wrong: the plate has 'limita' in both lines."
  },
  {
   "n": 44,
@@ -551,7 +551,7 @@
   "it": "L'huom ch'in huomo si confida / resta cieco senza guida",
   "es": "El hombre que en ho[m]bres fia / queda qual ciego sin guia",
   "rule": "In camincia de nuouo ·Paga·",
-  "image_desc": "A man in a broad-brimmed hat, head bowed, gropes forward with hands outstretched (the blind man); beside him on the ground lies an empty funeral bier with a cross on its pall and two carrying poles.",
+  "image_desc": "A bearded man in a broad-brimmed hat and a short cloak faces a funeral bier and walks toward it, holding the edge of his cloak to his face. The bier is a coffin-shaped frame covered with a pall marked with a cross, propped at a slant on its two carrying poles.",
   "blank": false,
   "center": [
    1960,
@@ -582,7 +582,7 @@
    2080,
    1680
   ],
-  "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1795-1850, y 1480-1700. Heading and verses outside the outer edge, x 2070-2200, y 1450-1720. RULE: the plate reads 'In camincia' (a, not o), confirmed in both photographs; Collar ('Incomincia di nuouo'), Zollinger and the blog ('Incomincia de nueue/nuouo') all normalise. 'de' (not 'di', Collar). Italian 'cieco' (the blog's 'cieca' is wrong). 'hobres' without a visible tilde; expanded ho[m]bres. 'sin guia' run together as 'singuia'. The Seville notes' 'L'huomo in huomo' is wrong: the plate has 'L'huom ch'in huomo'."
+  "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1795-1850, y 1480-1700. Heading and verses outside the outer edge, x 2070-2200, y 1450-1720. RULE: the plate reads 'In camincia' (a, not o), confirmed in both photographs; Collar ('Incomincia di nuouo'), Zollinger and the blog ('Incomincia de nueue/nuouo') all normalize. 'de' (not 'di', Collar). Italian 'cieco' (the blog's 'cieca' is wrong). 'hobres' without a visible tilde; expanded ho[m]bres. 'sin guia' run together as 'singuia'. The Seville notes' 'L'huomo in huomo' is wrong: the plate has 'L'huom ch'in huomo'."
  },
  {
   "n": 47,
@@ -629,7 +629,7 @@
   "it": "Ben che mobil sia fortuna / al trauaglio è oportuna",
   "es": "Aunque fortuna es mudable / al trabajo es fauorable",
   "rule": null,
-  "image_desc": "A yoke of two oxen, heads toward the upper left (toward square 49); by the number, a cluster of fruit hangs on a cord from the 48/49 baluster.",
+  "image_desc": "A yoke of two oxen, heads toward the upper left (toward square 49); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
   "blank": false,
   "center": [
    1880,
@@ -933,7 +933,7 @@
    850,
    1215
   ],
-  "notes": "Heading and verses in the gutter outside the outer edge, x 540-700, y 930-1260, reading top-to-bottom with a lean (rot ~100). Rule label along the ring's inner edge, x 855-960, y 1090-1335 (rot ~68). Italian first line 'Dal pensai che,' with a comma (Collar 'Dal pensai che,' agrees; Zollinger/giochidelloca 'Dal pensar che' normalise to the heading). 'tien poco' (Collar 'tien' agrees; Zollinger 'tiene' wrong). The Italian second line is long and runs to the edge of the box."
+  "notes": "Heading and verses in the gutter outside the outer edge, x 540-700, y 930-1260, reading top-to-bottom with a lean (rot ~100). Rule label along the ring's inner edge, x 855-960, y 1090-1335 (rot ~68). Italian first line 'Dal pensai che,' with a comma (Collar 'Dal pensai che,' agrees; Zollinger/giochidelloca 'Dal pensar che' normalize to the heading). 'tien poco' (Collar 'tien' agrees; Zollinger 'tiene' wrong). The Italian second line is long and runs to the edge of the box."
  },
  {
   "n": 56,
@@ -980,7 +980,7 @@
   "it": "Il trauaglio apparta palma / et fa relucer l'alma",
   "es": "El trabajo gana palma / y quita el orin del alma",
   "rule": null,
-  "image_desc": "A yoke of two oxen, heads toward the bottom (toward square 58); beside them a cluster of fruit hangs on a cord.",
+  "image_desc": "A yoke of two oxen, heads toward the bottom (toward square 58); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
   "blank": false,
   "center": [
    730,
@@ -1011,7 +1011,7 @@
    752,
    1662
   ],
-  "notes": "Heading and verses in the gutter outside the outer edge, x 510-610, y 1440-1730, reading top-to-bottom (rot ~88). 'apparta' as engraved (Collar 'apparta' agrees; the La Bella Donna blog/giochidelloca 'apporta' normalise). Spanish engraved with odd spacing 'elorind elalma' (= el orin del alma). Fruit cluster bbox [750,1510,842,1625]."
+  "notes": "Heading and verses in the gutter outside the outer edge, x 510-610, y 1440-1730, reading top-to-bottom (rot ~88). 'apparta' as engraved (Collar 'apparta' agrees; the La Bella Donna blog/giochidelloca 'apporta' normalize). Spanish engraved with odd spacing 'elorind elalma' (= el orin del alma). Fruit cluster bbox [750,1510,842,1625]."
  },
  {
   "n": 58,
@@ -1097,7 +1097,7 @@
   "it": "Pouertà secca l'humore / alla radice del fauore",
   "es": "Pobreza seca el humor / dela raiz del fauor",
   "rule": "Limosina et alla sorte·53",
-  "image_desc": "Three dead, leafless trees with bare, twisted branches, growing from the ground strip at the outer edge toward the centre of the board.",
+  "image_desc": "Three dead, leafless trees with bare, twisted branches, growing from the ground strip at the outer edge toward the center of the board.",
   "blank": false,
   "center": [
    780,
@@ -1214,7 +1214,7 @@
   "it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
   "es": "Quando tengas mas fortuna / mira que es como la luna",
   "rule": "Ne il poco ne lassai · / Ni lo mucho ni la poco",
-  "image_desc": "A classical aedicule (gate) with a triangular pediment topped by finials, two pairs of columns, and large acanthus scrolls (volutes) at either side; a tall palm tree grows up through its centre, the scaly trunk visible in the opening and the crown of fronds, with clusters of dates, spreading above the pediment. The numerals '6' and '3' are engraved in the opening on either side of the trunk; beneath them a two-line panel with the motto; below, a cartouche 'VITORIA'. The verses are engraved under the aedicule, above square 39's rule label.",
+  "image_desc": "A classical aedicule (gate) with a triangular pediment topped by finials, two pairs of columns, and large acanthus scrolls (volutes) at either side; a tall palm tree grows up through its center, the scaly trunk visible in the opening and the crown of fronds, with clusters of dates, spreading above the pediment. The numerals '6' and '3' are engraved in the opening on either side of the trunk; beneath them a two-line panel with the motto; below, a cartouche 'VITORIA'. The verses are engraved under the aedicule, above square 39's rule label.",
   "blank": false,
   "center": [
    1330,

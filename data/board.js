@@ -4,12 +4,10 @@ FC.board = {
  "squares": [
   {
    "n": 1,
-   "heading": "",
    "it": "Guarda ai piedi la raggione / e alla ruota l'openione",
    "es": "A los pies mira razon / y a la rueda la opinion",
    "rule": "",
-   "desc": "A peacock standing on a strip of ground, facing left, its tail raised and fanned in a full wheel of eyed feathers behind it; a small crest on its head.",
-   "blank": false,
+   "desc": "A peacock standing frontally on a strip of ground, its head turned to the right, its tail raised and fanned in a full wheel of eyed feathers behind it; a small crest on its head.",
    "center": [
     0.19815,
     0.92593
@@ -32,20 +30,15 @@ FC.board = {
      0.98325
     ]
    ],
-   "rot": 0,
    "it_gloss": "Reason looks to the feet, / and Opinion to the wheel.",
-   "rule_en": "",
-   "it_note": "Same sense as the Spanish (s1); \"guarda\" = \"looks\", as \"mira\".",
-   "notes": "No numeral '1' is visible (the peacock's fanned tail fills the upper part of the bay). Text box below the peacock, between the pedestals, x 470-685, y 3320-3440, upright (rot 0). Initial 'e' of line 2 and final 'e' of 'raggione', 'l'openione' are cut like 'c'. The z of 'razon' is the looped ʒ form. Engraved word division: 'Alospies miraraʒon / yalaruedalaopinion'. Board has 'y a la rueda' (so Collar and Zollinger); the La Bella Donna blog's 'y la rueda' drops the 'a'."
+   "rule_en": ""
   },
   {
    "n": 2,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: the numeral '2' (cut like 'Z') under the top rail, and a single small flowering plant on the ground strip.",
-   "blank": true,
    "center": [
     0.29067,
     0.92593
@@ -68,20 +61,15 @@ FC.board = {
      0.98325
     ]
    ],
-   "rot": 0,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (835,3100)."
+   "rule_en": ""
   },
   {
    "n": 3,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '3' and a single flowering sprig on the ground strip.",
-   "blank": true,
    "center": [
     0.38319,
     0.92593
@@ -104,20 +92,15 @@ FC.board = {
      0.98325
     ]
    ],
-   "rot": 0,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (1045,3110)."
+   "rule_en": ""
   },
   {
    "n": 4,
-   "heading": "trauaglio",
-   "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò ni[en]te",
+   "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò nie[n]te",
    "es": "Nunca se siente el trabajo / sino qua[n]do el premio es bajo",
    "rule": "",
    "desc": "A yoke of two oxen walking to the right on the ground strip, the far ox largely hidden behind the near one; above them a festoon (a cluster of fruit and leaves) hangs on a cord slung between the two balusters.",
-   "blank": false,
    "center": [
     0.47648,
     0.92563
@@ -140,20 +123,15 @@ FC.board = {
      0.98325
     ]
    ],
-   "rot": 0,
-   "it_gloss": "Labour is felt by you [lit. \"feels you\"] only then, / when the reward is little or nothing.",
-   "rule_en": "",
-   "it_note": "Spanish: \"Labour is never felt except when the reward is low.\" Italian turns \"never … except when\" into \"only then … when\" and adds \"or nothing\". \"ti sente\" (lit. \"feels you\") is odd; evidently \"you feel it\". Heading: Italian *travaglio* means toil, trouble, affliction; it lacks the everyday \"work\" of Spanish *trabajo*, so the work/hardship pun is only half kept.",
-   "notes": "Numeral '4' at (1270,3100) just above the festoon. Text box below the oxen, x 1190-1415, y 3310-3440, rot 0. 'niẽte' has a tilde over the e; 'quãdo' a tilde over the a. Grave accents on 'è' and 'ò' are clear. 'trabajo'/'bajo' are cut with a long j that looks like a long s. Engraved word division 'Nuncaseſiente eltrabajo'. Agrees with Collar's 'o nie(n)te' / 'qua(n)do'."
+   "it_gloss": "Labor is felt by you [lit. \"feels you\"] only then, / when the reward is little or nothing.",
+   "rule_en": ""
   },
   {
    "n": 5,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '5' and a single flowering plant on the ground strip.",
-   "blank": true,
    "center": [
     0.56361,
     0.92269
@@ -176,20 +154,15 @@ FC.board = {
      0.97972
     ]
    ],
-   "rot": -4,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (1492,3060)."
+   "rule_en": ""
   },
   {
    "n": 6,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '6' and tufts of grass on the ground strip.",
-   "blank": true,
    "center": [
     0.64726,
     0.90476
@@ -212,20 +185,15 @@ FC.board = {
      0.93915
     ]
    ],
-   "rot": -18,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (1678,2985). The pelican's left wing from square 7 reaches over the dividing baluster."
+   "rule_en": ""
   },
   {
    "n": 7,
-   "heading": "Il prodigo",
    "it": "Il prodigo ha gli amici allato / mentre mangia accompag[n]ato",
    "es": "El prodigo tiene amigos / qua[n]do come co[n] testigos",
    "rule": "",
    "desc": "A pelican with wings raised, bending its neck to pierce its own breast, drops of blood falling; below it three cat-like animals rear up on their hind legs against its body, one licking at the wound, in place of the pelican's young.",
-   "blank": false,
    "center": [
     0.72552,
     0.86949
@@ -248,20 +216,15 @@ FC.board = {
      0.88183
     ]
    ],
-   "rot": -30,
    "it_gloss": "The prodigal has friends at his side / while he eats in company.",
-   "rule_en": "",
-   "it_note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to the prodigal's spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as).",
-   "notes": "Numeral '7' at the top of the bay by the pelican's head. Text box on the outer side of the bay, between the pedestals, x 1905-2105, y 3105-3300, baselines rising to the right (rot about -28 to -37). 'accompãgato' as engraved: the tilde stands over the a/g of 'pagato', i.e. an abbreviation for 'accompagnato' (so the blog's 'accompag(n)ato'); Collar's 'accompag(n)to' drops a letter. Engraved word division 'hagli amiciallato'. The La Bella Donna blog's 'a swan and wolves' is wrong: pelican and cats."
+   "rule_en": ""
   },
   {
    "n": 8,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '8' and a small flowering plant on the ground strip.",
-   "blank": true,
    "center": [
     0.7899,
     0.82481
@@ -284,20 +247,15 @@ FC.board = {
      0.83598
     ]
    ],
-   "rot": -52,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (1985,2805). The pelican's wing from square 7 overlaps the dividing baluster."
+   "rule_en": ""
   },
   {
    "n": 9,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '9' and a small flower on the ground strip.",
-   "blank": true,
    "center": [
     0.83886,
     0.77014
@@ -320,20 +278,15 @@ FC.board = {
      0.76161
     ]
    ],
-   "rot": -61,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (2078,2645)."
+   "rule_en": ""
   },
   {
    "n": 10,
-   "heading": "Adulatione",
    "it": "L'adulatione e inganno / uendon la mostra bona è tristo pa[n]no",
    "es": "Vende adulacion y e[n]ganno / muestra fina y falso paño",
    "rule": "",
    "desc": "A siren (a woman to the waist, with a scaly fish tail curling up out of waves) holds up a hand-mirror on a handle in her right hand; on her left hand perches a chameleon (a small crested lizard) with a curled tail.",
-   "blank": false,
    "center": [
     0.8697,
     0.70488
@@ -356,20 +309,15 @@ FC.board = {
      0.68048
     ]
    ],
-   "rot": -78,
    "it_gloss": "Flattery and deceit / sell the good sample and the sorry cloth.",
-   "rule_en": "",
-   "it_note": "Same trade image (the fine sample shown, the bad cloth delivered). Spanish \"fina / falso\" (\"fine / false\") becomes \"bona / tristo\" (\"good / wretched\"). The board's Spanish reverses the book's line order (\"Vende adulacion y enganno / muestra fina…\"); the Italian follows the board's order.",
-   "notes": "Numeral '10' at (2144,2444) above the siren's head. Text box on the outer side of the bay, x 2345-2505, y 2440-2695, reading upward (rot about -78). 'pã' is squeezed at the end of line 2 with 'no' engraved beneath it ('pã/no' = pa[n]no). 'è' written as e + grave mark. 'yẽganno' has the tilde over the e. Collar's text agrees; he does not note the wrapped 'no'."
+   "rule_en": ""
   },
   {
    "n": 11,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '11' and grass on the ground strip.",
-   "blank": true,
    "center": [
     0.89283,
     0.63668
@@ -392,20 +340,15 @@ FC.board = {
      0.60464
     ]
    ],
-   "rot": -84,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (2200,2263). The Spanish text 'Quien limita su esperança / sufra el golpe de mudança' just inside this square's inner edge belongs to square 43 (next ring inward)."
+   "rule_en": ""
   },
   {
    "n": 12,
-   "heading": "trauaglio",
    "it": "Frutti del trauaglio giusto / sono honor utile, e gusto",
    "es": "Frutos del trabajo justo / son honrra prouecho y gusto",
    "rule": "",
    "desc": "A yoke of two oxen, the near one standing broadside with its head turned, the second beside it; above, a festoon of fruit and leaves hung on a cord between the balusters.",
-   "blank": false,
    "center": [
     0.90362,
     0.56966
@@ -428,20 +371,15 @@ FC.board = {
      0.53586
     ]
    ],
-   "rot": -90,
-   "it_gloss": "Fruits of just labour / are honour, profit and pleasure.",
-   "rule_en": "",
-   "it_note": "Same; \"utile\" = profit, use.",
-   "notes": "Numeral '12' at (2233,2030). Text box on the outer side, x 2450-2593, y 1975-2160, reading upward (rot -90). Board reads 'Frutos del trabajo' (Collar prints 'Frutos de trabajo'); 'honrra prouecho' (the blog's 'honra, proveco' normalises and misreads). 'trabajo justo' both with long j."
+   "it_gloss": "Fruits of just labor / are honor, profit and pleasure.",
+   "rule_en": ""
   },
   {
    "n": 13,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '13' and two small plants on the ground strip.",
-   "blank": true,
    "center": [
     0.90362,
     0.50265
@@ -464,20 +402,15 @@ FC.board = {
      0.46943
     ]
    ],
-   "rot": -90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (2233,1817)."
+   "rule_en": ""
   },
   {
    "n": 14,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '14' and a single flower on the ground strip.",
-   "blank": true,
    "center": [
     0.90362,
     0.43327
@@ -500,20 +433,15 @@ FC.board = {
      0.39683
     ]
    ],
-   "rot": -90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (2227,1597)."
+   "rule_en": ""
   },
   {
    "n": 15,
-   "heading": "Passo della speranza",
    "it": "Nulla spera[n]za per buona s'intende / che dalla uolonta d'altrui dipe[n]de",
    "es": "Ninguna esperança es buena / que esta en uoluntad agena",
    "rule": "Al priuato ·n[umer]º· 26. Paga",
    "desc": "A bearded man in a short tunic stands on a brick bridge with two round arches, water pouring out through the arches beneath him; he holds up his right hand, from which a string of coins falls, and holds a purse or bag in his left hand.",
-   "blank": false,
    "center": [
     0.89861,
     0.3639
@@ -536,20 +464,15 @@ FC.board = {
      0.33128
     ]
    ],
-   "rot": -90,
    "it_gloss": "No hope is reckoned good / that depends on the will of others.",
-   "rule_en": "To the Favourite, no. 26. Pay.",
-   "it_note": "Same sense. Spanish \"que está en voluntad ajena\" (\"that lies in another's will\"); Italian adds \"s'intende\" (\"is understood, reckoned\") and \"dipende\" (\"depends\"). Rule: Italian only (\"priuato\"; Spanish would be \"priuado\"). Barros's Madrigal text quotes this label in Spanish, \"Al privado … 26\" (M_additions.md, M-45r-a), so the lost Madrid board presumably had it in Spanish (our inference).",
-   "notes": "Numeral '15' engraved either side of the man's head (at 2207,1377). Text box on the outer side, x 2455-2593, y 1225-1455, reading upward (rot -90); the last syllable 'de' of 's'inten|de' is engraved above the end of the line. Rule label in its own box in the white gutter just inside the ring's inner edge, x 2110-2185, y 1245-1455, reading upward (rot -90); 'n' has a superscript o. Board reads 'per buona' (Collar prints 'por buona'; the La Bella Donna blog omits the word). Engraved 'queesta' as one word."
+   "rule_en": "To the Favorite, no. 26. Pay."
   },
   {
    "n": 16,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '16' and a small flowering plant on the ground strip.",
-   "blank": true,
    "center": [
     0.88628,
     0.29982
@@ -572,20 +495,15 @@ FC.board = {
      0.25808
     ]
    ],
-   "rot": -95,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (2165,1140)."
+   "rule_en": ""
   },
   {
    "n": 17,
-   "heading": "trauaglio",
    "it": "Vien dal'otio pouertade / dal trauaglio facoltade",
    "es": "Del ocio nace pobreza / y del trabajo riqueza",
    "rule": "",
    "desc": "A yoke of two oxen: the near ox standing, turned toward the viewer, with a cord from its yoke looped back over its body; the second ox lies or stands half-hidden behind it (a third horn and a flank are visible); above, a festoon of fruit on a cord between the balusters.",
-   "blank": false,
    "center": [
     0.85659,
     0.23516
@@ -608,20 +526,15 @@ FC.board = {
      0.17431
     ]
    ],
-   "rot": -110,
-   "it_gloss": "From idleness comes poverty, / from labour, means.",
-   "rule_en": "",
-   "it_note": "Same; \"facoltade\" = means, substance, for Spanish \"riqueza\" (\"wealth\").",
-   "notes": "Numeral '17' at (2107,947). Text box on the outer side, x 2370-2560, y 790-1020, baselines steeply rising (rot about -108 to -112); the reclining corner woman ('No me pierdas') overlaps its outer edge. Engraved 'Vien dal' otio' (apostrophe after 'dal'), 'Delocio'; z of 'pobreza', 'riqueza' in the looped form. Collar 'Vien dal'otio' agrees."
+   "it_gloss": "From idleness comes poverty, / from labor, means.",
+   "rule_en": ""
   },
   {
    "n": 18,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '18' and a small flowering plant on the ground strip.",
-   "blank": true,
    "center": [
     0.80686,
     0.17578
@@ -644,20 +557,15 @@ FC.board = {
      0.10876
     ]
    ],
-   "rot": -126,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (2007,800)."
+   "rule_en": ""
   },
   {
    "n": 19,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '19' and a small flower on the ground strip.",
-   "blank": true,
    "center": [
     0.74711,
     0.12816
@@ -680,20 +588,15 @@ FC.board = {
      0.05732
     ]
    ],
-   "rot": -142,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (1887,693)."
+   "rule_en": ""
   },
   {
    "n": 20,
-   "heading": "Diligentia",
    "it": "Quanto il mondo si trauaglia / cosa uana e come paglia",
    "es": "Quanto trabaja y procura / el mundo todo es basura",
    "rule": "",
    "desc": "A large beetle (a scarab or dung beetle), seen from above, pushing a big round ball that stands behind it like a disc; it stands on the ground strip between the balusters.",
-   "blank": false,
    "center": [
     0.67194,
     0.09553
@@ -716,20 +619,15 @@ FC.board = {
      0.02939
     ]
    ],
-   "rot": -158,
    "it_gloss": "However much the world toils, / it is a vain thing, and like straw.",
-   "rule_en": "",
-   "it_note": "Spanish: \"All that the world labours and strives for is rubbish\" (*basura*: refuse, dung, matching the dung-beetle's ball on the square). Italian \"paglia\" (\"straw\") loses the dung and the link to the picture, adds \"vana\" (\"vain\"), and drops \"procura\" (\"strives\").",
-   "notes": "Numeral '20' at (1737,600). Text box on the outer side, x 1690-1950, y 200-430, upside down and tilted (rot about -156 to -160). The final 'ia' of 'trauaglia' is engraved above the end of the line. Board reads 'Quanto il mondo' (the blog prints 'Quando'; Collar prints 'Quanto el mondo'). No accent visible on 'e come'. Engraved 'trabaja y' run together as 'trabajay'."
+   "rule_en": ""
   },
   {
    "n": 21,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '21' and a flowering plant (lily-like) on the ground strip.",
-   "blank": true,
    "center": [
     0.58558,
     0.07819
@@ -752,20 +650,15 @@ FC.board = {
      0.01646
     ]
    ],
-   "rot": -171,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (1550,531). The ball of the beetle in square 20 overlaps the dividing baluster."
+   "rule_en": ""
   },
   {
    "n": 22,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '22' (cut 'ZZ') and a small leafy plant on the ground strip.",
-   "blank": true,
    "center": [
     0.49884,
     0.07172
@@ -788,20 +681,15 @@ FC.board = {
      0.01646
     ]
    ],
-   "rot": 180,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (1350,506)."
+   "rule_en": ""
   },
   {
    "n": 23,
-   "heading": "tauaglio [sic]",
    "it": "Non si chiama quel trauaglio / do[n]de uscirne posso et uaalio",
    "es": "No es grande trabajo aq[ue]l / que basta a sacarnos del",
    "rule": "",
    "desc": "A yoke of two oxen side by side, heads together, a cord from the yoke looped over the near ox's back; above them a festoon of fruit on a cord between the balusters.",
-   "blank": false,
    "center": [
     0.4121,
     0.08172
@@ -824,20 +712,15 @@ FC.board = {
      0.0338
     ]
    ],
-   "rot": 178,
-   "it_gloss": "That is not called labour / from which I can, and am able, to get out.",
-   "rule_en": "",
-   "it_note": "Spanish: \"That is no great hardship which [work] suffices to get us out of.\" Italian drops \"great\" and shifts to the first person: \"I\" can and have the strength (\"posso et uaalio\", i.e. \"vaglio\", I am able) to get out, where in Spanish it is labour that frees \"us\".",
-   "notes": "Numeral '23' at (1156,525), beside the festoon. Text box on the outer side, x 1000-1200, y 160-340, upside down (rot 175-180). The heading is engraved 'tauaglio' without the r, checked in both photographs; Collar and the blog print the regular 'trauaglio'. 'uaalio' as engraved (for 'uaglio'), as Collar prints. 'dõde'; 'aq̃l' with a tilde over q."
+   "it_gloss": "That is not called hardship / from which I can get out, and have the strength to.",
+   "rule_en": ""
   },
   {
    "n": 24,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '24' and a small plant on the ground strip.",
-   "blank": true,
    "center": [
     0.32652,
     0.09935
@@ -860,20 +743,15 @@ FC.board = {
      0.06173
     ]
    ],
-   "rot": 160,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (950,570)."
+   "rule_en": ""
   },
   {
    "n": 25,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '25' and a small flowering plant on the ground strip.",
-   "blank": true,
    "center": [
     0.25289,
     0.12551
@@ -896,20 +774,15 @@ FC.board = {
      0.10494
     ]
    ],
-   "rot": 142,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (823,643). The walking man of square 26 overlaps the dividing baluster."
+   "rule_en": ""
   },
   {
    "n": 26,
-   "heading": "Il priuato",
    "it": "Non cercar mano aliena / se la tua non serà piena",
    "es": "No pidas la mano agena / si la tuya no va llena",
    "rule": "Paga.",
-   "desc": "Two men in cloaks. On the left a man in a cap walks forward holding up in both hands a round dish or bowl (its contents not distinguishable) and offers it to a bearded man on the right, who stands in a doorway and reaches for it.",
-   "blank": false,
+   "desc": "Two men in cloaks. On the left a man in a brimmed hat walks forward holding up in both hands a round dish or bowl (its contents not distinguishable) and offers it to a bearded man in a cap on the right, who stands in a doorway and reaches for it.",
    "center": [
     0.19237,
     0.17225
@@ -932,20 +805,15 @@ FC.board = {
      0.17137
     ]
    ],
-   "rot": 128,
    "it_gloss": "Do not seek another's hand / if yours will not be full.",
-   "rule_en": "Pay.",
-   "it_note": "Same sense; \"cercar\" (\"seek\") for \"pidas\" (\"ask\"); future \"serà\" (\"will be\") for \"va\" (\"goes\"). Rule: The same word in both languages. Barros: one stake here, one at 15.",
-   "notes": "Numeral '26' at (730,777), by the doorway. Text box on the outer side, x 340-540, y 480-720 (rot about 126-130). The 'Paga.' label is in a small box in the white gutter just inside the ring's inner edge, x 700-765, y 760-840 (rot about 126). 'priuato' has u cut like n. Board reads 'No pidas' (the blog's 'No(n) pidas' is not supported). The blog's 'passing a bag' does not match the image: a dish or bowl."
+   "rule_en": "Pay."
   },
   {
    "n": 27,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '27' and a small flowering plant on the ground strip.",
-   "blank": true,
    "center": [
     0.14264,
     0.22898
@@ -968,20 +836,15 @@ FC.board = {
      0.24103
     ]
    ],
-   "rot": 112,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (590,937). The man in the doorway from square 26 overlaps the dividing baluster."
+   "rule_en": ""
   },
   {
    "n": 28,
-   "heading": "Sorte",
    "it": "A'cui fortuna è auara / la sorte diuien zara",
    "es": "Si no ay dicha en negociar / la suerte buelue acar",
    "rule": "",
    "desc": "Three dice lying on a small table covered with a stippled cloth that has a scalloped fringe; the upper faces show one, two and three pips.",
-   "blank": false,
    "center": [
     0.10987,
     0.29218
@@ -1004,20 +867,15 @@ FC.board = {
      0.32187
     ]
    ],
-   "rot": 100,
-   "it_gloss": "For him to whom Fortune is miserly, / the throw turns into *zara*.",
-   "rule_en": "",
-   "it_note": "Spanish: \"If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*.\" Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla).",
-   "notes": "Numeral '28' at (497,1110). Text box on the outer side, x 115-305, y 975-1165, reading downward (rot about 100). 'zara' with the looped z. 'acar' as engraved: no cedilla is visible under the c in either photograph (Collar and the blog print 'açar'). There is no 'se' before 'buelue' (Collar's '(se)' is his own addition). Engraved 'Sinoay'."
+   "it_gloss": "For him to whom Fortune is miserly, / the throw turns into \"zara\".",
+   "rule_en": ""
   },
   {
    "n": 29,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '29', a flowering plant and a pair of stones on the ground strip.",
-   "blank": true,
    "center": [
     0.09638,
     0.36096
@@ -1040,20 +898,15 @@ FC.board = {
      0.39477
     ]
    ],
-   "rot": 93,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (483,1350)."
+   "rule_en": ""
   },
   {
    "n": 30,
-   "heading": "trauaglio",
    "it": "S'arrende al fin fortuna / s'il trauaglio l'inportuna",
    "es": "Al fin se rinde fortuna / si el trabajo la importuna",
    "rule": "",
-   "desc": "A yoke of two oxen pulling a plough: a cord runs from the yoke back to the plough beam at the left; above them a festoon of fruit on a cord between the balusters.",
-   "blank": false,
+   "desc": "A yoke of two oxen pulling a plow: a cord runs from the yoke back to the plow beam at the left; above them a festoon of fruit on a cord between the balusters.",
    "center": [
     0.09406,
     0.42798
@@ -1076,20 +929,15 @@ FC.board = {
      0.46149
     ]
    ],
-   "rot": 90,
-   "it_gloss": "Fortune surrenders in the end / if labour importunes her.",
-   "rule_en": "",
-   "it_note": "Same.",
-   "notes": "Numeral '30' at (470,1550). Text box on the outer side, x 150-300, y 1480-1720, reading downward (rot 90). Italian 'l'inportuna' with n, Spanish 'la importuna' with m. Engraved 'Alfin serinde'. Agrees with Collar."
+   "it_gloss": "Fortune surrenders in the end / if labor importunes her.",
+   "rule_en": ""
   },
   {
    "n": 31,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: numeral '31' and a leafy sprig on the ground strip.",
-   "blank": true,
    "center": [
     0.09406,
     0.49559
@@ -1112,20 +960,15 @@ FC.board = {
      0.52998
     ]
    ],
-   "rot": 90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Numeral at (457,1803). The rule label beside it in the gutter ('Per le fune ·1· et ·2· fermesi / Para sogas ...') belongs to square 32."
+   "rule_en": ""
   },
   {
    "n": 32,
-   "heading": "Pozzo del oblio",
-   "it": "Pone in oblio l'ingrato / tutto il ben che li fu dato",
+   "it": "Pone in oblio l'ingrato / tutto il ben che li fù dato",
    "es": "Pone el ingrato en oluido / quanto bien hae recibido",
    "rule": "Per le fune ·1· et ·2· fermesi / Para sogas ·1· y ·2· estese",
    "desc": "A round brick well-head (drawn in perspective) with a winch frame and crank handle on its right; a man inside the shaft, visible from the waist up, grips the rope with both hands to haul himself out.",
-   "blank": false,
    "center": [
     0.09214,
     0.56643
@@ -1148,20 +991,15 @@ FC.board = {
      0.60259
     ]
    ],
-   "rot": 90,
    "it_gloss": "The ingrate puts into oblivion / all the good that was given him.",
-   "rule_en": "For the ropes, 1 and 2; let him stop. / For ropes, 1 and 2; let him stay.",
-   "it_note": "Same sense; \"che li fu dato\" (\"that was given him\") for \"ha recibido\" (\"he has received\"). The board's Spanish (\"Pone el ingrato en oluido / quanto bien hae recibido\") differs in wording, not sense, from the book's (\"El ingrato echa en oluido / Quanto bien ha recebido\"). Rule: The only bilingual rule label: Italian above, Spanish below; \"fermesi\" = \"si fermi\", \"estese\" = \"estése\" (let him stay). It abbreviates Barros's rule: one stake to each player and two to the pot \"for ropes\", and miss one round.",
-   "notes": "Heading, Italian and Spanish verses are engraved along the outer (left) side of the square, reading top-to-bottom (rot 90). The rule label is a separate two-line box in the gutter just inside the ring's inner edge, x 500-575, y 1880-2150, same orientation. The '2' is cut like a 'z' in both rule lines. 'hae recibido' (not 'recebido', as the La Bella Donna blog prints it): the image shows r-e-c-i-b-i-d-o; Collar also reads 'recibido'. 'sogas' is clear (the blog's 'sogar' is wrong). Number '32' engraved at (470,2010) beside the winch."
+   "rule_en": "For the ropes, 1 and 2; let him stop. / For ropes, 1 and 2; let him stay."
   },
   {
    "n": 33,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: a strip of ground with grass and a small leafy flowering plant (the continuous landscape strip that runs through the plain squares).",
-   "blank": true,
    "center": [
     0.10948,
     0.63551
@@ -1184,20 +1022,15 @@ FC.board = {
      0.67901
     ]
    ],
-   "rot": 80,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '33' at (515,2215). The text visible just to the right (x 560-700, y 2190-2380, 'Casa d'la pouerta ... del fauor') belongs to square 60 in the next ring inward, not to 33."
+   "rule_en": ""
   },
   {
    "n": 34,
-   "heading": "trauaglio",
    "it": "Il frutto della spene / con il trauaglio uiene",
    "es": "El fruto dela esperança / por el trabajo se alcança",
    "rule": "",
-   "desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right; above, by the number, a cluster of fruit hangs on a cord (the 'frutas enhiladas' of the labour squares).",
-   "blank": false,
+   "desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters (the 'frutas enhiladas' of the Labor squares).",
    "center": [
     0.14418,
     0.6893
@@ -1220,20 +1053,15 @@ FC.board = {
      0.73633
     ]
    ],
-   "rot": 68,
-   "it_gloss": "The fruit of hope / comes with labour.",
-   "rule_en": "",
-   "it_note": "Same; \"spene\" is the poetic word for hope; \"viene\" (\"comes\") for \"se alcanza\" (\"is reached\").",
-   "notes": "Text box (heading in a small cartouche, then 2+2 lines) sits against the outer edge of the square, x 215-350, y 2400-2625, reading steeply downward (rot ~68). 'spene' as engraved (n, not m): agrees with Collar ('spene'); the La Bella Donna blog/giochidelloca 'speme' normalises. 'trabajo' cut with a long j. Fruit cluster bbox [475,2358,586,2476]."
+   "it_gloss": "The fruit of hope / comes with labor.",
+   "rule_en": ""
   },
   {
    "n": 35,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with a single small flower; the wing and body of the corner swan ('Nosce te ipsum' device) overlap the outer part of the square.",
-   "blank": true,
    "center": [
     0.19622,
     0.74074
@@ -1256,20 +1084,15 @@ FC.board = {
      0.80247
     ]
    ],
-   "rot": 40,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '35' at (680,2530). The swan with trumpet standing on a skull on the entrance arch is a corner device (other agent), not part of square 35."
+   "rule_en": ""
   },
   {
    "n": 36,
-   "heading": "Che diranno",
    "it": "Chi seru' à quel che diranno / pigli il soldo che li danno",
    "es": "El que sireue al que diran / tome el pago q[ue] le dan",
    "rule": "Alla sorte ·n·° 28 ·Paga",
    "desc": "A man in a cap and cloak sits on the ground, his cheek resting on his hand in a melancholy pose, beside a large lopped tree stump with one cut-off branch.",
-   "blank": false,
    "center": [
     0.25598,
     0.77307
@@ -1292,20 +1115,15 @@ FC.board = {
      0.81922
     ]
    ],
-   "rot": 28,
    "it_gloss": "Who serves \"what they will say\", / let him take the wage they give him.",
-   "rule_en": "To the Throw, no. 28. Pay.",
-   "it_note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice square at 28.",
-   "notes": "Rule label in a box above the square along the ring's inner edge (x 760-960, y 2560-2700), reading down-right (rot ~30). Heading and verses are in a box outside the square's outer edge, below the pedestal, x 540-800, y 2820-2990 (rot ~28). 'sireue' as engraved (so Collar 'sireue (sic)'; the blog's 'siru(v)e' normalises). 'n' with superscript 'o' ('n.º')."
+   "rule_en": "To the Throw, no. 28. Pay."
   },
   {
    "n": 37,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a small leafy sprig.",
-   "blank": true,
    "center": [
     0.35813,
     0.79365
@@ -1328,20 +1146,15 @@ FC.board = {
      0.83715
     ]
    ],
-   "rot": 0,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '37' at (960,2700)."
+   "rule_en": ""
   },
   {
    "n": 38,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a single flowering plant.",
-   "blank": true,
    "center": [
     0.43524,
     0.801
@@ -1364,20 +1177,15 @@ FC.board = {
      0.83833
     ]
    ],
-   "rot": 0,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '38' at (1180,2725)."
+   "rule_en": ""
   },
   {
    "n": 39,
-   "heading": "Falsa amicitia",
    "it": "Rendon gratie per aggrauij / quando negotian gli sauij",
    "es": "Dondo gra[cia]s por agrauios / negocian los honbres sabios",
    "rule": "Al prodigo ·n·° ·7·Paga",
    "desc": "A fox lying on its back feigning death, legs in the air, tail curled; five birds about it: two alight on its raised paws, three fly above.",
-   "blank": false,
    "center": [
     0.51619,
     0.79806
@@ -1400,20 +1208,15 @@ FC.board = {
      0.82363
     ]
    ],
-   "rot": -6,
-   "it_gloss": "They render thanks for injuries / when the wise press their cases.",
-   "rule_en": "To the Prodigal, no. 7. Pay.",
-   "it_note": "Spanish: \"By giving thanks for injuries, wise men press their cases\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only.",
-   "notes": "Rule label in a box along the ring's inner edge above the square, x 1260-1480, y 2645-2700 (rot ~-5), directly under the verses of 63. Heading and verses in a box below the square's outer edge, x 1280-1560, y 2930-3080 (rot ~-6). 'Dondo' as engraved (sic for 'Dando'): Collar 'Dondo (sic)' agrees; Zollinger/giochidelloca 'Donda' is wrong. 'gras' carries an abbreviation stroke over the final s (both photographs); expanded gra[cia]s. The Seville notes' plate reading 'Dando gras' is wrong: 'Dondo' is clear in both photographs. 'honbres' with n. 'aggrauij', 'sauij' with final long ij."
+   "it_gloss": "The wise give thanks for injuries / when they press their cases.",
+   "rule_en": "To the Prodigal, no. 7. Pay."
   },
   {
    "n": 40,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a flowering plant with three blooms. The cord from which square 41's fruit cluster hangs is tied to the top of the 40/41 baluster.",
-   "blank": true,
    "center": [
     0.59522,
     0.78189
@@ -1436,20 +1239,15 @@ FC.board = {
      0.79424
     ]
    ],
-   "rot": 0,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '40' at (1560,2655)."
+   "rule_en": ""
   },
   {
    "n": 41,
-   "heading": "trauaglio",
    "it": "Trauaglio e il non hauere / da poter mangiare e bere",
    "es": "Trabajo es no le tener / el q[ue] del a de comer",
    "rule": "",
-   "desc": "A yoke of two oxen walking upward toward the upper right (toward square 42); by the number, a cluster of fruit hangs on a cord.",
-   "blank": false,
+   "desc": "A yoke of two oxen walking upward toward the upper right (toward square 42); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
    "center": [
     0.6569,
     0.74662
@@ -1472,20 +1270,15 @@ FC.board = {
      0.74368
     ]
    ],
-   "rot": -38,
    "it_gloss": "Hardship is not having [the means] / to be able to eat and drink.",
-   "rule_en": "",
-   "it_note": "Spanish: \"It is hardship not to have it [work], for one who must eat by it\", a pun on *trabajo* (work / hardship). Italian loses both the pun and the work: hardship is simply lacking food and drink.",
-   "notes": "Heading and verses in a box outside the square's outer edge, x 1780-2110, y 2640-2920, reading up-right (rot ~-38). 'no le tener' as engraved (Collar 'no le tener' agrees; the La Bella Donna blog 'no lo tener' is wrong). 'q' with an abbreviation mark = q[ue]. Fruit cluster bbox [1675,2535,1770,2635]."
+   "rule_en": ""
   },
   {
    "n": 42,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a curling leafy plant along the outer edge.",
-   "blank": true,
    "center": [
     0.69545,
     0.69665
@@ -1508,20 +1301,15 @@ FC.board = {
      0.67607
     ]
    ],
-   "rot": -60,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '42' at (1755,2410)."
+   "rule_en": ""
   },
   {
    "n": 43,
-   "heading": "Mutanza d'ministri",
    "it": "Chi limita sua speranza / soffra il colpo de mutanza",
    "es": "Quin limita su esperança / sufra el golpe de mudança",
    "rule": "Alla adulatione·n·° 10 ·Paga",
    "desc": "Two men in long gowns stand facing each other; one passes a long staff (rod of office) to the other, who takes hold of it.",
-   "blank": false,
    "center": [
     0.72051,
     0.63345
@@ -1544,20 +1332,15 @@ FC.board = {
      0.60112
     ]
    ],
-   "rot": -90,
    "it_gloss": "Who limits his hope, / let him suffer the blow of change.",
-   "rule_en": "To Flattery, no. 10. Pay.",
-   "it_note": "Same. Board Spanish \"Quin\" (sic for \"Quien\"). Rule: Italian only.",
-   "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1735-1800, y 2160-2340. Heading and verses in a box outside the outer edge, x 1990-2110, y 2160-2440. Engraved 'Chi' (Zollinger 'Che' wrong), 'sua' (the blog's 'su' wrong), 'de mutanza' (Collar prints 'di mutanza': the plate has 'de'), 'Quin' (sic; Zollinger 'Quin [lire Quien]' agrees; Collar normalises to 'Quien'). The z of 'Mutanza'/'speranza' is cut in the angular '2'-like form. The Seville notes' plate reading 'Chi mira in sua speranza / Quien mira su esperança' is wrong: the plate has 'limita' in both lines."
+   "rule_en": "To Flattery, no. 10. Pay."
   },
   {
    "n": 44,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a flowering plant.",
-   "blank": true,
    "center": [
     0.734,
     0.56584
@@ -1580,20 +1363,15 @@ FC.board = {
      0.53351
     ]
    ],
-   "rot": -90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '44' at (1860,2030)."
+   "rule_en": ""
   },
   {
    "n": 45,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a small flowering plant.",
-   "blank": true,
    "center": [
     0.73593,
     0.50118
@@ -1616,20 +1394,15 @@ FC.board = {
      0.46884
     ]
    ],
-   "rot": -90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '45' at (1870,1800)."
+   "rule_en": ""
   },
   {
    "n": 46,
-   "heading": "Morte de lo ualitore",
    "it": "L'huom ch'in huomo si confida / resta cieco senza guida",
    "es": "El hombre que en ho[m]bres fia / queda qual ciego sin guia",
    "rule": "In camincia de nuouo ·Paga·",
-   "desc": "A man in a broad-brimmed hat, head bowed, gropes forward with hands outstretched (the blind man); beside him on the ground lies an empty funeral bier with a cross on its pall and two carrying poles.",
-   "blank": false,
+   "desc": "A bearded man in a broad-brimmed hat and a short cloak faces a funeral bier and walks toward it, holding the edge of his cloak to his face. The bier is a coffin-shaped frame covered with a pall marked with a cross, propped at a slant on its two carrying poles.",
    "center": [
     0.734,
     0.43563
@@ -1652,20 +1425,15 @@ FC.board = {
      0.4027
     ]
    ],
-   "rot": -90,
    "it_gloss": "The man who trusts in man / remains blind without a guide.",
-   "rule_en": "He begins anew. Pay.",
-   "it_note": "Spanish \"queda qual ciego sin guía\" (\"is left like a blind man without a guide\"): Italian drops the simile (he *is* blind) and has \"man\" for \"men\". Rule: Italian only; \"In camincia\" as engraved, for \"Incomincia\" (he begins). Barros: back to the start.",
-   "notes": "Text reads bottom-to-top (rot -90). Rule label in a box along the ring's inner edge, x 1795-1850, y 1480-1700. Heading and verses outside the outer edge, x 2070-2200, y 1450-1720. RULE: the plate reads 'In camincia' (a, not o), confirmed in both photographs; Collar ('Incomincia di nuouo'), Zollinger and the blog ('Incomincia de nueue/nuouo') all normalise. 'de' (not 'di', Collar). Italian 'cieco' (the blog's 'cieca' is wrong). 'hobres' without a visible tilde; expanded ho[m]bres. 'sin guia' run together as 'singuia'. The Seville notes' 'L'huomo in huomo' is wrong: the plate has 'L'huom ch'in huomo'."
+   "rule_en": "He begins anew. Pay."
   },
   {
    "n": 47,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a tall leafy plant along the outer edge.",
-   "blank": true,
    "center": [
     0.72629,
     0.37037
@@ -1688,20 +1456,15 @@ FC.board = {
      0.33275
     ]
    ],
-   "rot": -90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '47' at (1880,1400). The long label to the right (x 2110-2200, 'Al priuato n.º 26 Paga') belongs to square 15 in the outer ring."
+   "rule_en": ""
   },
   {
    "n": 48,
-   "heading": "trauaglio",
    "it": "Ben che mobil sia fortuna / al trauaglio è oportuna",
    "es": "Aunque fortuna es mudable / al trabajo es fauorable",
    "rule": "",
-   "desc": "A yoke of two oxen, heads toward the upper left (toward square 49); by the number, a cluster of fruit hangs on a cord from the 48/49 baluster.",
-   "blank": false,
+   "desc": "A yoke of two oxen, heads toward the upper left (toward square 49); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
    "center": [
     0.70316,
     0.3057
@@ -1724,20 +1487,15 @@ FC.board = {
      0.25926
     ]
    ],
-   "rot": -100,
-   "it_gloss": "Although Fortune be changeable, / to labour she is opportune.",
-   "rule_en": "",
-   "it_note": "Same; \"oportuna\" (\"timely, helpful\") for \"favorable\".",
-   "notes": "Heading and verses in a box outside the outer edge, x 1985-2130, y 1000-1260, reading bottom-to-top with a slight lean (rot ~-100). Fruit cluster bbox [1783,1111,1856,1222]."
+   "it_gloss": "Although Fortune be changeable, / to labor she is opportune.",
+   "rule_en": ""
   },
   {
    "n": 49,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and leafy plants along the outer edge.",
-   "blank": true,
    "center": [
     0.66847,
     0.2572
@@ -1760,20 +1518,15 @@ FC.board = {
      0.20811
     ]
    ],
-   "rot": -125,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '49' at (1700,1080), engraved upside-down relative to the reader at the bottom of the sheet."
+   "rule_en": ""
   },
   {
    "n": 50,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a small flowering plant.",
-   "blank": true,
    "center": [
     0.61064,
     0.22046
@@ -1796,20 +1549,15 @@ FC.board = {
      0.17284
     ]
    ],
-   "rot": -160,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '50' at (1590,955), upside-down."
+   "rule_en": ""
   },
   {
    "n": 51,
-   "heading": "Casa della fortuna",
    "it": "Tutto :sta à dispositione / di fortuna et permissione",
    "es": "Todo :esta a dispusicion / de fortuna y permision",
    "rule": "Giuoca ·2· uolte ·",
    "desc": "Fortune: a nude young woman with wings, standing on a sphere, holding with both hands a long banderole inscribed 'cambio et / muto il consiglio'; beside her a spoked wheel on a post, from which a man falls head-first.",
-   "blank": false,
    "center": [
     0.53354,
     0.20282
@@ -1832,20 +1580,15 @@ FC.board = {
      0.16108
     ]
    ],
-   "rot": 178,
    "it_gloss": "All stands at the disposition / of Fortune and permission.",
-   "rule_en": "Plays twice.",
-   "it_note": "Same. The colon-like mark in \"Tutto :sta\" / \"Todo :esta\" is engraved in both languages. Rule: Italian only; \"Giuoca\" = he plays (or \"play!\"). Barros: throw twice.",
-   "notes": "All text upside-down for a reader at the bottom of the sheet (rot ~178). Heading and verses above the square, outside its outer edge, x 1370-1590, y 545-665. Rule label below the square along the ring's inner edge, x 1330-1500, y 905-950 ('2' cut like 'z'). Banderole text (in the image): 'cambio et / muto il consiglio' ('muto': Collar's 'Cambio e moto' misreads; Zollinger's 'Cambio et muto il consiglio' agrees). Both verse first lines carry a colon-like mark before 'sta'/'esta' ('Tutto :sta', 'Todo :esta'), probably marking elision (Collar prints \"Tutto 'sta\"). 'dispusicion' as engraved."
+   "rule_en": "Plays twice."
   },
   {
    "n": 52,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip (inverted, along the outer edge at the top) with grass and hanging leafy plants.",
-   "blank": true,
    "center": [
     0.45258,
     0.20282
@@ -1868,20 +1611,15 @@ FC.board = {
      0.17343
     ]
    ],
-   "rot": 180,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '52' at (1250,890), upside-down."
+   "rule_en": ""
   },
   {
    "n": 53,
-   "heading": "Sorte",
    "it": "Ogni sorte in mal fin cade / oue alberga pouertade",
    "es": "Qual quier suerte es de tristeza / en la casa do ay pobreza",
    "rule": "",
    "desc": "Three dice lying on a dice-tray (a board with a raised rim and turned corner posts), drawn in perspective. The pip faces shown are 4, 4 and 3: a throw of 11, matching Barros's 'suerte de once'.",
-   "blank": false,
    "center": [
     0.37548,
     0.21752
@@ -1904,20 +1642,15 @@ FC.board = {
      0.19841
     ]
    ],
-   "rot": 162,
    "it_gloss": "Every throw comes to a bad end / where poverty lodges.",
-   "rule_en": "",
-   "it_note": "Spanish \"cualquier suerte es de tristeza\" (\"any throw is one of sadness\") becomes \"in mal fin cade\" (\"falls to a bad end\"), and \"albergare\" (\"to lodge\") makes Poverty a lodger in the house. The board's Spanish has the lines in the order of the princeps G, not of the M and C books (G_variants.md, G-35).",
-   "notes": "Heading and verses above/outside the square's outer edge, x 840-1070, y 560-735, upside-down with a tilt (rot ~162). 'pouertade' (u; Collar's 'pobertade' is wrong); 'Qual quier' in two words; the z of 'tristeza'/'pobreza' is cut as a long z. Number '53' at (1095,940)."
+   "rule_en": ""
   },
   {
    "n": 54,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a leafy plant along the outer edge.",
-   "blank": true,
    "center": [
     0.32537,
     0.23956
@@ -1940,20 +1673,15 @@ FC.board = {
      0.2572
     ]
    ],
-   "rot": 140,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '54' at (980,1040)."
+   "rule_en": ""
   },
   {
    "n": 55,
-   "heading": "Pensar che",
    "it": "Dal pensai che, la uentura / fugge et quella che tien poco li dura",
    "es": "Del pense que huye uentura / y la que tiene no dura",
    "rule": "Alla diligentia n·° 20 ·Paga",
    "desc": "An ass lying couched on the ground, its head toward the lower right, ears up.",
-   "blank": false,
    "center": [
     0.27718,
     0.30276
@@ -1976,20 +1704,15 @@ FC.board = {
      0.33069
     ]
    ],
-   "rot": 100,
    "it_gloss": "From \"I thought that\", good fortune / flees, and what he has lasts him little.",
-   "rule_en": "To Diligence, no. 20. Pay.",
-   "it_note": "Same sense; \"poco li dura\" (\"lasts him little\") for \"no dura\" (\"does not last\"). The heading uses the infinitive \"Pensar che\" (\"thinking that\"), while the verse has \"pensai che\" (\"I thought that\"); only the Spanish keeps a single fixed phrase. Rule: Italian only.",
-   "notes": "Heading and verses in the gutter outside the outer edge, x 540-700, y 930-1260, reading top-to-bottom with a lean (rot ~100). Rule label along the ring's inner edge, x 855-960, y 1090-1335 (rot ~68). Italian first line 'Dal pensai che,' with a comma (Collar 'Dal pensai che,' agrees; Zollinger/giochidelloca 'Dal pensar che' normalise to the heading). 'tien poco' (Collar 'tien' agrees; Zollinger 'tiene' wrong). The Italian second line is long and runs to the edge of the box."
+   "rule_en": "To Diligence, no. 20. Pay."
   },
   {
    "n": 56,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a tall leafy plant along the outer edge.",
-   "blank": true,
    "center": [
     0.25983,
     0.37331
@@ -2012,20 +1735,15 @@ FC.board = {
      0.40711
     ]
    ],
-   "rot": 90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '56' at (830,1380)."
+   "rule_en": ""
   },
   {
    "n": 57,
-   "heading": "trauaglio",
    "it": "Il trauaglio apparta palma / et fa relucer l'alma",
    "es": "El trabajo gana palma / y quita el orin del alma",
    "rule": "",
-   "desc": "A yoke of two oxen, heads toward the bottom (toward square 58); beside them a cluster of fruit hangs on a cord.",
-   "blank": false,
+   "desc": "A yoke of two oxen, heads toward the bottom (toward square 58); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
    "center": [
     0.25983,
     0.44092
@@ -2048,20 +1766,15 @@ FC.board = {
      0.47178
     ]
    ],
-   "rot": 88,
-   "it_gloss": "Labour \"apparta\" [brings? sets apart?] the palm / and makes the soul shine.",
-   "rule_en": "",
-   "it_note": "Spanish: \"Labour wins the palm and removes the rust from the soul.\" \"apparta\" is so engraved; read as \"apporta\", it means \"brings\" (literally \"sets apart\"), either way weaker than \"gana\" (\"wins\"). The scouring of rust becomes making the soul shine (\"fa relucer\"): same idea, but the rust image is lost.",
-   "notes": "Heading and verses in the gutter outside the outer edge, x 510-610, y 1440-1730, reading top-to-bottom (rot ~88). 'apparta' as engraved (Collar 'apparta' agrees; the La Bella Donna blog/giochidelloca 'apporta' normalise). Spanish engraved with odd spacing 'elorind elalma' (= el orin del alma). Fruit cluster bbox [750,1510,842,1625]."
+   "it_gloss": "Labor brings [engraved \"apparta\", sets apart] the palm / and makes the soul shine.",
+   "rule_en": ""
   },
   {
    "n": 58,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a tall leafy plant along the outer edge.",
-   "blank": true,
    "center": [
     0.25983,
     0.50265
@@ -2084,20 +1797,15 @@ FC.board = {
      0.53204
     ]
    ],
-   "rot": 90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '58' at (820,1720)."
+   "rule_en": ""
   },
   {
    "n": 59,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a leafy flowering plant along the outer edge.",
-   "blank": true,
    "center": [
     0.26369,
     0.56437
@@ -2120,20 +1828,15 @@ FC.board = {
      0.60259
     ]
    ],
-   "rot": 90,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '59' at (830,2010)."
+   "rule_en": ""
   },
   {
    "n": 60,
-   "heading": "Casa d'la pouerta",
    "it": "Pouertà secca l'humore / alla radice del fauore",
    "es": "Pobreza seca el humor / dela raiz del fauor",
    "rule": "Limosina et alla sorte·53",
-   "desc": "Three dead, leafless trees with bare, twisted branches, growing from the ground strip at the outer edge toward the centre of the board.",
-   "blank": false,
+   "desc": "Three dead, leafless trees with bare, twisted branches, growing from the ground strip at the outer edge toward the center of the board.",
    "center": [
     0.27911,
     0.62757
@@ -2156,20 +1859,15 @@ FC.board = {
      0.6746
     ]
    ],
-   "rot": 62,
-   "it_gloss": "Poverty dries the sap / at the root of favour.",
-   "rule_en": "Alms, and to the Throw, 53.",
-   "it_note": "Same. Rule: Italian only; \"Limosina\" as engraved. There is no \"Paga\": the player receives alms (Barros: one stake from each player, in M).",
-   "notes": "Heading and verses in the gutter outside the outer edge, x 555-710, y 2180-2400, reading down-right steeply (rot ~62). Rule label along the ring's inner edge, x 880-975, y 2060-2280 (rot ~65). 'Limosina' as engraved (so the reading 'Limosina et alla sorte 53' of Collar and giochidelloca is right; Zollinger's 'Limosina alla sorte' drops 'et'). 'radice' (Zollinger 'radicce' is wrong). Spanish 'dela raiz' (the Seville notes' 'a la raiz' is wrong); rule has no 'n.º' before 53 (the Seville notes' 'n.º 53' is wrong); heading 'Casa d'la pouerta' without accent (Collar 'Casa del pouertà', Seville notes 'Casa di la pouertà' are wrong). The z of 'Pobreza'/'raiz' is cut in the angular form."
+   "it_gloss": "Poverty dries the sap / at the root of favor.",
+   "rule_en": "Alms, and to the Throw, 53."
   },
   {
    "n": 61,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a curling leafy plant.",
-   "blank": true,
    "center": [
     0.32151,
     0.6746
@@ -2192,20 +1890,15 @@ FC.board = {
      0.71576
     ]
    ],
-   "rot": 35,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '61' at (955,2280)."
+   "rule_en": ""
   },
   {
    "n": 62,
-   "heading": "",
    "it": "",
    "es": "",
    "rule": "",
    "desc": "No emblem: ground strip with grass and a small plant; the square ends against the scroll (volute) at the foot of the Vitoria aedicule.",
-   "blank": true,
    "center": [
     0.38126,
     0.68783
@@ -2228,20 +1921,15 @@ FC.board = {
      0.73045
     ]
    ],
-   "rot": 10,
    "it_gloss": "",
-   "rule_en": "",
-   "it_note": "",
-   "notes": "Number '62' at (1080,2355). Last square of the track before 63."
+   "rule_en": ""
   },
   {
    "n": 63,
-   "heading": "VITORIA",
    "it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
    "es": "Quando tengas mas fortuna / mira que es como la luna",
    "rule": "Ne il poco ne lassai · / Ni lo mucho ni la poco",
-   "desc": "A classical aedicule (gate) with a triangular pediment topped by finials, two pairs of columns, and large acanthus scrolls (volutes) at either side; a tall palm tree grows up through its centre, the scaly trunk visible in the opening and the crown of fronds, with clusters of dates, spreading above the pediment. The numerals '6' and '3' are engraved in the opening on either side of the trunk; beneath them a two-line panel with the motto; below, a cartouche 'VITORIA'. The verses are engraved under the aedicule, above square 39's rule label.",
-   "blank": false,
+   "desc": "A classical aedicule (gate) with a triangular pediment topped by finials, two pairs of columns, and large acanthus scrolls (volutes) at either side; a tall palm tree grows up through its center, the scaly trunk visible in the opening and the crown of fronds, with clusters of dates, spreading above the pediment. The numerals '6' and '3' are engraved in the opening on either side of the trunk; beneath them a two-line panel with the motto; below, a cartouche 'VITORIA'. The verses are engraved under the aedicule, above square 39's rule label.",
    "center": [
     0.49113,
     0.67019
@@ -2264,894 +1952,15 @@ FC.board = {
      0.73045
     ]
    ],
-   "rot": 0,
    "it_gloss": "When you have greater fortune, / think that it is more changeable than the moon.",
-   "rule_en": "Neither the little nor the much. / Neither the much nor the little.",
-   "it_note": "Spanish: \"When you have most fortune, see that it is like the moon.\" Italian sharpens the simile into a comparison (\"more changeable than the moon\") and has \"pensa\" (\"think\") for \"mira\" (\"see, consider\"). Rule: The exact-throw motto on the palm trunk (Barros: neither more nor fewer points than needed). The Italian (\"Ne il poco ne l'assai\") reverses the Spanish order, little before much. Board Spanish \"la poco\" (sic).",
-   "notes": "Quad = the aedicule's rectangle (pediment to column bases); img_bbox includes the palm crown. Motto panel bbox [1235,2335,1455,2420]: 'Ne il poco ne lassai ·' / 'Ni lo mucho ni la poco' (engraved 'Nilomucho·nila poco'); read 'ne l'assai' (nor the much), so 'lassai' is not an error; 'la poco' is as engraved (Collar's view that the odd forms are the engraver's is right for 'la'). The Lucero notes' tentative 'lassar' is wrong: the last letter is a minim without the shoulder of this hand's r. A fine diagonal stroke crosses the 'n' of 'ne' (a scratch or stray line, not a tilde). Verses bbox [1225,2572,1465,2668] (rot ~-4): Italian line 2 engraved 'pensa che mobil epiu' che la luna' = 'mobil è più'. The 'rule' field here holds the exact-throw motto (Barros: no more and no fewer points than needed). The verses 'Mai salirà gran costa ...' belong to the man at the palm (see centre.json)."
+   "rule_en": "Neither the little nor the much. / Neither the much nor the little."
   }
  ],
- "features": [
-  {
-   "id": "title_left",
-   "label": "",
-   "desc": "Title, left half, in spaced roman capitals along the top margin (with a swash initial F).",
-   "text": "FILOSOFIA CORTESANA",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.02853,
-    0.03586,
-    0.26176,
-    0.04879
-   ]
-  },
-  {
-   "id": "title_right",
-   "label": "",
-   "desc": "Title, right half, roman capitals (swash D).",
-   "text": "DE ALONSO DE BARROS",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.73015,
-    0.03674,
-    0.9653,
-    0.04997
-   ]
-  },
-  {
-   "id": "corner_tl_motto",
-   "label": "",
-   "desc": "Motto above the dolphin, italic. Engraved as two words, 'Dateprisa aespacio' = 'Date prisa a espacio'.",
-   "text": "Dateprisa aespacio",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.03045,
-    0.09259,
-    0.11527,
-    0.10435
-   ]
-  },
-  {
-   "id": "corner_tl_figure",
-   "label": "",
-   "desc": "A scaly dolphin with a curled snout and open mouth, its body twisting downward round the shank of an anchor whose curved arms project behind its head to left and right; a twisted cable hangs below it along the outside of the track.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.02274,
-    0.09994,
-    0.13647,
-    0.26455
-   ]
-  },
-  {
-   "id": "corner_tr_motto",
-   "label": "",
-   "desc": "Motto beside the woman's head, italic.",
-   "text": "No me pierdas",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.89784,
-    0.10435,
-    0.95567,
-    0.11611
-   ]
-  },
-  {
-   "id": "corner_tr_figure",
-   "label": "",
-   "desc": "A woman half-reclining on the outer rim of the track, leaning on the balustrade of squares 17-18: her hair is gathered into one forelock that stands up from the crown like a flame; breasts bare, a cloak over her lower body; she raises her left hand with the index finger pointing up toward the motto.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.86315,
-    0.09259,
-    0.95952,
-    0.24838
-   ]
-  },
-  {
-   "id": "corner_bl_swan",
-   "label": "",
-   "desc": "On the crown of the entrance arch a human skull; a swan stands on the skull with wings raised and blows a long straight trumpet whose bell points down to the left.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.05166,
-    0.7378,
-    0.17116,
-    0.82451
-   ]
-  },
-  {
-   "id": "corner_bl_motto",
-   "label": "",
-   "desc": "Engraved as issuing from the trumpet's bell and running steeply downward and slightly leftward, following the curve of the ring: 'Noscete ipsum' (= Nosce te ipsum), italic, long s.",
-   "text": "Noscete ipsum",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.05744,
-    0.83039,
-    0.07864,
-    0.87449
-   ]
-  },
-  {
-   "id": "entrance_gate",
-   "label": "",
-   "desc": "The entrance before square 1: a round arch on two baluster pillars (the left on a tall pedestal), with a barrel vault drawn in perspective and ribbed in a grid; a hillocky landscape with a small obelisk to its left.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.08635,
-    0.81717,
-    0.24441,
-    0.98325
-   ]
-  },
-  {
-   "id": "entrance_motto",
-   "label": "",
-   "desc": "Between the two pillars of the gate, two lines, italic: 'Guarda / l'fine'.",
-   "text": "Guarda l'fine",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.1037,
-    0.87449,
-    0.13724,
-    0.89212
-   ]
-  },
-  {
-   "id": "corner_br_clock",
-   "label": "",
-   "desc": "A weight-driven wall clock: dial with Roman numerals and a hand, a domed bell-cage with a pointed finial above, three weights hanging on cords below.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.9229,
-    0.76426,
-    0.98072,
-    0.92887
-   ]
-  },
-  {
-   "id": "corner_br_hand",
-   "label": "",
-   "desc": "A clothed arm (sleeve with a turned-back cuff) emerges from the lower margin; the hand points with its index finger toward the motto and the clock.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.80339,
-    0.8495,
-    0.91133,
-    0.90829
-   ]
-  },
-  {
-   "id": "corner_br_motto",
-   "label": "",
-   "desc": "Motto at the pointing finger, reading upward, italic: 'Haesta la postrera' (engraved as one word 'Haesta').",
-   "text": "Haesta la postrera",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.9017,
-    0.80835,
-    0.92097,
-    0.85832
-   ]
-  },
-  {
-   "id": "criado",
-   "label": "",
-   "desc": "Under the title's end, lower right, roman capitals: 'CRIADO DEL REY NR̃O S.ᵒʳ' — tilde over the R, superscript 'or' (itself with a stroke above) after the S. It completes the title: '… de Alonso de Barros, criado del Rey nuestro Señor'.",
-   "text": "CRIADO DEL REY N[UEST]RO S[EÑ]OR",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.74364,
-    0.93915,
-    0.9653,
-    0.96061
-   ]
-  },
-  {
-   "id": "con_su_priuilegio",
-   "label": "",
-   "desc": "Italic, under 'CRIADO', with a knot flourish below: 'Con ſu priuilegio'.",
-   "text": "Con su priuilegio",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.79183,
-    0.96355,
-    0.89013,
-    0.97884
-   ]
-  },
-  {
-   "id": "naples_privilege",
-   "label": "",
-   "desc": "Two italic lines at the bottom margin, left of the flourish: 'Con priuilegio di Sua Ecc.ª per X. / anni nel Regno di Napoli –' (the E of 'Ecc' is cut like a C; superscript a).",
-   "text": "Con priuilegio di Sua Ecc[ellenz]a per X. / anni nel Regno di Napoli",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.67425,
-    0.96561,
-    0.77255,
-    0.98236
-   ]
-  },
-  {
-   "id": "signature",
-   "label": "",
-   "desc": "Small italic imprint at bottom right, words separated by raised points: 'Marius·Cartarius·Jnc·Neap·1588·'.",
-   "text": "Marius·Cartarius·Inc[idit]·Neap[oli]·1588·",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.90362,
-    0.97825,
-    0.97494,
-    0.9853
-   ]
-  },
-  {
-   "id": "field",
-   "label": "Central field: the sea of suffering",
-   "desc": "Oval field inside the innermost ring, filled with a rough sea drawn in wavy lines, with rocky shores at left and right, ships, fishermen, fish and sea monsters; the palm tree and Vitoria aedicule rise from its lower end. Figures are drawn facing different edges of the sheet (some upright for a reader at the bottom, others turned 90° or 180°), so the field can be read from all sides.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.34271,
-    0.26308,
-    0.68581,
-    0.73339
-   ]
-  },
-  {
-   "id": "cartouche",
-   "label": "Bilingual cartouche",
-   "desc": "Rectangular strapwork cartouche with scrolled ends, divided into two panels: Italian left, Spanish right.",
-   "text": "",
-   "text_it": "Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire",
-   "text_es": "Mar de suffrimiento / quien pretende ha de sus: srir / como el que nace morir",
-   "box": [
-    0.41403,
-    0.4027,
-    0.601,
-    0.45855
-   ]
-  },
-  {
-   "id": "galley",
-   "label": "Galley under sail",
-   "desc": "A galley drawn on its side (keel to the left, mast pointing right, i.e. upright for a reader at the right edge of the sheet): dark hatched hull with a bank of oars and a row of rowers' heads, a lateen yard and two bellying sails, a masthead top; a small grapnel or anchor at the bow.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.41018,
-    0.33363,
-    0.56438,
-    0.4027
-   ]
-  },
-  {
-   "id": "foundering_ship",
-   "label": "Ship foundering in a whirlpool",
-   "desc": "A round-hulled sailing ship drawn inverted, its hull and bent masts turning in concentric whirlpool lines; a rudder or small hanging object at lower right.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.49884,
-    0.28807,
-    0.58173,
-    0.34539
-   ]
-  },
-  {
-   "id": "net_fisher",
-   "label": "Man with landing net",
-   "desc": "A man drawn head-down relative to the bottom of the sheet (upright for a reader at the top), feet against the rim of the field, reaching down into the sea with a long-handled landing net whose hoop lies at lower left.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.38897,
-    0.26308,
-    0.49113,
-    0.3542
-   ]
-  },
-  {
-   "id": "netted_fish",
-   "label": "Large fish or fish-trap",
-   "desc": "A long tapering shape covered in a lattice pattern with a small fin or tail at its lower end, beside the landing net: a large fish with lattice scales, or a conical net/trap; the engraving does not settle which.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.38512,
-    0.29982,
-    0.40825,
-    0.34245
-   ]
-  },
-  {
-   "id": "angler",
-   "label": "Angler on the left shore",
-   "desc": "On the rocky left shore a man in a cap reclines against the rocks holding a long rod; its line runs out across the water to a float at about (1135,1378) beside the galley (Barros's 'pescador de caña').",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.34271,
-    0.35861,
-    0.40247,
-    0.48501
-   ]
-  },
-  {
-   "id": "second_ship",
-   "label": "Second sailing ship",
-   "desc": "A sailing ship drawn on its side (mast pointing left, upright for a reader at the left edge), planked hull at right, one large sail.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.38705,
-    0.45561,
-    0.44295,
-    0.51881
-   ]
-  },
-  {
-   "id": "fish_heads",
-   "label": "Fish rising from the water",
-   "desc": "Three fish heads breaking the surface, mouths open.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.44295,
-    0.45561,
-    0.49113,
-    0.48942
-   ]
-  },
-  {
-   "id": "sea_monster",
-   "label": "Sea monster (whale) head",
-   "desc": "The head of a sea monster or whale with a large round eye, open toothed jaws and a curled snout, rising from the waves.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.49884,
-    0.45708,
-    0.55089,
-    0.48942
-   ]
-  },
-  {
-   "id": "serpent_coils",
-   "label": "Sea-serpent coils",
-   "desc": "A curved, finned coil and a separate curved tubular form rising from the water: parts of a sea serpent or monster.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.56245,
-    0.46296,
-    0.62992,
-    0.51146
-   ]
-  },
-  {
-   "id": "rowing_boat",
-   "label": "Rowing boat with two men",
-   "desc": "A small boat with two men in hats: one pulls at two oars, the other sits in the stern.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.34657,
-    0.5144,
-    0.40825,
-    0.55115
-   ]
-  },
-  {
-   "id": "small_boat_right",
-   "label": "Small boat at the right edge",
-   "desc": "A small boat or skiff at the right rim, with a small figure and an oar or pole laid across it.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.62992,
-    0.5291,
-    0.65497,
-    0.56143
-   ]
-  },
-  {
-   "id": "right_shore",
-   "label": "Right shore",
-   "desc": "A rocky shore along the right side of the field with bushes and small flowering plants.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.59715,
-    0.34832,
-    0.65883,
-    0.49089
-   ]
-  },
-  {
-   "id": "left_shore",
-   "label": "Lower left shore",
-   "desc": "Hatched rocks and a grassy bank at the lower left of the field, beside the palm.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.34464,
-    0.54674,
-    0.4256,
-    0.63492
-   ]
-  },
-  {
-   "id": "palm",
-   "label": "Palm tree",
-   "desc": "A tall palm with a scaly trunk growing up through the aedicule, and a large crown of arching fronds hung with clusters of dates.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.4121,
-    0.48648,
-    0.58365,
-    0.65844
-   ]
-  },
-  {
-   "id": "aedicule",
-   "label": "Aedicule / gate of Victory (square 63)",
-   "desc": "Classical gate with pediment and finials, paired columns, entablature and flanking acanthus scrolls; in the opening the palm trunk, the numerals 6 and 3, the motto panel, and below the 'VITORIA' cartouche.",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.40632,
-    0.58495,
-    0.58173,
-    0.73045
-   ]
-  },
-  {
-   "id": "num63",
-   "label": "Numerals 6 3",
-   "desc": "'6' at about (1255,2300) left of the trunk, '3' at about (1395,2295) right of it.",
-   "text": "6 3",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.45644,
-    0.63933,
-    0.52274,
-    0.65315
-   ]
-  },
-  {
-   "id": "motto63",
-   "label": "Motto panel",
-   "desc": "Two-line panel ruled above, between and below the lines.",
-   "text": "",
-   "text_it": "Ne il poco ne lassai ·",
-   "text_es": "Ni lo mucho ni la poco",
-   "box": [
-    0.45451,
-    0.65697,
-    0.53932,
-    0.68195
-   ]
-  },
-  {
-   "id": "vitoria",
-   "label": "VITORIA cartouche",
-   "desc": "Roman capitals in a strapwork cartouche between the column bases.",
-   "text": "VITORIA",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.46029,
-    0.70106,
-    0.53547,
-    0.71869
-   ]
-  },
-  {
-   "id": "verses63",
-   "label": "Verses under the aedicule",
-   "desc": "Two couplets, Italian above Spanish, separated by a rule; engraved in the band between the field's rim and square 39's rule label.",
-   "text": "",
-   "text_it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
-   "text_es": "Quando tengas mas fortuna / mira que es como la luna",
-   "box": [
-    0.45066,
-    0.72663,
-    0.54318,
-    0.75485
-   ]
-  },
-  {
-   "id": "palm_man",
-   "label": "Man at the palm, with fish and lost shoe",
-   "desc": "A man seen from behind, standing on the right shore beside the aedicule, reaches up with his right hand to grasp a palm frond and holds a large fish by the head in his left; one foot is shod, the other appears bare, and a lost shoe lies on the ground at his feet (bbox [1610,2292,1665,2322]).",
-   "text": "",
-   "text_it": "",
-   "text_es": "",
-   "box": [
-    0.54896,
-    0.55409,
-    0.62799,
-    0.64521
-   ]
-  },
-  {
-   "id": "palm_man_verses",
-   "label": "Verses of the man at the palm",
-   "desc": "Two couplets in the band at the lower right of the field's rim, reading steeply up to the right.",
-   "text": "",
-   "text_it": "Mai salirà gran costa / che mira quanto costa",
-   "text_es": "Nunca subira gran cuesta / quien mira · lo q[ue] cuesta",
-   "box": [
-    0.57787,
-    0.6746,
-    0.64726,
-    0.72898
-   ]
-  }
- ],
- "italian": {
-  "sq1": {
-   "heading_it": "",
-   "heading_en": "",
-   "it": "Guarda ai piedi la raggione / e alla ruota l'openione",
-   "it_gloss": "Reason looks to the feet, / and Opinion to the wheel.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Same sense as the Spanish (s1); \"guarda\" = \"looks\", as \"mira\"."
-  },
-  "sq4": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour (lit. \"travail, toil\")",
-   "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò ni[en]te",
-   "it_gloss": "Labour is felt by you [lit. \"feels you\"] only then, / when the reward is little or nothing.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish: \"Labour is never felt except when the reward is low.\" Italian turns \"never … except when\" into \"only then … when\" and adds \"or nothing\". \"ti sente\" (lit. \"feels you\") is odd; evidently \"you feel it\". Heading: Italian *travaglio* means toil, trouble, affliction; it lacks the everyday \"work\" of Spanish *trabajo*, so the work/hardship pun is only half kept."
-  },
-  "sq7": {
-   "heading_it": "Il prodigo",
-   "heading_en": "The Prodigal",
-   "it": "Il prodigo ha gli amici allato / mentre mangia accompag[n]ato",
-   "it_gloss": "The prodigal has friends at his side / while he eats in company.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish \"cuando come con testigos\" (\"when he eats with witnesses\"): Italian \"accompagnato\" (\"in company\") loses the barb that the friends are only witnesses to the prodigal's spending. The board's Spanish has \"quando\" (when) where the book has \"Quanto\" (as long as)."
-  },
-  "sq10": {
-   "heading_it": "Adulatione",
-   "heading_en": "Flattery",
-   "it": "L'adulatione e inganno / uendon la mostra bona è tristo pa[n]no",
-   "it_gloss": "Flattery and deceit / sell the good sample and the sorry cloth.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Same trade image (the fine sample shown, the bad cloth delivered). Spanish \"fina / falso\" (\"fine / false\") becomes \"bona / tristo\" (\"good / wretched\"). The board's Spanish reverses the book's line order (\"Vende adulacion y enganno / muestra fina…\"); the Italian follows the board's order."
-  },
-  "sq12": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour",
-   "it": "Frutti del trauaglio giusto / sono honor utile, e gusto",
-   "it_gloss": "Fruits of just labour / are honour, profit and pleasure.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Same; \"utile\" = profit, use."
-  },
-  "sq15": {
-   "heading_it": "Passo della speranza",
-   "heading_en": "Pass of Hope",
-   "it": "Nulla spera[n]za per buona s'intende / che dalla uolonta d'altrui dipe[n]de",
-   "it_gloss": "No hope is reckoned good / that depends on the will of others.",
-   "rule_it": "Al priuato ·n[umer]º· 26. Paga",
-   "rule_en": "To the Favourite, no. 26. Pay.",
-   "note": "Same sense. Spanish \"que está en voluntad ajena\" (\"that lies in another's will\"); Italian adds \"s'intende\" (\"is understood, reckoned\") and \"dipende\" (\"depends\"). Rule: Italian only (\"priuato\"; Spanish would be \"priuado\"). Barros's Madrigal text quotes this label in Spanish, \"Al privado … 26\" (M_additions.md, M-45r-a), so the lost Madrid board presumably had it in Spanish (our inference)."
-  },
-  "sq17": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour",
-   "it": "Vien dal'otio pouertade / dal trauaglio facoltade",
-   "it_gloss": "From idleness comes poverty, / from labour, means.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Same; \"facoltade\" = means, substance, for Spanish \"riqueza\" (\"wealth\")."
-  },
-  "sq20": {
-   "heading_it": "Diligentia",
-   "heading_en": "Diligence",
-   "it": "Quanto il mondo si trauaglia / cosa uana e come paglia",
-   "it_gloss": "However much the world toils, / it is a vain thing, and like straw.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish: \"All that the world labours and strives for is rubbish\" (*basura*: refuse, dung, matching the dung-beetle's ball on the square). Italian \"paglia\" (\"straw\") loses the dung and the link to the picture, adds \"vana\" (\"vain\"), and drops \"procura\" (\"strives\")."
-  },
-  "sq23": {
-   "heading_it": "tauaglio [sic]",
-   "heading_en": "Labour (engraved \"tauaglio\", sic, without the r)",
-   "it": "Non si chiama quel trauaglio / do[n]de uscirne posso et uaalio",
-   "it_gloss": "That is not called labour / from which I can, and am able, to get out.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish: \"That is no great hardship which [work] suffices to get us out of.\" Italian drops \"great\" and shifts to the first person: \"I\" can and have the strength (\"posso et uaalio\", i.e. \"vaglio\", I am able) to get out, where in Spanish it is labour that frees \"us\"."
-  },
-  "sq26": {
-   "heading_it": "Il priuato",
-   "heading_en": "The Favourite",
-   "it": "Non cercar mano aliena / se la tua non serà piena",
-   "it_gloss": "Do not seek another's hand / if yours will not be full.",
-   "rule_it": "Paga.",
-   "rule_en": "Pay.",
-   "note": "Same sense; \"cercar\" (\"seek\") for \"pidas\" (\"ask\"); future \"serà\" (\"will be\") for \"va\" (\"goes\"). Rule: The same word in both languages. Barros: one stake here, one at 15."
-  },
-  "sq28": {
-   "heading_it": "Sorte",
-   "heading_en": "The Throw (*sorte*: lot, chance, a throw)",
-   "it": "A'cui fortuna è auara / la sorte diuien zara",
-   "it_gloss": "For him to whom Fortune is miserly, / the throw turns into *zara*.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish: \"If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*.\" Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla)."
-  },
-  "sq30": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour",
-   "it": "S'arrende al fin fortuna / s'il trauaglio l'inportuna",
-   "it_gloss": "Fortune surrenders in the end / if labour importunes her.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Same."
-  },
-  "sq32": {
-   "heading_it": "Pozzo del oblio",
-   "heading_en": "Well of Oblivion",
-   "it": "Pone in oblio l'ingrato / tutto il ben che li fu dato",
-   "it_gloss": "The ingrate puts into oblivion / all the good that was given him.",
-   "rule_it": "Per le fune ·1· et ·2· fermesi / Para sogas ·1· y ·2· estese",
-   "rule_en": "For the ropes, 1 and 2; let him stop. / For ropes, 1 and 2; let him stay.",
-   "note": "Same sense; \"che li fu dato\" (\"that was given him\") for \"ha recibido\" (\"he has received\"). The board's Spanish (\"Pone el ingrato en oluido / quanto bien hae recibido\") differs in wording, not sense, from the book's (\"El ingrato echa en oluido / Quanto bien ha recebido\"). Rule: The only bilingual rule label: Italian above, Spanish below; \"fermesi\" = \"si fermi\", \"estese\" = \"estése\" (let him stay). It abbreviates Barros's rule: one stake to each player and two to the pot \"for ropes\", and miss one round."
-  },
-  "sq34": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour",
-   "it": "Il frutto della spene / con il trauaglio uiene",
-   "it_gloss": "The fruit of hope / comes with labour.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Same; \"spene\" is the poetic word for hope; \"viene\" (\"comes\") for \"se alcanza\" (\"is reached\")."
-  },
-  "sq36": {
-   "heading_it": "Che diranno",
-   "heading_en": "What will they say",
-   "it": "Chi seru' à quel che diranno / pigli il soldo che li danno",
-   "it_gloss": "Who serves \"what they will say\", / let him take the wage they give him.",
-   "rule_it": "Alla sorte ·n·° 28 ·Paga",
-   "rule_en": "To the Throw, no. 28. Pay.",
-   "note": "Same sense; \"soldo\" (a wage, a soldier's pay, a coin) for \"pago\" (\"payment\"). Board Spanish \"sireue\" (sic). Rule: Italian only. \"la sorte\" here = the Dice square at 28."
-  },
-  "sq39": {
-   "heading_it": "Falsa amicitia",
-   "heading_en": "False friendship",
-   "it": "Rendon gratie per aggrauij / quando negotian gli sauij",
-   "it_gloss": "They render thanks for injuries / when the wise press their cases.",
-   "rule_it": "Al prodigo ·n·° ·7·Paga",
-   "rule_en": "To the Prodigal, no. 7. Pay.",
-   "note": "Spanish: \"By giving thanks for injuries, wise men press their cases\": the thanks are the means. Italian makes them the occasion (\"quando\", \"when\"). Board Spanish \"Dondo\" (sic for \"Dando\"). Rule: Italian only."
-  },
-  "sq41": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour",
-   "it": "Trauaglio e il non hauere / da poter mangiare e bere",
-   "it_gloss": "Hardship is not having [the means] / to be able to eat and drink.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish: \"It is hardship not to have it [work], for one who must eat by it\", a pun on *trabajo* (work / hardship). Italian loses both the pun and the work: hardship is simply lacking food and drink."
-  },
-  "sq43": {
-   "heading_it": "Mutanza d'ministri",
-   "heading_en": "Change of ministers",
-   "it": "Chi limita sua speranza / soffra il colpo de mutanza",
-   "it_gloss": "Who limits his hope, / let him suffer the blow of change.",
-   "rule_it": "Alla adulatione·n·° 10 ·Paga",
-   "rule_en": "To Flattery, no. 10. Pay.",
-   "note": "Same. Board Spanish \"Quin\" (sic for \"Quien\"). Rule: Italian only."
-  },
-  "sq46": {
-   "heading_it": "Morte de lo ualitore",
-   "heading_en": "Death of the patron (*valitore*, a Hispanism from *valedor*, not standard Italian)",
-   "it": "L'huom ch'in huomo si confida / resta cieco senza guida",
-   "it_gloss": "The man who trusts in man / remains blind without a guide.",
-   "rule_it": "In camincia de nuouo ·Paga·",
-   "rule_en": "He begins anew. Pay.",
-   "note": "Spanish \"queda qual ciego sin guía\" (\"is left like a blind man without a guide\"): Italian drops the simile (he *is* blind) and has \"man\" for \"men\". Rule: Italian only; \"In camincia\" as engraved, for \"Incomincia\" (he begins). Barros: back to the start."
-  },
-  "sq48": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour",
-   "it": "Ben che mobil sia fortuna / al trauaglio è oportuna",
-   "it_gloss": "Although Fortune be changeable, / to labour she is opportune.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Same; \"oportuna\" (\"timely, helpful\") for \"favorable\"."
-  },
-  "sq51": {
-   "heading_it": "Casa della fortuna",
-   "heading_en": "House of Fortune",
-   "it": "Tutto :sta à dispositione / di fortuna et permissione",
-   "it_gloss": "All stands at the disposition / of Fortune and permission.",
-   "rule_it": "Giuoca ·2· uolte ·",
-   "rule_en": "Plays twice.",
-   "note": "Same. The colon-like mark in \"Tutto :sta\" / \"Todo :esta\" is engraved in both languages. Rule: Italian only; \"Giuoca\" = he plays (or \"play!\"). Barros: throw twice."
-  },
-  "sq53": {
-   "heading_it": "Sorte",
-   "heading_en": "The Throw",
-   "it": "Ogni sorte in mal fin cade / oue alberga pouertade",
-   "it_gloss": "Every throw comes to a bad end / where poverty lodges.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish \"cualquier suerte es de tristeza\" (\"any throw is one of sadness\") becomes \"in mal fin cade\" (\"falls to a bad end\"), and \"albergare\" (\"to lodge\") makes Poverty a lodger in the house. The board's Spanish has the lines in the order of the princeps G, not of the M and C books (G_variants.md, G-35)."
-  },
-  "sq55": {
-   "heading_it": "Pensar che",
-   "heading_en": "To think that (infinitive; Spanish *Pensé que* = \"I thought that\")",
-   "it": "Dal pensai che, la uentura / fugge et quella che tien poco li dura",
-   "it_gloss": "From \"I thought that\", good fortune / flees, and what he has lasts him little.",
-   "rule_it": "Alla diligentia n·° 20 ·Paga",
-   "rule_en": "To Diligence, no. 20. Pay.",
-   "note": "Same sense; \"poco li dura\" (\"lasts him little\") for \"no dura\" (\"does not last\"). The heading uses the infinitive \"Pensar che\" (\"thinking that\"), while the verse has \"pensai che\" (\"I thought that\"); only the Spanish keeps a single fixed phrase. Rule: Italian only."
-  },
-  "sq57": {
-   "heading_it": "trauaglio",
-   "heading_en": "Labour",
-   "it": "Il trauaglio apparta palma / et fa relucer l'alma",
-   "it_gloss": "Labour \"apparta\" [brings? sets apart?] the palm / and makes the soul shine.",
-   "rule_it": "",
-   "rule_en": "",
-   "note": "Spanish: \"Labour wins the palm and removes the rust from the soul.\" \"apparta\" is so engraved; read as \"apporta\", it means \"brings\" (literally \"sets apart\"), either way weaker than \"gana\" (\"wins\"). The scouring of rust becomes making the soul shine (\"fa relucer\"): same idea, but the rust image is lost."
-  },
-  "sq60": {
-   "heading_it": "Casa d'la pouerta",
-   "heading_en": "House of Poverty (engraved \"pouerta\", no accent)",
-   "it": "Pouertà secca l'humore / alla radice del fauore",
-   "it_gloss": "Poverty dries the sap / at the root of favour.",
-   "rule_it": "Limosina et alla sorte·53",
-   "rule_en": "Alms, and to the Throw, 53.",
-   "note": "Same. Rule: Italian only; \"Limosina\" as engraved. There is no \"Paga\": the player receives alms (Barros: one stake from each player, in M)."
-  },
-  "sq63": {
-   "heading_it": "VITORIA",
-   "heading_en": "VICTORY (engraved \"VITORIA\", the Spanish spelling; Italian would be *Vittoria*)",
-   "it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
-   "it_gloss": "When you have greater fortune, / think that it is more changeable than the moon.",
-   "rule_it": "Ne il poco ne lassai · / Ni lo mucho ni la poco",
-   "rule_en": "Neither the little nor the much. / Neither the much nor the little.",
-   "note": "Spanish: \"When you have most fortune, see that it is like the moon.\" Italian sharpens the simile into a comparison (\"more changeable than the moon\") and has \"pensa\" (\"think\") for \"mira\" (\"see, consider\"). Rule: The exact-throw motto on the palm trunk (Barros: neither more nor fewer points than needed). The Italian (\"Ne il poco ne l'assai\") reverses the Spanish order, little before much. Board Spanish \"la poco\" (sic)."
-  },
-  "sq63_motto": {
-   "it": "Ne il poco ne lassai ·",
-   "it_gloss": "Neither the little nor the much.",
-   "rule_en": "Exact throw needed (neither more nor fewer points).",
-   "note": "Reverses the Spanish order (\"Ni lo mucho ni la poco\"). Duplicates sq63.rule_en."
-  },
-  "sq51_banderole": {
-   "it": "cambio et / muto il consiglio",
-   "it_gloss": "I change and alter counsel.",
-   "rule_en": "",
-   "note": "Italian only; Barros (book): \"Yo trueco y mudo el consejo\"."
-  },
-  "centre_cartouche": {
-   "it": "Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire",
-   "it_gloss": "Sea of suffering / whoever petitions must suffer, / as whoever is born [must suffer] dying.",
-   "rule_en": "",
-   "note": "Same sense; Italian pretendere lacks the courtly \"petition for office\" sense."
-  },
-  "palm_man_verses": {
-   "it": "Mai salirà gran costa / che mira quanto costa",
-   "it_gloss": "He will never climb a great slope / who looks at how much it costs.",
-   "rule_en": "",
-   "note": "Same; the costa/costa (slope/costs) pun survives as in Spanish cuesta/cuesta."
-  },
-  "vitoria": {
-   "it": "",
-   "it_gloss": "Victory",
-   "rule_en": "",
-   "note": "VITORIA: Spanish only."
-  },
-  "gate": {
-   "it": "Guarda l'fine",
-   "it_gloss": "Look to the end.",
-   "rule_en": "",
-   "note": "Italian only."
-  },
-  "corner_swan": {
-   "it": "",
-   "it_gloss": "Know thyself.",
-   "rule_en": "",
-   "note": "Latin only: Noscete ipsum"
-  },
-  "corner_dolphin": {
-   "it": "",
-   "it_gloss": "Make haste slowly.",
-   "rule_en": "",
-   "note": "Spanish only: Dateprisa aespacio"
-  },
-  "corner_occasion": {
-   "it": "",
-   "it_gloss": "Don't lose me.",
-   "rule_en": "",
-   "note": "Spanish only: No me pierdas"
-  },
-  "corner_clock": {
-   "it": "",
-   "it_gloss": "Until the last [hour].",
-   "rule_en": "",
-   "note": "Spanish only: Haesta la postrera"
-  },
-  "title": {
-   "it": "",
-   "it_gloss": "The Courtly Philosophy of Alonso de Barros, servant of the King our lord. With his privilege.",
-   "rule_en": "",
-   "note": "Spanish only."
-  },
-  "naples_privilege": {
-   "it": "Con priuilegio di Sua Ecc[ellenz]a per X. / anni nel Regno di Napoli",
-   "it_gloss": "With the privilege of His Excellency for ten years in the Kingdom of Naples.",
-   "rule_en": "",
-   "note": "Italian only; His Excellency = the viceroy."
-  },
-  "signature": {
-   "it": "Marius·Cartarius·Inc[idit]·Neap[oli]·1588·",
-   "it_gloss": "Mario Cartaro engraved [it], Naples, 1588.",
-   "rule_en": "",
-   "note": "Latin."
-  }
- },
  "verses": {
   "adam": {
    "es": "No puede el hijo de Adam / Sin trabajo comer pan.",
-   "en": "No son of Adam can be fed / unless by labour for his bread.",
-   "lit": "The son of Adam cannot eat bread without labour."
+   "en": "No son of Adam can be fed / unless by labor for his bread.",
+   "lit": "The son of Adam cannot eat bread without labor."
   },
   "s1": {
    "es": "A los pies mira razon, / Y a la rueda la opinion.",
@@ -3160,18 +1969,18 @@ FC.board = {
   },
   "t0": {
    "es": "Nunca se siente el trabajo, / Sino quando el premio es baxo.",
-   "en": "Toil is never felt, they say, / except when meagre is the pay.",
-   "lit": "Labour is never felt except when the reward is low."
+   "en": "Labor's never felt at all / except when the reward is small.",
+   "lit": "Labor is never felt except when the reward is low."
   },
   "t1": {
    "es": "Frutos del trabajo justo: / Son onrra; prouecho, y gusto.",
-   "en": "The fruits of honest toil are these: / honour, profit, and heart's ease.",
-   "lit": "The fruits of just labour are honour, profit and pleasure."
+   "en": "The fruits of honest toil are these: / honor, profit, and heart's ease.",
+   "lit": "The fruits of just labor are honor, profit and pleasure."
   },
   "t2": {
    "es": "Del ocio nazce pobreza: / Y del trabajo riqueza.",
-   "en": "From idleness springs poverty, / and out of labour, prosperity.",
-   "lit": "From idleness is born poverty, and from labour wealth."
+   "en": "From idleness springs poverty, / and out of labor, prosperity.",
+   "lit": "From idleness is born poverty, and from labor wealth."
   },
   "t3": {
    "es": "No es grande trabajo aquel; / Que basta a sacarnos del.",
@@ -3180,13 +1989,13 @@ FC.board = {
   },
   "t4": {
    "es": "Al fin se riende fortuna; / Si el trabajo la importuna.",
-   "en": "Fortune at last will yield the day / if labour will not go away.",
-   "lit": "In the end Fortune gives in, if labour pesters her."
+   "en": "Fortune at last will yield the day / if labor will not go away.",
+   "lit": "In the end Fortune gives in, if labor pesters her."
   },
   "t5": {
    "es": "El fruto de la esperanca; / Por el trabajo se alcanca.",
-   "en": "The fruit to which our hopes aspire / by labour only we acquire.",
-   "lit": "The fruit of hope is reached through labour."
+   "en": "The fruit to which our hopes aspire / it is by labor we acquire.",
+   "lit": "The fruit of hope is reached through labor."
   },
   "t6": {
    "es": "Trabajo no le tener; / El que del ha de comer.",
@@ -3195,28 +2004,28 @@ FC.board = {
   },
   "t7": {
    "es": "Aunque fortuna es mudable; / Al trabajo es fauorable.",
-   "en": "Though Fortune changes like the wind, / to labour she is always kind.",
-   "lit": "Although Fortune is changeable, she is favourable to labour."
+   "en": "Though Fortune's ever changeable, / to labor she is favorable.",
+   "lit": "Although Fortune is changeable, she is favorable to labor."
   },
   "t8": {
    "es": "El trabajo gana palma; / Y quita el orin del alma.",
-   "en": "Labour wins the palm, and then / scours the rust from souls of men.",
-   "lit": "Labour wins the palm and removes the rust from the soul."
+   "en": "Labor wins the palm, and then / scours the soul of rust again.",
+   "lit": "Labor wins the palm and removes the rust from the soul."
   },
   "g1": {
    "es": "No se siente el que es mayor, / donde pone el yugo amor. (1587 princeps only)",
-   "en": "Where love has laid the yoke in place, / the greatest weight feels light as grace.",
+   "en": "However great the yoke may prove, / it is not felt when laid by love.",
    "lit": "The greatest [yoke] is not felt where love puts on the yoke."
   },
   "g2": {
    "es": "El yugo, reja y arado / no cansan por el amado. (princeps only)",
-   "en": "Yoke and ploughshare, plough and all, / for love's sake never tire at all.",
-   "lit": "Yoke, ploughshare and plough do not weary, for the beloved's sake."
+   "en": "Yoke and plowshare, plow and all, / for love's sake never tire at all.",
+   "lit": "Yoke, plowshare and plow do not weary, for the beloved's sake."
   },
   "g3": {
-   "es": "No hay trabajo que no acabe, / al que le tiene por grave. (princeps only)",
+   "es": "No oy [hay] trabajo que no acabe, / al que le tiene por grave. (princeps only)",
    "en": "There is no toil but it will break / the one who deems it hard to take.",
-   "lit": "There is no labour that will not finish off the one who holds it grievous."
+   "lit": "There is no labor that will not finish off the one who holds it grievous."
   },
   "g6": {
    "es": "Trabajando halla quietud / quien de fuerza hace virtud. (princeps only)",
@@ -3225,17 +2034,17 @@ FC.board = {
   },
   "h15": {
    "es": "Ninguna esperanca es buena; / Que esta en voluntad ajena.",
-   "en": "No hope is good in any wise / that in another's pleasure lies.",
+   "en": "There is no hope worth having still / that rests upon another's will.",
    "lit": "No hope is good that rests on another's will."
   },
   "h26": {
    "es": "No pidas la mano ajena / Si la tuya no va llena.",
-   "en": "Don't seek another's hand, my friend, / unless your own comes full to lend.",
+   "en": "Before you ask another's hand, / fill yours, or empty-handed stand.",
    "lit": "Do not ask for another's hand if yours does not go full."
   },
   "h32": {
    "es": "El ingrato echa en oluido / Quanto bien ha recebido.",
-   "en": "The ingrate lets oblivion hold / every good he got, untold.",
+   "en": "The ingrate casts, without a thought, / into oblivion all he got.",
    "lit": "The ingrate casts into oblivion all the good he has received."
   },
   "h36": {
@@ -3245,7 +2054,7 @@ FC.board = {
   },
   "h28": {
    "es": "Si no ay dicha en negociar, / La suerte se buelue azar.",
-   "en": "If petitions bring no luck your way, / the lucky throw turns losing play.",
+   "en": "If luck won't help your case along, / your throw of dice will turn out wrong.",
    "lit": "If there is no luck in pressing one's case, the throw turns into a losing one."
   },
   "h39": {
@@ -3255,7 +2064,7 @@ FC.board = {
   },
   "h7": {
    "es": "El prodigo tiene amigos. / Quanto come con testigos.",
-   "en": "The prodigal has friends in plenty / while his table isn't empty.",
+   "en": "The prodigal has friends, while he / still dines where witnesses can see.",
    "lit": "The prodigal has friends as long as he eats with witnesses."
   },
   "h43": {
@@ -3279,24 +2088,24 @@ FC.board = {
    "lit": "Everything is at the disposal of Fortune and [divine] permission."
   },
   "h51b": {
-   "es": "(banner) Yo trueco, y mudo el consejo",
+   "es": "(motto) Yo trueco, y mudo el co[n]sejo",
    "en": "\"I exchange and alter counsel.\"",
    "lit": "I exchange and alter counsel."
   },
   "h55": {
-   "es": "Del penseque huy[e] ventura: / Y la que tiene no dura.",
+   "es": "Del penseque huy[?] ventura: / Y la que tiene no dura.",
    "en": "From \"I Thought…\" good fortune flies, / and what he has soon fades and dies.",
    "lit": "From \"I thought that\" good fortune flees, and what he has does not last."
   },
   "h20": {
    "es": "Quanto trabaja y procura, / El mundo todo es vasura.",
-   "en": "For all the world's labour and care, / it's dung and rubbish everywhere.",
-   "lit": "All that the world labours and strives for is rubbish."
+   "en": "For all the world's labor and care, / it's dung and rubbish everywhere.",
+   "lit": "All that the world labors and strives for is rubbish."
   },
   "h60": {
    "es": "Pobreza seca el vmor / De la rayz del fauor.",
-   "en": "Want dries up the sap, and so / favour's root can no more grow.",
-   "lit": "Poverty dries up the moisture of the root of favour."
+   "en": "Want dries up the sap, and so / favor's root can no more grow.",
+   "lit": "Poverty dries up the moisture of the root of favor."
   },
   "h53": {
    "es": "En la casa do ay pobreza: / Qualquier suerte es de tristeza.",
@@ -3319,13 +2128,13 @@ FC.board = {
    "lit": "He will never climb a great slope who looks at what it costs. (pun: cuesta = slope / costs)"
   },
   "sea": {
-   "es": "Quien pretende ha le[de] sufrir; / Co[m]o quien nace morir.",
-   "en": "Who seeks advancement must endure, / as birth makes dying just as sure.",
+   "es": "Quien pretende ha de sufrir; / Como quien nace morir.",
+   "en": "Who seeks advancement must endure, / as death for all the born is sure.",
    "lit": "Whoever seeks [office] must suffer, as whoever is born must die."
   },
   "fort": {
-   "es": "No seria Fortuna; / Si fuesse siempre vna;",
-   "en": "Were she always one and same, / she would not deserve the name.",
+   "es": "No seria Fortuna; / Si fusse[sic] siempre vna;",
+   "en": "Were she always just the same, / she would not deserve the name.",
    "lit": "She would not be Fortune if she were always one [the same]."
   },
   "c-dolphin": {
@@ -3354,8 +2163,22 @@ FC.board = {
    "lit": "(Italian) Look to the end."
   }
  },
+ "G_labour_es": {
+  "12": "No se siente el que es mayor, donde pone el yugo amor.",
+  "17": "El yugo, reja y arado no cansan por el amado.",
+  "23": "No oy [hay] trabajo que no acabe, al que le tiene por grave.",
+  "30": "El fructo de la esperanza por el trabajo se alcanza.",
+  "34": "Aunque fortuna es mudable, al trabajo es favorable.",
+  "41": "Trabajando halla quietud quien de fuerza hace virtud.",
+  "48": "Al fin se rinde fortuna si el trabajo la importuna.",
+  "57": "No es grande trabajo aquel que basta a sacarnos dél."
+ },
  "sheet": {
   "w": 2594,
-  "h": 3402
+  "h": 3402,
+  "crop": [
+   56,
+   100
+  ]
  }
 };
