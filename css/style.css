@@ -283,10 +283,16 @@ details.sect[open] > summary::before { content: "☙ "; }
 .scrolly .sticky .viewer { height: 100%; touch-action: pan-y; }   /* the introduction's board is driven by scrolling */
 .scrolly .sticky .book-view { position: absolute; inset: 0; display: grid; place-items: center; opacity: 0; transition: opacity .5s; pointer-events: none; background: var(--paper-3); border-radius: var(--radius); }
 .scrolly .sticky .book-view.on { opacity: 1; }
-.scrolly .sticky .book-view img { max-height: 92%; width: auto; box-shadow: var(--shadow); }
-.scrolly .sticky .book-view .pages { display: flex; gap: 1rem; align-items: center; justify-content: center; max-height: 100%; padding: 1rem; }
-.scrolly .sticky .book-view .pages img { max-height: 78vh; max-width: 45%; }
-.scrolly .sticky .book-view .pages img.single { max-width: 92%; max-height: 82vh; border-radius: var(--radius); }
+/* pages of the book, or one upright detail, fitted inside the board's panel (not the screen) */
+.scrolly .sticky .book-view .pages { position: absolute; inset: 0; display: flex; gap: 1rem; align-items: center; justify-content: center; padding: 1rem; box-sizing: border-box; }
+.scrolly .sticky .book-view .pages picture { display: contents; }
+.scrolly .sticky .book-view .pages img { display: block; min-width: 0; max-width: calc(50% - .5rem); max-height: 100%; width: auto; height: auto; object-fit: contain; box-shadow: var(--shadow); }
+.scrolly .sticky .book-view .pages img.single { max-width: 100%; border-radius: var(--radius); }
+/* which scene the panel is showing: "VII of XIII · How to read a square" */
+.scrolly .scene-tag { position: absolute; left: .6rem; bottom: .6rem; z-index: 2; max-width: calc(100% - 1.2rem); padding: .2rem .6rem; border-radius: 999px;
+  background: color-mix(in srgb, var(--card) 88%, transparent); color: var(--ink-2); font-family: var(--f-sc); font-size: .85rem;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-shadow: var(--shadow); pointer-events: none; }
+.scrolly .scene-tag b { color: var(--rubric); font-weight: 400; }
 .scene .more { margin: .6rem 0 0; font-family: var(--f-sc); }
 .scene .more a { margin-right: .7rem; display: inline-block; padding: .15rem 0; }
 .hero .hero-links { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
@@ -298,11 +304,27 @@ details.sect[open] > summary::before { content: "☙ "; }
 .scene .scene-n { font-family: var(--f-sc); color: var(--rubric); font-size: .95rem; letter-spacing: .06em; }
 .scene.active { border-color: var(--line-2); }
 @media (max-width: 900px) {
-  /* phones: the board stays on top, and the scenes scroll up beneath it, so a long scene never hides it */
+  /* phones: the board stays on top in a panel about a third of the screen high, and the scenes
+     scroll up beneath it; text slides under a soft edge rather than a hard cut. svh (the screen
+     with the browser's bars showing) keeps the panel from jumping as those bars come and go. */
   .scrolly { grid-template-columns: 1fr; gap: 0; }
-  .scrolly .sticky { top: var(--header-h); height: 42vh; z-index: 3; background: var(--paper); padding-bottom: .5rem; }
-  .scrolly .steps { padding: 3vh 0 40vh; position: relative; z-index: 1; }
-  .scene { margin: 0 0 40vh; }
+  .scrolly .sticky { top: var(--header-h); height: 36vh; height: clamp(210px, 36svh, 340px); z-index: 3; background: var(--paper); padding-bottom: .4rem; }
+  .scrolly .sticky::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1.6rem; height: 1.6rem; pointer-events: none;
+    background: linear-gradient(var(--paper), color-mix(in srgb, var(--paper) 0%, transparent)); }
+  .scrolly .steps { padding: 1.2rem 0 30vh; position: relative; z-index: 1; }
+  .scene { margin: 0 0 24vh; padding: 1rem 1.1rem .9rem; }
+  .scene h2 { font-size: 1.45rem; }
+  .scrolly .sticky .book-view .pages { padding: .6rem; gap: .6rem; }
+  .scrolly .sticky .book-view .pages img { max-width: calc(50% - .3rem); }
+  .scrolly .sticky .book-view .pages img.single { max-width: 100%; }
+}
+@media (max-width: 900px) and (orientation: landscape) and (max-height: 540px) {
+  /* a phone on its side: too short to stack, so the board goes beside the text, as on wide screens */
+  .scrolly { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; }
+  .scrolly .sticky { top: var(--header-h); height: calc(100svh - var(--header-h) - .6rem); padding-bottom: 0; }
+  .scrolly .sticky::after { display: none; }
+  .scrolly .steps { padding: 25vh 0 40vh; }
+  .scene { margin: 0 0 45vh; }
 }
 .cta-block { text-align: center; padding: 4rem var(--gutter) 2rem; }
 

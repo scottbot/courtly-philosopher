@@ -111,18 +111,40 @@
         ${sc.id === 'enter' ? '<p><a class="btn primary" href="play.html">Enter and play</a></p>' : ''}
         ${more ? `<p class="small more"><span class="muted">More:</span> ${more}</p>` : ''}</div></article>`);
     });
-    const io = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          $$('.scene.active').forEach(x => x.classList.remove('active'));
-          e.target.classList.add('active');
-          show(e.target.dataset.id);
-        }
-      });
-    // a scene takes over when its top passes a line: at 40% of the screen on wide screens (so a
-    // long scene's heading is still in view), just below the board on phones, where the board
-    // stays on top and the scenes scroll beneath it
-    }, { rootMargin: matchMedia('(max-width: 900px)').matches ? '-62% 0px -37% 0px' : '-40% 0px -59% 0px' });
-    $$('.scene').forEach(s => io.observe(s));
+    // Which scene is current: the last one whose top has passed a reading line. On wide screens
+    // the line is 40% down the screen, so a long scene's heading is still in view; on phones,
+    // where the board sits on top, it is a little below the bottom of the board's panel.
+    const sticky = $('.scrolly .sticky'), scenes = $$('.scene');
+    const tag = document.createElement('div');
+    tag.className = 'scene-tag'; tag.setAttribute('aria-hidden', 'true');
+    sticky.append(tag);
+    const total = roman(scenes.length);
+    let current = null, ticking = false;
+    function readingLine() {
+      // stacked (board above the text) only on narrow screens that are not a phone on its side;
+      // keep in step with the two max-width: 900px blocks in css/style.css
+      const stacked = matchMedia('(max-width: 900px)').matches &&
+        !matchMedia('(orientation: landscape) and (max-height: 540px)').matches;
+      if (!stacked) return innerHeight * 0.4;
+      const b = sticky.getBoundingClientRect().bottom;
+      return b + Math.min(140, (innerHeight - b) * 0.3);
+    }
+    function pick() {
+      ticking = false;
+      const y = readingLine();
+      let el = scenes[0];
+      for (const s of scenes) { if (s.getBoundingClientRect().top <= y) el = s; else break; }
+      if (el === current) return;
+      if (current) current.classList.remove('active');
+      el.classList.add('active'); current = el;
+      const i = scenes.indexOf(el);
+      tag.innerHTML = `<b>${roman(i + 1)}</b> of ${total} · ${esc(SCENES[el.dataset.id].title || '')}`;
+      show(el.dataset.id);
+    }
+    const queue = () => { if (!ticking) { ticking = true; requestAnimationFrame(pick); } };
+    addEventListener('scroll', queue, { passive: true });
+    // the panel changes size when the screen turns: refit the current view
+    addEventListener('resize', () => { if (current) show(current.dataset.id); queue(); });
+    pick();
   });
 })();
