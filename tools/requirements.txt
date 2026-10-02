@@ -1,2 +1,12 @@
+# Python 3.10 or later (the data build was tested under 3.10-3.13). build_data.py and
+# verify_quotes.py need only the standard library (verify_quotes.py --pdfs also needs pymupdf).
+#
+# make_images.py: the committed images were made with these versions. Byte-identical output
+# needs the same wheels, which bundle libjpeg-turbo, libwebp and libavif 1.4.1; later versions
+# give equivalent, not identical, files.
+# pillow 12.2.0 has advisories fixed in 12.3.0; none is reachable from make_images.py with its
+# two trusted inputs (and its decompression-bomb check is on). Bump when the images are next rebuilt.
 pillow==12.2.0
 pymupdf==1.28.2
+# tests/play_smoke.py only (then: python3 -m playwright install chromium):
+playwright==1.56.0

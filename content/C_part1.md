@@ -1,6 +1,6 @@
 # Barros, *Filosofía cortesana moralizada* (Naples: Iosep Cacchij, [1588]) — English translation, part C1 (PDF pp. 7–38, first paragraph and verse of p. 38)
 
-<!-- Source text: `/home/claude/fc/notes/barros1588_transcription_part1.md` (pdf 7–37) and `/home/claude/fc/notes/barros1588_transcription_part2.md` (pdf 38, first paragraph and verse only). Translation follows `content/TRANSLATION_GUIDE.md`; the verse "letras" carry the guide's fixed EN and LIT renderings, copied mechanically from the guide by verse id. -->
+<!-- Source text: `notes/barros1588_transcription_part1.md` (pdf 7–37) and `notes/barros1588_transcription_part2.md` (pdf 38, first paragraph and verse only). Translation follows `content/TRANSLATION_GUIDE.md`; the verse "letras" carry the guide's fixed EN and LIT renderings, copied mechanically from the guide by verse id. -->
 
 ES lines are copied mechanically from the transcription by line number. Removed from ES: `{cw:…}`, `{sig:…}`, `{rh:…}`, `{page:…}` markers, bracketed printer's notes (woodcut and two-line initials, `[Note(s): …]`). Kept: `[ ]` expansions, `[?]`, `[.?]`, `[·]`, `[D]`, `[sic]` (misprints, each explained in the NOTE), and the transcription's `*…*` italic markup (merged into one span where a paragraph crosses a page). Damaged type (a broken or partly uninked letter whose identity is evident) is given in ES as the evident letter, and the damaged form is recorded in the NOTE. A word divided across a page break (e.g. *tie-|ne*) is joined in ES; so are *me-|diante* (pdf 29–30), *co[n]sideran-|do* (pdf 20–21) and *qua-|les* (pdf 24–25), whose second half the transcription gives twice (completing the word at the foot of one page from its catchword, and again at the head of the next): ES gives each word once. All three divisions were checked on the page images. `page=` is the printed page number; the book is unpaginated before pdf 22 (p. 16). Printed ornaments and manuscript additions are given as `kind=description` blocks, EN only.
 
@@ -377,43 +377,4 @@ VID: h28
 NOTE: Small roman, poorly inked: the y of *ay* prints like v, the d of *dicha* is damaged and the first e of *buelue* is broken like c; ES gives the evident letters. On the board (square 28) the Spanish is engraved *Si no ay dicha en negociar / la suerte buelue acar*, without *se*. The pun is on *suerte* (a throw; luck) and *azar* (a losing throw; bad luck).
 :::
 
-## Self-check
-
-- Transcription range: part 1, pdf 7–37 (lines 45–460), plus part 2, pdf 38, first paragraph and its verse (lines 23, 25–26).
-- Text units in the transcription (runs of text lines between blank lines, excluding page markers, `{…}` lines and bracketed notes): 69 in part 1 (including the four paragraphs whose line opens with a woodcut-initial note: pdf 9, 16, 19, 22) + 2 in part 2 = 71. Of these, 20 are continuations of a paragraph across a page break, and are joined into the block where the paragraph starts: 71 − 20 = 51 paragraphs / headings / verses. The title page's five-line run (pdf 7: title, author line, dedication line) is split into 3 blocks (+2). Expected ES blocks: 53. ES blocks in this file: 53 (heading 11, paratext 12, prose 12, verse 18). Every transcription text line in the range is used exactly once (checked mechanically: 113 of 113 lines).
-- Description blocks (EN only): 8 (manuscript shelfmark and inscriptions, headpieces and fleurons on pdf 7 and 22, the library stamp on pdf 8). Woodcut and two-line initials are not given separate blocks.
-- Fixed verses used, EN and LIT copied from the guide by id: adam, s1, t0, t1–t8, h15, h26, h32, h36, h28 (16). The two sonnets are translated line by line (14 lines each, same breaks) and have no VID.
-- Page-crossing words joined in ES: *disculpa-|do*, *tie-|ne*, *ca-|sas*, *esperan-|ça*, *di-|ran*; *me-|diante*, *co[n]sideran-|do* and *qua-|les* given once (see header).
-
-## Translator's queries
-
-1. **pdf 9, *lo pedays[?] imprimir*** — rendered as *podays* ("might print"). **pdf 10, *vos a la persona*** — rendered "you or the person" (a for o). Both follow the transcription's suggestion of an ink-filled o.
-2. **pdf 14, Liñán l. 4, *con incierta lumbre*** — does it go with *ver* (to see by an uncertain light) or with *esperancas* (hopes that give an uncertain light)? "in an uncertain light" is meant to allow both. **l. 8, *fallo*** — rendered "sentence" (legal); a card-game sense (void in a suit) is possible but not established. **l. 13, *Come[?]*** — read *Como* on the evidence of Madrid 1587 (Wilson) and the Lemir text.
-3. **pdf 15, Cervantes l. 2, "la blanca y dura piedra"** — diamond (hardness, whiteness, Oriental origin) or pearl (*oriente* = pearl luster)? The English keeps "stone" and the note inclines to diamond; the notes consulted do not discuss it. **l. 1, *rozado*** — taken as *rosado* "rosy" (Madrid 1587 reading). **l. 10, *al punto*** and **l. 12, *venturosa mano*** — possible dice/round puns flagged in the note, not asserted.
-4. **pdf 17, Al lector** — *pues[?]*, *sino[?]*, *burla[?]*, *veras[?]*, *curiosidad[?]* read from letter outlines; the sense is secure, but a better image would confirm. **Last clause, *que de lo malo, no es lo peor*** — rendered "which, of bad things, is not the worst"; the proverbial point (a short bad thing is not the worst bad thing) is in the note, not the text.
-5. **pdf 19, *V. M.*** — rendered "Your Worship" (*Vuestra Merced*). The web edition may prefer to keep "V. M." with a gloss.
-6. **pdf 21, *cuestan[?], ni[?]*** — read through heavy blotting; the English depends on *cuestan*.
-7. **pdf 24, *el pense que*** printed as one run — rendered as the square name "I Thought…".
-8. **pdf 22–25, opening** — *discurso de pretensores* rendered "a course of petitioners (office-seekers)", the guide's first-occurrence gloss (the earlier paratexts use "petitions for office" and "petitioning for advancement" for *pretensiones* / *pretender*). Please confirm that the gloss belongs here and not in the sonnet or "Al lector".
-9. **pdf 26, *dsehaga*** — taken as *deshaga*, "fold it up again" (the peacock's wheel).
-10. **pdf 27, *con los que pinta*** — "with those that the dice show"; the subject of *pinta* (the throw? the dice?) is not expressed.
-11. **pdf 32, *Trabajo no le tener*** — the print has no *es*; the guide's fixed verse and literal already supply the sense.
-12. **pdf 34–35, *donde los echan*** — the referent of *los* (the forgotten affairs, or the petitioners) is ambiguous; English "they are thrown" keeps it open.
-13. **pdf 35, *de para ellas*** — taken as "pay for them [the ropes]".
-14. **pdf 37, *BVelue a los dados veyntiocho*** — "goes back to" (the narrative returns from 36 to 28) and "turns again to" (gambling again); one English verb is asked to carry both.
-15. **pdf 38, *azar de menor*** — the technical sense in period dice games is not established in our notes; rendered "a losing throw of the lowest kind", with the board's 1-2-3 dice in the note.
-16. **`squares=` values** — where Barros names a square without a number (the Favorite, What Will They Say?, the squares of Labor, and the list of squares in the opening), the numbers come from the guide's square list and the board notes, not from the text. The opening paragraph's list (C-022e) is long; the UI may prefer `squares=` empty there.
-17. **Spelling** — resolved: the editor has chosen US spelling for the edition's own English (see the guide); existing British forms are converted in the coordinator's final spelling pass.
-18. **pdf 12, "Juan Vázquez"** — not identified further in the notes consulted.
-
-## Sources consulted for the notes
-
-- Wilson, Edward M. "A Cervantes Item from Emmanuel College Library: Barros's 'Filosofía Cortesana', 1587." *Transactions of the Cambridge Bibliographical Society* 4, no. 5 (1968): 363–371. https://www.jstor.org/stable/41154470. (Via our notes, `/home/claude/fc/notes/wilsonCervantesItemEmmanuel1968.md`, including the transcription of his facsimile of the Madrid 1587 sonnet, which the notes mark as not mechanically verified.)
-- Barros, Alonso de. *Filosofía cortesana*. Ed. Enrique Suárez Figaredo. *Lemir* 23 (2019), Textos, 203–226. https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf. (Via `/home/claude/fc/notes/web_context.md`; web-quoted only, the PDF was not downloaded.)
-- Bidwell-Steiner, Marlen. "La *Filosofía cortesana* de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística." In *Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro*, ed. Marlen Bidwell-Steiner and Teresa Hiergeist, 195–217. Biblioteca Áurea Hispánica 170. Madrid/Frankfurt: Iberoamericana/Vervuert, 2024.
-- Collar de Cáceres, Fernando. «El tablero italiano de la *Filosofía cortesana* de Alonso de Barros (1588); la carrera de un hombre de corte». *Anuario del Departamento de Historia y Teoría del Arte* (Universidad Autónoma de Madrid) 21 (2009): 81–104.
-- Lucero, Ernesto. "La dedicatoria de la *Filosofía cortesana* de Alonso de Barros a Mateo Vázquez de Lecca." *Libros de la Corte* 11, no. 18 (2019): 33–53. https://doi.org/10.15366/ldc2019.11.18.002.
-- Lucero, Ernesto. "El tablero de juego de 1588 en las ediciones madrileñas de la *Filosofía cortesana* de Alonso de Barros." *Romance Notes* 59, no. 1 (2019): 197–206. https://doi.org/10.1353/rmc.2019.0017.
-- Seville, Adrian. "The Importance of Text in the Printed Board Games of Western Europe." *Bulletin du bibliophile* 2026, no. 1: 63–103.
-- Zollinger, Manfred. "Un jeu retrouvé: la *Filosofia cortesana* d'Alonso de Barros." *Le Vieux Papier* 395 (January 2010): 2–6. Read as reproduced in Luigi Ciompi and Adrian Seville, *The Game of the Goose: The Largest Collection of Goose Games*, record 1103, http://www.giochidelloca.it/scheda.php?id=1103.
-- Board transcription: `/home/claude/fc/notes/board_squares_01_31.md`, `/home/claude/fc/notes/board_squares_32_63.md`.
+<!-- Maintainers: this file's self-check, translator's queries and list of sources consulted for the notes are kept with the research notes (notes/translation_working_notes.md), outside this repository. -->

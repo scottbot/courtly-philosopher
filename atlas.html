@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' file:; style-src 'self' 'unsafe-inline' file:; img-src 'self' data: file:; font-src 'self' file:; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Squares — Filosofía cortesana</title>
 <meta name="description" content="Every square of Cartaro’s 1588 board, with its verses in Spanish, Italian and English, Barros’s explanation and historical notes.">
@@ -11,9 +13,9 @@
 <meta property="og:image" content="img/board/board-1200.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#f3ecdc">
-<link rel="stylesheet" href="css/fonts.css?v=72251f3b">
-<link rel="stylesheet" href="css/style.css?v=f859f1b1">
-<script>try{var t=JSON.parse(localStorage.getItem('filosofia-cortesana:theme'));if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="css/fonts.css?v=8d394d12">
+<link rel="stylesheet" href="css/style.css?v=4b328183">
+<script src="js/theme.js?v=4318da66"></script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23f3ecdc' stroke='%238e2c1c' stroke-width='4'/%3E%3Cpath d='M32 12c-9 8-9 18 0 26 9-8 9-18 0-26zM32 38v16' stroke='%232a2119' stroke-width='3' fill='none'/%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="img/icon-180.png">
 </head>
@@ -31,6 +33,7 @@
   <button class="theme-btn" type="button" aria-label="Dark theme" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
 </div></header>
 <main id="main" class="wrap">
+<noscript><p class="notice noscript">This page needs JavaScript, which is switched off or not available here; <a href="plain/squares.html">a plain version of it</a> needs none.</p></noscript>
 <div class="page-head"><h1>The Squares</h1>
 <p>Every square of the only surviving board, with its picture, its verses in Spanish and Italian with an English rendering, the rule it imposes, what Barros says about it, and what historians have found. Choose an edition to see where the texts differ.</p>
 <div class="filters"><span class="sc muted" id="edsel-l">Edition</span><div class="seg-toggle" role="group" id="edsel" aria-labelledby="edsel-l"><button type="button" data-ed="C">Naples 1588 (with this board)</button><button type="button" data-ed="M">Madrid 1587, 2nd ed.</button><button type="button" data-ed="G">Madrid 1587, 1st ed.</button></div>
@@ -43,14 +46,14 @@
 <h2>Around the track</h2><div class="atlas-grid" id="feats"></div>
 </main>
 <footer class="site-footer"><div class="wrap">
-  <p><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). Board: Mario Cartaro, Naples 1588, British Museum 1869,0410.2463.+, © The Trustees of the British Museum, reproduced under license. Book: Naples 1588 edition, Österreichische Nationalbibliothek, 35 V 49, from the Google Books scan. Transcriptions, translations, annotations and code by Claude (Anthropic), made for Scott B. Weingart and no rights claimed (CC0), except in material from other sources; this is not a guarantee that any of it is free of rights. <b>An AI-produced draft, not reviewed by a specialist.</b> See <a href="about.html#note">how this edition was made</a> and the <a href="about.html#biblio">bibliography</a>.</p>
+  <p><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). Board: Mario Cartaro, Naples 1588, British Museum 1869,0410.2463.+, © The Trustees of the British Museum, reproduced under license. Book: Naples 1588 edition, Österreichische Nationalbibliothek, 35 V 49, from the Google Books scan. Transcriptions, translations, annotations and code by Claude (Anthropic), made for Scott B. Weingart and no rights claimed (CC0), except in material from other sources; this is not a guarantee that any of it is free of rights. <b>An AI-produced draft, not reviewed by a specialist.</b> See <a href="about.html#note">how this edition was made</a> and the <a href="about.html#biblio">bibliography</a>. Version 0.2, October 2026.</p>
   <p><button class="btn small" type="button" data-toggle-cites>Hide references in the text</button></p>
 </div></footer>
 <script src="data/board.js?v=b8e37be2"></script>
-<script src="data/annotations.js?v=9e41adac"></script>
-<script src="data/text.js?v=9ac789ef"></script>
-<script src="data/biblio.js?v=ec9d9a12"></script>
-<script src="js/common.js?v=5957d05d"></script>
-<script src="js/atlas.js?v=c2216e12"></script>
+<script src="data/annotations.js?v=68e0de92"></script>
+<script src="data/text.js?v=aa6205cc"></script>
+<script src="data/biblio.js?v=ec5dbf1d"></script>
+<script src="js/common.js?v=3145a1d0"></script>
+<script src="js/atlas.js?v=941c5974"></script>
 </body>
 </html>

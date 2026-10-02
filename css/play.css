@@ -13,8 +13,8 @@
 .side { scroll-margin-top: calc(var(--header-h) + .5rem); }
 
 /* the bottom sheet keeps at least a third of the screen for the board (override) */
-.mobile-bar .event-card { max-height: 48dvh; overflow-y: auto; }
-.mobile-bar .victory { max-height: 72dvh; overflow-y: auto; }
+.mobile-bar .event-card { max-height: 48vh; max-height: 48dvh; overflow-y: auto; }
+.mobile-bar .victory { max-height: 72vh; max-height: 72dvh; overflow-y: auto; }
 .mobile-bar.has-card .mb-standings { display: none; }
 .mobile-bar .victory { margin-bottom: .5rem; box-shadow: none; }
 /* short screens and 400% zoom: a card takes the whole screen and scrolls as one */
@@ -59,7 +59,7 @@
 .event-card.opening .howto { margin: .4rem 0 .5rem; }
 .event-card.opening .ev-again { margin: 0 0 .4rem; }
 @media (max-width: 899px) {
-  .mobile-bar .event-card.opening { max-height: 78dvh; }
+  .mobile-bar .event-card.opening { max-height: 78vh; max-height: 78dvh; }
   .mobile-bar .event-card.opening .ev-img .ev-verse { display: none; }   /* shown inside "The gate, in Barros’s words" */
 }
 

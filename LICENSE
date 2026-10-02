@@ -2,12 +2,14 @@ Filosofía cortesana: a playable edition
 Public-domain dedication
 
 Made by Claude, an AI model made by Anthropic, for Scott B. Weingart, 2026.
+Version 0.2, October 2026 (see CHANGELOG.md).
 
 To the extent that copyright subsists in this AI-produced work, Scott B. Weingart dedicates it
 to the public domain under CC0 1.0 Universal, whose legal code follows. The dedication covers
 what the edition itself made: the transcriptions, translations, annotations, essays,
-introduction and rule descriptions (content/, and data/, which is generated from it) and the
-code (the HTML pages, css/, js/, tools/ and tests/).
+introduction and rule descriptions (content/, and data/ and plain/, which are generated from
+it), the documentation (README.md, CHANGELOG.md, CITATION.cff, docs/) and the code (the HTML
+pages, css/, js/, tools/ and tests/).
 
 What this means, and what it does not: no rights are claimed in the material presented here.
 That is not a statement that any of it is in the public domain. An AI-produced work can repeat
@@ -26,9 +28,13 @@ It does not cover material from other sources, which keeps its own status:
 - quotations from modern scholarship and other works, which remain their authors' and are
   quoted for study and criticism;
 - the photograph of the board and every detail cut from it (img/board/, img/sq/, img/feat/):
-  (c) The Trustees of the British Museum, 1869,0410.2463.+, reproduced under license;
+  (c) The Trustees of the British Museum, 1869,0410.2463.+, reproduced under a license
+  purchased on 30 September 2026 to share the image in perpetuity on an academic web page.
+  For any other use, ask the British Museum;
 - the page images of the Naples 1588 book (img/book/): Vienna, Osterreichische
-  Nationalbibliothek, 35 V 49, digitized by Google Books;
+  Nationalbibliothek, 35 V 49, digitized by Google Books, whose usage guidelines (page 2 of
+  the Google PDF, "Normas de uso") ask that the files be used for non-commercial purposes
+  only and that the Google watermark be kept;
 - the fonts (fonts/): SIL Open Font License;
 - the map (img/map-europe.svg), drawn from Natural Earth data, which is in the public domain.
 

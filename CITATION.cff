@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: >-
+  This is an AI-produced draft, not reviewed by a specialist, and it should not be
+  cited as scholarship until it has been reviewed. If you refer to it, give the
+  version you read and the date you read it, and say that it is an unreviewed draft.
+  How to cite a square or a passage: see "How to cite" in README.md.
+title: "Filosofía cortesana: a playable edition"
+version: "0.2"
+type: software
+authors:
+  - name: "Claude (Anthropic)"
+abstract: >-
+  A playable web edition of Alonso de Barros's Filosofía cortesana (Madrid 1587;
+  Naples 1588), the earliest known themed Game of the Goose, on Mario Cartaro's
+  board of 1588 (British Museum 1869,0410.2463.+). It gives a transcription and
+  English translation of the Naples 1588 book, the passages of the Madrid 1587
+  (Pedro Madrigal) edition absent from it, the recorded readings of the first
+  edition, and annotations on every square and figure of the board. Version 0.2,
+  October 2026: an AI-produced draft, not reviewed by a specialist.
+keywords:
+  - Alonso de Barros
+  - Filosofía cortesana
+  - Game of the Goose
+  - Mario Cartaro
+  - court of Philip II
+  - digital edition
+# No "license" key: the repository holds material under several sets of terms
+# (the edition's own work under CC0 1.0, British Museum and Google Books images, fonts
+# under the SIL Open Font License). See LICENSE.

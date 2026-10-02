@@ -9,12 +9,20 @@
  * topojson-client. None of these is needed by the site itself, and none is published:
  * install them anywhere outside the site and point MAP_DEPS at that folder.
  *
- *   npm install --prefix /tmp/fc-map world-atlas@2 d3-geo@3 topojson-client@3
+ *   npm install --prefix /tmp/fc-map --ignore-scripts world-atlas@2.0.2 d3-geo@3.1.1 topojson-client@3.1.0
  *   MAP_DEPS=/tmp/fc-map node tools/make_map.mjs
  *
- * (Without MAP_DEPS the modules are looked for in tools/node_modules; if you install
+ * or, with every dependency pinned by the lockfile in tools/map-deps/:
+ *
+ *   mkdir -p /tmp/fc-map && cp tools/map-deps/package*.json /tmp/fc-map/
+ *   npm ci --prefix /tmp/fc-map --ignore-scripts
+ *
+ * (--ignore-scripts: none of these packages needs an install script, so none is run.
+ * Without MAP_DEPS the modules are looked for in tools/node_modules; if you install
  * there, do not publish that folder.)  The output is deterministic: rerunning it with
- * the same package versions gives the same file.
+ * the same package versions gives the same file (checked 2 October 2026 with the
+ * versions above, Node 22). If they can no longer be installed, use current ones: the
+ * map will differ in bytes, not in content.
  */
 import { createRequire } from 'node:module';
 import { readFileSync, writeFileSync } from 'node:fs';

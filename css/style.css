@@ -116,6 +116,7 @@ th { font-family: var(--f-sc); font-weight: 400; color: var(--ink-2); }
 /* ---------- 3. Header & footer ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
+  background: var(--paper);                                      /* browsers without color-mix() */
   background: color-mix(in srgb, var(--paper) 92%, transparent);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
@@ -290,7 +291,7 @@ details.sect[open] > summary::before { content: "☙ "; }
 .scrolly .sticky .book-view .pages img.single { max-width: 100%; border-radius: var(--radius); }
 /* which scene the panel is showing: "VII of XIII · How to read a square" */
 .scrolly .scene-tag { position: absolute; left: .6rem; bottom: .6rem; z-index: 2; max-width: calc(100% - 1.2rem); padding: .2rem .6rem; border-radius: 999px;
-  background: color-mix(in srgb, var(--card) 88%, transparent); color: var(--ink-2); font-family: var(--f-sc); font-size: .85rem;
+  background: var(--card); background: color-mix(in srgb, var(--card) 88%, transparent); color: var(--ink-2); font-family: var(--f-sc); font-size: .85rem;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-shadow: var(--shadow); pointer-events: none; }
 .scrolly .scene-tag b { color: var(--rubric); font-weight: 400; }
 .scene .more { margin: .6rem 0 0; font-family: var(--f-sc); }
@@ -310,7 +311,7 @@ details.sect[open] > summary::before { content: "☙ "; }
   .scrolly { grid-template-columns: 1fr; gap: 0; }
   .scrolly .sticky { top: var(--header-h); height: 36vh; height: clamp(210px, 36svh, 340px); z-index: 3; background: var(--paper); padding-bottom: .4rem; }
   .scrolly .sticky::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1.6rem; height: 1.6rem; pointer-events: none;
-    background: linear-gradient(var(--paper), color-mix(in srgb, var(--paper) 0%, transparent)); }
+    background: linear-gradient(var(--paper), transparent); background: linear-gradient(var(--paper), color-mix(in srgb, var(--paper) 0%, transparent)); }
   .scrolly .steps { padding: 1.2rem 0 30vh; position: relative; z-index: 1; }
   .scene { margin: 0 0 24vh; padding: 1rem 1.1rem .9rem; }
   .scene h2 { font-size: 1.45rem; }
@@ -321,7 +322,7 @@ details.sect[open] > summary::before { content: "☙ "; }
 @media (max-width: 900px) and (orientation: landscape) and (max-height: 540px) {
   /* a phone on its side: too short to stack, so the board goes beside the text, as on wide screens */
   .scrolly { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; }
-  .scrolly .sticky { top: var(--header-h); height: calc(100svh - var(--header-h) - .6rem); padding-bottom: 0; }
+  .scrolly .sticky { top: var(--header-h); height: calc(100vh - var(--header-h) - .6rem); height: calc(100svh - var(--header-h) - .6rem); padding-bottom: 0; }
   .scrolly .sticky::after { display: none; }
   .scrolly .steps { padding: 25vh 0 40vh; }
   .scene { margin: 0 0 45vh; }
@@ -456,7 +457,7 @@ details.sect[open] > summary::before { content: "☙ "; }
 .seg .full { grid-column: 1 / -1; }
 .seg .desc { grid-column: 1 / 3; }
 @media (max-width: 760px) { .seg .desc { grid-column: 1; } }
-.seg.m-add { background: color-mix(in srgb, var(--gold) 9%, transparent); border-left: 3px solid var(--gold); padding-left: .7rem; }
+.seg.m-add { background: var(--paper-2); background: color-mix(in srgb, var(--gold) 9%, transparent); border-left: 3px solid var(--gold); padding-left: .7rem; }
 .seg.m-add .badge { font-family: var(--f-sc); color: var(--gold); font-size: .85rem; }
 body.show-es-only .seg .en, body.show-en-only .seg .es { display: none; }
 body.show-es-only .seg, body.show-en-only .seg { grid-template-columns: 1fr 5.5rem; }
@@ -480,14 +481,30 @@ figure.md-fig img { width: 100%; height: auto; border: 1px solid var(--line); bo
 figure.md-fig figcaption { font-size: .92rem; color: var(--ink-2); margin-top: .45rem; }
 .biblio li:target { background: var(--paper-2); }
 .notice { border: 1px solid var(--line-2); border-radius: var(--radius); padding: .8rem 1rem; background: var(--paper-2); font-size: .95rem; }
+/* shown only when scripts do not run (each page's <noscript>), pointing to the plain pages in plain/ */
+.notice.noscript { margin: 1rem 0; border-left: 4px solid var(--rubric); }
 
 /* ---------- 10. Print & motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+/* Printouts and "Save as PDF": always light, whatever the theme; the draft warning at the top of every
+   printed page's content and the footer (credits, rights, version) at the end; external links
+   followed by their address. */
 @media print {
-  .site-header, .site-footer, .viewer-tools, .mobile-bar, .text-controls { display: none !important; }
-  body { background: #fff; }
+  html:root:not(#print) {            /* the id selector outranks both dark-theme rules above */
+    --paper: #fff; --paper-2: #f3f3f3; --paper-3: #e6e6e6; --card: #fff;
+    --ink: #000; --ink-2: #222; --muted: #444; --rubric: #7a1f12; --rubric-2: #7a1f12; --gold: #5a430f;
+    --line: rgba(0,0,0,.2); --line-2: rgba(0,0,0,.35); --shadow: none; color-scheme: light;
+  }
+  body { background: #fff; color: #000; }
+  .site-header, .viewer-tools, .mobile-bar, .text-controls, [data-toggle-cites], .scroll-hint,
+  .drawer, .drawer-backdrop, .cite-pop { display: none !important; }
+  .site-footer { display: block !important; font-size: 9pt; border-top: 1px solid #000; margin-top: 1.5em; padding: .6em 0 0 !important; }
+  main::before { content: "Filosofía cortesana: a playable edition. An AI-produced draft, not reviewed by a specialist; it should not be trusted, cited or taken as scholarship until that review has happened.";
+    display: block; font-size: 9pt; border-bottom: 1px solid #000; padding-bottom: .4em; margin-bottom: 1em; }
+  main a[href^="http"]::after { content: " <" attr(href) ">"; font-size: 8pt; overflow-wrap: anywhere; }
+  .seg, figure, .card, .biblio li { break-inside: avoid; }
 }
 
 /* ---------------------------------------------------------------- draft notice (js/common.js) */

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-rqkcq9V9MW2dgGqj+p+eSA5FhCcI7oo0ELauVFLTuDo=' 'sha256-zt+IOSv8WgwWG2iChS6NZ5Ztoj3LVjOrEBZa5/RzJjA='; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page not found — Filosofía cortesana</title>
 <meta name="robots" content="noindex">
@@ -19,7 +21,7 @@ a:focus-visible { outline: 2px solid var(--rubric); outline-offset: 2px; }
 ul { padding-left: 1.2rem; }
 .small { font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 2rem; }
 </style>
-<script>try{var t=JSON.parse(localStorage.getItem('filosofia-cortesana:theme'));if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>try{var t=JSON.parse(localStorage.getItem('filosofia-cortesana:theme'));if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
 <main id="main">
@@ -32,13 +34,19 @@ ul { padding-left: 1.2rem; }
   <li><a data-root href="text.html">The Book</a></li>
   <li><a data-root href="about.html">About</a></li>
 </ul>
-<p class="small"><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). <b>An AI-produced draft, not reviewed by a specialist.</b></p>
+<p class="small"><i>Filosofía cortesana</i>: a playable edition of Alonso de Barros’s game of the courtier’s career (Madrid 1587; Naples 1588). <b>An AI-produced draft, not reviewed by a specialist.</b> Version 0.2, October 2026.</p>
 </main>
 <script>
-/* On a GitHub project site the root is the first path segment (/repo/); elsewhere it is /. */
+/* The links above are relative to the edition's root folder, which this page has to find for itself,
+   because GitHub Pages serves it at whatever address was missing. SITE_ROOT: that folder's path on
+   its host, e.g. '/repo/' for a project site (user.github.io/repo/) or '/' for a site of its own.
+   While it is null, the root is guessed: on *.github.io, the first folder of the address (right for
+   a project site, wrong for a user site); elsewhere, '/'. Changing this script changes its hash:
+   update the sha256 in this page's Content-Security-Policy (tools/build_data.py warns). */
+var SITE_ROOT = null;
 (function () {
   var seg = location.pathname.split('/')[1];
-  var root = /\.github\.io$/.test(location.hostname) && seg && !/\.html$/.test(seg) ? '/' + seg + '/' : '/';
+  var root = SITE_ROOT || (/\.github\.io$/.test(location.hostname) && seg && !/\.html$/.test(seg) ? '/' + seg + '/' : '/');
   document.querySelectorAll('a[data-root]').forEach(function (a) { a.href = root + a.getAttribute('href'); });
 })();
 </script>

@@ -11,11 +11,11 @@ FC.biblio = [
  },
  {
   "key": "debarrosFilosofiaCortesana1587",
-  "ref": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, http://www.giochidelloca.it/storia/filosofia.pdf. The file's text names no transcriber (its metadata gives the author as “LUiGi”); we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes [@sanchezEdicionesAntiguasFilosofia2016oct16, 173 n. 14]. It is headed “En Nápoles por Iosep Cacchÿ. 1588” but ends with Madrigal's colophon of 1587 and contains M's “Declaración del juego”; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it.",
+  "ref": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, https://www.giochidelloca.it/storia/filosofia.pdf. The file's text names no transcriber (its metadata gives the author as “LUiGi”); we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes [@sanchezEdicionesAntiguasFilosofia2016oct16, 173 n. 14]. It is headed “En Nápoles por Iosep Cacchÿ. 1588” but ends with Madrigal's colophon of 1587 and contains M's “Declaración del juego”; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it.",
   "label": "Barros 1587, Madrigal ed.",
   "group": "Primary sources",
   "dup": null,
-  "html": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, <a href=\"http://www.giochidelloca.it/storia/filosofia.pdf\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/storia/filosofia.pdf</a>. The file's text names no transcriber (its metadata gives the author as “LUiGi”); we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-sanchezEdicionesAntiguasFilosofia2016oct16\" data-key=\"sanchezEdicionesAntiguasFilosofia2016oct16\" aria-expanded=\"false\">Lucero Sánchez 2016, 173 n. 14</a>)</span>. It is headed <span lang=\"es\">“En Nápoles por Iosep Cacchÿ. 1588”</span> but ends with Madrigal's colophon of 1587 and contains M's <span lang=\"es\">“Declaración del juego”</span>; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it."
+  "html": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, <a href=\"https://www.giochidelloca.it/storia/filosofia.pdf\" target=\"_blank\" rel=\"noopener\">https://www.giochidelloca.it/storia/filosofia.pdf</a>. The file's text names no transcriber (its metadata gives the author as “LUiGi”); we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-sanchezEdicionesAntiguasFilosofia2016oct16\" data-key=\"sanchezEdicionesAntiguasFilosofia2016oct16\" aria-expanded=\"false\">Lucero Sánchez 2016, 173 n. 14</a>)</span>. It is headed <span lang=\"es\">“En Nápoles por Iosep Cacchÿ. 1588”</span> but ends with Madrigal's colophon of 1587 and contains M's <span lang=\"es\">“Declaración del juego”</span>; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it."
  },
  {
   "key": "ref:board",
@@ -83,11 +83,11 @@ FC.biblio = [
  },
  {
   "key": "infantesPinturaQueSe2010",
-  "ref": "Infantes, Víctor. 2010. “«Una pintura que se contiene en un pliego grande». El tablero de la *Filosofía cortesana*{es} de Alonso de Barros: una *Oca* emblemática entre España e Italia (1587 y 1588).” *IMAGO. Revista de Emblemática y Cultura Visual* 2: 127–135. http://ojs.uv.es/index.php/IMAGO/article/view/1207.",
+  "ref": "Infantes, Víctor. 2010. “«Una pintura que se contiene en un pliego grande». El tablero de la *Filosofía cortesana*{es} de Alonso de Barros: una *Oca* emblemática entre España e Italia (1587 y 1588).” *IMAGO. Revista de Emblemática y Cultura Visual* 2: 127–135. https://ojs.uv.es/index.php/IMAGO/article/view/1207.",
   "label": "Infantes 2010",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Infantes, Víctor. 2010. “«Una pintura que se contiene en un pliego grande». El tablero de la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros: una <em>Oca</em> emblemática entre España e Italia (1587 y 1588).” <em lang=\"es\">IMAGO. Revista de Emblemática y Cultura Visual</em> 2: 127–135. <a href=\"http://ojs.uv.es/index.php/IMAGO/article/view/1207\" target=\"_blank\" rel=\"noopener\">http://ojs.uv.es/index.php/IMAGO/article/view/1207</a>."
+  "html": "Infantes, Víctor. 2010. “«Una pintura que se contiene en un pliego grande». El tablero de la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros: una <em>Oca</em> emblemática entre España e Italia (1587 y 1588).” <em lang=\"es\">IMAGO. Revista de Emblemática y Cultura Visual</em> 2: 127–135. <a href=\"https://ojs.uv.es/index.php/IMAGO/article/view/1207\" target=\"_blank\" rel=\"noopener\">https://ojs.uv.es/index.php/IMAGO/article/view/1207</a>."
  },
  {
   "key": "infantesPinturaQueSe2011",
@@ -227,27 +227,27 @@ FC.biblio = [
  },
  {
   "key": "GameGooseLargest",
-  "ref": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in *Giochi dell'Oca e di percorso*{it} (the saved copy's heading, machine-translated, reads “Goose and Path Games”). http://www.giochidelloca.it/scheda.php?id=1103. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's “Un jeu retrouvé”, *Le Vieux Papier*{fr} 395, 2010.)",
+  "ref": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in *Giochi dell'Oca e di percorso*{it} (the saved copy's heading, machine-translated, reads “Goose and Path Games”). https://www.giochidelloca.it/scheda.php?id=1103. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's “Un jeu retrouvé”, *Le Vieux Papier*{fr} 395, 2010.)",
   "label": "Ciompi & Seville, giochidelloca.it",
   "group": "Web pages",
   "dup": null,
-  "html": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in <em lang=\"it\">Giochi dell'Oca e di percorso</em> (the saved copy's heading, machine-translated, reads “Goose and Path Games”). <a href=\"http://www.giochidelloca.it/scheda.php?id=1103\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/scheda.php?id=1103</a>. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's <span lang=\"fr\">“Un jeu retrouvé”</span>, <em lang=\"fr\">Le Vieux Papier</em> 395, 2010.)"
+  "html": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in <em lang=\"it\">Giochi dell'Oca e di percorso</em> (the saved copy's heading, machine-translated, reads “Goose and Path Games”). <a href=\"https://www.giochidelloca.it/scheda.php?id=1103\" target=\"_blank\" rel=\"noopener\">https://www.giochidelloca.it/scheda.php?id=1103</a>. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's <span lang=\"fr\">“Un jeu retrouvé”</span>, <em lang=\"fr\">Le Vieux Papier</em> 395, 2010.)"
  },
  {
   "key": "FilosofiaCortesanaPath",
-  "ref": "Fleur-de-Gigi. 2013a. “Filosofia Cortesana – A Path Game.” *La Bella Donna* (blog), 29 July 2013. http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/.",
+  "ref": "Fleur-de-Gigi. 2013a. “Filosofia Cortesana – A Path Game.” *La Bella Donna* (blog), 29 July 2013. https://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/.",
   "label": "Fleur-de-Gigi 2013a",
   "group": "Web pages",
   "dup": null,
-  "html": "Fleur-de-Gigi. 2013a. “Filosofia Cortesana – A Path Game.” <em>La Bella Donna</em> (blog), 29 July 2013. <a href=\"http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/\" target=\"_blank\" rel=\"noopener\">http://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/</a>."
+  "html": "Fleur-de-Gigi. 2013a. “Filosofia Cortesana – A Path Game.” <em>La Bella Donna</em> (blog), 29 July 2013. <a href=\"https://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/\" target=\"_blank\" rel=\"noopener\">https://fleurtyherald.wordpress.com/2013/07/29/filosofia-cortesana-a-path-game/</a>."
  },
  {
   "key": "TranslationFilosofiaCortesana",
-  "ref": "Fleur-de-Gigi. 2013b. “Translation of the Filosofia Cortesana Game Board.” *La Bella Donna* (blog), 31 July 2013. http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/.",
+  "ref": "Fleur-de-Gigi. 2013b. “Translation of the Filosofia Cortesana Game Board.” *La Bella Donna* (blog), 31 July 2013. https://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/.",
   "label": "Fleur-de-Gigi 2013b",
   "group": "Web pages",
   "dup": null,
-  "html": "Fleur-de-Gigi. 2013b. “Translation of the Filosofia Cortesana Game Board.” <em>La Bella Donna</em> (blog), 31 July 2013. <a href=\"http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/\" target=\"_blank\" rel=\"noopener\">http://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/</a>."
+  "html": "Fleur-de-Gigi. 2013b. “Translation of the Filosofia Cortesana Game Board.” <em>La Bella Donna</em> (blog), 31 July 2013. <a href=\"https://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/\" target=\"_blank\" rel=\"noopener\">https://fleurtyherald.wordpress.com/2013/07/31/translation-of-the-filosofia-cortesana-game-board/</a>."
  },
  {
   "key": "GiocoDellocaBella",
@@ -347,11 +347,11 @@ FC.biblio = [
  },
  {
   "key": "ref:gonzalez2012",
-  "ref": "González Hernández, María Cristina. 2012. “La «Junta de libros» de Tamayo de Vargas: Ensayo de documentación bibliográfica.”{es} Doctoral thesis, Universidad Complutense de Madrid. http://eprints.ucm.es/17024/1/T33853.pdf. Published as *La «Junta de libros» de Tamayo de Vargas*{es}, 2 vols. (Madrid: Fundación Universitaria Española, 2013), with a third volume, *Ensayo de documentación bibliográfica*{es} (2015). (per Lucero 2016, 176 n. 33, and his bibliography.)",
+  "ref": "González Hernández, María Cristina. 2012. “La «Junta de libros» de Tamayo de Vargas: Ensayo de documentación bibliográfica.”{es} Doctoral thesis, Universidad Complutense de Madrid. https://eprints.ucm.es/17024/1/T33853.pdf. Published as *La «Junta de libros» de Tamayo de Vargas*{es}, 2 vols. (Madrid: Fundación Universitaria Española, 2013), with a third volume, *Ensayo de documentación bibliográfica*{es} (2015). (per Lucero 2016, 176 n. 33, and his bibliography.)",
   "label": "González Hernández 2012",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "González Hernández, María Cristina. 2012. <span lang=\"es\">“La «Junta de libros» de Tamayo de Vargas: Ensayo de documentación bibliográfica.”</span>{es} Doctoral thesis, Universidad Complutense de Madrid. <a href=\"http://eprints.ucm.es/17024/1/T33853.pdf\" target=\"_blank\" rel=\"noopener\">http://eprints.ucm.es/17024/1/T33853.pdf</a>. Published as <em lang=\"es\">La «Junta de libros» de Tamayo de Vargas</em>, 2 vols. (Madrid: Fundación Universitaria Española, 2013), with a third volume, <em lang=\"es\">Ensayo de documentación bibliográfica</em> (2015). (per Lucero 2016, 176 n. 33, and his bibliography.)"
+  "html": "González Hernández, María Cristina. 2012. <span lang=\"es\">“La «Junta de libros» de Tamayo de Vargas: Ensayo de documentación bibliográfica.”</span>{es} Doctoral thesis, Universidad Complutense de Madrid. <a href=\"https://eprints.ucm.es/17024/1/T33853.pdf\" target=\"_blank\" rel=\"noopener\">https://eprints.ucm.es/17024/1/T33853.pdf</a>. Published as <em lang=\"es\">La «Junta de libros» de Tamayo de Vargas</em>, 2 vols. (Madrid: Fundación Universitaria Española, 2013), with a third volume, <em lang=\"es\">Ensayo de documentación bibliográfica</em> (2015). (per Lucero 2016, 176 n. 33, and his bibliography.)"
  },
  {
   "key": "ref:zollinger2010",

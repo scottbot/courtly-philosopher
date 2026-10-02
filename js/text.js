@@ -2,8 +2,12 @@
    text.js — "The Book": the Naples 1588 text, Spanish beside English, segment by
    segment, with a facsimile of each page; optionally the Madrid 1587 passages, and
    what is known of the first edition (G).
-   Anchors: text.html#C-038b (a segment), text.html#pdf38 (a page of the scan; every
-   page a segment covers has one), #M-41v-a (a Madrigal passage), #G-05 (a G reading).
+   Anchors: text.html#C-038b (a segment), text.html#pdf38 (a page of the scan), #p32 (a page
+   of the book, by its true pagination: the title page is p. 1, the first printed number is
+   16 on A8v; pdf 54, misprinted "38", is #p48), #leaf-B4v (a leaf by gathering, leaf and
+   side: A1r = title page; gatherings A and B of 12 leaves, then C), #M-41v-a (a Madrigal
+   passage), #G-05 (a G reading). A page, leaf or scan page that no passage covers (a blank)
+   goes to the next passage. See docs/ANCHORS.md.
    ========================================================================= */
 (function () {
   const { $, $$, esc } = FC.util;
@@ -15,10 +19,33 @@
     if (!a) return [];
     const out = []; for (let p = a; p <= (b || a); p++) out.push(p); return out;
   }
+  /** The Vienna copy's scan: pdf 7 is the title page (A1r); two scan pages per leaf. */
+  const FIRST = 7, LAST = 70;
+  function leafOf(n) {
+    if (n < FIRST || n > LAST) return '';
+    const l = Math.floor((n - FIRST) / 2);
+    return 'ABC'[Math.floor(l / 12)] + (l % 12 + 1) + ((n - FIRST) % 2 ? 'v' : 'r');
+  }
+  /** True page number (title page = 1); printed from p. 16 (pdf 22) to p. 63 (pdf 69). */
+  function pageOf(n) { return n >= FIRST && n <= 69 ? n - FIRST + 1 : 0; }
+  function pdfOfHash(h) {
+    let m;
+    if ((m = /^pdf(\d+)$/.exec(h))) return +m[1];
+    if ((m = /^p(\d+)$/.exec(h))) return +m[1] + FIRST - 1;
+    if ((m = /^leaf-([ABC])(\d{1,2})([rv])$/i.exec(h))) {
+      const l = 'ABC'.indexOf(m[1].toUpperCase()) * 12 + (+m[2] - 1);
+      if (+m[2] < 1 || +m[2] > 12) return 0;
+      return FIRST + 2 * l + (m[3].toLowerCase() === 'v' ? 1 : 0);
+    }
+    return 0;
+  }
+  const span = (a, b) => a === b ? a : `${a}–${b}`;
   function loc(s) {
-    const first = pdfRange(s.pdf)[0];
-    const where = s.page ? `p. ${esc(s.page)}` : s.sig ? `<span title="signature: the printer’s mark for gathering and leaf">leaf ${esc(s.sig)}</span>` : '';
-    return `${where}<a href="#" data-facs="${first}" title="Show the page of the 1588 book">page image</a><a href="#${s.id}" aria-label="Link to this passage (${esc(s.id)})" title="Link to this passage">link</a>`;
+    const pp = pdfRange(s.pdf), first = pp[0], last = pp[pp.length - 1];
+    const pages = s.page ? `p. ${esc(s.page)}` : '';
+    const leaves = first ? `<span title="leaf: gathering, leaf and side (r = front, v = back), counted from the title page, A1r">leaf ${span(leafOf(first), leafOf(last))}</span>` : '';
+    const where = [pages, leaves].filter(Boolean).join(' · ');
+    return `${where}<a href="#" data-facs="${first}" title="Show the page of the 1588 book">page image</a><a href="#${esc(s.id)}" aria-label="Link to this passage (${esc(s.id)})" title="Link to this passage">link</a>`;
   }
   /** Spanish/English text: escape, keep *italic* runs of the transcription, verse lines. */
   function body(t, kind) {
@@ -48,7 +75,10 @@
     const seenPdf = new Set();
     let h = '';
     C.forEach(s => {
-      const anchors = pdfRange(s.pdf).filter(p => !seenPdf.has(p)).map(p => { seenPdf.add(p); return `<span id="pdf${p}"></span>`; }).join('');
+      const anchors = pdfRange(s.pdf).filter(p => !seenPdf.has(p)).map(p => {
+        seenPdf.add(p);
+        return `<span id="pdf${p}"></span>` + (pageOf(p) ? `<span id="p${pageOf(p)}"></span>` : '') + (leafOf(p) ? `<span id="leaf-${leafOf(p)}"></span>` : '');
+      }).join('');
       h += `${anchors}<div class="seg ${esc(s.kind)}" id="${esc(s.id)}">`;
       if (s.kind === 'description') h += `<div class="en desc small muted">${s.en}</div>`;
       else if (s.kind === 'heading') h += `<h2 class="es" lang="es">${body(s.es, s.kind)}</h2><h2 class="en">${s.en}</h2>`;
@@ -122,6 +152,15 @@
     });
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && facs.classList.contains('open')) closeFacs(); });
 
-    if (location.hash) { const t = document.getElementById(location.hash.slice(1)); if (t) setTimeout(() => t.scrollIntoView(), 50); }
+    if (location.hash) {
+      let id = ''; try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { id = ''; }
+      let t = id && document.getElementById(id);
+      if (!t && id) {                          // a blank page or leaf: go to the next passage
+        const n = pdfOfHash(id);
+        if (n) for (let k = n; k <= LAST && !t; k++) t = document.getElementById('pdf' + k);
+        if (n && !t) for (let k = n; k >= FIRST && !t; k--) t = document.getElementById('pdf' + k);  // after the last passage
+      }
+      if (t) setTimeout(() => t.scrollIntoView(), 50);
+    }
   });
 })();

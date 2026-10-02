@@ -37,7 +37,7 @@ ROOT = os.path.dirname(HERE)
 sys.dont_write_bytecode = True        # no __pycache__ in the published tools/ folder
 sys.path.insert(0, HERE)
 from geometry import SHEET                  # the paper of the sheet within the photograph
-Image.MAX_IMAGE_PIXELS = None
+Image.MAX_IMAGE_PIXELS = 12_000_000       # the BM photograph is 10.0 Mpx; keep Pillow's bomb check on
 OX, OY = SHEET[0], SHEET[1]
 KEEP_JPEG = False
 

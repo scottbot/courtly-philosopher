@@ -31,6 +31,7 @@
   let shown = null;       // the player whose steps are on screen (null when waiting for a throw)
   let lastMove = '', turnThrow = null, lastState = null, lastPurse = {}, lastPot = null, deltas = {};
   let mbObserver = null, sayTimer = 0, spoken = [];
+  let forgotten = false;  // the setup screen is being redrawn after "Forget saved names and games"
 
   const ed = () => setup.edition;
   const pl = id => game.players[id];
@@ -99,6 +100,28 @@
     return s && typeof s === 'object' && FC.EDITIONS[s.edition] && [1, 2].includes(s.dice)
       && ['all', 'overshoot'].includes(s.backPay) && [1, 2].includes(s.fortuneThrows) && Number.isFinite(s.purse);
   }
+  /* A saved game is data from storage that any page of the same origin can write (on GitHub Pages,
+     every project site of the account): nothing from it reaches the page's HTML unchecked. */
+  /** A whole number from stored data, within lo..hi; d if it is not a number. */
+  const int = (v, lo, hi, d = 0) => { v = Number(v); return Number.isFinite(v) ? FC.util.clamp(Math.round(v), lo, hi) : d; };
+  const STEP_TYPES = ['throw', 'skip', 'move', 'rebound', 'arrive', 'win', 'again', 'next', 'pay', 'transfer', 'bump', 'skipset', 'loop'];
+  /** A step of a saved turn (js/game.js), rebuilt from its known fields only; null if it does not make sense. n: players. */
+  function cleanStep(s, n) {
+    if (!s || !STEP_TYPES.includes(s.type) || !Number.isInteger(s.player) || s.player < 0 || s.player >= n) return null;
+    if (!s.state || !Array.isArray(s.state.players)) return null;
+    const o = { type: s.type, player: s.player, state: { pot: int(s.state.pot, -1e6, 1e6), players: s.state.players
+      .filter(q => q && Number.isInteger(q.id) && q.id >= 0 && q.id < n)
+      .map(q => ({ id: q.id, pos: int(q.pos, 0, 63), purse: int(q.purse, -1e6, 1e6), skip: q.skip ? 1 : 0 })) } };
+    for (const k of ['total', 'bounce', 'by', 'amount', 'left']) if (k in s) o[k] = int(s[k], -1e6, 1e6);
+    for (const k of ['square', 'next']) if (k in s) o[k] = int(s[k], 0, k === 'next' ? n - 1 : 63);
+    // a payment is between players (by index) and the pot; a move or transfer is between squares
+    for (const k of ['from', 'to']) if (k in s) o[k] = s[k] === 'pot' ? 'pot' : s.type === 'pay' ? int(s[k], 0, n - 1) : int(s[k], 0, 63);
+    if ('victim' in s) o.victim = int(s.victim, 0, n - 1);
+    for (const k of ['kind', 'via', 'why']) if (typeof s[k] === 'string' && /^[a-z-]{1,20}$/.test(s[k])) o[k] = s[k];
+    for (const k of ['extra', 'forward', 'skip', 'poor']) if (k in s) o[k] = !!s[k];
+    if (Array.isArray(s.dice)) o.dice = s.dice.slice(0, 2).map(d => int(d, 1, 6, 1));
+    return o;
+  }
 
   function renderSetup() {
     resetTurn();
@@ -123,6 +146,8 @@
         <p class="small muted">Barros’s worked example has three players: Pedro with a ring, Diego with a <i lang="es">real de a dos</i> (a silver two-real coin), Rodrigo with a <i lang="es">doblón</i> (a gold doubloon). He asks only that every marker be different. The one listed first plays first (<i lang="es">“jugó Pedro de mano”</i>, Pedro played first).</p>
         <div class="player-rows" id="rows"></div>
         <p style="margin:.6rem 0 0"><button class="btn small" id="add" type="button">+ Add a player</button></p>
+        <p class="small muted privacy">Players’ names, a game in progress and the squares you have met are saved in this browser only, so that a game can be resumed on your next visit; nothing is sent anywhere. To clear them, use this button or clear this site’s data in the browser’s settings.
+          <button class="btn small" id="forget" type="button">Forget saved names and games</button> <span id="forgot" role="status"></span></p>
       </fieldset>
       <fieldset><legend>Which edition?</legend>
         <p class="small muted">Three editions appeared within a year. You always play on the only board known to survive, Cartaro’s of 1588; the choice changes the verses and texts where the editions differ, and, for the first edition, the square of Poverty. <a href="about.html#about-editions">About the editions</a>.</p>
@@ -183,6 +208,15 @@
       players.push({ name: NAMES.find(n => !names.includes(n)) || 'Petitioner', token: free.id });
       drawRows();
     });
+    $('#forget').addEventListener('click', () => {
+      if (saved && !saved.over && !confirm('Forget the saved names and the game in progress? The game cannot be resumed afterward.')) return;
+      FC.prefs.forget('players', 'game', 'seen');
+      forgotten = true; renderSetup();
+    });
+    if (forgotten) {
+      forgotten = false; $('#forget').focus({ preventScroll: true });
+      setTimeout(() => { const f = $('#forgot'); if (f) f.textContent = 'Saved names and games forgotten.'; }, 60);
+    }
     $('#o-dice').value = String(opts.dice === 1 ? 1 : 2); $('#o-back').value = opts.backPay === 'overshoot' ? 'overshoot' : 'all';
     $('#o-fortune').value = String(opts.fortuneThrows === 2 ? 2 : 1); $('#o-purse').value = FC.util.clamp(+opts.purse || 20, 5, 200);
     $('#begin').addEventListener('click', () => {
@@ -193,7 +227,7 @@
       FC.prefs.set('players', players); FC.prefs.set('options', options); FC.prefs.set('edition', edition);
       start(ps, options);
     });
-    window.scrollTo(0, 0);
+    if (!document.activeElement || document.activeElement !== $('#forget')) window.scrollTo(0, 0);
     if (saved && !saved.over) {
       $('#resume').addEventListener('click', () => resume(saved));
       $('#discard').addEventListener('click', () => { FC.prefs.set('game', null); renderSetup(); });
@@ -226,26 +260,36 @@
   function resume(saved) {
     try {
       resetTurn();
-      setup = saved.setup;
-      game = new E.Game(saved.g.players.map(p => ({ name: String(p.name), token: p.token })), setup);
-      const keep = { log: game.log };
-      Object.assign(game, saved.g); game.history = [];
-      game.opt = Object.assign({}, E.DEFAULTS, setup);
-      if (!validSavedPlayers(game.players) || game.players.length !== saved.g.players.length) throw new Error('bad save');
-      game.players.forEach((p, i) => { p.id = i; p.name = String(p.name); p.pos = FC.util.clamp(+p.pos || 0, 0, 63); p.purse = +p.purse || 0; p.skip = p.skip ? 1 : 0; });
+      const g = saved.g, n = g.players.length;           // renderSetup() has checked the setup and the players
+      // known keys only: an unknown key (e.g. "stake") never reaches the engine
+      setup = { edition: saved.setup.edition, dice: saved.setup.dice, backPay: saved.setup.backPay,
+                fortuneThrows: saved.setup.fortuneThrows, purse: int(saved.setup.purse, 5, 200, 20) };
+      game = new E.Game(g.players.map(p => ({ name: String(p.name).slice(0, 24), token: p.token })), setup);
+      game.history = [];
+      game.players.forEach((p, i) => { const q = g.players[i];
+        p.pos = int(q.pos, 0, 63); p.purse = int(q.purse, -1e6, 1e6); p.skip = q.skip ? 1 : 0;
+        p.paid = int(q.paid, 0, 1e6); p.received = int(q.received, 0, 1e6); });
+      game.pot = int(g.pot, -1e6, 1e6); game.turn = int(g.turn, 0, n - 1); game.round = int(g.round, 1, 1e6, 1);
+      game.extra = int(g.extra, 0, 2); game.opened = !!g.opened;
       // older saves kept the record of play as HTML; keep only its text
-      game.log = (Array.isArray(game.log) ? game.log : keep.log || []).map(l => typeof l === 'string' ? { t: toText(l), b: /^<b>/.test(l) } : { t: String(l && l.t || ''), b: !!(l && l.b) });
-      if (!Array.isArray(game.careers) || game.careers.length !== game.players.length) game.careers = game.players.map(() => []);
-      if (!game.seen || typeof game.seen !== 'object') game.seen = {};
-      if (!game.flags || typeof game.flags !== 'object') game.flags = { rebound: false, bump: false, credit: {} };
-      if (!game.flags.credit) game.flags.credit = {};
-      game.turn = FC.util.clamp(+game.turn || 0, 0, game.players.length - 1);
+      game.log = (Array.isArray(g.log) ? g.log : []).map(l => typeof l === 'string' ? { t: toText(l), b: /^<b>/.test(l) } : { t: String(l && l.t || ''), b: !!(l && l.b) });
+      game.careers = Array.isArray(g.careers) && g.careers.length === n
+        ? g.careers.map(c => (Array.isArray(c) ? c : []).filter(e => e && typeof e === 'object').map(e => (e.n ? { n: int(e.n, 0, 63), l: !!e.l } : { n: 0 })))
+        : game.players.map(() => []);
+      game.seen = {}; for (let k = 1; k <= 63; k++) if (g.seen && g.seen[k]) game.seen[k] = int(g.seen[k], 0, 1e6);
+      const f = g.flags && typeof g.flags === 'object' ? g.flags : {};
+      game.flags = { rebound: !!f.rebound, bump: !!f.bump, credit: {} };
+      for (let k = 0; k < n; k++) if (f.credit && f.credit[k]) game.flags.credit[k] = true;
+      game.fortuneOpen = g.fortuneOpen && Number.isInteger(g.fortuneOpen.p) && Number.isInteger(g.fortuneOpen.i)
+        ? { p: int(g.fortuneOpen.p, 0, n - 1), i: int(g.fortuneOpen.i, 0, 1e6) } : null;
       lastMove = typeof saved.lastMove === 'string' ? saved.lastMove : '';
       log('(Game resumed.)');
-      const q = saved.v === SAVE_VERSION && Array.isArray(saved.queue) ? saved.queue.filter(s => s && typeof s.type === 'string' && s.state && Array.isArray(s.state.players)) : [];
+      const raw = saved.v === SAVE_VERSION && Array.isArray(saved.queue) ? saved.queue.map(x => cleanStep(x, n)) : [];
+      const q = raw.includes(null) ? [] : raw;           // a turn that does not make sense is dropped, not replayed
       if (q.length) {
-        shown = Number.isInteger(saved.shown) && saved.shown >= 0 && saved.shown < game.players.length ? saved.shown : null;
-        turnThrow = saved.turnThrow && Array.isArray(saved.turnThrow.dice) ? saved.turnThrow : null;
+        shown = Number.isInteger(saved.shown) && saved.shown >= 0 && saved.shown < n ? saved.shown : null;
+        turnThrow = saved.turnThrow && Array.isArray(saved.turnThrow.dice)
+          ? { dice: saved.turnThrow.dice.slice(0, 2).map(d => int(d, 1, 6, 1)), total: int(saved.turnThrow.total, 1, 12, 2) } : null;
         game.opened = true;
         queue = q; busy = true;
         renderGame(true);
@@ -306,10 +350,9 @@
     // keep focused elements clear of the fixed bottom bar on phones (WCAG 2.4.11)
     if (mbObserver) mbObserver.disconnect();
     const mb = $('#mbar');
-    mbObserver = new ResizeObserver(() => {
-      document.documentElement.style.scrollPaddingBottom = (getComputedStyle(mb).display === 'none' ? 0 : mb.offsetHeight + 12) + 'px';
-    });
-    mbObserver.observe(mb);
+    const pad = () => { document.documentElement.style.scrollPaddingBottom = (getComputedStyle(mb).display === 'none' ? 0 : mb.offsetHeight + 12) + 'px'; };
+    if (typeof ResizeObserver === 'function') { mbObserver = new ResizeObserver(pad); mbObserver.observe(mb); }
+    else { pad(); addEventListener('resize', pad); mbObserver = { disconnect: () => removeEventListener('resize', pad) }; }   // older browsers
     setView(view, true);
     lastState = game.snapshot();
     if (resuming) {
@@ -379,7 +422,7 @@
     const seg = s => `<div class="barros-seg"><div class="es" lang="es">${esc(s.es)}</div><div class="en">${s.en}</div>${s.note ? `<div class="tnote">${s.note}</div>` : ''}</div>`;
     let h = HOWTO + `<p class="small muted">Barros’s own words follow.</p><h2>How Barros says the game is played</h2>`;
     if (ed() === 'M') {
-      h += `<p class="small muted">Madrid, Pedro Madrigal, 1587: “Declaración del juego y orden de jugarle”. Spanish copied from the modernized transcription by Luigi Ciompi and Adrian Seville (<a href="http://www.giochidelloca.it/scheda.php?id=1103" target="_blank" rel="noopener">giochidelloca.it</a>), made from Dadson’s 1987 edition; their work, not this edition’s, and not covered by its public-domain dedication. English: this edition’s translation from it.</p>`;
+      h += `<p class="small muted">Madrid, Pedro Madrigal, 1587: “Declaración del juego y orden de jugarle”. Spanish copied from the modernized transcription by Luigi Ciompi and Adrian Seville (<a href="https://www.giochidelloca.it/scheda.php?id=1103" target="_blank" rel="noopener">giochidelloca.it</a>), made from Dadson’s 1987 edition; their work, not this edition’s, and not covered by its public-domain dedication. English: this edition’s translation from it.</p>`;
       h += FC.text.M.filter(s => s.kind === 'rules' || /Declaraci/.test(s.es)).map(seg).join('');
     } else {
       h += `<p class="small muted">Naples, Cacchij, 1588, pp. 60–63: “EL YVEGO SE juega en esta forma”.</p>`;

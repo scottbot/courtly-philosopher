@@ -18,6 +18,8 @@ content/  (human-edited sources, Markdown + JSON)
 data/  (generated; do not edit by hand)
   board.js  text.js  annotations.js  story.js (intro scenes)  about.js (essays, note)
   biblio.js
+plain/ (generated) index.html book.html squares.html play.html about.html: the same text as
+  static pages that need no JavaScript (see write_plain()); styled by css/plain.css
 
 Markup understood in annotation/about prose:
   [@key, 144]  [@a, 12; @b, 3]  [board]  [@web:https://…]      citations
@@ -34,6 +36,10 @@ rule_short, table, see, why, context, variants, readings.
 
 After the build, the pages' <script>/<link> tags get a ?v=<hash> of the file they load,
 so a browser never mixes a new script with old cached data (see stamp_pages()).
+
+Content is treated as untrusted: ids and attributes are restricted to safe characters, web
+citations must be http(s) addresses, images must lie under img/, and a NUL character stops the
+build. Exit status 1 if anything was warned about (a warning is something a reader would meet).
 
 Usage: python3 tools/build_data.py
 """
@@ -52,7 +58,22 @@ WARN = []
 def read(f):
     """A content file, with maintainers' <!-- … --> notes removed."""
     t = open(C(f), encoding='utf-8').read().replace('\r\n', '\n')
+    if '\x00' in t:            # the inline parser uses NUL as its own marker (and a NUL would hang it)
+        sys.exit(f'content/{f}: contains a NUL character; remove it')
     return re.sub(r'<!--.*?-->', '', t, flags=re.S)
+
+
+ATTR_OK = re.compile(r'^[\w.,:?–-]*$')
+
+
+def attrs_of(s, where):
+    """key=value attributes of a ::: seg / ::: gvar line. The values become HTML ids and
+    attributes, so they may hold only letters, digits and . , : ? – -"""
+    a = dict(re.findall(r'(\w+)=(\S*)', s))
+    bad = {k: v for k, v in a.items() if not ATTR_OK.match(v)}
+    if bad:
+        sys.exit(f'{where}: attribute values may contain only letters, digits and . , : ? – - ; found {bad}')
+    return a
 
 
 # ---------------------------------------------------------------- bibliography
@@ -69,6 +90,8 @@ def parse_biblio():
         if not m:
             continue
         key, ref = m.group(1), m.group(2).strip()
+        if not re.match(r'^[\w:./?=&%#~()+-]+$', key):
+            sys.exit(f'bibliography key {key!r} has a character that is not allowed')
         dup = re.match(r'\*\*Duplicate\*\* of `([^`]+)`', ref)
         label = make_label(key, ref)
         bib[key] = {'key': key, 'ref': ref, 'label': label, 'group': group,
@@ -122,6 +145,7 @@ def shorten(who):
 
 
 BIB, BIB_ORDER = {}, []
+G_LABOUR_ES = {}
 
 
 # ---------------------------------------------------------------- inline markup
@@ -143,6 +167,9 @@ def cite_item(item):
     m = re.match(r'@web:(\S+)', item)
     if m:
         url = m.group(1).rstrip(',')
+        if not re.match(r'https?://[^\s"<>]+$', url):
+            WARN.append(f'web citation is not an http(s) address (shown as text): {url}')
+            return html.escape(item)
         b = BIB.get('web:' + url)
         lab = b['label'] if b else re.sub(r'https?://(www\.)?([^/]+).*', r'\2', url)
         return (f'<a class="cite" href="{html.escape(url)}" target="_blank" rel="noopener" '
@@ -228,8 +255,9 @@ def inline(s, curly=True):
     # images and links, stashed so that later rules never see their attributes
     def irep(m):
         alt, src = m.group(1), m.group(2)
-        if not re.match(r'^img/[\w./-]+$', src):
-            WARN.append(f'image path not under img/: {src}')
+        if not re.match(r'^img/[\w./-]+$', src) or '..' in src:
+            WARN.append(f'image path not under img/ (not shown): {src}')
+            return stash(html.escape(m.group(0)))
         return stash(f'<img src="{html.escape(src)}" alt="{html.escape(alt)}" loading="lazy">')
     s = re.sub(r'!\[([^\]]*)\]\(([^)\s]+)\)', irep, s)
     # internal links to the edition's own pages: [text](atlas.html#43), [text](about.html#about-rules)
@@ -463,7 +491,7 @@ def parse_verses():
 def parse_segments(fname):
     segs = []
     for attrs, body in re.findall(r'^::: seg (.*?)\n(.*?)\n:::\s*$', read(fname), re.S | re.M):
-        a = dict(re.findall(r'(\w+)=(\S*)', attrs))
+        a = attrs_of(attrs, f'content/{fname}, ::: seg {attrs}')
         fields, cur = {}, None
         for line in body.split('\n'):
             m = re.match(r'^(ES|EN|NOTE|LIT|LITERAL|VID): ?(.*)$', line)
@@ -499,7 +527,7 @@ def parse_gvars():
     intro = t.split('::: gvar', 1)[0]
     out = []
     for attrs, body in re.findall(r'^::: gvar (.*?)\n(.*?)\n:::\s*$', t, re.S | re.M):
-        a = dict(re.findall(r'(\w+)=(\S*)', attrs))
+        a = attrs_of(attrs, f'content/G_variants.md, ::: gvar {attrs}')
         f, cur = {}, None
         for line in body.split('\n'):
             m = re.match(r'^(WHERE|G|M|C|EN|NOTE): ?(.*)$', line)
@@ -515,7 +543,9 @@ def parse_gvars():
         rec['g_raw'] = f.get('G', '').strip()
         out.append(rec)
     tail = re.split(r'^:::\s*$', t, flags=re.M)[-1]
-    return block_md(re.sub(r'^# .*\n', '', intro)), out, block_md(tail)
+    # the tail's "## " headings would be h1; on the Book page they sit inside its own sections
+    tail = re.sub(r'<(/?)h1>', r'<\1h3>', block_md(tail))
+    return block_md(re.sub(r'^# .*\n', '', intro)), out, tail
 
 
 def g_labour_spanish(gvars):
@@ -558,11 +588,19 @@ def parse_board(verses):
 
 
 # ---------------------------------------------------------------- story & about
+def safe_id(i):
+    """Scene and essay ids become HTML ids and links: a-z, 0-9 and - only."""
+    if not re.match(r'^[a-z0-9-]+$', i):
+        sys.exit(f'E_story_about.md: section id {i!r} may contain only a–z, 0–9 and -')
+    return i
+
+
 def parse_story():
     t = read('E_story_about.md')
     a = t.split('## A.', 1)[1].split('\n## B.', 1)[0]
     scenes = []
     for sid, body in re.findall(r'^### (\S+)\n(.*?)(?=^### |\Z)', a, re.S | re.M):
+        safe_id(sid)
         body = re.sub(r'^visual: .*$', '', body, flags=re.M)   # notes for the editor; see js/story.js SCENES
         tm = re.search(r'^title: (.*)$', body, re.M)            # optional; js/story.js SCENES wins
         body = re.sub(r'^title: .*$', '', body, flags=re.M)
@@ -570,6 +608,7 @@ def parse_story():
     b = t.split('\n## B.', 1)[1].split('\n## C.', 1)[0]
     pages = []
     for pid, body in re.findall(r'^### (\S+)\n(.*?)(?=^### |\Z)', b, re.S | re.M):
+        safe_id(pid)
         tm = re.search(r'^title: (.*)$', body, re.M)
         body = re.sub(r'^title: .*$', '', body, flags=re.M)
         pages.append({'id': pid, 'title': curl(tm.group(1).strip()) if tm else '', 'html': block_md(body)})
@@ -615,6 +654,20 @@ def stamp_pages():
             open(p, 'w', encoding='utf-8', newline='').write(new)
 
 
+# ---------------------------------------------------------------- book pages and leaves
+# The Vienna copy's scan: pdf 7 is the title page (A1r), two scan pages per leaf; gatherings
+# A and B have 12 leaves, then C. True page numbers count the title page as p. 1 (printed
+# numbers start at 16 on A8v, pdf 22; pdf 54 is misprinted "38" for 48). Same rule as js/text.js.
+BOOK_FIRST, BOOK_LAST = 7, 70
+def leaf_of(n):
+    if not BOOK_FIRST <= n <= BOOK_LAST:
+        return ''
+    l = (n - BOOK_FIRST) // 2
+    return 'ABC'[l // 12] + str(l % 12 + 1) + ('v' if (n - BOOK_FIRST) % 2 else 'r')
+def page_of(n):
+    return n - BOOK_FIRST + 1 if BOOK_FIRST <= n <= 69 else 0
+
+
 # ---------------------------------------------------------------- checks
 def check(ann, segC, segM, scenes, pages, note, gvars, bib, extra=()):
     """Problems a reader would meet: anchors that do not exist, maintainers' notes."""
@@ -639,8 +692,485 @@ def check(ann, segC, segM, scenes, pages, note, gvars, bib, extra=()):
             WARN.append(f'{n}× {what} in published text (wrap maintainers\' notes in <!-- -->)')
 
 
+# ---------------------------------------------------------------- plain pages (no JavaScript)
+# plain/*.html: the edition's text as static pages, for readers, printers, archives and text
+# extractors that do not run scripts. They are written from the same parsed content as data/*.js.
+# A few things exist only in the runtime pages (the draft notice, the credits, the scene and essay
+# titles, the footer credit line, the version); they are read from those files, so that the plain
+# pages always say the same, and the build warns if one cannot be found.
+PLAIN_CSP = ("default-src 'self'; script-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; "
+             "object-src 'none'; base-uri 'none'; form-action 'none'")
+PLAIN_PAGES = (('index.html', 'index.html', 'Start'), ('book.html', 'text.html', 'The Book'),
+               ('squares.html', 'atlas.html', 'The Squares'), ('play.html', 'play.html', 'Playing at a table'),
+               ('about.html', 'about.html', 'About and credits'))
+PLAIN_FULL = {   # what the runtime page is, and what the plain page leaves out
+    'index.html': ('the edition’s introduction', 'the same text, without the board that moves with it'),
+    'book.html': ('the edition’s Book page', 'the same text, with every edition shown at once and the translator’s notes always shown'),
+    'squares.html': ('the edition’s Squares page', 'the same text, without the clickable board'),
+    'play.html': ('the edition’s Play page, where the game is played on screen', 'the rules and the board for a game with real dice'),
+    'about.html': ('the edition’s About page', 'the same text, without the citation pop-ups'),
+}
+LABOUR = (4, 12, 17, 23, 30, 34, 41, 48, 57)           # the oxen (FC.sq.LABOUR in js/common.js)
+G_LABOUR = {12: 'g1', 17: 'g2', 23: 'g3', 30: 't5', 34: 't7', 41: 'g6', 48: 't4', 57: 't3'}   # FC.EDITION_RULES.G
+FEATURES = (('gate', 'entrance_gate'), ('labour', None), ('corner-swan', 'corner_bl_swan'),
+            ('corner-dolphin', 'corner_tl_figure'), ('corner-occasion', 'corner_tr_figure'),
+            ('corner-clock', 'corner_br_clock'), ('centre-sea', 'field'), ('centre-man', 'palm_man'),
+            ('title', 'signature'), ('plain', None))      # atlas.js FEATURES, common.js FC.FEATURES
+# used only if the runtime files cannot be read (the build then warns)
+DRAFT_FALLBACK = ('<h2 id="ai-notice-title">An AI-produced draft</h2><p><b>It is a draft.</b> No specialist has '
+                  'reviewed it. It should not be trusted, cited or taken as scholarship until that review has happened.</p>')
+
+
+def site_text(rel):
+    try:
+        return open(os.path.join(ROOT, rel), encoding='utf-8').read()
+    except OSError:
+        return ''
+
+
+def grab(rel, pat, what, flags=re.S):
+    m = re.search(pat, site_text(rel), flags)
+    if not m:
+        WARN.append(f'plain pages: {what} not found in {rel}')
+        return None
+    return m.group(1)
+
+
+def js_strings(src):
+    """'key': 'value' pairs of a JavaScript object literal (single-quoted strings only)."""
+    return {k: v.replace("\\'", "'") for k, v in re.findall(r"'([\w-]+)':\s*'((?:[^'\\]|\\.)*)'", src or '')}
+
+
+def version():
+    v = grab('js/common.js', r"FC\.VERSION\s*=\s*'([^']+)'", 'FC.VERSION')
+    d = grab('js/common.js', r"FC\.VERSION_DATE\s*=\s*'([^']+)'", 'FC.VERSION_DATE')
+    return v or '', d or ''
+
+
+def from_template(h, what):
+    """HTML copied out of a JavaScript template literal: fill in the version, refuse anything else."""
+    v, d = version()
+    h = re.sub(r'\$\{\s*(?:esc\()?FC\.VERSION_DATE\)?\s*\}', lambda m: d, h)
+    h = re.sub(r'\$\{\s*(?:esc\()?FC\.VERSION\)?\s*\}', lambda m: v, h)
+    # ${here ? esc(here) : 'at the address where you read it'}: a value only the browser knows; take the fallback
+    h = re.sub(r"\$\{[^{}]*\?[^{}]*:\s*'([^'{}]*)'\s*\}", lambda m: m.group(1), h)
+    if '${' in h:
+        WARN.append(f'plain pages: {what} has a ${{…}} expression the build cannot fill in; it was left out')
+        h = re.sub(r'\$\{[^}]*\}', '', h)
+    return h
+
+
+def jpeg_size(rel):
+    """(width, height) of a baseline or progressive JPEG under the site root, or None."""
+    try:
+        with open(os.path.join(ROOT, rel), 'rb') as f:
+            b = f.read(1 << 16)
+    except OSError:
+        return None
+    i = 2
+    while i + 9 < len(b):
+        if b[i] != 0xFF:
+            return None
+        mk, ln = b[i + 1], int.from_bytes(b[i + 2:i + 4], 'big')
+        if mk in (0xC0, 0xC1, 0xC2):
+            return int.from_bytes(b[i + 7:i + 9], 'big'), int.from_bytes(b[i + 5:i + 7], 'big')
+        i += 2 + ln
+    return None
+
+
+def plain_pic(src, alt, lazy=True):
+    """<picture> with the AVIF and WebP twins, for a JPEG under img/ (path from the site root)."""
+    if not os.path.exists(os.path.join(ROOT, src)):
+        WARN.append(f'plain pages: image missing: {src}')
+        return ''
+    wh = jpeg_size(src)
+    size = f' width="{wh[0]}" height="{wh[1]}"' if wh else ''
+    base = '../' + src[:-4]
+    lz = ' loading="lazy"' if lazy else ''
+    return (f'<picture><source type="image/avif" srcset="{base}.avif"><source type="image/webp" srcset="{base}.webp">'
+            f'<img src="{base}.jpg" alt="{html.escape(alt)}"{size}{lz}></picture>')
+
+
+def plain_links(h):
+    """Links of the runtime pages → the plain pages beside them (plain/), images → ../img/."""
+    h = re.sub(r'\b(href|src|srcset)="img/', r'\1="../img/', h)
+    h = re.sub(r'href="text\.html(?=[#"])', 'href="book.html', h)
+    h = re.sub(r'href="atlas\.html#(?:sq)?([\w-]+)"', r'href="squares.html#\1"', h)
+    h = h.replace('href="atlas.html"', 'href="squares.html"')
+    h = re.sub(r' aria-expanded="false"| data-key="[^"]*"', '', h)       # citation pop-ups need scripts
+    return re.sub(r' style="[^"]*"', '', h)                              # the plain pages allow no inline style
+
+
+def plain_es(t, kind):
+    """Spanish of the book: escaped, *italic* runs of the transcription, verse lines (as body() in js/text.js)."""
+    h = html.escape(t)
+    h = re.sub(r'(^|[\s(«“])\*(?!\s)([^*]+?)\*(?=[\s.,;:)»”]|$)', r'\1<em>\2</em>', h)
+    return h.replace(' / ', '<br>') if kind == 'verse' else h
+
+
+def pdf_range(pdf):
+    a, _, b = str(pdf).partition('-')
+    return list(range(int(a), int(b or a) + 1)) if a.isdigit() else []
+
+
+def write_plain(squares, verses, ann, segC, segM, g_intro, gvars, g_tail, m_intro, scenes, pages, note, bib):
+    E = html.escape
+    out_dir = os.path.join(ROOT, 'plain')
+    os.makedirs(out_dir, exist_ok=True)
+    stamp = lambda rel: hashlib.sha1(open(os.path.join(ROOT, rel), 'rb').read()).hexdigest()[:8]
+    ver, ver_date = version()
+
+    draft = grab('js/common.js', r'const TEXT = `(.*?)<form method="dialog">', 'the draft notice') or DRAFT_FALLBACK
+    draft = re.sub(r'<h2 id="ai-notice-title">(.*?)</h2>', r'<p class="notice-title" id="ai-notice-title">\1</p>',
+                   from_template(draft, 'the draft notice'))
+    credit = grab('index.html', r'<footer class="site-footer"><div class="wrap">\s*<p>(.*?)</p>', 'the footer credit line') \
+        or ('Board © The Trustees of the British Museum, reproduced under license. <b>An AI-produced draft, '
+            'not reviewed by a specialist.</b>')
+
+    def page(name, title, body, desc):
+        full = dict((p, f) for p, f, _ in PLAIN_PAGES)[name]
+        nav = ''.join(f'<a href="{p}"' + (' aria-current="page"' if p == name else '') + f'>{E(t)}</a>'
+                      for p, _, t in PLAIN_PAGES)
+        vline = f' Version {E(ver)}' + (f', {E(ver_date)}' if ver_date else '') + '.' if ver else ''
+        doc = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+               '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+               f'<meta http-equiv="Content-Security-Policy" content="{PLAIN_CSP}">\n'
+               '<meta name="robots" content="noindex">\n'
+               f'<title>{E(title)} — Filosofía cortesana (plain version)</title>\n'
+               f'<meta name="description" content="{E(desc)}">\n'
+               f'<link rel="stylesheet" href="../css/fonts.css?v={stamp("css/fonts.css")}">\n'
+               f'<link rel="stylesheet" href="../css/plain.css?v={stamp("css/plain.css")}">\n'
+               '</head>\n<body>\n<a class="skip" href="#main">Skip to content</a>\n'
+               '<header class="plain-head"><p class="brand"><a href="index.html"><i>Filosofía cortesana</i></a>'
+               ' <span>plain version, without JavaScript</span></p>\n'
+               f'<nav aria-label="Plain pages">{nav}</nav></header>\n'
+               f'<aside class="notice" aria-labelledby="ai-notice-title">{draft}</aside>\n'
+               f'<main id="main">\n<h1>{E(title)}</h1>\n'
+               f'<p class="fullver">This page needs no JavaScript. It is the plain version of <a href="../{full}">'
+               f'{PLAIN_FULL[name][0]}</a>, which does, and gives {PLAIN_FULL[name][1]}.</p>\n'
+               f'{body}\n</main>\n'
+               f'<footer class="plain-foot"><p>{credit}</p>\n'
+               f'<p><a href="about.html#credits">Credits, rights and how to cite</a> · <a href="about.html#note">How this '
+               f'edition was made</a>.{vline}</p></footer>\n</body>\n</html>\n')
+        doc = plain_links(doc)
+        for pat in (r'<script', r'\son\w+=', r'javascript:', r'<!--', r'/home/|/mnt/|/tmp/', r'items\.json|Zotero'):
+            if re.search(pat, doc, re.I):
+                WARN.append(f'plain/{name}: contains {pat!r}')
+        with open(os.path.join(out_dir, name), 'w', encoding='utf-8', newline='\r\n') as f:
+            f.write(doc)
+
+    def credit_img(src, alt, cap):
+        p = plain_pic(src, alt)
+        return f'<figure>{p}<figcaption>{cap}</figcaption></figure>' if p else ''
+
+    bm = 'Detail of Mario Cartaro’s board (Naples 1588). © The Trustees of the British Museum.'
+
+    # ---- index: what the edition is, the notice (above), the plain pages, the introduction
+    lede = grab('index.html', r'<p class="lede">(.*?)</p>', 'the introduction’s opening paragraph') or ''
+    titles = {k: v.replace("\\'", "'") for k, v in re.findall(
+        r"'([\w-]+)':\s*\{\s*title:\s*'((?:[^'\\]|\\.)*)'",
+        grab('js/story.js', r'const SCENES = \{(.*?)\n  \};', 'the scene titles (SCENES)') or '')}
+    b = [f'<p class="lede">{lede}</p>' if lede else '',
+         credit_img('img/board/board-1200.jpg', 'The board of the Filosofía cortesana, engraved by Mario Cartaro, Naples 1588: '
+                    'a track of 63 numbered squares running round and inward to a palm at the center, with emblematic '
+                    'figures in the corners.',
+                    'Mario Cartaro, Naples 1588. British Museum 1869,0410.2463.+. © The Trustees of the British Museum, '
+                    'reproduced under license. <a href="../img/board/board-full.jpg">The full-resolution photograph</a>.'),
+         '<h2 id="pages">The plain pages</h2><ul class="pagelist">'
+         '<li><a href="book.html">The Book</a>: Barros’s text of 1588, Spanish and English passage by passage, with the '
+         'Madrid passages of 1587 and the known readings of the first edition.</li>'
+         '<li><a href="squares.html">The Squares</a>: every square and figure of the board, with its verses, its rule '
+         'and its notes.</li>'
+         '<li><a href="play.html">Playing at a table</a>: the board, the rules and a table of what each square does, '
+         'for a game with real dice.</li>'
+         '<li><a href="about.html">About and credits</a>: the essays, how the edition was made, the bibliography, '
+         'and the credits and rights.</li></ul>',
+         '<h2 id="story">Introduction</h2>']
+    for sc in scenes:
+        t = sc['title'] or titles.get(sc['id'], '')
+        b.append(f'<section class="scene" id="{E(sc["id"])}">' + (f'<h3>{E(t)}</h3>' if t else '') + f'{sc["html"]}</section>')
+    page('index.html', 'Filosofía cortesana', '\n'.join(b),
+         'Alonso de Barros’s board game of the court of Philip II (1587), and its only surviving board (Naples 1588): '
+         'plain version, without JavaScript.')
+
+    # ---- the book
+    after = {}
+    cids = [c['id'] for c in segC]
+    for m in segM:                                     # where js/text.js places each Madrigal passage
+        key = m['replaces']
+        if re.match(r'^pdf\d+', key):
+            n = int(re.sub(r'\D', '', key)[:4] or 0)
+            key = next((c['id'] for c in segC if n in pdf_range(c['pdf'])), cids[-1])
+        if key not in cids:
+            key = cids[-1]
+        after.setdefault(key, []).append(m)
+
+    def sq_links(tags):
+        return ''.join(f' · <a href="squares.html#{x}">square {x}</a>' for x in tags if x.isdigit())
+
+    def cols(es, en, kind):
+        en_h = plain_es_en(en) if kind == 'verse' else en
+        return (f'<div class="cols"><div class="es" lang="es">{plain_es(es, kind)}</div>'
+                f'<div class="en">{en_h}</div></div>')
+
+    def plain_es_en(h):                    # English verse: already HTML; only the line breaks
+        return h.replace(' / ', '<br>')
+
+    toc = grab('text.html', r'<nav class="book-toc[^"]*"[^>]*>.*?(<ol>.*?</ol>)', 'the book’s table of contents') or ''
+    b = ['<p>The text of the Naples edition of 1588, the one issued with the surviving board, transcribed from the '
+         'Vienna copy (Österreichische Nationalbibliothek, 35 V 49, digitized by Google Books), with an English translation, '
+         'passage by passage. Each passage gives its page and links to the page image. Passages of the Madrid edition of '
+         'Pedro Madrigal (1587) that are not in the Naples edition are given in place, marked “Madrid 1587”; their Spanish '
+         'is from the modernized transcription by Luigi Ciompi and Adrian Seville. The <a href="#first-edition">readings '
+         'known of the first edition</a> (Madrid 1587, widow of Alonso Gómez) follow the text. Translator’s notes are set '
+         'below the passages they concern.</p>']
+    if toc:
+        b.append(f'<nav class="toc" aria-label="Parts of the book">{toc}</nav>')
+    b.append('<h2 id="naples">The Naples edition of 1588</h2>')
+    seen = set()
+    for s in segC:
+        pp = pdf_range(s['pdf'])
+        b.append(''.join(f'<span id="pdf{p}"></span>' + (f'<span id="p{page_of(p)}"></span>' if page_of(p) else '') +
+                         (f'<span id="leaf-{leaf_of(p)}"></span>' if leaf_of(p) else '') for p in pp if p not in seen))
+        seen.update(pp)
+        lv = leaf_of(pp[0]) + ('' if leaf_of(pp[-1]) == leaf_of(pp[0]) else '–' + leaf_of(pp[-1])) if pp else ''
+        where = ' · '.join(x for x in (f'p. {E(s["page"])}' if s['page'] else '', f'leaf {E(lv)}' if lv else '') if x)
+        imgs = ', '.join(f'<a href="../img/book/p{p:03d}.jpg">{p}</a>' for p in pp
+                         if os.path.exists(os.path.join(ROOT, f'img/book/p{p:03d}.jpg')))
+        loc = (f'<p class="loc">{E(s["id"])}' + (f' · {where}' if where else '') +
+               (f' · page image{"s" if len(pp) > 1 else ""} (PDF page{"s" if len(pp) > 1 else ""} {imgs})' if imgs else '') +
+               sq_links(s['squares']) + '</p>')
+        k = s['kind']
+        h = f'<section class="seg seg-{E(k)}" id="{E(s["id"])}">{loc}'
+        if k == 'description':
+            h += f'<p class="desc">{s["en"]}</p>'
+        elif k == 'heading':
+            h += f'<div class="cols"><h3 class="es" lang="es">{plain_es(s["es"], k)}</h3><h3 class="en">{s["en"]}</h3></div>'
+        else:
+            h += cols(s['es'], s['en'], k)
+            if s['lit']:
+                h += f'<p class="lit">Literally: {E(s["lit"])}</p>'
+        if s['note']:
+            h += f'<div class="tnote"><p class="tnote-h">Translator’s note</p><p>{s["note"]}</p></div>'
+        b.append(h + '</section>')
+        for m in after.get(s['id'], []):
+            mh = (f'<section class="seg m-add" id="{E(m["id"])}"><p class="badge">Madrid 1587 (Pedro Madrigal), fol. '
+                  f'{E(m["fol"])}: Spanish from the modernized transcription by Luigi Ciompi and Adrian Seville; English '
+                  f'translated from it{sq_links(m["squares"])}</p>' + cols(m['es'], m['en'], m['kind']))
+            if m['note']:
+                mh += f'<div class="tnote"><p class="tnote-h">Translator’s note</p><p>{m["note"]}</p></div>'
+            b.append(mh + '</section>')
+    b.append(f'<h2 id="madrigal">About the Madrid edition of Pedro Madrigal (1587)</h2>{m_intro}')
+    g_notice = grab('js/text.js', r'<p class="notice">(No image or transcription of the first edition.*?)</p>',
+                    'the first-edition notice')
+    b.append('<h2 id="first-edition">The first edition (Madrid 1587, widow of Alonso Gómez)</h2>' +
+             (f'<p class="notice-inline">{from_template(g_notice, "the first-edition notice")}</p>' if g_notice else '') + g_intro)
+    for g in gvars:
+        rows = ''.join(f'<dt>{lab}</dt><dd' + (' lang="es"' if k != 'en' else '') + f'>{g[k]}</dd>'
+                       for k, lab in (('g', 'Madrid 1587, first edition (G)'), ('m', 'Madrid 1587, Madrigal (M)'),
+                                      ('c', 'Naples 1588 (C)'), ('en', 'English')) if g.get(k))
+        b.append(f'<section class="seg g-var" id="{E(g["id"])}"><p class="loc">{E(g["id"])} · <b>{g.get("where", "")}</b>'
+                 f'{sq_links(g["squares"])}</p><dl class="g-rows">{rows}</dl>' +
+                 (f'<div class="tnote"><p>{g["note"]}</p></div>' if g.get('note') else '') + '</section>')
+    b.append(g_tail)
+    page('book.html', 'The Book', '\n'.join(b),
+         'Alonso de Barros, Filosofía cortesana moralizada (Naples 1588): Spanish transcription and English translation, '
+         'with the Madrid 1587 variants; plain version, without JavaScript.')
+
+    # ---- the squares
+    VID = {1: 's1', **{n: f't{i}' for i, n in enumerate(LABOUR)}, **{n: f'h{n}' for n in range(1, 64) if f'h{n}' in verses}}
+    cite_g = cite_item('@sanchezEdicionesAntiguasFilosofia2016oct16, 187–88')
+
+    def lines(t):
+        return E(t).replace(' / ', '<br>')
+
+    def sect(t, body):
+        return f'<h3>{t}</h3>{body}' if body else ''
+
+    def barros(tags):
+        segs = [s for s in segC if s['kind'] != 'rules' and any(x in tags for x in s['squares'])]
+        if not segs:
+            return ''
+        h = (f'<p class="small">Barros’s own explanation, from the Naples 1588 book (Spanish as printed; English '
+             f'translation by this edition). <a href="book.html#{E(segs[0]["id"])}">Read it in the whole book</a>.</p>')
+        for s in segs:
+            meta = f'p. {E(s["page"])}' if s['page'] else f'leaf {E(s["sig"])}'
+            en = s['en'].replace(' / ', '<br>') if s['kind'] == 'verse' else s['en']
+            h += (f'<div class="barros-seg"><p class="loc">{meta} · Naples 1588 · <a href="book.html#{E(s["id"])}">'
+                  f'{E(s["id"])}</a></p><div class="cols"><div class="es" lang="es">{plain_es(s["es"], "verse")}</div>'
+                  f'<div class="en">{en}</div></div></div>')
+        return h
+
+    def entry(a, key, n=None):
+        d = squares[n - 1] if n else None
+        title = (f'{n}. ' if n else '') + a['title_en']
+        sub = [f'<span lang="es">{E(a["title_es"])}</span>' if a.get('title_es') and a['id'] != 'plain' else '',
+               f'<span lang="it">{E(a["board_it"])}</span>' if a.get('board_it') and not a['board_it'].startswith('(none')
+               and a['id'] != 'plain' else '']
+        h = f'<section class="square" id="{E(key)}"><h2>{E(title)}</h2>'
+        if any(sub):
+            h += '<p class="sub">' + ' · '.join(x for x in sub if x) + '</p>'
+        img = f'img/sq/detail-{n:02d}.jpg' if n else dict(FEATURES).get(key) and f'img/feat/{dict(FEATURES)[key]}.jpg'
+        if key == 'labour':
+            img = 'img/sq/detail-04.jpg'
+        if img:
+            h += credit_img(img, f'{a["title_en"]}: detail of the board', bm)
+        if n == 60:
+            h += ('<p class="notice-inline">In the first edition Poverty stands on 59, so under that edition’s rules this '
+                  'square is plain. On the surviving board (and in the later editions) it is Poverty.</p>')
+        vid = VID.get(n) if n else None
+        v = verses.get(vid) if vid else None
+        if v:
+            h += f'<div class="verse"><p class="en">{lines(v["en"])}</p><p class="lit">Literally: {E(v["lit"])}</p><dl>'
+            if d.get('es'):
+                h += f'<dt>Spanish, on the board</dt><dd lang="es">{lines(d["es"])}</dd>'
+            if d.get('it'):
+                h += (f'<dt>Italian, on the board</dt><dd><span lang="it">{lines(d["it"])}</span>' +
+                      (f'<br><span class="small">({E(d["it_gloss"])})</span>' if d.get('it_gloss') else '') + '</dd>')
+            es_book = re.sub(r'\s*\((?:1587 )?princeps only\)', '', v['es'])
+            h += f'<dt>Spanish, Naples 1588 book</dt><dd lang="es">{lines(es_book)}</dd>'
+            mv = next((m for m in segM if m['kind'] == 'verse' and str(n) in m['squares']), None)
+            if mv:
+                h += (f'<dt>Spanish, Madrid 1587 (Madrigal), in Ciompi and Seville’s modernized transcription</dt>'
+                      f'<dd lang="es">{lines(mv["es"])}</dd>')
+            if n in G_LABOUR and n in G_ES:
+                gv = verses.get(G_LABOUR[n], {})
+                h += (f'<dt>Madrid 1587, first edition, as quoted by Lucero Sánchez <span class="cites">({cite_g})</span>'
+                      f'{"; this couplet only in the first edition" if G_LABOUR[n].startswith("g") else ""}</dt>'
+                      f'<dd><span lang="es">{E(G_ES[n])}</span>' +
+                      (f'<br>{lines(gv["en"])}' if gv.get('en') else '') + '</dd>')
+            h += '</dl></div>'
+        if a.get('rule_short') or (d and d.get('rule')):
+            h += f'<div class="rulebox"><p><b>Rule.</b> {a.get("rule_short", "")}</p>'
+            if d and d.get('rule'):
+                h += (f'<p class="small">On the board: <i lang="it">{E(d["rule"])}</i>' +
+                      (f' — {E(d["rule_en"])}' if d.get('rule_en') else '') + '</p>')
+            h += '</div>'
+        h += sect('What you see', a.get('see', ''))
+        h += sect('Why it is here', a.get('why', ''))
+        tags = [str(n)] if n else {'gate': ['gate'], 'labour': ['labour', 'labor']}.get(key, [])
+        h += sect('What Barros says', barros(tags))
+        if n:
+            madr = [m for m in segM if m['kind'] != 'rules' and str(n) in m['squares']]
+            if madr:
+                h += ('<p class="small">In the Madrid (Madrigal) edition of 1587: ' + ', '.join(
+                    f'<a href="book.html#{E(m["id"])}">fol. {E(m["fol"])}</a>' for m in madr) + '.</p>')
+        h += sect('Historical context', a.get('context', ''))
+        h += sect('Differences between the editions', a.get('variants', ''))
+        h += sect('What scholars say', a.get('readings', ''))
+        if n in LABOUR:
+            h += '<p><a href="#labour">About all nine Labor squares</a></p>'
+        return h + '</section>'
+
+    G_ES = {int(k): v for k, v in (G_LABOUR_ES or {}).items()}
+    b = ['<p>Every square of the only surviving board, Mario Cartaro’s of Naples 1588, with its picture, its verses in '
+         'Spanish and Italian with an English rendering, the rule it imposes, what Barros says about it, and what '
+         'historians have found; then the figures around the track. The verses and rules are those of the Naples '
+         'edition, with the first edition’s Labor couplets where they differ. Squares without a picture are '
+         '<a href="#plain">plain squares</a>.</p>',
+         '<nav class="toc" aria-label="Squares"><p>' + ' '.join(f'<a href="#{n}">{n}</a>' for n in range(1, 64)) +
+         '</p><p>' + ' · '.join(f'<a href="#{k}">{E(ann[k]["title_en"])}</a>' for k, _ in FEATURES if k in ann) + '</p></nav>',
+         '<h2 id="squares" class="part">The squares</h2>']
+    for n in range(1, 64):
+        a = ann.get(f'sq{n}')
+        if a:
+            b.append(entry(a, str(n), n))
+            continue
+        d = squares[n - 1]
+        h = f'<section class="square square-plain" id="{n}"><h2>{n}. A plain square</h2>'
+        if n == 59:
+            h += ('<p class="notice-inline">In the first edition (Madrid, widow of Alonso Gómez, 1587) Poverty stands on '
+                  'square <b>59</b>, not 60; the board printed with that edition is lost. See <a href="#60">square 60</a>.</p>')
+        if d.get('desc'):
+            h += f'<p>On the board: {E(d["desc"])}</p>'
+        b.append(h + '<p><a href="#plain">About the plain squares</a></p></section>')
+    b.append('<h2 id="around" class="part">Around the track</h2>')
+    done = set()
+    for k, _ in FEATURES:
+        if k in ann:
+            b.append(entry(ann[k], k)); done.add(k)
+    for k, a in ann.items():                                    # any figure the lists above do not name
+        if not k.startswith('sq') and k not in done:
+            b.append(entry(a, k))
+    page('squares.html', 'The Squares', '\n'.join(b),
+         'Every square and figure of Mario Cartaro’s board for the Filosofía cortesana (Naples 1588), with verses, '
+         'translations, rules and notes; plain version, without JavaScript.')
+
+    # ---- playing at a table
+    rules = next((p for p in pages if p['id'] == 'about-rules'), None)
+    rows = []
+    def row(label, a, d=None):
+        brd = (f'<i lang="it">{E(d["rule"])}</i>' + (f' — {E(d["rule_en"])}' if d.get('rule_en') else '')) if d and d.get('rule') else ''
+        return (f'<tr><th scope="row">{label}</th><td data-label="Name">{E(a["title_en"].split(" (")[0])}</td>'
+                f'<td data-label="What happens">{a.get("rule_short", "")}</td>'
+                f'<td data-label="On the board">{brd}</td></tr>')
+    if 'gate' in ann:
+        rows.append(row('<a href="squares.html#gate">gate</a>', ann['gate']))
+    for n in range(1, 64):
+        a = ann.get(f'sq{n}')
+        if a:
+            rows.append(row(f'<a href="squares.html#{n}">{n}</a>', a, squares[n - 1]))
+    plain_rule = ann.get('plain', {}).get('rule_short', '')
+    b = ['<p>Barros’s game was played on a printed sheet spread on a table, with dice, a marker for each player and '
+         'stakes paid into a pot, while the little book explained each square. To play it that way, print the board '
+         'below or show it on a screen, and use two dice (this edition’s choice; see “How many dice” below), a '
+         'different marker for each player, and counters or coins for the stakes. The rules follow, with the choices '
+         'this edition makes where the sources leave gaps, and then a table of what each square does.</p>',
+         credit_img('img/board/board-2000.jpg', 'Mario Cartaro’s board for the Filosofía cortesana, Naples 1588, '
+                    'for play: 63 numbered squares from the gate at bottom left to the palm at the center.',
+                    'Mario Cartaro, Naples 1588. British Museum 1869,0410.2463.+. © The Trustees of the British Museum, '
+                    'reproduced under license. <a href="../img/board/board-full.jpg">The full-resolution photograph</a>, '
+                    'for printing large.')]
+    if rules:
+        b.append(f'<h2 id="rules">{E(rules.get("title") or "How the game is played")}</h2>{rules["html"]}')
+    else:
+        WARN.append('plain pages: the essay about-rules was not found')
+    b.append('<h2 id="squares-table">What each square does</h2>'
+             '<p>The rules of the Naples edition and its board, with this edition’s choices where the sources are silent. '
+             'In the first edition (Madrid 1587, widow of Alonso Gómez) Poverty stands on 59, and 60 is plain.'
+             + (f' Every other square is plain. On a plain square: {plain_rule}' if plain_rule else '') + '</p>'
+             '<div class="table-wrap" tabindex="0" role="region" aria-label="Table: what each square does"><table class="sqtable">'
+             '<thead><tr><th scope="col">Square</th><th scope="col">Name</th><th scope="col">What happens</th>'
+             '<th scope="col">On the board</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>')
+    page('play.html', 'Playing at a table', '\n'.join(b),
+         'How to play Barros’s Filosofía cortesana with real dice: the board, the rules, and what each square does; '
+         'plain version, without JavaScript.')
+
+    # ---- about: essays, how the edition was made, bibliography, credits
+    about_js = site_text('js/about.js')
+    ttl = js_strings(grab('js/about.js', r'const TITLES = \{(.*?)\};', 'the essay titles (TITLES)'))
+    order = re.findall(r"'([\w-]+)'", grab('js/about.js', r'const ORDER = \[(.*?)\];', 'the essay order (ORDER)') or '')
+    byid = {p['id']: p for p in pages}
+    ids = [i for i in order if i in byid] + [p['id'] for p in pages if p['id'] not in order]
+    bib_intro = grab('js/about.js', r'id="biblio"><h2>Bibliography</h2>(<p class="small muted">.*?</p>)', 'the bibliography’s note')
+    credits = grab('js/about.js', r'<section class="about-sec" id="credits">(.*?)</section>`', 'the credits')
+    cite = re.search(r'<section class="about-sec" id="cite"[^>]*>(.*?)</section>', about_js, re.S)
+    toc = [(i, byid[i].get('title') or ttl.get(i) or i.replace('about-', '')) for i in ids] + \
+          [('note', 'How this edition was made'), ('biblio', 'Bibliography'), ('credits', 'Credits and rights')]
+    b = ['<nav class="toc" aria-label="Contents"><ol>' + ''.join(f'<li><a href="#{E(i)}">{E(t)}</a></li>' for i, t in toc) + '</ol></nav>']
+    for i, t in toc[:len(ids)]:
+        b.append(f'<section class="essay" id="{E(i)}"><h2>{E(t)}</h2>{byid[i]["html"]}</section>')
+    b.append(f'<section class="essay" id="note"><h2>How this edition was made</h2>{note}</section>')
+    groups = {}
+    for x in bib:
+        if not x.get('dup'):
+            groups.setdefault(x['group'], []).append(x)
+    bh = '<section class="essay" id="biblio"><h2>Bibliography</h2>' + (from_template(bib_intro, 'the bibliography note') if bib_intro else '')
+    for g, lst in groups.items():
+        bh += f'<h3>{E(g)}</h3><ul class="biblio">' + ''.join(
+            f'<li id="bib-{E(x["key"])}"><b>{E(x["label"])}</b> — {x["html"]}</li>' for x in lst) + '</ul>'
+    b.append(bh + '</section>')
+    if credits:
+        b.append(f'<section class="essay" id="credits">{from_template(credits, "the credits")}</section>')
+    if cite and 'id="cite"' not in (credits or ''):
+        b.append(f'<section class="essay" id="cite">{from_template(cite.group(1), "how to cite")}</section>')
+    page('about.html', 'About and credits', '\n'.join(b),
+         'Essays on Barros’s Filosofía cortesana, how this edition was made, the bibliography, and the credits and rights; '
+         'plain version, without JavaScript.')
+
+
 def main():
-    global BIB, BIB_ORDER
+    global BIB, BIB_ORDER, G_LABOUR_ES
     BIB, BIB_ORDER = parse_biblio()
     verses = parse_verses()
     squares = parse_board(verses)
@@ -650,6 +1180,7 @@ def main():
     scenes, pages, note = parse_story()
     g_intro, gvars, g_tail = parse_gvars()
     g_es = g_labour_spanish(gvars)
+    G_LABOUR_ES = g_es
     for g in gvars:
         g.pop('g_raw', None)
     m_intro = md_intro('M_additions.md')
@@ -661,6 +1192,7 @@ def main():
     js('about', {'pages': pages, 'note': note})
     bib = [dict(BIB[k], html=inline(BIB[k]['ref'])) for k in BIB_ORDER]
     js('biblio', bib)
+    write_plain(squares, verses, ann, segC, segM, g_intro, gvars, g_tail, m_intro, scenes, pages, note, bib)
     stamp_pages()
     missing = sorted({m for a in ann.values() for m in re.findall(r'about\.html#bib-([\w:-]+)', json.dumps(a)) if m not in BIB})
     print(f'squares {len(squares)}, annotations {len(ann)}, C segs {len(segC)}, M segs {len(segM)}, '
@@ -670,6 +1202,7 @@ def main():
     check(ann, segC, segM, scenes, pages, note, gvars, bib, (g_intro, g_tail, m_intro))
     for w in WARN:
         print('warning:', w)
+    sys.exit(1 if WARN else 0)      # a warning is something a reader would meet: fix it before publishing
 
 
 if __name__ == '__main__':

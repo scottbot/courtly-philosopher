@@ -16,7 +16,7 @@
   function parse(key) {
     key = String(key).replace(/^sq/, '');
     if (/^\d+$/.test(key)) { const n = +key; return n >= 1 && n <= 63 ? n : null; }
-    return Object.hasOwn(FC.annotations, key) ? key : null;
+    return Object.prototype.hasOwnProperty.call(FC.annotations, key) ? key : null;
   }
 
   function open(key, push = true) {
@@ -58,7 +58,8 @@
     grid();
   }
 
-  const fromHash = () => decodeURIComponent(location.hash.slice(1));
+  // a malformed escape in the address (e.g. #%E0%A4%A) opens nothing rather than throwing
+  const fromHash = () => { try { return decodeURIComponent(location.hash.slice(1)); } catch (e) { return ''; } };
 
   document.addEventListener('DOMContentLoaded', () => {
     viewer = new FC.Viewer($('#viewer'), { onSquare: n => open(n) });
