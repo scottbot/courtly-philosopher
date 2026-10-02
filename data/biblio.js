@@ -43,11 +43,11 @@ FC.biblio = [
  },
  {
   "key": "bidwell-steinerFilosofiaCortesanaAlfonso2024",
-  "ref": "Bidwell-Steiner, Marlen. 2024. “La *Filosofía cortesana*{es} de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.” In *Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro*, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–217. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's “Alfonso” is the author's.)",
+  "ref": "Bidwell-Steiner, Marlen. 2024. “La *Filosofía cortesana*{es} de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.” In *Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro*, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–215. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's “Alfonso” is the author's.)",
   "label": "Bidwell-Steiner 2024",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Bidwell-Steiner, Marlen. 2024. “La <em lang=\"es\">Filosofía cortesana</em> de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.” In <em lang=\"es\">Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro</em>, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–217. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's “Alfonso” is the author's.)"
+  "html": "Bidwell-Steiner, Marlen. 2024. “La <em lang=\"es\">Filosofía cortesana</em> de Alfonso Barros: un juego entre divertimiento cortesano y ética casuística.” In <em lang=\"es\">Hogar, metrópolis, corte: negociaciones culturales de la sociabilidad en la España del Siglo de Oro</em>, edited by Marlen Bidwell-Steiner and Teresa Hiergeist, 195–215. Biblioteca Áurea Hispánica 170. Madrid: Iberoamericana; Frankfurt: Vervuert. (The title's “Alfonso” is the author's.)"
  },
  {
   "key": "decaceresTableroItalianoFilosofia2009",
@@ -187,11 +187,11 @@ FC.biblio = [
  },
  {
   "key": "rodriguezmansillaGRABADOPICARAJUSTINA2019",
-  "ref": "Rodríguez Mansilla, Fernando. 2019. “El grabado de *La pícara Justina*{es} como parodia de la *Filosofía cortesana moralizada*{es}.” *IMAGO. Revista de Emblemática y Cultura Visual* 11: 183–193.",
+  "ref": "Rodríguez Mansilla, Fernando. 2019. “El grabado de *La pícara Justina*{es} como parodia de la *Filosofía cortesana moralizada*{es}.” *IMAGO. Revista de Emblemática y Cultura Visual* 11: 183–193. https://doi.org/10.7203/imago.11.15731.",
   "label": "Rodríguez Mansilla 2019",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Rodríguez Mansilla, Fernando. 2019. “El grabado de <em lang=\"es\">La pícara Justina</em> como parodia de la <em lang=\"es\">Filosofía cortesana moralizada</em>.” <em lang=\"es\">IMAGO. Revista de Emblemática y Cultura Visual</em> 11: 183–193."
+  "html": "Rodríguez Mansilla, Fernando. 2019. “El grabado de <em lang=\"es\">La pícara Justina</em> como parodia de la <em lang=\"es\">Filosofía cortesana moralizada</em>.” <em lang=\"es\">IMAGO. Revista de Emblemática y Cultura Visual</em> 11: 183–193. <a href=\"https://doi.org/10.7203/imago.11.15731\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.7203/imago.11.15731</a>."
  },
  {
   "key": "sevilleImportanceTextPrinted2026",
@@ -283,11 +283,11 @@ FC.biblio = [
  },
  {
   "key": "web:https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf",
-  "ref": "Suárez Figaredo, Enrique, ed. 2019. “Alonso de Barros, *Filosofía cortesana moralizada*{es}.” *Lemir* 23, Textos: 203–226. https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf. (Read only through a model-processed fetch.)",
+  "ref": "Suárez Figaredo, Enrique, ed. 2019. “Alonso de Barros, *Filosofía cortesana moralizada*{es}.” *Lemir* 23, Textos: 203–226. https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf.",
   "label": "Suárez Figaredo 2019",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Suárez Figaredo, Enrique, ed. 2019. “Alonso de Barros, <em lang=\"es\">Filosofía cortesana moralizada</em>.” <em>Lemir</em> 23, Textos: 203–226. <a href=\"https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf\" target=\"_blank\" rel=\"noopener\">https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf</a>. (Read only through a model-processed fetch.)"
+  "html": "Suárez Figaredo, Enrique, ed. 2019. “Alonso de Barros, <em lang=\"es\">Filosofía cortesana moralizada</em>.” <em>Lemir</em> 23, Textos: 203–226. <a href=\"https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf\" target=\"_blank\" rel=\"noopener\">https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf</a>."
  },
  {
   "key": "web:https://www.redalyc.org/pdf/7370/737080494002.pdf",
@@ -314,12 +314,244 @@ FC.biblio = [
   "html": "Real Academia Española. 1737. “Pretendiente.” In <em lang=\"es\">Diccionario de Autoridades</em>, vol. 5. Madrid. <a href=\"https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html\" target=\"_blank\" rel=\"noopener\">https://webfrl.rae.es/DA_DATOS/TOMO_V_HTML/PRETENDIENTE_006558.html</a>."
  },
  {
+  "key": "web:https://www.museodelprado.es/aprende/enciclopedia/voz/tristan-luis/60097291-980e-4fc3-a5f5-1e74a1fe27ca",
+  "ref": "D. G. L. n.d. “Tristán, Luis.” *Enciclopedia del Museo del Prado*{es} (online). https://www.museodelprado.es/aprende/enciclopedia/voz/tristan-luis/60097291-980e-4fc3-a5f5-1e74a1fe27ca.",
+  "label": "museodelprado.es",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "D. G. L. n.d. “Tristán, Luis.” <em lang=\"es\">Enciclopedia del Museo del Prado</em> (online). <a href=\"https://www.museodelprado.es/aprende/enciclopedia/voz/tristan-luis/60097291-980e-4fc3-a5f5-1e74a1fe27ca\" target=\"_blank\" rel=\"noopener\">https://www.museodelprado.es/aprende/enciclopedia/voz/tristan-luis/60097291-980e-4fc3-a5f5-1e74a1fe27ca</a>."
+ },
+ {
   "key": "web:https://dle.rae.es/arenilla",
   "ref": "Real Academia Española. n.d. “Arenilla.” In *Diccionario de la lengua española*, 23rd ed., online. https://dle.rae.es/arenilla.",
   "label": "Real Academia Española n.d.",
   "group": "Other web sources cited",
   "dup": null,
   "html": "Real Academia Española. n.d. “Arenilla.” In <em lang=\"es\">Diccionario de la lengua española</em>, 23rd ed., online. <a href=\"https://dle.rae.es/arenilla\" target=\"_blank\" rel=\"noopener\">https://dle.rae.es/arenilla</a>."
+ },
+ {
+  "key": "web:https://www.rae.es/archivo-digital/emblemas-morales-0",
+  "ref": "Real Academia Española. n.d. Catalog record: Covarrubias Orozco, Sebastián de. *Emblemas morales*{es}. Madrid: Luis Sánchez, 1610. Archivo digital de la RAE. https://www.rae.es/archivo-digital/emblemas-morales-0.",
+  "label": "Real Academia Española n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Real Academia Española. n.d. Catalog record: Covarrubias Orozco, Sebastián de. <em lang=\"es\">Emblemas morales</em>. Madrid: Luis Sánchez, 1610. Archivo digital de la RAE. <a href=\"https://www.rae.es/archivo-digital/emblemas-morales-0\" target=\"_blank\" rel=\"noopener\">https://www.rae.es/archivo-digital/emblemas-morales-0</a>."
+ },
+ {
+  "key": "web:https://ifc.dpz.es/recursos/publicaciones/25/27/13baltarrodriguez.pdf",
+  "ref": "Baltar Rodríguez, Juan Francisco. 2001–2002. “Las Cortes de Monzón de 1585 y el origen de la llamada Junta de Noche.” *Ius Fugit*{la} 10–11: 533–541. https://ifc.dpz.es/recursos/publicaciones/25/27/13baltarrodriguez.pdf.",
+  "label": "Baltar Rodríguez 2001–2002",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Baltar Rodríguez, Juan Francisco. 2001–2002. <span lang=\"es\">“Las Cortes de Monzón de 1585 y el origen de la llamada Junta de Noche.”</span> <em lang=\"la\">Ius Fugit</em> 10–11: 533–541. <a href=\"https://ifc.dpz.es/recursos/publicaciones/25/27/13baltarrodriguez.pdf\" target=\"_blank\" rel=\"noopener\">https://ifc.dpz.es/recursos/publicaciones/25/27/13baltarrodriguez.pdf</a>."
+ },
+ {
+  "key": "web:https://cvc.cervantes.es/literatura/aih/pdf/16/aih_16_2_054.pdf",
+  "ref": "Baranda Leturio, Nieves. 2010. “Las epístolas bufonescas de Gonzalo de Liaño a la Gran Duquesa de Toscana.” In *Actas del XVI Congreso de la Asociación Internacional de Hispanistas: Nuevos caminos del hispanismo (París, 2007)*{es}, edited by Pierre Civil and Françoise Crémoux. Madrid: Iberoamericana; Frankfurt: Vervuert (papers on CD). Centro Virtual Cervantes, https://cvc.cervantes.es/literatura/aih/pdf/16/aih_16_2_054.pdf.",
+  "label": "Baranda Leturio 2010",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Baranda Leturio, Nieves. 2010. <span lang=\"es\">“Las epístolas bufonescas de Gonzalo de Liaño a la Gran Duquesa de Toscana.”</span> In <em lang=\"es\">Actas del XVI Congreso de la Asociación Internacional de Hispanistas: Nuevos caminos del hispanismo (París, 2007)</em>, edited by Pierre Civil and Françoise Crémoux. Madrid: Iberoamericana; Frankfurt: Vervuert (papers on CD). Centro Virtual Cervantes, <a href=\"https://cvc.cervantes.es/literatura/aih/pdf/16/aih_16_2_054.pdf\" target=\"_blank\" rel=\"noopener\">https://cvc.cervantes.es/literatura/aih/pdf/16/aih_16_2_054.pdf</a>."
+ },
+ {
+  "key": "web:https://hdl.handle.net/11441/163180",
+  "ref": "Basulto Santos, Jesús, José Antonio Camúñez Ruiz, and Francisco Javier Ortega Irizo. 2006. “El juego que llaman azar del libro de los dados de Alfonso X el Sabio.” In *Historia de la probabilidad y la estadística (III)*{es}, edited by Jesús Santos del Cerro and Marta García Secades, chap. 1. Madrid: Delta Publicaciones. Repository copy, idUS, Universidad de Sevilla, https://hdl.handle.net/11441/163180.",
+  "label": "Basulto et al. 2006",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Basulto Santos, Jesús, José Antonio Camúñez Ruiz, and Francisco Javier Ortega Irizo. 2006. <span lang=\"es\">“El juego que llaman azar del libro de los dados de Alfonso X el Sabio.”</span> In <em lang=\"es\">Historia de la probabilidad y la estadística (III)</em>, edited by Jesús Santos del Cerro and Marta García Secades, chap. 1. Madrid: Delta Publicaciones. Repository copy, idUS, Universidad de Sevilla, <a href=\"https://hdl.handle.net/11441/163180\" target=\"_blank\" rel=\"noopener\">https://hdl.handle.net/11441/163180</a>."
+ },
+ {
+  "key": "web:https://www.treccani.it/enciclopedia/cesare-ripa_(Dizionario-Biografico)/",
+  "ref": "Biferali, Fabrizio. 2016. “Ripa, Cesare.” In *Dizionario Biografico degli Italiani*{it}, vol. 87. Rome: Istituto dell'Enciclopedia Italiana. https://www.treccani.it/enciclopedia/cesare-ripa_(Dizionario-Biografico)/.",
+  "label": "Biferali 2016",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Biferali, Fabrizio. 2016. “Ripa, Cesare.” In <em lang=\"it\">Dizionario Biografico degli Italiani</em>, vol. 87. Rome: Istituto dell'Enciclopedia Italiana. <a href=\"https://www.treccani.it/enciclopedia/cesare-ripa_(Dizionario-Biografico)/\" target=\"_blank\" rel=\"noopener\">https://www.treccani.it/enciclopedia/cesare-ripa_(Dizionario-Biografico)/</a>."
+ },
+ {
+  "key": "web:https://www.bne.es/es/Micrositios/Guias/MujeresImpresoras/Siglos_XVI-XVII/Seleccion_de_Impresoras/Siglo_XVI/Madrid/",
+  "ref": "Biblioteca Nacional de España. n.d. “Impresoras en Madrid s. XVI.” In *Mujeres impresoras*{es} (guide). https://www.bne.es/es/Micrositios/Guias/MujeresImpresoras/Siglos_XVI-XVII/Seleccion_de_Impresoras/Siglo_XVI/Madrid/.",
+  "label": "Biblioteca Nacional de España n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Biblioteca Nacional de España. n.d. “Impresoras en Madrid s. XVI.” In <em lang=\"es\">Mujeres impresoras</em> (guide). <a href=\"https://www.bne.es/es/Micrositios/Guias/MujeresImpresoras/Siglos_XVI-XVII/Seleccion_de_Impresoras/Siglo_XVI/Madrid/\" target=\"_blank\" rel=\"noopener\">https://www.bne.es/es/Micrositios/Guias/MujeresImpresoras/Siglos_XVI-XVII/Seleccion_de_Impresoras/Siglo_XVI/Madrid/</a>."
+ },
+ {
+  "key": "web:https://archive.org/details/empresasmorales00borj",
+  "ref": "Borja, Juan de. 1581. *Empresas morales*{es}. Prague: Jorge Nigrin. Digitized copy, Internet Archive, item empresasmorales00borj. https://archive.org/details/empresasmorales00borj.",
+  "label": "Borja 1581",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Borja, Juan de. 1581. <em lang=\"es\">Empresas morales</em>. Prague: Jorge Nigrin. Digitized copy, Internet Archive, item empresasmorales00borj. <a href=\"https://archive.org/details/empresasmorales00borj\" target=\"_blank\" rel=\"noopener\">https://archive.org/details/empresasmorales00borj</a>."
+ },
+ {
+  "key": "web:https://historia-hispanica.rah.es/biografias/1274-mateo-aleman",
+  "ref": "Cavillac, Michel. n.d. “Mateo Alemán.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://historia-hispanica.rah.es/biografias/1274-mateo-aleman.",
+  "label": "Cavillac n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Cavillac, Michel. n.d. “Mateo Alemán.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://historia-hispanica.rah.es/biografias/1274-mateo-aleman\" target=\"_blank\" rel=\"noopener\">https://historia-hispanica.rah.es/biografias/1274-mateo-aleman</a>."
+ },
+ {
+  "key": "web:https://historia-hispanica.rah.es/biografias/35542-cristobal-perez-de-herrera",
+  "ref": "Cavillac, Michel. n.d. “Cristóbal Pérez de Herrera.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://historia-hispanica.rah.es/biografias/35542-cristobal-perez-de-herrera.",
+  "label": "Cavillac n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Cavillac, Michel. n.d. “Cristóbal Pérez de Herrera.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://historia-hispanica.rah.es/biografias/35542-cristobal-perez-de-herrera\" target=\"_blank\" rel=\"noopener\">https://historia-hispanica.rah.es/biografias/35542-cristobal-perez-de-herrera</a>."
+ },
+ {
+  "key": "web:https://dbe.rah.es/biografias/5280/antonio-perez",
+  "ref": "Escudero López, José Antonio. n.d. “Antonio Pérez.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://dbe.rah.es/biografias/5280/antonio-perez.",
+  "label": "Escudero López n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Escudero López, José Antonio. n.d. “Antonio Pérez.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://dbe.rah.es/biografias/5280/antonio-perez\" target=\"_blank\" rel=\"noopener\">https://dbe.rah.es/biografias/5280/antonio-perez</a>."
+ },
+ {
+  "key": "web:https://dbe.rah.es/biografias/14702/catalina-micaela",
+  "ref": "Espinosa Martín, María Carmen. n.d. “Catalina Micaela.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://dbe.rah.es/biografias/14702/catalina-micaela.",
+  "label": "Espinosa Martín n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Espinosa Martín, María Carmen. n.d. “Catalina Micaela.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://dbe.rah.es/biografias/14702/catalina-micaela\" target=\"_blank\" rel=\"noopener\">https://dbe.rah.es/biografias/14702/catalina-micaela</a>."
+ },
+ {
+  "key": "web:https://dbe.rah.es/biografias/18465/garcia-de-loaysa-y-giron",
+  "ref": "Fernández Collado, Ángel. n.d. “García de Loaysa y Girón.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://dbe.rah.es/biografias/18465/garcia-de-loaysa-y-giron.",
+  "label": "Fernández Collado n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Fernández Collado, Ángel. n.d. <span lang=\"es\">“García de Loaysa y Girón.”</span> In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://dbe.rah.es/biografias/18465/garcia-de-loaysa-y-giron\" target=\"_blank\" rel=\"noopener\">https://dbe.rah.es/biografias/18465/garcia-de-loaysa-y-giron</a>."
+ },
+ {
+  "key": "web:https://documentos.fedea.net/pubs/eee/eee111.pdf",
+  "ref": "García de Paso, José I. 2001. “La política monetaria castellana de los siglos XVI y XVII.” *Estudios sobre la Economía Española*{es} EEE 111. Madrid: FEDEA. https://documentos.fedea.net/pubs/eee/eee111.pdf. (Cited by page of the PDF file.)",
+  "label": "García de Paso 2001",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "García de Paso, José I. 2001. <span lang=\"es\">“La política monetaria castellana de los siglos XVI y XVII.”</span> <em lang=\"es\">Estudios sobre la Economía Española</em> EEE 111. Madrid: FEDEA. <a href=\"https://documentos.fedea.net/pubs/eee/eee111.pdf\" target=\"_blank\" rel=\"noopener\">https://documentos.fedea.net/pubs/eee/eee111.pdf</a>. (Cited by page of the PDF file.)"
+ },
+ {
+  "key": "web:https://historia-hispanica.rah.es/biografias/45273-mateo-vazquez-de-leca",
+  "ref": "Gonzalo Sánchez-Molero, José Luis. n.d. “Mateo Vázquez de Leca.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://historia-hispanica.rah.es/biografias/45273-mateo-vazquez-de-leca.",
+  "label": "Gonzalo Sánchez-Molero n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Gonzalo Sánchez-Molero, José Luis. n.d. “Mateo Vázquez de Leca.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://historia-hispanica.rah.es/biografias/45273-mateo-vazquez-de-leca\" target=\"_blank\" rel=\"noopener\">https://historia-hispanica.rah.es/biografias/45273-mateo-vazquez-de-leca</a>."
+ },
+ {
+  "key": "web:https://cvc.cervantes.es/literatura/clasicos/quijote/introduccion/apendice/hernandez.htm",
+  "ref": "Hernández, Bernardo. n.d. “Monedas y medidas.” In Miguel de Cervantes, *Don Quijote de la Mancha*{es}, edited by the Instituto Cervantes under the direction of Francisco Rico, Apéndices e ilustraciones. Centro Virtual Cervantes. https://cvc.cervantes.es/literatura/clasicos/quijote/introduccion/apendice/hernandez.htm.",
+  "label": "Hernández n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Hernández, Bernardo. n.d. <span lang=\"es\">“Monedas y medidas.”</span> In Miguel de Cervantes, <em lang=\"es\">Don Quijote de la Mancha</em>, edited by the Instituto Cervantes under the direction of Francisco Rico, Apéndices e ilustraciones. Centro Virtual Cervantes. <a href=\"https://cvc.cervantes.es/literatura/clasicos/quijote/introduccion/apendice/hernandez.htm\" target=\"_blank\" rel=\"noopener\">https://cvc.cervantes.es/literatura/clasicos/quijote/introduccion/apendice/hernandez.htm</a>."
+ },
+ {
+  "key": "web:https://www.metmuseum.org/art/collection/search/202612",
+  "ref": "Metropolitan Museum of Art. n.d. “Chess and goose game board.” Indian, Gujarat, late 16th century. Ebony, ebonized wood, ivory, horn, gold wire; 2.9 × 41.9 × 43 cm. Accession no. 62.14. The Met Collection online. https://www.metmuseum.org/art/collection/search/202612.",
+  "label": "Metropolitan Museum of Art n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Metropolitan Museum of Art. n.d. “Chess and goose game board.” Indian, Gujarat, late 16th century. Ebony, ebonized wood, ivory, horn, gold wire; 2.9 × 41.9 × 43 cm. Accession no. 62.14. The Met Collection online. <a href=\"https://www.metmuseum.org/art/collection/search/202612\" target=\"_blank\" rel=\"noopener\">https://www.metmuseum.org/art/collection/search/202612</a>."
+ },
+ {
+  "key": "web:https://dbe.rah.es/biografias/8088/alonso-de-barros",
+  "ref": "Montero Padilla, José. n.d. “Alonso de Barros.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://dbe.rah.es/biografias/8088/alonso-de-barros.",
+  "label": "Montero Padilla n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Montero Padilla, José. n.d. “Alonso de Barros.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://dbe.rah.es/biografias/8088/alonso-de-barros\" target=\"_blank\" rel=\"noopener\">https://dbe.rah.es/biografias/8088/alonso-de-barros</a>."
+ },
+ {
+  "key": "web:https://dbe.rah.es/biografias/6738/alonso-de-ercilla-y-zuniga",
+  "ref": "Oviedo Pérez de Tudela, Rocío. n.d. “Alonso de Ercilla y Zúñiga.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://dbe.rah.es/biografias/6738/alonso-de-ercilla-y-zuniga.",
+  "label": "Oviedo Pérez de Tudela n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Oviedo Pérez de Tudela, Rocío. n.d. <span lang=\"es\">“Alonso de Ercilla y Zúñiga.”</span> In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://dbe.rah.es/biografias/6738/alonso-de-ercilla-y-zuniga\" target=\"_blank\" rel=\"noopener\">https://dbe.rah.es/biografias/6738/alonso-de-ercilla-y-zuniga</a>."
+ },
+ {
+  "key": "web:https://dpej.rae.es/lema/aposentador",
+  "ref": "Real Academia Española. n.d. “Aposentador.” In *Diccionario panhispánico del español jurídico*{es}, with the Consejo General del Poder Judicial, online. https://dpej.rae.es/lema/aposentador.",
+  "label": "Real Academia Española n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Real Academia Española. n.d. “Aposentador.” In <em lang=\"es\">Diccionario panhispánico del español jurídico</em>, with the Consejo General del Poder Judicial, online. <a href=\"https://dpej.rae.es/lema/aposentador\" target=\"_blank\" rel=\"noopener\">https://dpej.rae.es/lema/aposentador</a>."
+ },
+ {
+  "key": "web:https://dpej.rae.es/lema/aposento-de-corte",
+  "ref": "Real Academia Española. n.d. “Aposento de corte.” In *Diccionario panhispánico del español jurídico*{es}, with the Consejo General del Poder Judicial, online. https://dpej.rae.es/lema/aposento-de-corte.",
+  "label": "Real Academia Española n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Real Academia Española. n.d. “Aposento de corte.” In <em lang=\"es\">Diccionario panhispánico del español jurídico</em>, with the Consejo General del Poder Judicial, online. <a href=\"https://dpej.rae.es/lema/aposento-de-corte\" target=\"_blank\" rel=\"noopener\">https://dpej.rae.es/lema/aposento-de-corte</a>."
+ },
+ {
+  "key": "web:https://e-archivo.uc3m.es/entities/publication/fd72eda9-ff37-4e59-96fa-81112999a5df",
+  "ref": "Reher, David S., and Esmeralda Ballesteros. 1993. “Precios y salarios en Castilla la Nueva: la construcción de un índice de salarios reales, 1501–1991.” *Revista de Historia Económica*{es} 11 (1): 101–151. Repository copy, e-Archivo, Universidad Carlos III de Madrid, https://e-archivo.uc3m.es/entities/publication/fd72eda9-ff37-4e59-96fa-81112999a5df.",
+  "label": "Reher & Ballesteros 1993",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Reher, David S., and Esmeralda Ballesteros. 1993. <span lang=\"es\">“Precios y salarios en Castilla la Nueva: la construcción de un índice de salarios reales, 1501–1991.”</span> <em lang=\"es\">Revista de Historia Económica</em> 11 (1): 101–151. Repository copy, e-Archivo, Universidad Carlos III de Madrid, <a href=\"https://e-archivo.uc3m.es/entities/publication/fd72eda9-ff37-4e59-96fa-81112999a5df\" target=\"_blank\" rel=\"noopener\">https://e-archivo.uc3m.es/entities/publication/fd72eda9-ff37-4e59-96fa-81112999a5df</a>."
+ },
+ {
+  "key": "web:https://historia-hispanica.rah.es/biografias/11510-miguel-de-cervantes-saavedra",
+  "ref": "Riquer Morera, Martín de. n.d. “Miguel de Cervantes Saavedra.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://historia-hispanica.rah.es/biografias/11510-miguel-de-cervantes-saavedra.",
+  "label": "Riquer Morera n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Riquer Morera, Martín de. n.d. “Miguel de Cervantes Saavedra.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://historia-hispanica.rah.es/biografias/11510-miguel-de-cervantes-saavedra\" target=\"_blank\" rel=\"noopener\">https://historia-hispanica.rah.es/biografias/11510-miguel-de-cervantes-saavedra</a>."
+ },
+ {
+  "key": "web:https://historia-hispanica.rah.es/biografias/46509-juan-zuniga-avellaneda-y-cardenas",
+  "ref": "Rivero Rodríguez, Manuel. n.d. “Juan Zúñiga Avellaneda y Cárdenas.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://historia-hispanica.rah.es/biografias/46509-juan-zuniga-avellaneda-y-cardenas.",
+  "label": "Rivero Rodríguez n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Rivero Rodríguez, Manuel. n.d. <span lang=\"es\">“Juan Zúñiga Avellaneda y Cárdenas.”</span> In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://historia-hispanica.rah.es/biografias/46509-juan-zuniga-avellaneda-y-cardenas\" target=\"_blank\" rel=\"noopener\">https://historia-hispanica.rah.es/biografias/46509-juan-zuniga-avellaneda-y-cardenas</a>."
+ },
+ {
+  "key": "web:https://dbe.rah.es/biografias/13008/isabel-clara-eugenia",
+  "ref": "Sánchez Belén, Juan Antonio. n.d. “Isabel Clara Eugenia.” In *Diccionario Biográfico electrónico*{es}. Madrid: Real Academia de la Historia. https://dbe.rah.es/biografias/13008/isabel-clara-eugenia.",
+  "label": "Sánchez Belén n.d.",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Sánchez Belén, Juan Antonio. n.d. “Isabel Clara Eugenia.” In <em lang=\"es\">Diccionario Biográfico electrónico</em>. Madrid: Real Academia de la Historia. <a href=\"https://dbe.rah.es/biografias/13008/isabel-clara-eugenia\" target=\"_blank\" rel=\"noopener\">https://dbe.rah.es/biografias/13008/isabel-clara-eugenia</a>."
+ },
+ {
+  "key": "web:https://doi.org/10.3989/hs.2023.28",
+  "ref": "Sosa Mayor, Igor. 2023. “Alea iacta non est. La domesticación moral del juego de azar en la Europa católica de la Edad Moderna.” *Hispania Sacra*{la} 75 (152): 375–386. https://doi.org/10.3989/hs.2023.28.",
+  "label": "Sosa Mayor 2023",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Sosa Mayor, Igor. 2023. <span lang=\"es\">“Alea iacta non est. La domesticación moral del juego de azar en la Europa católica de la Edad Moderna.”</span> <em lang=\"la\">Hispania Sacra</em> 75 (152): 375–386. <a href=\"https://doi.org/10.3989/hs.2023.28\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.3989/hs.2023.28</a>."
+ },
+ {
+  "key": "web:https://www.treccani.it/enciclopedia/luigi-dovara_(Dizionario-Biografico)/",
+  "ref": "Toccafondi Fantappiè, Diana. 1992. “Dovara, Luigi.” In *Dizionario Biografico degli Italiani*{it}, vol. 41. Rome: Istituto dell'Enciclopedia Italiana. https://www.treccani.it/enciclopedia/luigi-dovara_(Dizionario-Biografico)/.",
+  "label": "Toccafondi Fantappiè 1992",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Toccafondi Fantappiè, Diana. 1992. “Dovara, Luigi.” In <em lang=\"it\">Dizionario Biografico degli Italiani</em>, vol. 41. Rome: Istituto dell'Enciclopedia Italiana. <a href=\"https://www.treccani.it/enciclopedia/luigi-dovara_(Dizionario-Biografico)/\" target=\"_blank\" rel=\"noopener\">https://www.treccani.it/enciclopedia/luigi-dovara_(Dizionario-Biografico)/</a>."
+ },
+ {
+  "key": "web:https://www.e-rara.ch/doi/10.3931/e-rara-2983",
+  "ref": "Valeriano, Pierio. 1556. *Hieroglyphica sive de sacris Aegyptiorum literis commentarii*{la}. Basel: [Michael Isengrin]. Digitized copy, Universitätsbibliothek Basel, UBH BA VIII 19, e-rara, https://doi.org/10.3931/e-rara-2983.",
+  "label": "Valeriano 1556",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Valeriano, Pierio. 1556. <em lang=\"la\">Hieroglyphica sive de sacris Aegyptiorum literis commentarii</em>. Basel: [Michael Isengrin]. Digitized copy, Universitätsbibliothek Basel, UBH BA VIII 19, e-rara, <a href=\"https://doi.org/10.3931/e-rara-2983\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.3931/e-rara-2983</a>."
+ },
+ {
+  "key": "web:https://dialnet.unirioja.es/servlet/articulo?codigo=2604725",
+  "ref": "Weststeijn, Arthur. 2008. “Antonio Pérez y la formación de la política española respecto a la rebelión de los Países Bajos, 1576–1579.” *Historia y Política*{es} 19: 231–254. https://dialnet.unirioja.es/servlet/articulo?codigo=2604725.",
+  "label": "Weststeijn 2008",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Weststeijn, Arthur. 2008. <span lang=\"es\">“Antonio Pérez y la formación de la política española respecto a la rebelión de los Países Bajos, 1576–1579.”</span> <em lang=\"es\">Historia y Política</em> 19: 231–254. <a href=\"https://dialnet.unirioja.es/servlet/articulo?codigo=2604725\" target=\"_blank\" rel=\"noopener\">https://dialnet.unirioja.es/servlet/articulo?codigo=2604725</a>."
  },
  {
   "key": "ref:dadson1987ed",
@@ -339,11 +571,11 @@ FC.biblio = [
  },
  {
   "key": "ref:lucero2019ed",
-  "ref": "Barros, Alonso de. 2019. *Filosofía cortesana*{es}. Edited by Ernesto Lucero. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020.)",
+  "ref": "Barros, Alonso de. 2019. *Filosofía cortesana*{es}. Edited by Ernesto Lucero, with a prologue by José Martínez Millán. Biblioteca Áulica 1. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020. Prologue and series per the Dialnet record and Gómez Canseco 2021.)",
   "label": "Lucero ed. 2019",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Barros, Alonso de. 2019. <em lang=\"es\">Filosofía cortesana</em>. Edited by Ernesto Lucero. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020.)"
+  "html": "Barros, Alonso de. 2019. <em lang=\"es\">Filosofía cortesana</em>. Edited by Ernesto Lucero, with a prologue by José Martínez Millán. Biblioteca Áulica 1. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020. Prologue and series per the Dialnet record and Gómez Canseco 2021.)"
  },
  {
   "key": "ref:gonzalez2012",
@@ -408,6 +640,62 @@ FC.biblio = [
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
   "html": "Parker, Geoffrey. 1979. <em>Philip II</em>. London: Hutchinson."
+ },
+ {
+  "key": "ref:cavillac1998",
+  "ref": "Cavillac, Michel. 1998. “Libros, lecturas e ideario de Alonso de Barros, prologuista de *Guzmán de Alfarache*{es} (1599).” *Bulletin Hispanique*{fr} 100 (1): 69–94. (per Lucero 2019b, 40 n. 22, and Collar de Cáceres 2009; the Real Academia de la Historia's dictionary titles it “prologuista del *Guzmán*”.)",
+  "label": "Cavillac 1998",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "Cavillac, Michel. 1998. “Libros, lecturas e ideario de Alonso de Barros, prologuista de <em lang=\"es\">Guzmán de Alfarache</em> (1599).” <em lang=\"fr\">Bulletin Hispanique</em> 100 (1): 69–94. (per Lucero 2019b, 40 n. 22, and Collar de Cáceres 2009; the Real Academia de la Historia's dictionary titles it “prologuista del <em>Guzmán</em>”.)"
+ },
+ {
+  "key": "ref:depaulis1997",
+  "ref": "Depaulis, Thierry. 1997. “Sur la piste du jeu de l'oie.” *Le Vieux Papier*{fr} 346 (October 1997): 563–65. Continued as “Sur la piste du jeu de l'oie, II.” *Le Vieux Papier*{fr} 352 (April 1999): 269–70. (per Zollinger 2010, n. 1, in `GameGooseLargest`, which gives the first as fasc. 345 [recte 346].)",
+  "label": "Depaulis 1997",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "Depaulis, Thierry. 1997. <span lang=\"fr\">“Sur la piste du jeu de l'oie.”</span> <em lang=\"fr\">Le Vieux Papier</em> 346 (October 1997): 563–65. Continued as <span lang=\"fr\">“Sur la piste du jeu de l'oie, II.”</span> <em lang=\"fr\">Le Vieux Papier</em> 352 (April 1999): 269–70. (per Zollinger 2010, n. 1, in <code>GameGooseLargest</code>, which gives the first as fasc. 345 [recte 346].)"
+ },
+ {
+  "key": "ref:kubersky2011",
+  "ref": "Kubersky-Piredda, Susanne, and Salvador Salort Pons. 2011. “Travels of a Court Jester: Gonzalo de Liagno, Art Agent at the Court of King Philip II of Spain.” In *Double Agents: Cultural and Political Brokerage in Early Modern Europe*, edited by Marika Keblusek and Badeloch Vera Noldus, 213–232. Leiden: Brill. (per Seville 2026, 69 n. 15; Wood 2019, 481 n. 69, gives pp. 218–232.)",
+  "label": "Kubersky-Piredda & Salort Pons 2011",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "Kubersky-Piredda, Susanne, and Salvador Salort Pons. 2011. “Travels of a Court Jester: Gonzalo de Liagno, Art Agent at the Court of King Philip II of Spain.” In <em>Double Agents: Cultural and Political Brokerage in Early Modern Europe</em>, edited by Marika Keblusek and Badeloch Vera Noldus, 213–232. Leiden: Brill. (per Seville 2026, 69 n. 15; Wood 2019, 481 n. 69, gives pp. 218–232.)"
+ },
+ {
+  "key": "ref:leesberg2015",
+  "ref": "Leesberg, Marjolein. 2015. “El Juego Real de Cupido: A Spanish Board Game Published in Antwerp, c. 1620.” *Delineavit et Sculpsit*{la} 39: 23–43. (per Seville 2026, 76 n. 22; Wood 2019, 479 n. 11.)",
+  "label": "Leesberg 2015",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "Leesberg, Marjolein. 2015. <span lang=\"es\">“El Juego Real de Cupido: A Spanish Board Game Published in Antwerp, c. 1620.”</span> <em lang=\"la\">Delineavit et Sculpsit</em> 39: 23–43. (per Seville 2026, 76 n. 22; Wood 2019, 479 n. 11.)"
+ },
+ {
+  "key": "ref:minguez2026",
+  "ref": "Mínguez, Víctor. 2026. “Mar de sufrimiento: la corte de Felipe II, la *Filosofía cortesana*{es} de Alonso de Barros y las aguas procelosas.” In *Senderos para unir orillas: estudios de historia del arte dedicados al profesor Javier Pizarro*{es}, coordinated by Elena de Ortueta Hilberath, Vicente Méndez Hernán, José Julio García Arranz and Yolanda Fernández Muñoz, 323–332. Colección Magistri 14. Cáceres: Universidad de Extremadura. ISBN 978-84-9127-368-4. (per the Dialnet record, https://dialnet.unirioja.es/servlet/articulo?codigo=10911972; not seen.)",
+  "label": "Mínguez 2026",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "Mínguez, Víctor. 2026. “Mar de sufrimiento: la corte de Felipe II, la <em lang=\"es\">Filosofía cortesana</em> de Alonso de Barros y las aguas procelosas.” In <em lang=\"es\">Senderos para unir orillas: estudios de historia del arte dedicados al profesor Javier Pizarro</em>, coordinated by Elena de Ortueta Hilberath, Vicente Méndez Hernán, José Julio García Arranz and Yolanda Fernández Muñoz, 323–332. Colección Magistri 14. Cáceres: Universidad de Extremadura. ISBN 978-84-9127-368-4. (per the Dialnet record, <a href=\"https://dialnet.unirioja.es/servlet/articulo?codigo=10911972\" target=\"_blank\" rel=\"noopener\">https://dialnet.unirioja.es/servlet/articulo?codigo=10911972</a>; not seen.)"
+ },
+ {
+  "key": "ref:pinoabad2011",
+  "ref": "Pino Abad, Miguel. 2011. *El delito de los juegos prohibidos: análisis histórico-jurídico*{es}. Madrid: Dykinson. (per Sosa Mayor 2023, 379 n. 38, and his bibliography.)",
+  "label": "Pino Abad 2011",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "Pino Abad, Miguel. 2011. <em lang=\"es\">El delito de los juegos prohibidos: análisis histórico-jurídico</em>. Madrid: Dykinson. (per Sosa Mayor 2023, 379 n. 38, and his bibliography.)"
+ },
+ {
+  "key": "ref:strosetzki1998",
+  "ref": "Strosetzki, Christoph. 1998. “La casuística de los juegos de azar y de los espectáculos públicos en el Siglo de Oro.” In *Teatro español del Siglo de Oro: teoría y práctica*{es}, edited by Christoph Strosetzki, 322–343. Frankfurt am Main: Iberoamericana/Vervuert. (per Bidwell-Steiner 2024, 207 n. 50, and her bibliography.)",
+  "label": "Strosetzki 1998",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "Strosetzki, Christoph. 1998. <span lang=\"es\">“La casuística de los juegos de azar y de los espectáculos públicos en el Siglo de Oro.”</span> In <em lang=\"es\">Teatro español del Siglo de Oro: teoría y práctica</em>, edited by Christoph Strosetzki, 322–343. Frankfurt am Main: Iberoamericana/Vervuert. (per Bidwell-Steiner 2024, 207 n. 50, and her bibliography.)"
  },
  {
   "key": "britishMuseumRecord2012",
@@ -512,13 +800,5 @@ FC.biblio = [
   "group": "Other web sources cited",
   "dup": null,
   "html": "Corominas, Joan. n.d. “Azar.” In <em lang=\"es\">Diccionario crítico etimológico castellano e hispánico</em> (online reproduction). <a href=\"https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html\" target=\"_blank\" rel=\"noopener\">https://bibliamedieval.es/bibliateca.es/corominas/DATA/HTML/azar.html</a>."
- },
- {
-  "key": "web:https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/",
-  "ref": "Canettieri, Paolo. n.d. “Alfonso X – *Libro de los juegos* – Svolgimento dei giochi descritti nel trattato.” Blog post. https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/.",
-  "label": "Canettieri n.d.",
-  "group": "Other web sources cited",
-  "dup": null,
-  "html": "Canettieri, Paolo. n.d. “Alfonso X – <em lang=\"es\">Libro de los juegos</em> – Svolgimento dei giochi descritti nel trattato.” Blog post. <a href=\"https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/\" target=\"_blank\" rel=\"noopener\">https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/</a>."
  }
 ];

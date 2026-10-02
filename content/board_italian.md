@@ -121,7 +121,7 @@
   "it_gloss": "Labor is felt by you [lit. \"feels you\"] then, / when the reward is little or nothing.",
   "rule_it": "",
   "rule_en": "",
-  "note": "Spanish: \"Labor is never felt except when the reward is low.\" Italian turns \"never … except when\" into \"only then … when\" and adds \"or nothing\". \"ti sente\" (lit. \"feels you\") is odd; evidently \"you feel it\". Heading: Italian *travaglio* means toil, trouble, affliction; it lacks the everyday \"work\" of Spanish *trabajo*, so the work/hardship pun is only half kept."
+  "note": "Spanish: \"Labor is never felt except when the reward is low.\" Italian turns \"never … except when\" into \"then … when\" and adds \"or nothing\". \"ti sente\" (lit. \"feels you\") is odd; evidently \"you feel it\". Heading: Italian *travaglio* means toil, trouble, affliction; it lacks the everyday \"work\" of Spanish *trabajo*, so the work/hardship pun is only half kept."
  },
  "sq7": {
   "heading_it": "Il prodigo",
@@ -202,7 +202,7 @@
   "it_gloss": "For him to whom Fortune is miserly, / the throw turns into \"zara\".",
   "rule_it": "",
   "rule_en": "",
-  "note": "Spanish: \"If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*.\" Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, whose name gave Spanish *azar*. Board Spanish \"acar\" (no cedilla)."
+  "note": "Spanish: \"If there is no luck in pressing one's case (*negociar*), the throw turns to *azar*.\" Italian replaces the pressing of cases at court with a stingy Fortune. The dice pun survives: *zara* is the old Italian dice game, and a losing throw, a word of the same Arabic origin as Spanish *azar*. Board Spanish \"acar\" (no cedilla)."
  },
  "sq30": {
   "heading_it": "trauaglio",

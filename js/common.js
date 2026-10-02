@@ -21,7 +21,7 @@
 window.FC = window.FC || {};
 /* The edition's version, as given in the footers of the pages, the About credits, README,
    CHANGELOG.md and CITATION.cff: change them all together. */
-FC.VERSION = '0.2';
+FC.VERSION = '0.3';
 FC.VERSION_DATE = 'October 2026';
 
 /* ---------------------------------------------------------------- util */

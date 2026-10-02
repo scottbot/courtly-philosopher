@@ -3,6 +3,41 @@
 Each version of the edition is listed here, newest first, with what changed and any change to an
 address that readers may have cited (see `docs/ANCHORS.md`).
 
+## 0.3 (October 2026)
+
+An AI-produced draft, not reviewed by a specialist. Made by Claude (Anthropic). No address that
+readers may have cited has changed.
+
+- **Claims checked against their sources.** Every factual and interpretive claim in the
+  annotations, the essays, the notes to the book and the Play page was checked against the page it
+  cites. About a hundred were corrected: page numbers; overstatements (for example, Barros's post
+  called "modest", García de Loaysa called his "second patron", Lucero's arguments given as
+  findings); a scholar's view given as fact or as someone else's; anachronisms (Ripa's
+  *Iconologia*, 1593, and the 1680 part of Borja's *Empresas morales* are now marked as later than
+  Barros); and two passages that could mislead: the note at square 43, which could be read as saying
+  that Vázquez's faction planned the murder of Juan de Escobedo, and the rule box at 63, which gave
+  the Madrigal edition's exemption for Poverty as a rule of the first edition.
+- **What the sources say that the site had left out.** From the sources already cited: what
+  *filosofía* means in the title; Lucero on Vázquez's ancestry, Barros's commission at Talavera
+  (1588), his last years, the bookseller Blas de Robles, the authorship of the rules, why Death
+  stood on 58 and why 63; Collar de Cáceres on Barros's library and on the Silos office; the
+  members of the *castellanista* faction; the 1585 letter as a description of the goose game at
+  court; the casuists on restitution; the Roman game sheets of 1588–91 and the papal measures
+  against cards and dice; the Emmanuel College copy; and others, each with its citation.
+- **Gaps filled from reference works read online.** What the coins were worth (a real, 34
+  maravedís; a ducat, 375; an escudo, 400) and what a laborer earned (1600); the dates of the
+  Escobedo murder (1578), the arrest of Antonio Pérez (1579) and the Junta de Noche (1585); the
+  viceroy of Naples (the count of Miranda, 1586–95); which infanta played in 1585 (very probably
+  Isabel Clara Eugenia; our inference); Mateo Vázquez's disputed birth; the work of an
+  *aposentador* in Madrid; Castilian gaming law, in general terms; Ercilla as a censor; Liaño as an
+  agent between the courts; Cervantes's refused petition of 1590; the Metropolitan Museum's
+  chess-and-goose board; Cartaro after 1588; dates of the emblem books the annotations cite. Sources:
+  the Real Academia de la Historia's *Diccionario Biográfico electrónico*, the Treccani *Dizionario
+  Biografico degli Italiani*, and articles and catalogs listed under "Other web sources cited". A
+  blog cited for Alfonso X's dice game was replaced by a scholarly study.
+- **Display.** Page or passage numbers after a citation of a web source are now shown. Three
+  annotations that showed as broken fragments (squares 15 and 32) display as paragraphs again.
+
 ## 0.2 (October 2026)
 
 An AI-produced draft, not reviewed by a specialist. Made by Claude (Anthropic).

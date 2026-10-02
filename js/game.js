@@ -142,7 +142,7 @@
       steps.push(this.step('move', { from, to, by, bounce, via: ctx.via }));
       if (bounce) {
         steps.push(this.step('rebound', { square: to, bounce, poor: to === this.poverty }));
-        // one stake for going back, except onto Poverty: M fol. 48r, "salvo, el que da en la casa
+        // one stake for going back, except onto Poverty: M fol. 48r (DECISION: applied to G and C too), "salvo, el que da en la casa
         // de la pobreza, que no solo no paga, sino que todos le dan cada uno un tanto"
         if (to !== this.poverty) this.pay(p, 'pot', this.stake, steps, 'rebound');
       }
@@ -187,6 +187,7 @@
         }
         case 'well': {
           // pays one to each player and two to the pot "para sogas", misses a round (C pdf 67)
+          // DECISION: pays on arrival; C pdf 35 ("auiendo estado oluidado vna mano") may mean after the lost round
           this.pay(p, 'others', this.stake, steps, 'well');
           this.pay(p, 'pot', 2 * this.stake, steps, 'well-ropes');
           p.skip = 1;

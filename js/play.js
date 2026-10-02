@@ -402,7 +402,7 @@
   function renderPath() {
     const ul = document.createElement('ol');
     ul.className = 'path'; ul.id = 'path';
-    let h = `<li class="gate-li adorned" data-n="0">${pic('img/feat/entrance_gate.jpg', '', 'loading="lazy"')}<div><div class="pt">The Gate: before square 1</div><div class="pv">Where every petitioner waits to enter, under the swan that sings “Know thyself”.</div><div class="ptoks"></div></div>
+    let h = `<li class="gate-li adorned" data-n="0">${pic('img/feat/entrance_gate.jpg', '', 'loading="lazy"')}<div><div class="pt">The Gate: before square 1</div><div class="pv">Where every petitioner waits to enter, under the swan whose trumpet cries “Know thyself”.</div><div class="ptoks"></div></div>
       <button type="button" class="path-open" data-n="0" data-label="The Gate, before square 1" aria-label="The Gate, before square 1"></button></li>`;
     for (let n = 1; n <= 63; n++) {
       const ad = FC.sq.adorned(n, ed()), v = FC.sq.verse(n, ed());
@@ -555,7 +555,7 @@
       </div></div>
       <div class="ev-body">
         ${HOWTO}
-        ${gt.table || v ? `<details class="ev-again"><summary class="small">The gate, in Barros’s words</summary>${v ? `<div class="ev-verse es-dup">${esc(v.en).replace(' / ', '<br>')}</div>` : ''}${gt.table ? `<p class="ev-table">${gt.table}</p>` : ''}${v ? `<div class="ev-verse-es" lang="es">${esc(v.es_board || v.es_book)}</div>` : ''}</details>` : ''}
+        ${gt.table || v ? `<details class="ev-again"><summary class="small">The gate and the first square's verse</summary>${v ? `<div class="ev-verse es-dup">${esc(v.en).replace(' / ', '<br>')}</div>` : ''}${gt.table ? `<p class="ev-table">${gt.table}</p>` : ''}${v ? `<div class="ev-verse-es" lang="es">${esc(v.es_board || v.es_book)}</div>` : ''}</details>` : ''}
         <p class="credit">Square 1, the Gate of Opinion: detail of Mario Cartaro’s board, Naples 1588. ${BM}.</p>
         <div class="actions"><button class="btn primary" type="button" data-continue>Enter</button><button class="btn" type="button" data-read="1">Read about this square</button></div>
       </div></article>`;

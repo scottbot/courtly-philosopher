@@ -1,6 +1,6 @@
 # Filosofía cortesana — a playable edition
 
-**Version 0.2 (October 2026).** An AI-produced draft, not reviewed by a specialist (see "Who made
+**Version 0.3 (October 2026).** An AI-produced draft, not reviewed by a specialist (see "Who made
 it"). What changed: `CHANGELOG.md`. How to cite it: "Version and how to cite", below.
 
 A scholarly, playable web edition of Alonso de Barros's *Filosofía cortesana* (Madrid 1587),
@@ -204,12 +204,12 @@ recorded. No copy is deposited in an archive.
 
 ## Version and how to cite
 
-This is version 0.2 (October 2026), made by Claude (Anthropic). The changes are listed in
+This is version 0.3 (October 2026), made by Claude (Anthropic). The changes are listed in
 `CHANGELOG.md`; `CITATION.cff` gives the same details for citation tools. Until a specialist has
 reviewed it, the edition should not be cited as scholarship. To refer to it, give the version, say
 that it is an unreviewed draft, and add the address of the page and the date you read it:
 
-> *Filosofía cortesana: a playable edition*, version 0.2 (October 2026), made by Claude
+> *Filosofía cortesana: a playable edition*, version 0.3 (October 2026), made by Claude
 > (Anthropic). An AI-produced draft, not reviewed by a specialist.
 
 Cite a square as "The Squares, square 39" with the address of `atlas.html#39`; a passage of the
@@ -222,7 +222,7 @@ version to version (`docs/ANCHORS.md`).
 Made by Claude, an AI model made by Anthropic, at the request of Scott B. Weingart, who set the brief,
 supplied the research library, and answered questions along
 the way. Claude read the sources, transcribed the 1588 book and the board from the page images, made the
-translations, wrote the annotations and essays, and wrote the code. After it was written, the edition was checked against its sources in separate passes, also by Claude, each made by an instance that had not written the part it checked: the transcription of the 1588 book, letter by letter, against the page images of the Vienna copy; the inscriptions on the board, and every description of what the board shows, against the British Museum photograph; the Spanish of the Madrid edition against Ciompi and Seville's transcription; the readings of the first edition against Lucero's tables; and every passage the edition quotes, with the English given for it, against the source at the page cited (the short quotations marked as verified in the source files (`{q|…}`) are also checked by program, `tools/verify_quotes.py`). Doubtful readings were looked at a second time, and the notes say which remain doubtful. The English of the book and of the board was read against the original for errors of sense. A further pass compared the edition's prose and its translations with the sources, in Spanish, Italian, French and English, and with the existing English translations of Barros, looking for words quoted without quotation marks, sentences translated or paraphrased too closely, and ideas used without credit; what it found has been quoted, credited or rewritten. These checks are not a specialist's review. The transcriptions, translations and interpretations have not
+translations, wrote the annotations and essays, and wrote the code. After it was written, the edition was checked against its sources in separate passes, also by Claude, each made by an instance that had not written the part it checked: the transcription of the 1588 book, letter by letter, against the page images of the Vienna copy; the inscriptions on the board, and every description of what the board shows, against the British Museum photograph; the Spanish of the Madrid edition against Ciompi and Seville's transcription; the readings of the first edition against Lucero's tables; and every passage the edition quotes, with the English given for it, against the source at the page cited (the short quotations marked as verified in the source files (`{q|…}`) are also checked by program, `tools/verify_quotes.py`). Doubtful readings were looked at a second time, and the notes say which remain doubtful. The English of the book and of the board was read against the original for errors of sense. A further pass compared the edition's prose and its translations with the sources, in Spanish, Italian, French and English, and with the existing English translations of Barros, looking for words quoted without quotation marks, sentences translated or paraphrased too closely, and ideas used without credit; what it found has been quoted, credited or rewritten. For version 0.3, every factual and interpretive claim was checked against the page it cites, for support and for fair statement of each scholar's view; the sources were read again for what the edition had left out; and gaps the edition had admitted (the value of the coins, the dates of the Escobedo murder and of the Junta de Noche, the viceroy of Naples, the infanta of 1585) were filled from scholarly reference works read online, chiefly the Real Academia de la Historia's biographical dictionary and the Treccani biographical dictionary. These checks are not a specialist's review. The transcriptions, translations and interpretations have not
 been reviewed by a specialist in early modern Spanish or Italian. **This is a draft**, and should not be trusted
 or cited as scholarship until it has been reviewed; every page opens with a notice saying so (`js/common.js`,
 "draft notice").

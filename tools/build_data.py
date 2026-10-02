@@ -107,6 +107,11 @@ def parse_biblio():
            'ref:dadson1987ed': 'Dadson ed. 1987', 'ref:lucero2019ed': 'Lucero ed. 2019',
            'ref:blasco2014': 'Blasco ed. 2014', 'ref:bne2016': 'BNE facsimile 2016',
            'ref:careaga1612': 'Careaga 1612',
+           # names the automatic rule cannot split (initials, three authors)
+           'web:https://hdl.handle.net/11441/163180': 'Basulto et al. 2006',
+           'web:https://ifc.dpz.es/recursos/publicaciones/25/27/13baltarrodriguez.pdf': 'Baltar Rodríguez 2001–2002',
+           'ref:kubersky2011': 'Kubersky-Piredda & Salort Pons 2011',
+           'web:https://e-archivo.uc3m.es/entities/publication/fd72eda9-ff37-4e59-96fa-81112999a5df': 'Reher & Ballesteros 1993',
            # filed under "Lucero Sánchez", apart from Lucero 2019a–d: no letter needed
            'lucerosanchezAsnoPenseQue2019': 'Lucero Sánchez 2019'}
     for k, v in fix.items():
@@ -164,16 +169,18 @@ def cite_item(item):
         # class cite-board: the introduction drops these, since the board is always in view
         return ('<a class="cite cite-board" href="about.html#about-board" data-key="ref:board" '
                 'aria-expanded="false">board</a>')
-    m = re.match(r'@web:(\S+)', item)
+    m = re.match(r'@web:(\S+?),?(?:\s+(.+))?$', item)
     if m:
         url = m.group(1).rstrip(',')
+        wloc = (m.group(2) or '').strip()
         if not re.match(r'https?://[^\s"<>]+$', url):
             WARN.append(f'web citation is not an http(s) address (shown as text): {url}')
             return html.escape(item)
         b = BIB.get('web:' + url)
         lab = b['label'] if b else re.sub(r'https?://(www\.)?([^/]+).*', r'\2', url)
+        shown = lab + (', ' + wloc if wloc else '')   # the page or passage cited, after the label
         return (f'<a class="cite" href="{html.escape(url)}" target="_blank" rel="noopener" '
-                f'data-key="{html.escape("web:" + url)}" aria-expanded="false">{html.escape(lab)}</a>')
+                f'data-key="{html.escape("web:" + url)}" aria-expanded="false">{html.escape(shown)}</a>')
     m = re.match(r'@([\w:-]+)\s*(?:,\s*(.*))?$', item)
     if not m:
         return html.escape(item)
@@ -433,7 +440,9 @@ def paras(text):
     blank lines between paragraphs (B_, D_). Long-line fields get a paragraph per
     line; wrapped fields are read as ordinary Markdown."""
     lines = [l.strip() for l in text.split('\n')]
-    if max((len(l) for l in lines), default=0) > 600:
+    # a field with blank lines between paragraphs is wrapped Markdown, even if one of its
+    # lines is long; without blank lines, a line over 600 characters marks one paragraph per line
+    if '' not in lines[1:-1] and max((len(l) for l in lines), default=0) > 600:
         out = []
         for l in lines:
             if not l:

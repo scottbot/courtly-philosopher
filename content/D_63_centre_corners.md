@@ -3,7 +3,7 @@ title_en: Victory, the Palm
 title_es: casa de la vitoria
 board_it: VITORIA (cartouche; the heading is the same in both languages)
 kind: marked
-rule_short: Reach 63 by exact count to win the pot. Overshoot counts back and costs one stake, unless you land on Poverty (60; 59 in the first edition).
+rule_short: Reach 63 by exact count to win the pot. Overshoot counts back and costs one stake, except a count-back onto Poverty (Madrigal's exemption, applied here to all three editions).
 table: Neither too much nor too little: the exact throw is temperance, and the moon of the verse warns that no prize at court stays full [@barrosFilosofiaCortesanaMoralizada1588, pdf 53–55].
 see: |
   In the lower middle of the central sea stands a small classical gate (an aedicule): a
@@ -36,7 +36,7 @@ why: |
 context: |
   The exact finish, with the surplus counted back, is the rule of the Game of the Goose, the
   63-square race game that had reached Philip II's court by 1585; Barros kept it along with
-  the number of squares, so that his board stayed recognizable [@luceroFilosofiaCortesanaJuego2020, 122–25; @sevilleImportanceTextPrinted2026, 66; @infantesPinturaQueSe2010, 134–35].
+  the number of squares, so that his board stayed recognizable [@luceroFilosofiaCortesanaJuego2020, 122–25; @sevilleImportanceTextPrinted2026, 66, 69–70; @infantesPinturaQueSe2010, 134–35].
   Lucero ties the number 63 to the ages of human life and to the climacteric years, the
   seventh-year thresholds of life that were thought dangerous. He cites Pedro Mexía's *Silva
   de varia lección*, where the most feared of all was the sixty-third: {q|luceroFilosofiaCortesanaJuego2020|pdf9|125|el más temido de todos era el año sesenta y tres}
@@ -92,7 +92,10 @@ readings: |
   learned are their own reward [@luceroFilosofiaCortesanaJuego2021juin20, 146].
   For Bidwell-Steiner the guiding principle seems to be that {q|bidwell-steinerFilosofiaCortesanaAlfonso2024|pdf10|204|se consigue la palma de la victoria cuando se ha perdido enteramente la confianza y solamente se sigue adelante por el «valor de sufrimiento»} ("the palm of victory is won when confidence has been entirely lost and one goes on only by the 'valor of suffering'") [@bidwell-steinerFilosofiaCortesanaAlfonso2024, 204]. Wood reads
   the center as a choice of ends: {q|woodChancingItPrint2019|pdf14|463|either the ‘sea of suffering’ for a sinful life or the ‘palm of victory’ for the moral and successful contestant} [@woodChancingItPrint2019, 463]; Barros's text does not present
-  the sea as a losing end (our observation).
+  the sea as a losing end (our observation). Zollinger and Méndez Filesi take the overshoot
+  charge to be one stake for every square counted back [@GameGooseLargest]; Barros's "por
+  cada vez" counts times, not squares (our observation)
+  [@barrosFilosofiaCortesanaMoralizada1588, pdf 68–69].
 barros_pdf: 53-55, 68-69
 sources: barrosFilosofiaCortesanaMoralizada1588, debarrosFilosofiaCortesana1587, luceroFilosofiaCortesanaJuego2020, luceroFilosofiaCortesanaJuego2021juin20, luceroTableroJuego15882019, sanchezEdicionesAntiguasFilosofia2016oct16, sevilleImportanceTextPrinted2026, bidwell-steinerFilosofiaCortesanaAlfonso2024, decaceresTableroItalianoFilosofia2009, millanFilosofiaCortesanaAlonso1996, infantesPinturaQueSe2010, wilsonCervantesItemEmmanuel1968, woodChancingItPrint2019, GameGooseLargest
 ===
@@ -209,6 +212,12 @@ context: |
   [@barrosFilosofiaCortesanaMoralizada1588, pdf 23], and Collar de Cáceres, who sets Cervantes's sea of petitions beside Barros's own preference for the metaphor, notes that he
   used the stormy sea of life again in his praise of *Guzmán de Alfarache* (1599)
   [@decaceresTableroItalianoFilosofia2009, 99, 104].
+  The image was a commonplace. Martínez Millán writes that the court, where one had to take
+  care not to get lost or be shipwrecked, was likened to a labyrinth or to a {q|millanFilosofiaCortesanaAlonso1996|pdf6|466|mar embravecido}
+  (stormy sea) [@millanFilosofiaCortesanaAlonso1996, 466], and
+  Rodríguez Mansilla calls the court as a sea a well-established commonplace of Spanish
+  letters, citing Martínez Navarro's study of Castillejo's anti-court writing
+  [@rodriguezmansillaGRABADOPICARAJUSTINA2019, 190 n. 9].
   Collar describes the center as a rough sea with ships and a whale, and on its shore
   fishermen with rod or net [@decaceresTableroItalianoFilosofia2009, 99]. Rodríguez Mansilla
   sees {q|rodriguezmansillaGRABADOPICARAJUSTINA2019|pdf6|188|la figura de un delfín (aunque tiene aspecto de pez) del que asoman cabeza y cola}
@@ -285,8 +294,7 @@ context: |
   device of the emperor Titus; a codicil of 27 July 1604 shows that Barros then had in his
   house a book of Giovio's belonging to the licentiate Vélez of Jaén
   [@decaceresTableroItalianoFilosofia2009, 93].
-  Martínez Millán cites the Spanish Giovio (Seville, 1561), where Titus prefers the dolphin
-  and anchor to Vespasian's butterfly and crab [@millanFilosofiaCortesanaAlonso1996, 473].
+  Martínez Millán cites the Spanish Giovio (Seville, 1561), in the devices of Gabriele Simeoni printed with it: Titus put a dolphin and an anchor on his medals "in place of the butterfly and the crab" [@millanFilosofiaCortesanaAlonso1996, 473 n.59].
   The four corner mottoes have no Italian, unlike the verses on the track
   [@luceroTableroJuego15882019, 203].
 variants: |
@@ -515,9 +523,9 @@ why: |
   [@decaceresTableroItalianoFilosofia2009, 86; @infantesPinturaQueSe2010, 130].
 context: |
   Mario Cartaro (Viterbo, 1540/45 – Naples, 16 April 1620) was, in the words of the British Museum catalog as Seville quotes it: "Engraver, print dealer and
-  publisher" [@sevilleImportanceTextPrinted2026, 70 n. 16]. He was active in Rome from the late 1550s, worked with Antoine Lafréry on the
-  *Speculum Romanae Magnificentiae*, and valued Lafréry's estate after his death in 1577
-  [@sevilleImportanceTextPrinted2026, 70; @web:https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/].
+  publisher" [@sevilleImportanceTextPrinted2026, 70 n. 16]. He was active in Rome from the late 1550s, collaborating at times with Antoine Lafréry, who included engravings of his in the
+  *Speculum Romanae Magnificentiae*, and he valued Lafréry's estate after Lafréry's death in 1577
+  [@sevilleImportanceTextPrinted2026, 70 n. 16; @woodChancingItPrint2019, 462; @web:https://www.treccani.it/enciclopedia/mario-cartaro_(Dizionario-Biografico)/].
   His Roman work included the engraving of Vignola's design for the façade of the Gesù
   (1573), a celestial globe (1577), maps of Rome, and prints after Michelangelo
   [@decaceresTableroItalianoFilosofia2009, 102; @web:https://www.metmuseum.org/art/collection/search/364091].
@@ -536,7 +544,11 @@ context: |
   example of the sheet, and Lucero knows no sheet for either Madrid edition
   [@sevilleImportanceTextPrinted2026, 70; @luceroTableroJuego15882019, 202].
   The British Museum acquired it in 1869 at the Sotheby's sale of 24–27 February, through the dealer Edward Daniell, from the collection of José de Salamanca y Mayol, Marquis of Salamanca; José de Madrazo owned it earlier
-  [@britishMuseumRecord2012; @web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-]. Early Italian goose
+  [@britishMuseumRecord2012; @web:https://www.britishmuseum.org/collection/object/P_1869-0410-2463-].
+  Madrazo also owned the Museum's impressions of Gatti's *Game of the Monkey* and de Paoli's
+  *Game of the Garden of Love*; Wood notes that he had studied in Rome, {q|woodChancingItPrint2019|pdf30|479|where he may have acquired the prints}
+  [@woodChancingItPrint2019, 479 n. 20]. The sources we cite do not say where he acquired
+  Barros's sheet. Early Italian goose
   boards from the same purchase sit under neighboring numbers, among them Gargano's 1598
   goose game, 1869,0410.2465.+ [@sevilleImportanceTextPrinted2026, 65; @web:https://www.britishmuseum.org/collection/object/P_1869-0410-2465-]. Scholars had long taken the board for
   lost: {q|decaceresTableroItalianoFilosofia2009|pdf1|81|De éste, dado por perdido, se conserva un ejemplar en el British Museum}
@@ -573,7 +585,7 @@ readings: |
   him a bilingual board printed in Naples, a territory of the Spanish crown, was aimed at the
   Spanish colony there and at the local court [@luceroTableroJuego15882019, 202–3]. Infantes
   also suspects a faithful copy of the Madrid picture, while stressing that it is in
-  Castilian [@infantesPinturaQueSe2010, 135]. Zollinger calls it {q|GameGooseLargest|pdf0||Il s’agit du plus ancien jeu de l’oie daté connu.}
+  Castilian [@infantesPinturaQueSe2010, 135] (the Naples board is in Italian and Spanish [board]). Zollinger calls it {q|GameGooseLargest|pdf0||Il s’agit du plus ancien jeu de l’oie daté connu.}
   ("the oldest dated game of the goose known") [@GameGooseLargest]; Wood, more cautiously,
   counts it with Gatti's *Game of the Monkey* (also 1588) among two prints of a decade before
   the earliest sheet titled as a goose game (Gargano, 1598) [@woodChancingItPrint2019, 454].
