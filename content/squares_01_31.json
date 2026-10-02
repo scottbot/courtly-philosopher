@@ -39,7 +39,7 @@
   ],
   "img_bbox_kind": "illustration",
   "confidence": "high",
-  "notes": "No numeral '1' is visible (the peacock's fanned tail fills the upper part of the bay). Text box below the peacock, between the pedestals, x 470-685, y 3320-3440, upright (rot 0). Initial 'e' of line 2 and final 'e' of 'raggione', 'l'openione' are cut like 'c'. The z of 'razon' is the looped ʒ form. Engraved word division: 'Alospies miraraʒon / yalaruedalaopinion'. Board has 'y a la rueda' (so Collar and Zollinger); the La Bella Donna blog's 'y la rueda' drops the 'a'."
+  "notes": "No separate numeral '1' is visible (the peacock's fanned tail fills the upper part of the bay); a thick vertical stroke with a flat cap at the top of the crest, just under the rail at about (575,3070), in the place of the numerals of 2-5, may be the numeral 1 cut into the crest (seen in both photographs; undecided). Text box below the peacock, between the pedestals, x 470-685, y 3320-3440, upright (rot 0). Initial 'e' of line 2 and final 'e' of 'l'openione' are cut like 'c'; the final 'e' of 'raggione' is a normal e. The z of 'razon' is the looped ʒ form. Engraved word division: 'Alospies miraraʒon / yalaruedalaopinion'. Board has 'y a la rueda' (so Collar and Zollinger); the La Bella Donna blog's 'y la rueda' drops the 'a'."
  },
  {
   "n": 2,
@@ -131,7 +131,7 @@
   "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò nie[n]te",
   "es": "Nunca se siente el trabajo / sino qua[n]do el premio es bajo",
   "rule": "",
-  "image_desc": "A yoke of two oxen walking to the right on the ground strip, the far ox largely hidden behind the near one; above them a festoon (a cluster of fruit and leaves) hangs on a cord slung between the two balusters.",
+  "image_desc": "A yoke of two oxen walking to the right on the ground strip, the far ox largely hidden behind the near one; above them a festoon (a cluster of fruit and leaves) hangs on a cord slung between the two balusters. A cord from the yoke runs back over the near ox and round its hindquarters to a plow beam that slants down to the ground at the lower left, its end half hidden by the baluster.",
   "blank": false,
   "center": [
    1292,
@@ -417,7 +417,7 @@
   ],
   "img_bbox_kind": "illustration",
   "confidence": "high",
-  "notes": "Numeral '10' at (2144,2444) above the siren's head. Text box on the outer side of the bay, x 2345-2505, y 2440-2695, reading upward (rot about -78). 'pã' is squeezed at the end of line 2 with 'no' engraved beneath it ('pã/no' = pa[n]no). 'è' written as e + grave mark. 'yẽganno' has the tilde over the e. Collar's text agrees; he does not note the wrapped 'no'."
+  "notes": "Numeral '10' at (2144,2444) above the siren's head. Text box on the outer side of the bay, x 2345-2505, y 2440-2695, reading upward (rot about -78). 'pã' is squeezed at the end of line 2 with 'no' engraved beneath it ('pã/no' = pa[n]no). 'è' written as e + grave mark. 'yẽganno' has the tilde over the e. Collar's text agrees; he does not note the wrapped 'no'. Below the end of 'uendon' a short hooked stroke descends from the last minim of the n below the baseline (a faint dot in the second photograph): a tail on the n or a comma ('uendon, la'); not transcribed."
  },
  {
   "n": 11,
@@ -593,7 +593,7 @@
   "it": "Nulla spera[n]za per buona s'intende / che dalla uolonta d'altrui dipe[n]de",
   "es": "Ninguna esperança es buena / que esta en uoluntad agena",
   "rule": "Al priuato ·n[umer]º· 26. Paga",
-  "image_desc": "A bearded man in a short tunic stands on a brick bridge with two round arches, water pouring out through the arches beneath him; he holds up his right hand, from which a string of coins falls, and holds a purse or bag in his left hand.",
+  "image_desc": "A bearded man in a short tunic stands on a brick bridge with two round arches, water pouring out through the arches beneath him; he holds up one hand (on the viewer's right), from which a string of coins falls, and holds a purse or bag in the other.",
   "blank": false,
   "center": [
    2387,
@@ -627,7 +627,7 @@
   ],
   "img_bbox_kind": "illustration",
   "confidence": "high",
-  "notes": "Numeral '15' engraved either side of the man's head (at 2207,1377). Text box on the outer side, x 2455-2593, y 1225-1455, reading upward (rot -90); the last syllable 'de' of 's'inten|de' is engraved above the end of the line. Rule label in its own box in the white gutter just inside the ring's inner edge, x 2110-2185, y 1245-1455, reading upward (rot -90); 'n' has a superscript o. Board reads 'per buona' (Collar prints 'por buona'; the La Bella Donna blog omits the word). Engraved 'queesta' as one word."
+  "notes": "Numeral '15' engraved either side of the man's head (at 2207,1377). Text box on the outer side, x 2455-2593, y 1225-1455, reading upward (rot -90); the last syllable 'de' of 's'inten|de' is engraved above the end of the line. Rule label in its own box in the white gutter just inside the ring's inner edge, x 2110-2185, y 1245-1455, reading upward (rot -90); 'n' has a superscript o. Board reads 'per buona' (Collar prints 'por buona'; the La Bella Donna blog omits the word). Engraved 'queesta' as one word. In the hi-res photograph a thin oblique stroke stands above the second e of 'esperança'; it is not seen in the second photograph and is not transcribed (probably a scratch)."
  },
  {
   "n": 16,
@@ -677,7 +677,7 @@
   "it": "Vien dal'otio pouertade / dal trauaglio facoltade",
   "es": "Del ocio nace pobreza / y del trabajo riqueza",
   "rule": "",
-  "image_desc": "A yoke of two oxen: the near ox standing, turned toward the viewer, with a cord from its yoke looped back over its body; the second ox lies or stands half-hidden behind it (a third horn and a flank are visible); above, a festoon of fruit on a cord between the balusters.",
+  "image_desc": "A yoke of two oxen: the near ox standing, turned toward the viewer, with a cord from its yoke looped back over its body and down to a small plow (handle and share) at the lower left; the second ox lies or stands half-hidden behind it (a third horn and a flank are visible); above, a festoon of fruit on a cord between the balusters.",
   "blank": false,
   "center": [
    2278,
@@ -719,7 +719,7 @@
   "it": "",
   "es": "",
   "rule": "",
-  "image_desc": "No emblem: numeral '18' and a small flowering plant on the ground strip.",
+  "image_desc": "No emblem: numeral '18' and a small leafy sprig on the ground strip.",
   "blank": true,
   "center": [
    2149,
@@ -837,7 +837,7 @@
   ],
   "img_bbox_kind": "illustration",
   "confidence": "high",
-  "notes": "Numeral '20' at (1737,600). Text box on the outer side, x 1690-1950, y 200-430, upside down and tilted (rot about -156 to -160). The final 'ia' of 'trauaglia' is engraved above the end of the line. Board reads 'Quanto il mondo' (the blog prints 'Quando'; Collar prints 'Quanto el mondo'). No accent visible on 'e come'. Engraved 'trabaja y' run together as 'trabajay'."
+  "notes": "Numeral '20' at (1737,600). Text box on the outer side, x 1690-1950, y 200-430, upside down and tilted (rot about -156 to -160). The final 'ia' of 'trauaglia' is engraved above the end of the line. Board reads 'Quanto il mondo' (the blog prints 'Quando'; Collar prints 'Quanto el mundo'). No accent visible on 'e come'. Engraved 'trabaja y' run together as 'trabajay'."
  },
  {
   "n": 21,
@@ -1051,11 +1051,11 @@
  },
  {
   "n": 26,
-  "heading": "Il pri[u?]ato",
+  "heading": "Il priuato",
   "it": "Non cercar mano aliena / se la tua non serà piena",
   "es": "No pidas la mano agena / si la tuya no va llena",
   "rule": "Paga.",
-  "image_desc": "Two men in cloaks. On the left a man in a brimmed hat walks forward holding up in both hands a round dish or bowl (its contents not distinguishable) and offers it to a bearded man in a cap on the right, who stands in a doorway and reaches for it.",
+  "image_desc": "Two men in cloaks. On the left a man in a brimmed hat walks forward holding up in one hand a round dish or bowl (its contents not distinguishable) and offers it to a bearded man in a cap on the right, who stands in a doorway and reaches for it.",
   "blank": false,
   "center": [
    555,
@@ -1089,7 +1089,7 @@
   ],
   "img_bbox_kind": "illustration",
   "confidence": "high",
-  "notes": "Numeral '26' at (730,777), by the doorway. Text box on the outer side, x 340-540, y 480-720 (rot about 126-130). The 'Paga.' label is in a small box in the white gutter just inside the ring's inner edge, x 700-765, y 760-840 (rot about 126). The heading reads 'priuato' or 'primato': the minims after 'pri' cannot be counted with certainty in this photograph (three would give 'priuato', four 'primato'); recorded as 'pri[u?]ato'. The rule label at 15 reads 'Al priuato'. Board reads 'No pidas' (the blog's 'No(n) pidas' is not supported). The blog's 'passing a bag' does not match the image: a dish or bowl."
+  "notes": "Numeral '26' at (730,777), by the doorway. Text box on the outer side, x 340-540, y 480-720 (rot about 126-130). The 'Paga.' label is in a small box in the white gutter just inside the ring's inner edge, x 700-765, y 760-840 (rot about 126). The heading reads 'priuato', with the u cut like an n (three minims after 'pri'), as in the rule label at 15, 'Al priuato'. Board reads 'No pidas' (the blog's 'No(n) pidas' is not supported). The blog's 'passing a bag' does not match the image: a dish or bowl."
  },
  {
   "n": 27,

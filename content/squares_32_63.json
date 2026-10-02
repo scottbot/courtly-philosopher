@@ -4,8 +4,8 @@
   "heading": "Pozzo del oblio",
   "it": "Pone in oblio l'ingrato / tutto il ben che li fù dato",
   "es": "Pone el ingrato en oluido / quanto bien hae recibido",
-  "rule": "Per le fune ·1· et ·2· fermesi / Para sogas ·1· y ·2· estese",
-  "image_desc": "A round brick well-head (drawn in perspective) with a winch frame and crank handle on its right; a man inside the shaft, visible from the waist up, grips the rope with both hands to haul himself out.",
+  "rule": "Per le fune ·1· et ·2· fermesi / Para·sogas ·1· y ·2· estese",
+  "image_desc": "A round brick well-head (drawn in perspective) with a windlass over it: an upright post at one side carrying a horizontal roller with knobbed ends; a man inside the shaft, visible from the waist up, grips the rope with both hands to haul himself out.",
   "blank": false,
   "center": [
    295,
@@ -83,7 +83,7 @@
   "it": "Il frutto della spene / con il trauaglio uiene",
   "es": "El fruto dela esperança / por el trabajo se alcança",
   "rule": null,
-  "image_desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters (the 'frutas enhiladas' of the Labor squares).",
+  "image_desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right, a cord from the yoke running back over the near ox to a plow beam that slants down to the ground behind them; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters (the 'frutas enhiladas' of the Labor squares).",
   "blank": false,
   "center": [
    430,
@@ -277,7 +277,7 @@
   "heading": "Falsa amicitia",
   "it": "Rendon gratie per aggrauij / quando negotian gli sauij",
   "es": "Dondo gra[cia]s por agrauios / negocian los honbres sabios",
-  "rule": "Al prodigo ·n·° ·7·Paga",
+  "rule": "Al prodigo ·n·° 7 ·Paga",
   "image_desc": "A fox lying on its back feigning death, legs in the air, tail curled; five birds about it: two alight on its raised paws, three fly above.",
   "blank": false,
   "center": [
@@ -356,7 +356,7 @@
   "it": "Trauaglio e il non hauere / da poter mangiare e bere",
   "es": "Trabajo es no le tener / el q[ue] del a de comer",
   "rule": null,
-  "image_desc": "A yoke of two oxen walking upward toward the upper right (toward square 42); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
+  "image_desc": "A yoke of two oxen walking upward toward the upper right (toward square 42), a cord from the yoke running back over the near ox to a plow behind them, its share among furrow lines; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
   "blank": false,
   "center": [
    1760,
@@ -621,7 +621,7 @@
    2040,
    1460
   ],
-  "notes": "Number '47' at (1880,1400). The long label to the right (x 2110-2200, 'Al priuato n.º 26 Paga') belongs to square 15 in the outer ring."
+  "notes": "Number '47' at (1880,1400). The long label to the right (x 2110-2200, 'Al priuato ·n[umer]º· 26. Paga') belongs to square 15 in the outer ring."
  },
  {
   "n": 48,
@@ -629,7 +629,7 @@
   "it": "Ben che mobil sia fortuna / al trauaglio è oportuna",
   "es": "Aunque fortuna es mudable / al trabajo es fauorable",
   "rule": null,
-  "image_desc": "A yoke of two oxen, heads toward the upper left (toward square 49); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
+  "image_desc": "A yoke of two oxen, heads toward the upper left (toward square 49), a cord from the yoke running back over the near ox to a plow beam and share behind them; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
   "blank": false,
   "center": [
    1880,
@@ -746,7 +746,7 @@
   "it": "Tutto :sta à dispositione / di fortuna et permissione",
   "es": "Todo :esta a dispusicion / de fortuna y permision",
   "rule": "Giuoca ·2· uolte ·",
-  "image_desc": "Fortune: a nude young woman with wings, standing on a sphere, holding with both hands a long banderole inscribed 'cambio et / muto il consiglio'; beside her a spoked wheel on a post, from which a man falls head-first.",
+  "image_desc": "Fortune: a nude young woman with wings, standing on a sphere, holding in her left hand a long banderole inscribed 'cambio et / muto il consiglio'; her right hand rests on the rim of a spoked wheel on a post beside her, from which a man falls head-first.",
   "blank": false,
   "center": [
    1440,
@@ -785,7 +785,7 @@
   "it": null,
   "es": null,
   "rule": null,
-  "image_desc": "No emblem: ground strip (inverted, along the outer edge at the top) with grass and hanging leafy plants.",
+  "image_desc": "No emblem: ground strip (inverted, along the outer edge at the top) with grass and a small flowering plant.",
   "blank": true,
   "center": [
    1230,
@@ -824,7 +824,7 @@
   "it": "Ogni sorte in mal fin cade / oue alberga pouertade",
   "es": "Qual quier suerte es de tristeza / en la casa do ay pobreza",
   "rule": null,
-  "image_desc": "Three dice lying on a dice-tray (a board with a raised rim and turned corner posts), drawn in perspective. The pip faces shown are 4, 4 and 3: a throw of 11, matching Barros's 'suerte de once'.",
+  "image_desc": "Three dice lying on a dice-tray (a board with a raised rim and turned corner posts), drawn in perspective. The pip faces shown are 4, 4 and 3: a throw of 11, matching Barros's 'suerte de onze'.",
   "blank": false,
   "center": [
    1030,
@@ -933,7 +933,7 @@
    850,
    1215
   ],
-  "notes": "Heading and verses in the gutter outside the outer edge, x 540-700, y 930-1260, reading top-to-bottom with a lean (rot ~100). Rule label along the ring's inner edge, x 855-960, y 1090-1335 (rot ~68). Italian first line 'Dal pensai che,' with a comma (Collar 'Dal pensai che,' agrees; Zollinger/giochidelloca 'Dal pensar che' normalize to the heading). 'tien poco' (Collar 'tien' agrees; Zollinger 'tiene' wrong). The Italian second line is long and runs to the edge of the box."
+  "notes": "Heading and verses in the gutter outside the outer edge, x 540-700, y 930-1260, reading top-to-bottom with a lean (rot ~100). Rule label along the ring's inner edge, x 855-960, y 1090-1335 (rot ~108). Italian first line 'Dal pensai che,' with a comma (Collar 'Dal pensai che,' agrees; Zollinger/giochidelloca 'Dal pensar che' normalize to the heading). 'tien poco' (Collar 'tien' agrees; Zollinger 'tiene' wrong). The Italian second line is long and runs to the edge of the box."
  },
  {
   "n": 56,
@@ -1050,7 +1050,7 @@
    720,
    1800
   ],
-  "notes": "Number '58' at (820,1720)."
+  "notes": "Number '58' at (830,1795)."
  },
  {
   "n": 59,
@@ -1213,7 +1213,7 @@
   "heading": "VITORIA",
   "it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
   "es": "Quando tengas mas fortuna / mira que es como la luna",
-  "rule": "Ne il poco ne lassai · / Ni lo mucho ni la poco",
+  "rule": "Ne il poco ne lassai · / Ni lo mucho·ni la poco",
   "image_desc": "A classical aedicule (gate) with a triangular pediment topped by finials, two pairs of columns, and large acanthus scrolls (volutes) at either side; a tall palm tree grows up through its center, the scaly trunk visible in the opening and the crown of fronds, with clusters of dates, spreading above the pediment. The numerals '6' and '3' are engraved in the opening on either side of the trunk; beneath them a two-line panel with the motto; below, a cartouche 'VITORIA'. The verses are engraved under the aedicule, above square 39's rule label.",
   "blank": false,
   "center": [
@@ -1245,6 +1245,6 @@
    1570,
    2585
   ],
-  "notes": "Quad = the aedicule's rectangle (pediment to column bases); img_bbox includes the palm crown. Motto panel bbox [1235,2335,1455,2420]: 'Ne il poco ne lassai ·' / 'Ni lo mucho ni la poco' (engraved 'Nilomucho·nila poco'); read 'ne l'assai' (nor the much), so 'lassai' is not an error; 'la poco' is as engraved (Collar's view that the odd forms are the engraver's is right for 'la'). The Lucero notes' tentative 'lassar' is wrong: the last letter is a minim without the shoulder of this hand's r. A fine diagonal stroke crosses the 'n' of 'ne' (a scratch or stray line, not a tilde). Verses bbox [1225,2572,1465,2668] (rot ~-4): Italian line 2 engraved 'pensa che mobil epiu' che la luna' = 'mobil è più'. The 'rule' field here holds the exact-throw motto (Barros: no more and no fewer points than needed). The verses 'Mai salirà gran costa ...' belong to the man at the palm (see centre.json)."
+  "notes": "Quad = the aedicule's rectangle (pediment to column bases); img_bbox includes the palm crown. Motto panel bbox [1235,2335,1455,2420]: 'Ne il poco ne lassai ·' / 'Ni lo mucho·ni la poco' (engraved 'Nilomucho·nila poco'); read 'ne l'assai' (nor the much), so 'lassai' is not an error; 'la poco' is as engraved (Collar's view that the odd forms are the engraver's is right for 'la'). The Lucero notes' tentative 'lassar' is wrong: the last letter is a minim without the shoulder of this hand's r. A fine diagonal stroke crosses the 'n' of 'ne' (a scratch or stray line, not a tilde). Verses bbox [1225,2572,1465,2668] (rot ~-4): Italian line 2 engraved 'pensa che mobil epiu' che la luna' = 'mobil è più'. The 'rule' field here holds the exact-throw motto (Barros: no more and no fewer points than needed). The verses 'Mai salirà gran costa ...' belong to the man at the palm (see centre.json)."
  }
 ]

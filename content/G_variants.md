@@ -6,7 +6,7 @@
 - Lucero 2019, *Romance Notes* 59.1 [@luceroTableroJuego15882019]: Poverty at 59 (G fols. 16v and 22r) and the Sea of Suffering passage (G fols. 19r–v).
 - Lucero Sánchez 2020, thesis (repository version) [@sanchezFILOSOFIACORTESANAALONSO]: summary claims about the lost G board only; it quotes no G text.
 
-No other source we cite quotes G. The later Lucero articles and the reviews of his 2019 edition cite Barros from Madrigal. The 2019 critical edition (Polifemo), which records all the variants in an appendix, is not among the sources we have.
+No other source we cite quotes G's text, except that Lucero's article on the dedication quotes G's title-page dedication line, in modernized spelling, and notes that G's title page has no woodcut [@luceroDEDICATORIAFILOSOFIACORTESANA2019, 35, 39 n. 17]. The later Lucero articles and the reviews of his 2019 edition cite Barros from Madrigal (or Dadson's 1987 facsimile of it) or from the 2019 critical edition. The 2019 critical edition (Polifemo), which records all the variants in an appendix, is not among the sources we have.
 
 <!-- **Format.** One block per reading, in the order of the work. `G:` Lucero's text of G, copied exactly (his square brackets and "[...]" included; "…" joins separate cells he gives for the same passage). `M:` Lucero's text of Madrigal for the same place (modernized by him). `C:` the Naples 1588 reading from `notes/barros1588_transcription_part1.md` / `_part2.md`, cited by PDF page; it is given short where it only needs to show which side C takes. `EN:` translation of the G reading (fixed verse translations from `work/TRANSLATION_GUIDE.md` where a verse is involved). `NOTE:` what changes, and what it means for play. Citations `[@citekey, printed page]`: Lucero 2016 printed page = PDF page + 168; Romance Notes printed page = PDF page + 195. -->
 
@@ -16,9 +16,9 @@ No other source we cite quotes G. The later Lucero articles and the reviews of h
 WHERE: Title page
 G: Philosophia | CORTESANA | moralizada por Alõ- | so de Barros, criado del Rey | nuestro Señor. | ¶ Dirigida a Matheo Vazquez | de Leca del Consejo de su Mage- | stad, y su Secretario, y de la santa | general Inquisicion, Arcediano | de Carmona, y Canonigo en | la santa Yglesia de | Seuilla. | CON PRIVILEGIO. | En Madrid, en casa de la biuda de Alõso Gomez, im- | pressor del Rey nuestro Señor. | Año de. 1587. | Està tassado a marauedis el pliego. [@sanchezEdicionesAntiguasFilosofia2016oct16, 179]
 M: FILOSOFIA | Cortesana, moralizada por | Alonso de Barros, criado del | Rey nuestro señor. | Dirigida a Mateo Vazquez de | Leca, del consejo de su Magestad | y su secretario, y de la santa gene- | ral Inquisicion, arcediano de Car | mona, y canonigo en la santa | yglesia de Sevilla. | Tassado en medio Real. [@sanchezEdicionesAntiguasFilosofia2016oct16, 179]
-C: FILOSOFIA CORTESANA MORALIZADA (pdf 7)
+C: FILOSOFIA / CORTESANA / MORALIZADA (pdf 7)
 EN: The Courtly Philosophy, moralized by Alonso de Barros, servant of the King our lord. ¶ Dedicated to Matheo Vázquez de Leca, of His Majesty's Council and his Secretary, and of the Holy General Inquisition, Archdeacon of Carmona and Canon in the holy church of Seville. WITH PRIVILEGE. In Madrid, at the house of the widow of Alonso Gómez, printer to the King our lord. Year 1587. It is priced at [blank] maravedís the sheet.
-NOTE: Lucero gives this as a diplomatic line-by-line transcription. The gap in "tassado a [ ] marauedis" is the blank left for the official price (*tasa*), which had not arrived when the title was printed. Lucero takes this, with the pilcrow signatures (¶) of the first gathering, as evidence that G is the first edition [@sanchezEdicionesAntiguasFilosofia2016oct16, 181, 191]. G has no woodcut on the title (M has Vázquez's arms) and prints the imprint on the title page; M prints the price instead. Format: 8º, "27 fols." [@sanchezEdicionesAntiguasFilosofia2016oct16, 179]; the BNP catalog as Lucero quotes it gives "[4], 22, [2] p.; 8º (15 cm)", shelfmark RES. 6563//4 P., in a factitious volume [@sanchezEdicionesAntiguasFilosofia2016oct16, 176]. "Philosophia" is the Latinate spelling; M and C "Filosofia". Nothing here affects play.
+NOTE: Lucero gives this as a diplomatic line-by-line transcription. The gap after "tassado a" in "Està tassado a marauedis el pliego" is the blank left for the official price (*tasa*), which had not arrived when the title was printed. Lucero takes this, with the pilcrow signatures (¶) of the first gathering, as evidence that G is the first edition [@sanchezEdicionesAntiguasFilosofia2016oct16, 181, 191]. G has no woodcut on the title (M has Vázquez's arms) and prints the imprint on the title page; M prints the price instead. Format: 8º, "27 fols." [@sanchezEdicionesAntiguasFilosofia2016oct16, 179]; the BNP catalog as Lucero quotes it gives "[4], 22, [2] p.; 8º (15 cm)", shelfmark RES. 6563//4 P., in a factitious volume [@sanchezEdicionesAntiguasFilosofia2016oct16, 176]. "Philosophia" is the Latinate spelling; M and C "Filosofia". Nothing here affects play.
 :::
 
 ::: gvar id=G-02 squares=none
@@ -81,7 +81,7 @@ G: y para mostrar que muchas veces la electión del principio es causa de las di
 M: Y para mostrar que muchas veces de la elección del principio nacen las dificultades del fin [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: Y para mostrar, que muchas vezes de la eleccio[n] del principio nazce[n] las difficultades del fin (pdf 26)
 EN: and to show that often the choice at the beginning is the cause of the difficulties at the end
-NOTE: Same sense; M/C "nacen" ("are born"). Lucero cites it twice, as an example of M's more complex syntax and of Madrigal's spelling ("electión" → "elección") [@sanchezEdicionesAntiguasFilosofia2016oct16, 184, 186].
+NOTE: Same sense; M/C "nacen" ("are born"). Lucero cites the pair twice: among the changes that make the sense clearer or more precise [@sanchezEdicionesAntiguasFilosofia2016oct16, 184] and among examples of M's more complex syntax [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]. He also names "electión" among the older spellings of María Ruiz's shop that Madrigal updates ("elección") [@sanchezEdicionesAntiguasFilosofia2016oct16, 186].
 :::
 
 ::: gvar id=G-09 squares=1
@@ -106,7 +106,7 @@ NOTE: G's misprint "buyes" and old spelling "fructas", corrected in M. Lucero's 
 WHERE: Labor: the tired ox and worker
 G: no parece que siente el cansancio de lo que trabaja [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
 M: que no parece que siente el cansancio de sus trabajos [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
-C: que no parezce, que siente el cansacio[sic] de sus trabajos (pdf 29)
+C: que no parezce, que siente el cansacio[sic], de sus trabajos (pdf 29)
 EN: [the man] does not seem to feel the weariness of what he labors at
 NOTE: Stylistic. M's "sus trabajos" ("his labors") keeps the square's key word, and with it the pun on work / hardship.
 :::
@@ -133,7 +133,7 @@ NOTE: M adds "del Trabajo" ("of Labor"). Lucero counts it among the additions th
 WHERE: Labor: what the couplets do
 G: animan a que el trabajo no se tema, y enseñan a que se busqne [tipo vuelto] [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]
 M: animan al pretensor para que no le tema, y le enseñan a que le busque [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]
-C: animan al pretensor para que no le tema, y le enseñ (pdf 31)
+C: animan al pretensor para que no le tema, y le enseñan a que le busque (pdf 31)
 EN: [they] encourage [one] not to fear labor, and teach [one] to seek it
 NOTE: "busqne": turned type in G (Lucero's note). M names the petitioner as the one encouraged.
 :::
@@ -152,7 +152,7 @@ EN: G order, with the fixed translations:
   G6 = g6: Who makes a virtue of his need / by working finds his rest indeed. (lit. By working, he finds peace who makes a virtue of necessity.)
   G7 = t4: Fortune at last will yield the day / if labor will not go away.
   G8 = t3: No trouble's great, if work can be / enough to set us from it free.
-NOTE: Lucero sets G and M side by side, italicizing the couplets that differ and numbering the shared ones by their G position [@sanchezEdicionesAntiguasFilosofia2016oct16, 187 n. 56]. G-only: G1, G2, G3, G6. M-only (and C, in the same order as M): t1 "Frutos del trabajo justo", t2 "Del ocio nace pobreza", t6 "Trabajo es no le tener", t8 "El trabajo gana palma". Shared: G4 = M5, G5 = M7, G7 = M4, G8 = M3. M order: t1, t2, t3, t4, t5, t6, t7, t8, i.e. the order of C (pdf 32) and of the Naples board, whose Labor squares 12, 17, 23, 30, 34, 41, 48, 57 carry t1 to t8 in turn (square 4 carries t0, "Nunca se siente el trabajo"). Lucero: the dropped couplets tie labor to love through the yoke metaphor; the added ones stress the fruits of work; he reaches no conclusion on the reordering [@sanchezEdicionesAntiguasFilosofia2016oct16, 187]. The Labor couplets are "los únicos lemas que sufren alteraciones", so a board carrying G's couplets must have differed [@luceroTableroJuego15882019, 203 n. 15]. Lucero's "[hay]" in G3 is his correction of "oy". For the game: on a G board the eight later Labor squares would carry this set, but which couplet stood on which square, and at what numbers, is not known. G's wording of the first Labor couplet (t0) is not quoted anywhere we have.
+NOTE: Lucero sets G and M side by side, italicizing the couplets that differ and numbering the shared ones by their G position [@sanchezEdicionesAntiguasFilosofia2016oct16, 187 n. 56]. G-only: G1, G2, G3, G6. M-only (and C, in the same order as M): t1 "Frutos del trabajo justo", t2 "Del ocio nasce pobreza", t6 "Trabajo es no le tener", t8 "El trabajo gana palma". Shared: G4 = M5, G5 = M7, G7 = M4, G8 = M3. M order: t1, t2, t3, t4, t5, t6, t7, t8, i.e. the order of C (pdf 32) and of the Naples board, whose Labor squares 12, 17, 23, 30, 34, 41, 48, 57 carry t1 to t8 in turn (square 4 carries t0, "Nunca se siente el trabajo"). Lucero: two of the dropped couplets (G1, G2) tie labor to love through the yoke metaphor; the added ones stress the fruits of work; he reaches no conclusion on the reordering [@sanchezEdicionesAntiguasFilosofia2016oct16, 187]. The Labor couplets are "los únicos lemas que sufren alteraciones", so a board carrying G's couplets must have differed [@luceroTableroJuego15882019, 203 n. 15]. Lucero's "[hay]" in G3 is his correction of "oy". For the game: on a G board the eight later Labor squares would carry this set, but which couplet stood on which square, and at what numbers, is not known. G's wording of the first Labor couplet (t0) is not quoted anywhere we have.
 :::
 
 ::: gvar id=G-16 squares=15
@@ -170,16 +170,16 @@ G: para ello [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 M: pa ello: habiendo primero pa[ra] ello aguardado coyuntura [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: auie[n]do primero para ello aguardado coyu[n]tura (pdf 34)
 EN: for it
-NOTE: Cited by Lucero only to show M's one misprint ("pa" for "pã"); G reads correctly. No difference in sense.
+NOTE: Cited by Lucero only to show M's one misprint ("pa" printed with a plain *p* where the abbreviation needed a *p* with a tilde); G reads correctly. No difference in sense.
 :::
 
 ::: gvar id=G-18 squares=32?,36?
 WHERE: Well of Oblivion (32) or What Will They Say? (36): "Y ansí"
 G: Y ansí [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
 M: Y así se le manda que [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
-C: y assi se le manda, que auiendo estado oluidado una mano (pdf 35)
+C: y assi se le manda, que auiendo estado oluidado vna mano (pdf 35)
 EN: And so
-NOTE: Location not stated by Lucero. M's "Y así se le manda que" occurs in the Well passage (C pdf 35, "y assi se le manda, que auiendo estado oluidado una mano"). If this is the place, G lacks "se le manda que" ("he is ordered to"). The next pair Lucero cites, "y para que ansí haga" / "y para que así lo haga", is from What Will They Say? (C pdf 37, "y para que assi lo haga, dize la letra").
+NOTE: Location not stated by Lucero. M's "Y así se le manda que" occurs in the Well passage (C pdf 35, "y assi se le manda, que auiendo estado oluidado vna mano"). If this is the place, G lacks "se le manda que" ("he is ordered to"). The next pair Lucero cites, "y para que ansí haga" / "y para que así lo haga", is from What Will They Say? (C pdf 37, "y para que assi lo haga, dize la letra").
 :::
 
 ::: gvar id=G-19 squares=36,28
@@ -188,7 +188,7 @@ G: Mándasele volver a los Dados [@sanchezEdicionesAntiguasFilosofia2016oct16, 1
 M: Vuelve a los Dados [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]
 C: BVelue a los dados veyntiocho (pdf 37)
 EN: He is ordered to go back to the Dice
-NOTE: The only change Lucero cites where M shortens G [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]. The cell does not show whether G gives the number ("veintiocho"). Same rule in both.
+NOTE: One of the two changes Lucero cites where M shortens G; the other is G-25 [@sanchezEdicionesAntiguasFilosofia2016oct16, 186]. The cell does not show whether G gives the number ("veintiocho"). Same rule in both.
 :::
 
 ::: gvar id=G-20 squares=28
@@ -222,7 +222,7 @@ NOTE: M adds "ni dar lugar a que del todo se declaren por tales" ("nor give them
 WHERE: The Prodigal (7), reached from 39
 G: Para cuyo remedio se manda al negociante que vuelva a ser Pródigo con los que tuvo antes por más sospechosos. Lo cual va significado [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 M: Para cuyo remedio se manda al negociante que vuelva a ser Pródigo con los que tuvo antes por más sospechosos, que al principio todos lo son hasta que se topan otros peores. Lo cual va significado topan otros peores [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
-C: PAra cuyo remedio, se ma[n]da al negociante que buelua a ser prodigo, con los que tuuo antes por mas sospecho- (pdf 39)
+C: PAra cuyo remedio, se ma[n]da al negociante que buelua a ser prodigo, con los que tuuo antes por mas sospechosos, que al principio todos lo son, hasta que se topan otros peores: lo qual va sinificado (pdf 39–40)
 EN: As a remedy for this, the one pressing his case is ordered to be prodigal again with those he formerly held most suspect. Which is signified…
 NOTE: The rule (39 → 7) is the same. M adds "que al principio todos lo son hasta que se topan otros peores" ("for at first all are suspect, until one meets worse"). Lucero's printed M cell repeats "topan otros peores" at its end, a dittography in the article, reproduced here as printed.
 :::
@@ -260,16 +260,16 @@ G: de donde vuelve a comenzar el juego de nuevo, buscando otro favor [@sanchezEd
 M: de donde vuelve con lágrimas a comenzar el juego de nuevo, buscando otro favor [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: de donde buelue co[n] lagrimas a començar el juego de nueuo buscando otro fauor (pdf 44)
 EN: from where he goes back to begin the game anew, seeking another favor
-NOTE: M adds "con lágrimas" ("in tears"). G misprints the square name "Muerte del velador" ("Death of the watchman / candlestick-maker") for "valedor" (patron) [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]. Same rule: back to the start.
+NOTE: M adds "con lágrimas" ("in tears"). G misprints the square name "Muerte del velador" ("Death of the watchman / candlestick") for "valedor" (patron) [@sanchezEdicionesAntiguasFilosofia2016oct16, 183]. Same rule: back to the start.
 :::
 
 ::: gvar id=G-28 squares=51
 WHERE: House of Fortune (51): Fortune as Providence
 G: no hay fortuna, sino permisión de Dios, universal y gobernador de todas nuestras actiones para que con este conocimiento toleremos [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
 M: no hay fortuna, sino una dispusición de la voluntad de Dios, universal gobernador de todas nuestras acciones, para que con este conocimiento toleremos [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
-C: no ay fortuna sino vna dispusicion de la uoluntad de Dios, vniuersal gouernador de todas nuestras acciones (pdf 45)
+C: no ay fortuna sino vna dispusicion de la uoluntad de Dios, vniuersal gouernador de todas nuestras acciones (pdf 46)
 EN: there is no fortune, but God's permission, universal and governor of all our actions, so that with this knowledge we may endure
-NOTE: G: Fortune is God's *permission*; M/C: "a disposition of the will of God". G's word matches the square's verse, which ends "de fortuna y permision" (h51, "All things are at the disposition / of Fortune and of God's permission"). M's wording borrows the verse's other key word, "dispusición". Lucero reads the change as a rewording of Fortune-as-Providence [@sanchezEdicionesAntiguasFilosofia2016oct16, 185].
+NOTE: G: Fortune is God's *permission*; M/C: "a disposition of the will of God". G's word matches the square's verse, which ends "De fortuna, y permission" (h51, "All things are at the disposition / of Fortune and of God's permission"). M's wording borrows the verse's other key word, "dispusición". Lucero gives the pair in his table without comment [@sanchezEdicionesAntiguasFilosofia2016oct16, 185].
 :::
 
 ::: gvar id=G-29 squares=51
@@ -278,7 +278,7 @@ G: dicha, muchas veces destruye y daña … dichoso, estando el juego [@sanchezE
 M: la demasiada dicha muchas veces no aprovecha, antes destruye y daña … dichoso, para que se vea si lo es, estando [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 C: la demasiada dicha, muchas vezes no aprouecha, antes destruye y daña (pdf 47)
 EN: …good luck often destroys and harms … lucky; the game being [so arranged]…
-NOTE: Two fragments of one sentence. M adds "no aprovecha, antes" ("does no good, but rather") and "para que se vea si lo es" ("so that it may be seen whether he is [lucky]"). The frame "como lo hace el que es dichoso, … estando el juego" shows that G also has the rule that the player on Fortune throws twice (our inference from the fragments; G's full sentence is not quoted).
+NOTE: Two fragments of one sentence. M adds "no aprovecha, antes" ("does no good, but rather") and "para que se vea si lo es" ("so that it may be seen whether he is [lucky]"). In M the sentence runs "juegue dos veces, como lo hace el que es dichoso, para que se vea si lo es, estando el juego" (Ciompi–Seville transcription); G's fragment "dichoso, estando el juego" fits the same frame, which suggests that G also has the rule that the player on Fortune throws twice (our inference from the fragments; G's full sentence is not quoted).
 :::
 
 ::: gvar id=G-30 squares=51
@@ -287,16 +287,16 @@ G: pues no hay seguro en bien ni en mal de cosas que están sujetas a la mudable
 M: Y esto es en todo lo que se pretende desde la tierra hasta el cielo, especial que lo que es de la tierra está sujeto a una señora que, por ser tan mudable, se dice della: No sería Fortuna, si fuese siempre una. [@sanchezEdicionesAntiguasFilosofia2016oct16, 188]
 C: Y esto es en todo lo que se pretende desde la tierra hasta el cielo, especial que lo que es de la (pdf 59–60)
 EN: for there is no security, in good or in ill, in things that are subject to changeable Fortune, of whom it is said: "Were she always just the same, / she would not deserve the name." (lit. She would not be Fortune if she were always one [the same].)
-NOTE: Couplet: the fixed verse fort, with its literal rendering. After this couplet, G goes straight to the rules: it jumps to the place where M prints the couplet a second time, "Que no sería Fortuna…" [@sanchezEdicionesAntiguasFilosofia2016oct16, 188 n. 57]. G therefore has none of the description of Fortune (globe, nakedness, arms, youth, wings, two faces, palm and yoke, timbrel and sword), and no woodcut. C has the description (pdf 60–65) without the woodcut. It also has neither of the M-only additions (ball, expanded two faces, forelock). The epilogue on the three corner figures stands before this, and G has a shorter version of it (G-40).
+NOTE: Couplet: the fixed verse fort, with its literal rendering. After this couplet, G goes straight to the rules: it jumps to the place where M prints the couplet a second time, "Que no sería Fortuna…" [@sanchezEdicionesAntiguasFilosofia2016oct16, 188 n. 57, 189]. G therefore has none of the description of Fortune (globe, nakedness, arms, youth, wings, two faces, palm and yoke, timbrel and sword), and no woodcut. C has the description (pdf 60–65) without the woodcut. It also has neither of the M-only additions (ball, expanded two faces, forelock). The epilogue on the three corner figures stands before this, and G has a shorter version of it (G-40).
 :::
 
 ::: gvar id=G-31 squares=55,20
 WHERE: "I Thought…" (55) → Diligence (20)
 G: También se considera que es muy de dichosos el descuidarse, dejando de hacer diligencias en sus negocios los que piensan que otros las harán. Y así se pone a cincuenta y cinco casas la del Pensé Que, figurado por un asno echado, por la semejanza que con él tiene el que dice «¿quién pensara?», de los cuales es cierto lo que dice su letra [@sanchezEdicionesAntiguasFilosofia2016oct16, 185]
-M: También se debe notar que, aunque tiene mano la Fortuna en la eleción de las diligencias, no se han de fiar todas della ni es causa bastante para que el pretensor se descuide en hacer lo que pudiere, que son medios ordenados para este fin sin poderle nosotros juzgar. Y la tibieza confiada para el dejarlo todo es escudo de holgazanes, y más de los que son tales que, no haciendo ellos diligencia en sus negocios, … piensan que otros las harán. Por esto, y porque es muy de dichosos el descuidarse se pinta a cincuenta y cinco casas la del Pensé Que, figurado por un asno echado, por la semejanza que con él tiene el que dice «¿quién pensara?», y no lo previene. De los cuales es cierto lo que su letra dice [@sanchezEdicionesAntiguasFilosofia2016oct16, 185–86]
+M: También se debe notar que, aunque tiene mano la Fortuna en la eleción de las diligencias, no se han de fiar todas della ni es causa bastante para que el pretensor se descuide en hacer lo que pudiere, que son medios ordenados para este fin sin poderle nosotros juzgar. Y la tibieza confiada para el dejarlo todo es escudo de holgazanes, y más de los que son tales que, no haciendo ellos diligencia en sus negocios, piensan que otros las harán. Por esto, y porque es muy de dichosos el descuidarse se pinta a cincuenta y cinco casas la del Pensé Que, figurado por un asno echado, por la semejanza que con él tiene el que dice «¿quién pensara?», y no lo previene. De los cuales es cierto lo que su letra dice [@sanchezEdicionesAntiguasFilosofia2016oct16, 185–86]
 C: Tambien se deue notar, que aunque tiene mano la (pdf 47–49)
 EN: It is also considered that carelessness is very much the way of the lucky, who leave off making efforts in their affairs, thinking that others will make them. And so at fifty-five houses is placed that of "I Thought…", figured by an ass lying down, for the likeness to it of the man who says "Who would have thought?"; of whom what its verse says is true:
-NOTE: M rewrites the opening: Fortune has a hand in the choice of efforts, but one must not leave everything to her, and "confident lukewarmness" is the shield of idlers. M also adds "y no lo previene" ("and does not provide against it"). Same square number, same image (the ass lying down), same verse cue. G's "se pone" ("is placed") becomes M's "se pinta" ("is painted"), another M reference to the picture. The rule (55 → 20) is in G's rules only by implication; see G-43.
+NOTE: M rewrites the opening: Fortune has a hand in the choice of efforts, but one must not leave everything to her, and "confident lukewarmness" is the shield of idlers. M also adds "y no lo previene" ("and does not provide against it"). Same square number, same image (the ass lying down), same verse cue. G's "se pone" ("is placed") becomes M's "se pinta" ("is painted"), another M reference to the picture. G's rule for 55 → 20 is not quoted (see G-42).
 :::
 
 ::: gvar id=G-32 squares=59,60
@@ -332,7 +332,7 @@ G: Cualquier suerte es de tristeza en la casa do hay pobreza [@sanchezEdicionesA
 M: En la casa do hay pobreza, cualquier suerte es de tristeza [@sanchezEdicionesAntiguasFilosofia2016oct16, 187]
 C: En la casa do ay pobreza: (pdf 53)
 EN: Every throw's a throw of sighs / in a house where poverty lies. (lit. Any throw is one of sadness in the house where there is poverty.)
-NOTE: G has the two lines of h53 in the reverse order; the verse here is the fixed h53 with its lines swapped. Our observation: the Naples board (square 53) has G's order ("Qual quier suerte es de tristeza / en la casa do ay pobreza"), not the order of M and C. This counts against the board being a simple copy of M. Lucero does not remark on it in the sources we have, and it is the one board inscription that agrees with G against M.
+NOTE: G has the two lines of h53 in the reverse order; the verse here is the fixed h53 with its lines swapped. The Naples board (square 53) has the lines the other way round from Madrigal's text ("Qual quier suerte es de tristeza / en la casa do ay pobreza") [board], as Rodríguez Mansilla notes [@rodriguezmansillaGRABADOPICARAJUSTINA2019, 190]. Our observation: that is G's order, not the order of M and C, which counts against the board being a simple copy of M. Neither Lucero nor Rodríguez Mansilla, in the sources we have, connects the board's order with G, and it is the one board inscription that agrees with G against M.
 :::
 
 ::: gvar id=G-36 squares=63
@@ -341,7 +341,7 @@ G: Victoria … Y por ella se muestra la templanza … el medio, que es en las c
 M: Vitoria … Y por ella también se … perfición [@sanchezEdicionesAntiguasFilosofia2016oct16, 187]
 C: y por ella ta[m]bien se muestra la templança (pdf 53–54)
 EN: Victory … And by it temperance is shown … the mean, which is what gives things their perfection. And since none is secure…
-NOTE: G spells "Victoria", M and C "Vitoria"; the board cartouche reads VITORIA. M adds "también" ("also") and, per the corresponding C text, "el nivel de las cosas" ("the level of things"); Lucero's M cell gives only the spelling "perfición". G's palm is still the goal, with the motto "Ni lo mucho, ni lo poco" presupposed by the exact-throw rule (G-43), though the motto itself is not quoted from G.
+NOTE: G spells "Victoria", M and C "Vitoria"; the board cartouche reads VITORIA. M adds "también" ("also") and, per the Ciompi–Seville transcription of M, "el nivel de las cosas" ("the level of things"; C pdf 54 "el niuel de las cosas"); Lucero's M cell gives only the spelling "perfición". G's palm is still the goal, with the motto "Ni lo mucho, ni lo poco" presupposed by the exact-throw rule (G-43), though the motto itself is not quoted from G.
 :::
 
 ::: gvar id=G-37 squares=63
@@ -366,9 +366,9 @@ NOTE: Also cited by Lucero with G's folios 19r–v and M's 33v–34r [@luceroTab
 WHERE: Unlocated: "está pintado"
 G: está pintado [sic] [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
 M: están pintados [@sanchezEdicionesAntiguasFilosofia2016oct16, 184]
-C: (not located)
+C: (not located; probably Esta[n] pintados con vn azar de menor, pdf 38)
 EN: is painted [sic]
-NOTE: Lucero cites this as a G error of agreement corrected in M, without locating it. It cannot be the Sea passage (G-38), where G itself has "que están pintados". Location unknown.
+NOTE: Lucero cites this as a G error of agreement corrected in M, without locating it. It cannot be the Sea passage (G-38), where G itself has "que están pintados". It is probably the Dice (28): in the Ciompi–Seville transcription of M, "están pintados" occurs elsewhere only there, in the sentence after G-20 ("Están pintados con un azar de menor y una letra que dice"), and C has "Esta[n] pintados con vn azar de menor" (pdf 38) (our inference; Lucero does not say) [@debarrosFilosofiaCortesana1587; @barrosFilosofiaCortesanaMoralizada1588, pdf 38].
 :::
 
 ::: gvar id=G-40 squares=corners
@@ -395,23 +395,23 @@ G: El que lanza el dado se señala a tantas casas como puntos echó y, si dos da
 M: Las pesadumbres del pretender son muchas y, aunque para su reparo fuera necesario mayor remedio, el que se ofrece ha sido hacerlo juego [...] [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]
 C: EL Que lança el dado, se señala a tantas casas, como puntos echo, y si dos dan en vna casa, se queda el segundo, y el primero toma la que el otro dexo: (pdf 66)
 EN: Whoever throws the die sets his marker on the house numbered by the points he threw; and if two land on one house, the second stays and the first takes the one the other left;
-NOTE: Word for word the opening of C's rules (C-066b). "el dado": one die, in G and C. G says nothing about stakes, the number of players, two dice or arenillas, or markers. Nor does it say what happens when the clash occurs at the start of the game (all M only; see the Madrid passages M-43v-a to M-46r-b). Lucero quotes G's rules only up to this semicolon and then from Poverty onward. The rules between (Labor, Hope → Favorite, Well, What Will They Say?, False Friendship, Change of Ministers, Death of the Patron, Fortune, "I Thought…") are not quoted from G. Lucero says M and G "converge again" on the principal squares after M's example [@sanchezEdicionesAntiguasFilosofia2016oct16, 189 n. 58], and that G and C coincide in the concrete rules [@luceroTableroJuego15882019, 203 n. 13]. So G probably had rules much like C-066b there, but their wording is not known.
+NOTE: Word for word the opening of C's rules (C-066b). "el dado": one die, in G and C. The G text Lucero quotes says nothing about the opening stakes, the number of players, two dice or arenillas, or markers. Lucero's excerpt breaks off before the place where M says what happens when the clash occurs at the start of the game, so whether G had that rule is not shown (all M only; see the Madrid passages M-43v-a to M-46r-b). Lucero quotes G's rules only up to this semicolon and then from Poverty onward. The rules between (Labor, Hope → Favorite, Well, What Will They Say?, False Friendship, Change of Ministers, Death of the Patron, Fortune, "I Thought…") are not quoted from G. Lucero says M and G "converge again" on the principal squares after M's example [@sanchezEdicionesAntiguasFilosofia2016oct16, 189 n. 58], and that G and C coincide in the concrete rules [@luceroTableroJuego15882019, 203 n. 13]. So G probably had rules much like C-066b there, but their wording is not known.
 :::
 
 ::: gvar id=G-43 squares=59,53,63
 WHERE: Rules: Poverty, overshooting the palm, close
 G: Y de la Pobreza, que está a cincuenta y nueve, vuelve a la Suerte cincuenta y tres [es decir, los Dados], y danle limosna, y si echa más puntos de los justos para llegar a la Palma, [configuración en pie de copa] vuelve atrás los que sobran, pagando un tanto por cada vez que volviere atrás de cualquier suerte que sea. Deo gratias. [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]
 M: Y de la Pobreza, que está a sesenta, vuelve a la Suerte cincuenta y tres, y danle por limosna un tanto cada uno. Y si echa más puntos de los justos para llegar a la Palma, vuelve atrás los que sobran, pagando un tanto por cada vez que volviere atrás de cualquier suerte que sea, salvo el que da en la casa de la Pobreza, que no solo no paga, sino que todos le dan cada uno un tanto. [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]
-C: y de la Pobreza, que esta a sese[n]ta, buelue a la [ink blot over ~1 letter]uerte cincuenta y tres, y danle limosna, y si echa mas pu[ink blot over ~1 letter]tos de los iustos, para llegar a la palma, buelue atras los que sobran, paga[n]do vn tanto por cada vez que boluiere atras (pdf 68)
+C: y de la Pobreza, que esta a sese[n]ta, buelue a la [illeg. ~1 letter]uerte cincuenta y tres, y danle limosna, y si echa mas pu[illeg. ~1 letter]tos de los iustos, para llegar a la palma, buelue atras los que sobran, paga[n]do vn tanto por cada vez que boluiere atras (pdf 68)
 EN: And from Poverty, which is at fifty-nine, he goes back to the Dice at fifty-three, and they give him alms. And if he throws more points than are exactly needed to reach the Palm, he goes back by those that are over, paying one stake for each time he goes back, from whatever throw it may be. Thanks be to God.
-NOTE: Also quoted, from G fol. 22r, in [@luceroTableroJuego15882019, 204]. The square brackets are Lucero's: "[es decir, los Dados]" is his gloss, and "[configuración en pie de copa]" marks where G's last lines begin to be set in the shape of a goblet (a tapering tail-piece). What this means for play in G: (a) Poverty is on 59. (b) The alms are unquantified ("danle limosna"), as in C; only M says one stake from each player. (c) There is no exemption for the poor player from the backward-move payment (M only). (d) There is no winning rule: G never says that the exact throw to 63 wins the pot, nor that the palm is 63. C shares (b), (c) and (d) with G. G closes with "Deo gratias" ("Thanks be to God"); M and C with "Laus Deo".
+NOTE: Also quoted, from G fol. 22r, in [@luceroTableroJuego15882019, 204]. The square brackets are Lucero's: "[es decir, los Dados]" is his gloss, and "[configuración en pie de copa]" marks where G's last lines begin to be set in the shape of a goblet (a tapering tail-piece). What this means for play in G: (a) Poverty is on 59. (b) The alms are unquantified ("danle limosna"), as in C; only M says one stake from each player. (c) There is no exemption for the poor player from the backward-move payment (M only). (d) There is no winning rule: the G rules Lucero quotes end without saying that the exact throw to 63 wins the pot, or that the palm is at 63 (M's closing rule; Lucero notes that M's final additions complete a rule missing in G [@sanchezEdicionesAntiguasFilosofia2016oct16, 190]). C shares (b), (c) and (d) with G. G closes with "Deo gratias" ("Thanks be to God"); M and C with "Laus Deo".
 :::
 
 ::: gvar id=G-44 squares=none
 WHERE: Colophon
-G: Acabose de imprimir a diez y siete de febrero de mil y quinientos y ochenta y siete, en Madrid, en casa de la viuda de Alonso … Gómez, que sea en gloria. [@sanchezEdicionesAntiguasFilosofia2016oct16, 189–90]
+G: Acabose de imprimir a diez y siete de febrero de mil y quinientos y ochenta y siete, en Madrid, en casa de la viuda de Alonso Gómez, que sea en gloria. [@sanchezEdicionesAntiguasFilosofia2016oct16, 189–90]
 M: Laus Deo. En Madrid, por Pedro Madrigal. 1587 [@sanchezEdicionesAntiguasFilosofia2016oct16, 190]
-C: EN NAPOLES Por Iosep Cacchij, 1588. (pdf 69)
+C: EN NAPOLES / Por Iosep Cacchij, / 1588. (pdf 69)
 EN: Printing was finished on the seventeenth of February, one thousand five hundred and eighty-seven, in Madrid, at the house of the widow of Alonso Gómez, may he rest in glory.
 NOTE: The BNP catalog as Lucero quotes it reads "(En Madrid: en casa de la biuda de Alonso Gomez, que sea en gloria,1587)" [@sanchezEdicionesAntiguasFilosofia2016oct16, 176]. The date, 17 February 1587, is eight days after the privilege of 9 February. "que sea en gloria" refers to the dead printer.
 :::
@@ -432,11 +432,11 @@ NOTE: The BNP catalog as Lucero quotes it reads "(En Madrid: en casa de la biuda
 
 1. **Poverty is on 59, not 60.** G says so twice, in the moral text and in the rules [@luceroTableroJuego15882019, 204; @sanchezEdicionesAntiguasFilosofia2016oct16, 189]. M, C and the Naples board have 60. From Poverty the player goes back to the Dice at 53 in every version.
 2. **Different Labor couplets, in a different order.** G has four couplets found nowhere else (g1, g2, g3, g6) and lacks four that M, C and the board have (t1, t2, t6, t8). Its order of the eight is g1, g2, g3, t5, t7, g6, t4, t3 [@sanchezEdicionesAntiguasFilosofia2016oct16, 187–88]. A G board would have carried these verses on its eight later Labor squares; which verse stood on which square is not known.
-3. **Laconic rules.** G has "Esto se juega en esta forma", one die ("el dado"), the rule for two on one square, and at the end the rules for Poverty and overshooting the palm [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]. G does not state stakes, the number of players, markers, two dice or arenillas, the clash at the start of the game, how the game is won, that the palm is on 63, the size of the alms, or the Poverty exemption. Those are M's additions, and C shares G's silence on all of them.
+3. **Laconic rules.** G has "Esto se juega en esta forma", one die ("el dado"), the rule for two on one square, and at the end the rules for Poverty and overshooting the palm [@sanchezEdicionesAntiguasFilosofia2016oct16, 189]. The G text Lucero quotes does not state the opening stakes, the number of players, markers, two dice or arenillas, how the game is won, that the palm is on 63, the size of the alms, or the Poverty exemption, and it breaks off before the place where M treats the clash at the start of the game. All of these are in M, and C is silent on all of them.
 4. **"Deo gratias"** closes G's rules (M and C "Laus Deo"). The rules' last lines are set in the shape of a goblet [@sanchezEdicionesAntiguasFilosofia2016oct16, 189].
 5. **Smaller shifts that touch the pictures.** G's swan has only a trumpet, with no death's head (G-09). The central sea has painted ships but no angler (G-38). The man at the palm is only "as if exerting himself" (G-37). The Dice at 53 is not described as a throw of eleven (G-34). There is no Fortune woodcut or description (G-30). These are Lucero's grounds for thinking that the lost G board differed from the surviving Naples board, and was perhaps less elaborate [@luceroTableroJuego15882019, 205–6].
 6. **Possibly a different verse at the Dice (28):** "la mejor suerte es azar" (G-21). Unconfirmed; see the note there.
-7. **One point where the Naples board agrees with G against M and C:** the line order of the verse at 53 (G-35; our observation).
+7. **One point where the Naples board agrees with G against M and C:** the line order of the verse at 53 (G-35). That the board reverses the book's lines is noted by Rodríguez Mansilla [@rodriguezmansillaGRABADOPICARAJUSTINA2019, 190]; that its order is G's is our observation.
 
 ## What is NOT known about G
 
@@ -447,4 +447,4 @@ NOTE: The BNP catalog as Lucero quotes it reads "(En Madrid: en casa de la biuda
 - The first Labor couplet ("Nunca se siente el trabajo…", t0), and every non-Labor verse, in G's wording. Lucero states that only the Labor couplets change [@luceroTableroJuego15882019, 203 n. 15], but the fragment "la mejor suerte es azar" (G-21) may be an exception.
 - **The G board.** No copy survives. Its existence, and its differences (Poverty on 59; G's Labor couplets; perhaps a more even spread of the Labor squares; perhaps a different technique and lower quality), are Lucero's inferences from the text and from the price of the Madrigal book [@luceroTableroJuego15882019, 204–6; @sanchezFILOSOFIACORTESANAALONSO, 20, 43–44]. The square numbers of G's Labor squares, its images, its labels, and whether it bore the rule labels that M quotes ("Al privado … 26") are all unknown.
 - Whether G was meant to be played with one die or two. G's text says "el dado"; M says two dice or six arenillas but also "el dado".
-- The location of several readings in Lucero's tables ("está pintado" G-39, "Y ansí" G-18, "la mejor suerte es azar" G-21).
+- The location of several readings in Lucero's tables ("está pintado" G-39, probably at the Dice; "Y ansí" G-18, "la mejor suerte es azar" G-21).

@@ -11,11 +11,11 @@ FC.biblio = [
  },
  {
   "key": "debarrosFilosofiaCortesana1587",
-  "ref": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, http://www.giochidelloca.it/storia/filosofia.pdf. The file names no transcriber; we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes [@sanchezEdicionesAntiguasFilosofia2016oct16, 173 n. 14]. It is headed “En Nápoles por Iosep Cacchÿ. 1588” but ends with Madrigal's colophon of 1587 and contains M's “Declaración del juego”; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it.",
+  "ref": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, http://www.giochidelloca.it/storia/filosofia.pdf. The file's text names no transcriber (its metadata gives the author as “LUiGi”); we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes [@sanchezEdicionesAntiguasFilosofia2016oct16, 173 n. 14]. It is headed “En Nápoles por Iosep Cacchÿ. 1588” but ends with Madrigal's colophon of 1587 and contains M's “Declaración del juego”; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it.",
   "label": "Barros 1587, Madrigal ed.",
   "group": "Primary sources",
   "dup": null,
-  "html": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, <a href=\"http://www.giochidelloca.it/storia/filosofia.pdf\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/storia/filosofia.pdf</a>. The file names no transcriber; we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-sanchezEdicionesAntiguasFilosofia2016oct16\" data-key=\"sanchezEdicionesAntiguasFilosofia2016oct16\" aria-expanded=\"false\">Lucero Sánchez 2016, 173 n. 14</a>)</span>. It is headed <span lang=\"es\">“En Nápoles por Iosep Cacchÿ. 1588”</span> but ends with Madrigal's colophon of 1587 and contains M's <span lang=\"es\">“Declaración del juego”</span>; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it."
+  "html": "Barros, Alonso de. n.d. “Filosofía cortesana moralizada.” Modernized transcription of the Madrid edition of 1587 (Pedro Madrigal) by Luigi Ciompi and Adrian Seville, made from Trevor J. Dadson's edition of 1987. 12-page PDF, giochidelloca.it, <a href=\"http://www.giochidelloca.it/storia/filosofia.pdf\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/storia/filosofia.pdf</a>. The file's text names no transcriber (its metadata gives the author as “LUiGi”); we credit it to Ciompi and Seville, whose transcription on giochidelloca.it Lucero describes <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-sanchezEdicionesAntiguasFilosofia2016oct16\" data-key=\"sanchezEdicionesAntiguasFilosofia2016oct16\" aria-expanded=\"false\">Lucero Sánchez 2016, 173 n. 14</a>)</span>. It is headed <span lang=\"es\">“En Nápoles por Iosep Cacchÿ. 1588”</span> but ends with Madrigal's colophon of 1587 and contains M's <span lang=\"es\">“Declaración del juego”</span>; the text is M's (with some errors), not C's. This edition reproduces its Spanish for the passages of M, and translates M from it."
  },
  {
   "key": "ref:board",
@@ -27,11 +27,11 @@ FC.biblio = [
  },
  {
   "key": "ref:carrera1617",
-  "ref": "Carrera, Pietro. 1617. *Il gioco de gli scacchi … diviso in otto libri*{it}. Militello: Giovanni de' Rossi. Consulted only in a photograph of p. 25 posted to the Tarot History Forum [@TarotHistoryForum].",
+  "ref": "Carrera, Pietro. 1617. *Il gioco de gli scacchi … diuiso in otto libri*{it} (title as transcribed by Wood [@woodChancingItPrint2019, 480 n. 48]). Militello: Giovanni de' Rossi. Consulted only in a photograph of p. 25 posted to the Tarot History Forum [@TarotHistoryForum].",
   "label": "Carrera 1617",
   "group": "Primary sources",
   "dup": null,
-  "html": "Carrera, Pietro. 1617. <em lang=\"it\">Il gioco de gli scacchi … diviso in otto libri</em>. Militello: Giovanni de' Rossi. Consulted only in a photograph of p. 25 posted to the Tarot History Forum <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-TarotHistoryForum\" data-key=\"TarotHistoryForum\" aria-expanded=\"false\">Tarot History Forum 2013</a>)</span>."
+  "html": "Carrera, Pietro. 1617. <em lang=\"it\">Il gioco de gli scacchi … diuiso in otto libri</em> (title as transcribed by Wood <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-woodChancingItPrint2019\" data-key=\"woodChancingItPrint2019\" aria-expanded=\"false\">Wood 2019, 480 n. 48</a>)</span>). Militello: Giovanni de' Rossi. Consulted only in a photograph of p. 25 posted to the Tarot History Forum <span class=\"cites\">(<a class=\"cite\" href=\"about.html#bib-TarotHistoryForum\" data-key=\"TarotHistoryForum\" aria-expanded=\"false\">Tarot History Forum 2013</a>)</span>."
  },
  {
   "key": "biagioliGalileoCourtierPractice1993",
@@ -155,11 +155,11 @@ FC.biblio = [
  },
  {
   "key": "luceroFilosofiaCortesanaJuego2021juin20",
-  "ref": "Lucero, Ernesto. 2021. “La *Filosofía cortesana*{es} y el juego de la oca (II). Casas marcadas.” *Bulletin hispanique*{fr} 123 (1): 133–152. https://doi.org/10.4000/bulletinhispanique.12454. (The article's running head gives “Tome 122, n° 2, décembre 2020”.)",
+  "ref": "Lucero, Ernesto. 2021. “La *Filosofía cortesana*{es} y el juego de la oca (II). Casas marcadas.” *Bulletin hispanique*{fr} 123 (1): 133–152. https://doi.org/10.4000/bulletinhispanique.12454. (The article's first page gives “Tome 122, n° 2 - décembre 2020”.)",
   "label": "Lucero 2021",
   "group": "Scholarship and editions",
   "dup": null,
-  "html": "Lucero, Ernesto. 2021. “La <em lang=\"es\">Filosofía cortesana</em> y el juego de la oca (II). Casas marcadas.” <em lang=\"fr\">Bulletin hispanique</em> 123 (1): 133–152. <a href=\"https://doi.org/10.4000/bulletinhispanique.12454\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.4000/bulletinhispanique.12454</a>. (The article's running head gives “Tome 122, n° 2, décembre 2020”.)"
+  "html": "Lucero, Ernesto. 2021. “La <em lang=\"es\">Filosofía cortesana</em> y el juego de la oca (II). Casas marcadas.” <em lang=\"fr\">Bulletin hispanique</em> 123 (1): 133–152. <a href=\"https://doi.org/10.4000/bulletinhispanique.12454\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.4000/bulletinhispanique.12454</a>. (The article's first page gives “Tome 122, n° 2 - décembre 2020”.)"
  },
  {
   "key": "sanchezEdicionesAntiguasFilosofia2016oct16",
@@ -227,11 +227,11 @@ FC.biblio = [
  },
  {
   "key": "GameGooseLargest",
-  "ref": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in *Il Gioco dell'Oca / Goose and Path Games*. http://www.giochidelloca.it/scheda.php?id=1103. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's “Un jeu retrouvé”, *Le Vieux Papier*{fr} 395, 2010.)",
+  "ref": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in *Giochi dell'Oca e di percorso*{it} (the saved copy's heading, machine-translated, reads “Goose and Path Games”). http://www.giochidelloca.it/scheda.php?id=1103. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's “Un jeu retrouvé”, *Le Vieux Papier*{fr} 395, 2010.)",
   "label": "Ciompi & Seville, giochidelloca.it",
   "group": "Web pages",
   "dup": null,
-  "html": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in <em lang=\"it\">Il Gioco dell'Oca / Goose and Path Games</em>. <a href=\"http://www.giochidelloca.it/scheda.php?id=1103\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/scheda.php?id=1103</a>. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's <span lang=\"fr\">“Un jeu retrouvé”</span>, <em lang=\"fr\">Le Vieux Papier</em> 395, 2010.)"
+  "html": "Ciompi, Luigi, and Adrian Seville. n.d. “Filosofia cortesana de Alonso de Barros.” Catalog no. 1103 in <em lang=\"it\">Giochi dell'Oca e di percorso</em> (the saved copy's heading, machine-translated, reads “Goose and Path Games”). <a href=\"http://www.giochidelloca.it/scheda.php?id=1103\" target=\"_blank\" rel=\"noopener\">http://www.giochidelloca.it/scheda.php?id=1103</a>. (The saved copy is partly a machine translation into English. It bundles the British Museum record, a modernized transcription of Barros's text, Marcos Méndez Filesi's essay and Manfred Zollinger's <span lang=\"fr\">“Un jeu retrouvé”</span>, <em lang=\"fr\">Le Vieux Papier</em> 395, 2010.)"
  },
  {
   "key": "FilosofiaCortesanaPath",
@@ -290,6 +290,14 @@ FC.biblio = [
   "html": "Suárez Figaredo, Enrique, ed. 2019. “Alonso de Barros, <em lang=\"es\">Filosofía cortesana moralizada</em>.” <em>Lemir</em> 23, Textos: 203–226. <a href=\"https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf\" target=\"_blank\" rel=\"noopener\">https://parnaseo.uv.es/lemir/Revista/Revista23/Textos/03_Filosofia_cortesana_Barros.pdf</a>. (Read only through a model-processed fetch.)"
  },
  {
+  "key": "web:https://www.redalyc.org/pdf/7370/737080494002.pdf",
+  "ref": "Gloël, Matthias. 2017. “1561: El fin de la corte itinerante.” *Autoctonía*{es} 1 (1): 1–20. https://www.redalyc.org/pdf/7370/737080494002.pdf.",
+  "label": "Gloël 2017",
+  "group": "Other web sources cited",
+  "dup": null,
+  "html": "Gloël, Matthias. 2017. <span lang=\"es\">“1561: El fin de la corte itinerante.”</span> <em lang=\"es\">Autoctonía</em> 1 (1): 1–20. <a href=\"https://www.redalyc.org/pdf/7370/737080494002.pdf\" target=\"_blank\" rel=\"noopener\">https://www.redalyc.org/pdf/7370/737080494002.pdf</a>."
+ },
+ {
   "key": "web:https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08",
   "ref": "Morán Turina, Miguel. n.d. “Alcázar de Madrid, Real.” *Enciclopedia del Museo del Prado*{es} (online). https://www.museodelprado.es/en/learn/encyclopedia/voice/alcazar-de-madrid-real/cd2eb3b7-3aa7-45f9-9ce5-0ed711622f08.",
   "label": "Morán Turina n.d.",
@@ -338,12 +346,20 @@ FC.biblio = [
   "html": "Barros, Alonso de. 2019. <em lang=\"es\">Filosofía cortesana</em>. Edited by Ernesto Lucero. Madrid: Polifemo. ISBN 978-84-16335-63-3. (Publisher's page: 2020.)"
  },
  {
+  "key": "ref:gonzalez2012",
+  "ref": "González Hernández, María Cristina. 2012. “La «Junta de libros» de Tamayo de Vargas: Ensayo de documentación bibliográfica.”{es} Doctoral thesis, Universidad Complutense de Madrid. http://eprints.ucm.es/17024/1/T33853.pdf. Published as *La «Junta de libros» de Tamayo de Vargas*{es}, 2 vols. (Madrid: Fundación Universitaria Española, 2013), with a third volume, *Ensayo de documentación bibliográfica*{es} (2015). (per Lucero 2016, 176 n. 33, and his bibliography.)",
+  "label": "González Hernández 2012",
+  "group": "Works mentioned but not consulted directly (details from the sources named)",
+  "dup": null,
+  "html": "González Hernández, María Cristina. 2012. <span lang=\"es\">“La «Junta de libros» de Tamayo de Vargas: Ensayo de documentación bibliográfica.”</span>{es} Doctoral thesis, Universidad Complutense de Madrid. <a href=\"http://eprints.ucm.es/17024/1/T33853.pdf\" target=\"_blank\" rel=\"noopener\">http://eprints.ucm.es/17024/1/T33853.pdf</a>. Published as <em lang=\"es\">La «Junta de libros» de Tamayo de Vargas</em>, 2 vols. (Madrid: Fundación Universitaria Española, 2013), with a third volume, <em lang=\"es\">Ensayo de documentación bibliográfica</em> (2015). (per Lucero 2016, 176 n. 33, and his bibliography.)"
+ },
+ {
   "key": "ref:zollinger2010",
-  "ref": "Zollinger, Manfred. 2010. “Un jeu retrouvé: la *Filosofía cortesana*{es} d'Alonso de Barros.” *Le Vieux Papier*{fr} 395: 2–6. (Reproduced within `GameGooseLargest`.)",
+  "ref": "Zollinger, Manfred. 2010. “Un jeu retrouvé: la *Filosofia cortesana*{es} d'Alonso de Barros.” *Le Vieux Papier*{fr} 395: 2–6. (Reproduced within `GameGooseLargest`.)",
   "label": "Zollinger 2010",
   "group": "Works mentioned but not consulted directly (details from the sources named)",
   "dup": null,
-  "html": "Zollinger, Manfred. 2010. “Un jeu retrouvé: la <em lang=\"es\">Filosofía cortesana</em> d'Alonso de Barros.” <em lang=\"fr\">Le Vieux Papier</em> 395: 2–6. (Reproduced within <code>GameGooseLargest</code>.)"
+  "html": "Zollinger, Manfred. 2010. “Un jeu retrouvé: la <em lang=\"es\">Filosofia cortesana</em> d'Alonso de Barros.” <em lang=\"fr\">Le Vieux Papier</em> 395: 2–6. (Reproduced within <code>GameGooseLargest</code>.)"
  },
  {
   "key": "ref:infantes1996",
@@ -475,11 +491,11 @@ FC.biblio = [
  },
  {
   "key": "web:https://www.britishmuseum.org/collection/object/P_1869-0410-2465-",
-  "ref": "British Museum. n.d. *Il dilettevole gioco di loca* (Gargano, 1598). Collection record 1869,0410.2465.+. https://www.britishmuseum.org/collection/object/P_1869-0410-2465-.",
+  "ref": "British Museum. n.d. *Il nuovo et piacevole gioco dell ocha* (Gargano, 1598). Collection record 1869,0410.2465.+. https://www.britishmuseum.org/collection/object/P_1869-0410-2465-.",
   "label": "British Museum n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "British Museum. n.d. <em lang=\"it\">Il dilettevole gioco di loca</em> (Gargano, 1598). Collection record 1869,0410.2465.+. <a href=\"https://www.britishmuseum.org/collection/object/P_1869-0410-2465-\" target=\"_blank\" rel=\"noopener\">https://www.britishmuseum.org/collection/object/P_1869-0410-2465-</a>."
+  "html": "British Museum. n.d. <em lang=\"it\">Il nuovo et piacevole gioco dell ocha</em> (Gargano, 1598). Collection record 1869,0410.2465.+. <a href=\"https://www.britishmuseum.org/collection/object/P_1869-0410-2465-\" target=\"_blank\" rel=\"noopener\">https://www.britishmuseum.org/collection/object/P_1869-0410-2465-</a>."
  },
  {
   "key": "web:https://dle.rae.es/portazgo",
@@ -499,10 +515,10 @@ FC.biblio = [
  },
  {
   "key": "web:https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/",
-  "ref": "Canettieri, Paolo. n.d. “Alfonso X, *Libro de los juegos*.” Blog post. https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/.",
+  "ref": "Canettieri, Paolo. n.d. “Alfonso X – *Libro de los juegos* – Svolgimento dei giochi descritti nel trattato.” Blog post. https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/.",
   "label": "Canettieri n.d.",
   "group": "Other web sources cited",
   "dup": null,
-  "html": "Canettieri, Paolo. n.d. “Alfonso X, <em lang=\"es\">Libro de los juegos</em>.” Blog post. <a href=\"https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/\" target=\"_blank\" rel=\"noopener\">https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/</a>."
+  "html": "Canettieri, Paolo. n.d. “Alfonso X – <em lang=\"es\">Libro de los juegos</em> – Svolgimento dei giochi descritti nel trattato.” Blog post. <a href=\"https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/\" target=\"_blank\" rel=\"noopener\">https://paolocanettieri.wordpress.com/article/alfonso-x-libro-de-los-juegos-vyvpjuoxc2n0-98/</a>."
  }
 ];

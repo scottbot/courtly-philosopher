@@ -24,7 +24,7 @@
   "text_it": "Mare di soffrimento / chi pretende hà dà soffrire / come chi nasce il morire",
   "text_es": "Mar de suffrimiento / quien pretende ha de sus: srir / como el que nace morir",
   "desc": "Rectangular strapwork cartouche with scrolled ends, divided into two panels: Italian left, Spanish right.",
-  "notes": "'hà dà' both with grave accents. Spanish line 2: 'ha de ſus:' with 'srir' engraved below the line end as a turn-over, i.e. 'sussrir' (sic, long s for f: read 'suffrir'); Zollinger's 'sussrir [lire suffrir]' agrees. 'suffrimiento' (the La Bella Donna blog agrees). Italian 'pretende' (Collar prints 'pretente')."
+  "notes": "'hà dà' both with grave accents. Spanish line 2: 'ha de ſus:' with 'srir' engraved below the line end as a turn-over, i.e. 'sussrir' (sic, long s for f: read 'suffrir'); Zollinger's 'sussrir [lire suffrir]' agrees. 'suffrimiento' (the La Bella Donna blog agrees). Italian 'pretende' (Collar prints 'pretente'). Two faint points stand in word gaps of the Spanish, a low one in 'de suffrimiento' and a mid-height one in 'nace morir' (both photographs); they are lighter than the engraved strokes and like the paper specks nearby, so are not transcribed."
  },
  {
   "id": "galley",
@@ -36,7 +36,7 @@
    1470
   ],
   "rot": 90,
-  "desc": "A galley drawn on its side (keel to the left, mast pointing right, i.e. upright for a reader at the right edge of the sheet): dark hatched hull with a bank of oars and a row of rowers' heads, a lateen yard and two bellying sails, a masthead top; a small grapnel or anchor at the bow."
+  "desc": "A galley drawn on its side (keel to the left, mast pointing right, i.e. upright for a reader at the left edge of the sheet): dark hatched hull with a bank of oars and a row of rowers' heads, a lateen yard and two bellying sails, a masthead top; a small grapnel or anchor at the bow."
  },
  {
   "id": "foundering_ship",
@@ -97,7 +97,7 @@
    1865
   ],
   "rot": -90,
-  "desc": "A sailing ship drawn on its side (mast pointing left, upright for a reader at the left edge), planked hull at right, one large sail."
+  "desc": "A sailing ship drawn on its side (mast pointing left, upright for a reader at the right edge), planked hull at right, one large sail."
  },
  {
   "id": "fish_heads",
@@ -233,7 +233,7 @@
   ],
   "rot": 0,
   "text_it": "Ne il poco ne lassai ·",
-  "text_es": "Ni lo mucho ni la poco",
+  "text_es": "Ni lo mucho·ni la poco",
   "desc": "Two-line panel ruled above, between and below the lines."
  },
  {
@@ -281,7 +281,7 @@
   "label": "Verses of the man at the palm",
   "bbox": [
    1555,
-   2395,
+   2370,
    1735,
    2580
   ],

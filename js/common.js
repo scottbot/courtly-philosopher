@@ -683,7 +683,7 @@ FC.syncCiteToggles = function () {
     <h2 id="ai-notice-title">An AI-produced draft</h2>
     <p>The transcriptions, translations, annotations, essays and the reconstruction of the game’s rules on this site were produced by Claude, an AI model made by Anthropic.</p>
     <p><b>It is a draft.</b> No specialist has reviewed it. It should not be trusted, cited or taken as scholarship until that review has happened.</p>
-    <p>Many of the quotations were checked by program against their sources. The readings, translations and interpretations have not been checked by a specialist, and some will be wrong.</p>
+    <p>The quotations, the transcriptions and the readings of the board were checked against their sources, but by further passes of the same AI. The readings, translations and interpretations have not been checked by a specialist, and some will be wrong.</p>
     <p class="small"><a href="about.html#credits">Who made this edition, and how</a></p>
     <form method="dialog"><button class="btn primary" value="ok" autofocus>I understand</button></form>`;
   document.addEventListener('DOMContentLoaded', () => {

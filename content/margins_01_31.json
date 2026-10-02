@@ -87,10 +87,10 @@
   "id": "corner_bl_motto",
   "text": "Noscete ipsum",
   "bbox": [
-   205,
-   2925,
-   260,
-   3075
+   165,
+   2920,
+   250,
+   3100
   ],
   "rot": 108,
   "description": "Engraved as issuing from the trumpet's bell and running steeply downward and slightly leftward, following the curve of the ring: 'Noscete ipsum' (= Nosce te ipsum), italic, long s."
@@ -129,7 +129,7 @@
    3260
   ],
   "rot": 0,
-  "description": "A weight-driven wall clock: dial with Roman numerals and a hand, a domed bell-cage with a pointed finial above, three weights hanging on cords below."
+  "description": "A weight-driven wall clock: dial with Roman numerals and a hand, a domed bell-cage with a pointed finial above, four weights hanging on cords below."
  },
  {
   "id": "corner_br_hand",
@@ -141,7 +141,7 @@
    3190
   ],
   "rot": 0,
-  "description": "A clothed arm (sleeve with a turned-back cuff) emerges from the lower margin; the hand points with its index finger toward the motto and the clock."
+  "description": "A clothed arm (sleeve with a turned-back cuff) emerges from behind the outer rim of the track; the hand points with its index finger toward the motto and the clock."
  },
  {
   "id": "corner_br_motto",
@@ -181,7 +181,7 @@
  },
  {
   "id": "naples_privilege",
-  "text": "Con priuilegio di Sua Ecc[ellenz]a per X. / anni nel Regno di Napoli",
+  "text": "Con priuilegio di Sua Ecc[ellenz]a per ·X· / anni nel Regno di Napoli",
   "bbox": [
    1805,
    3385,
@@ -189,11 +189,11 @@
    3442
   ],
   "rot": 0,
-  "description": "Two italic lines at the bottom margin, left of the flourish: 'Con priuilegio di Sua Ecc.ª per X. / anni nel Regno di Napoli –' (the E of 'Ecc' is cut like a C; superscript a)."
+  "description": "Two italic lines at the bottom margin, left of the flourish: 'Con priuilegio di Sua Ecc.ª per ·X· / anni nel Regno di Napoli –' (the E of 'Ecc' is cut like a C; superscript a)."
  },
  {
   "id": "signature",
-  "text": "Marius·Cartarius·Inc[idit]·Neap[oli]·1588·",
+  "text": "Marius·Cartarius.Jnc[idit] Neap[oli]·1588·",
   "bbox": [
    2400,
    3428,
@@ -201,6 +201,6 @@
    3452
   ],
   "rot": 0,
-  "description": "Small italic imprint at bottom right, words separated by raised points: 'Marius·Cartarius·Jnc·Neap·1588·'."
+  "description": "Small italic imprint at bottom right, words separated by raised points, except a full stop on the baseline after 'Cartarius': 'Marius·Cartarius.Jnc Neap·1588·' (no point between Jnc and Neap)."
  }
 ]

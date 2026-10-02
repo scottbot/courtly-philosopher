@@ -133,7 +133,7 @@
 
     /**
      * Count `by` squares forward from `from`. Past 63 the excess is counted back
-     * ("buelue atras los que sobran, pagando vn tanto", C pdf 68–69; all editions).
+     * ("buelue atras los que sobran, paga[n]do vn tanto", C pdf 68–69; all editions).
      */
     moveBy(p, from, by, steps, ctx, depth = 0) {
       let to = from + by, bounce = 0;
@@ -157,7 +157,7 @@
 
       switch (k) {
         case 'labour': {
-          // "si da en los bueyes, passa otras tantas casas adelante, como puntos echo" (C pdf 66)
+          // "si da en los bueyes, passa otras tantas casas adelante, como pu[n]tos echo" (C pdf 66)
           // M: "esta regla se ha de guardar todas cuantas veces se diere en trabajo"
           // DECISION: Labor reached by counting back also moves forward ("adelante"), so it may pass
           // the palm again and pay a second stake (58 + 11 → 57 → 58).
@@ -203,7 +203,7 @@
           return this.settle(p, dest, steps, ctx);          // DECISION: a transfer's destination does not act again
         }
         case 'death': {
-          // "buelue a començar el juego de nueuo" (C pdf 68)
+          // "buelue a come[n]çar el juego de nueuo" (C pdf 68)
           if (this.opt.backPay === 'all') this.pay(p, 'pot', this.stake, steps, 'back');
           p.pos = 0;
           steps.push(this.step('transfer', { from: n, to: 0 }));

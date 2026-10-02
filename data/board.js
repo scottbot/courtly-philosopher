@@ -30,7 +30,7 @@ FC.board = {
      0.98325
     ]
    ],
-   "it_gloss": "Reason looks to the feet, / and Opinion to the wheel.",
+   "it_gloss": "Reason looks at the feet, / and Opinion at the wheel.",
    "rule_en": ""
   },
   {
@@ -100,7 +100,7 @@ FC.board = {
    "it": "Il trauaglio all'hor ti sente / quand'il premio è poco ò nie[n]te",
    "es": "Nunca se siente el trabajo / sino qua[n]do el premio es bajo",
    "rule": "",
-   "desc": "A yoke of two oxen walking to the right on the ground strip, the far ox largely hidden behind the near one; above them a festoon (a cluster of fruit and leaves) hangs on a cord slung between the two balusters.",
+   "desc": "A yoke of two oxen walking to the right on the ground strip, the far ox largely hidden behind the near one; above them a festoon (a cluster of fruit and leaves) hangs on a cord slung between the two balusters. A cord from the yoke runs back over the near ox and round its hindquarters to a plow beam that slants down to the ground at the lower left, its end half hidden by the baluster.",
    "center": [
     0.47648,
     0.92563
@@ -123,7 +123,7 @@ FC.board = {
      0.98325
     ]
    ],
-   "it_gloss": "Labor is felt by you [lit. \"feels you\"] only then, / when the reward is little or nothing.",
+   "it_gloss": "Labor is felt by you [lit. \"feels you\"] then, / when the reward is little or nothing.",
    "rule_en": ""
   },
   {
@@ -441,7 +441,7 @@ FC.board = {
    "it": "Nulla spera[n]za per buona s'intende / che dalla uolonta d'altrui dipe[n]de",
    "es": "Ninguna esperança es buena / que esta en uoluntad agena",
    "rule": "Al priuato ·n[umer]º· 26. Paga",
-   "desc": "A bearded man in a short tunic stands on a brick bridge with two round arches, water pouring out through the arches beneath him; he holds up his right hand, from which a string of coins falls, and holds a purse or bag in his left hand.",
+   "desc": "A bearded man in a short tunic stands on a brick bridge with two round arches, water pouring out through the arches beneath him; he holds up one hand (on the viewer's right), from which a string of coins falls, and holds a purse or bag in the other.",
    "center": [
     0.89861,
     0.3639
@@ -503,7 +503,7 @@ FC.board = {
    "it": "Vien dal'otio pouertade / dal trauaglio facoltade",
    "es": "Del ocio nace pobreza / y del trabajo riqueza",
    "rule": "",
-   "desc": "A yoke of two oxen: the near ox standing, turned toward the viewer, with a cord from its yoke looped back over its body; the second ox lies or stands half-hidden behind it (a third horn and a flank are visible); above, a festoon of fruit on a cord between the balusters.",
+   "desc": "A yoke of two oxen: the near ox standing, turned toward the viewer, with a cord from its yoke looped back over its body and down to a small plow (handle and share) at the lower left; the second ox lies or stands half-hidden behind it (a third horn and a flank are visible); above, a festoon of fruit on a cord between the balusters.",
    "center": [
     0.85659,
     0.23516
@@ -534,7 +534,7 @@ FC.board = {
    "it": "",
    "es": "",
    "rule": "",
-   "desc": "No emblem: numeral '18' and a small flowering plant on the ground strip.",
+   "desc": "No emblem: numeral '18' and a small leafy sprig on the ground strip.",
    "center": [
     0.80686,
     0.17578
@@ -782,7 +782,7 @@ FC.board = {
    "it": "Non cercar mano aliena / se la tua non serà piena",
    "es": "No pidas la mano agena / si la tuya no va llena",
    "rule": "Paga.",
-   "desc": "Two men in cloaks. On the left a man in a brimmed hat walks forward holding up in both hands a round dish or bowl (its contents not distinguishable) and offers it to a bearded man in a cap on the right, who stands in a doorway and reaches for it.",
+   "desc": "Two men in cloaks. On the left a man in a brimmed hat walks forward holding up in one hand a round dish or bowl (its contents not distinguishable) and offers it to a bearded man in a cap on the right, who stands in a doorway and reaches for it.",
    "center": [
     0.19237,
     0.17225
@@ -967,8 +967,8 @@ FC.board = {
    "n": 32,
    "it": "Pone in oblio l'ingrato / tutto il ben che li fù dato",
    "es": "Pone el ingrato en oluido / quanto bien hae recibido",
-   "rule": "Per le fune ·1· et ·2· fermesi / Para sogas ·1· y ·2· estese",
-   "desc": "A round brick well-head (drawn in perspective) with a winch frame and crank handle on its right; a man inside the shaft, visible from the waist up, grips the rope with both hands to haul himself out.",
+   "rule": "Per le fune ·1· et ·2· fermesi / Para·sogas ·1· y ·2· estese",
+   "desc": "A round brick well-head (drawn in perspective) with a windlass over it: an upright post at one side carrying a horizontal roller with knobbed ends; a man inside the shaft, visible from the waist up, grips the rope with both hands to haul himself out.",
    "center": [
     0.09214,
     0.56643
@@ -1030,7 +1030,7 @@ FC.board = {
    "it": "Il frutto della spene / con il trauaglio uiene",
    "es": "El fruto dela esperança / por el trabajo se alcança",
    "rule": "",
-   "desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters (the 'frutas enhiladas' of the Labor squares).",
+   "desc": "A yoke of two oxen, seen foreshortened, walking toward the lower right, a cord from the yoke running back over the near ox to a plow beam that slants down to the ground behind them; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters (the 'frutas enhiladas' of the Labor squares).",
    "center": [
     0.14418,
     0.6893
@@ -1184,7 +1184,7 @@ FC.board = {
    "n": 39,
    "it": "Rendon gratie per aggrauij / quando negotian gli sauij",
    "es": "Dondo gra[cia]s por agrauios / negocian los honbres sabios",
-   "rule": "Al prodigo ·n·° ·7·Paga",
+   "rule": "Al prodigo ·n·° 7 ·Paga",
    "desc": "A fox lying on its back feigning death, legs in the air, tail curled; five birds about it: two alight on its raised paws, three fly above.",
    "center": [
     0.51619,
@@ -1247,7 +1247,7 @@ FC.board = {
    "it": "Trauaglio e il non hauere / da poter mangiare e bere",
    "es": "Trabajo es no le tener / el q[ue] del a de comer",
    "rule": "",
-   "desc": "A yoke of two oxen walking upward toward the upper right (toward square 42); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
+   "desc": "A yoke of two oxen walking upward toward the upper right (toward square 42), a cord from the yoke running back over the near ox to a plow behind them, its share among furrow lines; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
    "center": [
     0.6569,
     0.74662
@@ -1464,7 +1464,7 @@ FC.board = {
    "it": "Ben che mobil sia fortuna / al trauaglio è oportuna",
    "es": "Aunque fortuna es mudable / al trabajo es fauorable",
    "rule": "",
-   "desc": "A yoke of two oxen, heads toward the upper left (toward square 49); above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
+   "desc": "A yoke of two oxen, heads toward the upper left (toward square 49), a cord from the yoke running back over the near ox to a plow beam and share behind them; above them a cluster of fruit and leaves hangs at the middle of a cord slung between the two balusters.",
    "center": [
     0.70316,
     0.3057
@@ -1557,7 +1557,7 @@ FC.board = {
    "it": "Tutto :sta à dispositione / di fortuna et permissione",
    "es": "Todo :esta a dispusicion / de fortuna y permision",
    "rule": "Giuoca ·2· uolte ·",
-   "desc": "Fortune: a nude young woman with wings, standing on a sphere, holding with both hands a long banderole inscribed 'cambio et / muto il consiglio'; beside her a spoked wheel on a post, from which a man falls head-first.",
+   "desc": "Fortune: a nude young woman with wings, standing on a sphere, holding in her left hand a long banderole inscribed 'cambio et / muto il consiglio'; her right hand rests on the rim of a spoked wheel on a post beside her, from which a man falls head-first.",
    "center": [
     0.53354,
     0.20282
@@ -1588,7 +1588,7 @@ FC.board = {
    "it": "",
    "es": "",
    "rule": "",
-   "desc": "No emblem: ground strip (inverted, along the outer edge at the top) with grass and hanging leafy plants.",
+   "desc": "No emblem: ground strip (inverted, along the outer edge at the top) with grass and a small flowering plant.",
    "center": [
     0.45258,
     0.20282
@@ -1619,7 +1619,7 @@ FC.board = {
    "it": "Ogni sorte in mal fin cade / oue alberga pouertade",
    "es": "Qual quier suerte es de tristeza / en la casa do ay pobreza",
    "rule": "",
-   "desc": "Three dice lying on a dice-tray (a board with a raised rim and turned corner posts), drawn in perspective. The pip faces shown are 4, 4 and 3: a throw of 11, matching Barros's 'suerte de once'.",
+   "desc": "Three dice lying on a dice-tray (a board with a raised rim and turned corner posts), drawn in perspective. The pip faces shown are 4, 4 and 3: a throw of 11, matching Barros's 'suerte de onze'.",
    "center": [
     0.37548,
     0.21752
@@ -1928,7 +1928,7 @@ FC.board = {
    "n": 63,
    "it": "Quando ch'hai maggior fortuna / pensa che mobil e più che la luna",
    "es": "Quando tengas mas fortuna / mira que es como la luna",
-   "rule": "Ne il poco ne lassai · / Ni lo mucho ni la poco",
+   "rule": "Ne il poco ne lassai · / Ni lo mucho·ni la poco",
    "desc": "A classical aedicule (gate) with a triangular pediment topped by finials, two pairs of columns, and large acanthus scrolls (volutes) at either side; a tall palm tree grows up through its center, the scaly trunk visible in the opening and the crown of fronds, with clusters of dates, spreading above the pediment. The numerals '6' and '3' are engraved in the opening on either side of the trunk; beneath them a two-line panel with the motto; below, a cartouche 'VITORIA'. The verses are engraved under the aedicule, above square 39's rule label.",
    "center": [
     0.49113,
