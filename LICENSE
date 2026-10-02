@@ -1,26 +1,26 @@
 Filosofía cortesana: a playable edition
-Public-domain dedication
+No rights claimed (CC0 1.0 Universal)
 
 Made by Claude, an AI model made by Anthropic, for Scott B. Weingart, 2026.
 Version 0.2, October 2026 (see CHANGELOG.md).
 
-To the extent that copyright subsists in this AI-produced work, Scott B. Weingart dedicates it
-to the public domain under CC0 1.0 Universal, whose legal code follows. The dedication covers
-what the edition itself made: the transcriptions, translations, annotations, essays,
+No rights are claimed in this edition's own material. To the extent that any copyright or
+related right subsists in it, Scott B. Weingart waives it under CC0 1.0 Universal (legal code
+below), so that it may be copied, adapted and reused for any purpose without asking. The
+edition's own material is what it made: the transcriptions, translations, annotations, essays,
 introduction and rule descriptions (content/, and data/ and plain/, which are generated from
 it), the documentation (README.md, CHANGELOG.md, CITATION.cff, docs/) and the code (the HTML
 pages, css/, js/, tools/ and tests/).
 
-What this means, and what it does not: no rights are claimed in the material presented here.
-That is not a statement that any of it is in the public domain. An AI-produced work can repeat
-or closely follow material that exists elsewhere under other terms, and this edition has not
-checked everything it contains against everything published. Before treating any part of it as
-free of rights, check it independently.
+The waiver covers only rights that are his to waive. It does not release material that belongs
+to others: the sources listed below, and any passage that may, unknown to us, reproduce or
+closely follow someone else's work. The edition has been checked for such passages, but not
+against everything published.
 
-It does not cover material from other sources, which keeps its own status:
+Material from other sources keeps its own status:
 
 - the words of Alonso de Barros, Mario Cartaro and the other early printed texts transcribed or
-  quoted here, which are in the public domain and not this edition's to dedicate;
+  quoted here, which are in the public domain;
 - the Spanish of the Madrid 1587 (Pedro Madrigal) edition, wherever it appears on the site,
   copied from the modernized transcription by Luigi Ciompi and Adrian Seville
   (giochidelloca.it), made from Trevor J. Dadson's 1987 edition: their work, credited where it

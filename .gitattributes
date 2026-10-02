@@ -1,4 +1,0 @@
-# Store every file exactly as the tools write it: no line-ending conversion.
-# tools/build_data.py writes data/*.js with CRLF line endings, and the hand-edited files
-# use LF; with -text, Git neither rewrites nor flags either kind, whatever core.autocrlf says.
-* -text

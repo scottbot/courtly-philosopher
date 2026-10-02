@@ -45,6 +45,10 @@ Changes from the previous draft:
 - **Pages and leaves of the book.** The Book can be linked by page of the 1588 book (`text.html#p32`)
   and by leaf (`text.html#leaf-B4v`), as well as by segment and by page of the scan; each passage
   shows its page and leaf.
+- **Rights statement.** The rights statement (LICENSE, README, About, footers) no longer says, after
+  the CC0 waiver, that none of the material is in the public domain. It now says that no rights are
+  claimed in the edition's own material, that any that subsist are waived under CC0, and that the
+  waiver cannot release material that belongs to others.
 - **Corrections.** Square 1: the numeral 1 is engraved above the peacock's crest (the edition had
   said none could be seen).
 

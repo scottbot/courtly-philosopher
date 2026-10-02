@@ -236,20 +236,20 @@ not something this edition can say.
 
 ## Rights
 
-No rights are claimed in what this edition made: to the extent that copyright subsists in this
-AI-produced work, Scott B. Weingart waives it under CC0 1.0 Universal (see `LICENSE`). That covers the
+No rights are claimed in this edition's own material. To the extent that any copyright or related right
+subsists in it, Scott B. Weingart waives it under CC0 1.0 Universal (see `LICENSE`), so that it may be
+copied, adapted and reused for any purpose without asking. The edition's own material is the
 transcriptions, translations, annotations, essays, introduction and rule descriptions (`content/`, and
 `data/` and `plain/`, which are generated from it), the documentation (this README, `CHANGELOG.md`,
 `CITATION.cff`, `docs/`) and the code (`*.html`, `css/`, `js/`, `tools/`, `tests/`).
 
-This means only that no rights are claimed in the material presented here. It is not a statement that any
-of it is in the public domain: an AI-produced work can repeat or closely follow material that exists
-elsewhere under other terms, and this edition has not checked everything it contains against everything
-published. Before treating any part of it as free of rights, check it independently.
+The waiver covers only rights that are his to waive. It does not release material that belongs to others:
+the sources listed below, and any passage that may, unknown to us, reproduce or closely follow someone
+else's work. The edition has been checked for such passages, but not against everything published.
 
-The dedication does not cover anything from another source:
+Material from other sources keeps its own status:
 
-- the words of Barros, Cartaro and the other early printed texts (public domain, not this edition's to dedicate);
+- the words of Barros, Cartaro and the other early printed texts (public domain);
 - the Spanish of the Madrid 1587 (Madrigal) edition, wherever it appears (Book and Play pages, Squares,
   quotations in the notes), copied from the
   modernized transcription by Luigi Ciompi and Adrian Seville (giochidelloca.it), made from Dadson's 1987
